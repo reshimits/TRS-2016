@@ -83,14 +83,14 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="lead col-xs-12 col-md-7 col-lg-6">
+                        <div class="lead col-xs-12 col-md-6">
                             <h2 class="text-white">Vehicle Buyers Guide:</h2>
                         </div>  
-                        <div class="col-xs-12 col-md-5 col-lg-6">        
+                        <div class="col-xs-12 col-md-6">        
                             <form class="form-horizontal">
                                 <fieldset>
                                     <div class="form-group">
-                                        <div class="col-sm-3 col-md-1">
+                                        <div class="col-sm-3 col-md-2">
                                             <select class="form-control drop required" id="select">
                                                 <option value="">YEAR</option>
                                                 <option value="2016">2016</option>
@@ -125,15 +125,15 @@
         <div class="section summary">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <h3 class="text-primary">More than the world's largest supplier of high-end automotive lighting upgrades</h3>
-                        <div class="row">
-                            <div class="col-sm-5 col-sm-offset-1 text-left">
-                                <p>We're a group of enthusiasts with a passion for perfecting your night-time driving experience. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. </p>
-                            </div>
-                            <div class="col-sm-5 text-left">
-                                <p>This is an upgrade for those who are serious about the looks and performance of their vehicle. If you're driving something truly special, other enthusiasts will notice you during the day - but don't make the mistake of cruising by unnoticed at night. </p>
-                            </div>
+                    <div class="text-center">
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <h3 class="text-primary">More than the world's largest supplier of high-end automotive lighting upgrades</h3>
+                        </div>
+                        <div class="col-sm-5 col-sm-offset-1 text-left">
+                            <p>We're a group of enthusiasts with a passion for perfecting your night-time driving experience. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. </p>
+                        </div>
+                        <div class="col-sm-5 text-left">
+                            <p>This is an upgrade for those who are serious about the looks and performance of their vehicle. If you're driving something truly special, other enthusiasts will notice you during the day - but don't make the mistake of cruising by unnoticed at night. </p>
                         </div>
                         <div class="col-xs-10 col-xs-offset-1">
                             <div class="row"><hr></div>
@@ -154,8 +154,8 @@
 
         <div class="section nav-products gray2">
             <div class="container-fluid">
-                <div class="col-sm-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
-                <div class="col-sm-4">
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
+                <div class="col-sm-5 col-md-4">
                     <h3>Complete Retrofit Kits</h3>
                     <p>Power is nothing without control! Complete projector retrofit kits include all of the components to convert your headlights to a projector-based lighting system for unbeatable performance at night. More difficult? Yes. Worth it? Easily.</p>
                     <div class="row">
@@ -173,8 +173,8 @@
 
         <div class="section nav-products gray3">
             <div class="container-fluid">
-                <div class="col-sm-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
-                <div class="col-sm-4">
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
+                <div class="col-sm-5 col-md-4">
                     <h3>HID Systems</h3>
                     <p>Easy and effective! Our range of HID systems from Morimoto, Hylux, and Denso come complete with new bulbs, ballasts and harnesses and make upgrading to HID a simple and reliable way to get the most out of your stock headlights.</p>
                     <div class="row">
@@ -277,7 +277,7 @@
                     <div class="col-xs-12">
                         <div class="col-xs-12">
                             <img class="img-responsive" src="img/category-hidsystems.png" alt="Product Category" border="0"/>
-                            <h3>Projector Shrouds</h3>
+                            <h3><span class="hidden-sm">Projector </span>Shrouds</h3>
                             <p>Shrouds restore the factory-finished look of your headlights after a projector conversion by covering up any mods or hardware. It’s all about style. Find your favorite and take your pick.</p>
                             <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
                         </div>
@@ -337,8 +337,8 @@
 
         <div class="section nav-products gray2">
             <div class="container-fluid">
-                <div class="col-sm-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
-                <div class="col-sm-4">
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
+                <div class="col-sm-5 col-md-4">
                     <h3>LED Lighting</h3>
                     <p>LED lighting is more popular, powerful, and reliable than ever in the automotive world. Update your ride with our unbeatable selection of LED bulbs, LED Halos, Off-road lighting and accessories from Morimoto, ACME, Philips, and Osram.</p>
                     <div class="row">
@@ -357,8 +357,8 @@
 
         <div class="section nav-products gray3">
             <div class="container-fluid">
-                <div class="col-sm-8 pull-right"><img class="img-responsive pull-right" src="img/category-housings.png" alt="Complete Housings Product Category" border="0"/></div>
-                <div class="col-sm-4">
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-housings.png" alt="Complete Housings Product Category" border="0"/></div>
+                <div class="col-sm-5 col-md-4">
                     <h3>Complete Housings</h3>
                     <p>Bolt on unbeatable light output! Bolt on modern reliability! Bolt on a new look! TRS offers LED and HID based head lights and fog lights from J.W. Speaker and Morimoto designed for many popular makes and models on the road today.</p>
                     <div class="row">
@@ -397,8 +397,8 @@
 
         <div class="section nav-products gray2">
             <div class="container-fluid">
-                <div class="col-sm-8 pull-right"><img class="img-responsive pull-right" src="img/category-motorcycle.png" alt=" Motorcycle Product Category" border="0"/></div>
-                <div class="col-sm-4">
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-motorcycle.png" alt=" Motorcycle Product Category" border="0"/></div>
+                <div class="col-sm-5 col-md-4">
                     <h3>Motorcycle Specific</h3>
                     <p>Perfecting the night ride! Improving visibility is important for those who travel on two wheels in the dark. We’ve got options to vastly upgrade the performance and add a more aggressive look on single and dual headlight Motorcycles.</p>
                     <div class="row">

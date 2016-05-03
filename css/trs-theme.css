@@ -374,6 +374,9 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .btn:active, .btn.active { background-image: none; outline: 0; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); }
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn { pointer-events: none; cursor: not-allowed; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none; opacity: .65; }
 @media (min-width:768px) {
+  .btn { font-size: 15px; }
+}
+@media (min-width:992px) {
   .btn { font-size: 16px; }
 }
 
@@ -408,7 +411,7 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .btn-empty { color: #88e333; background-color: transparent; border-color: transparent; }
 .btn-empty:hover, .btn-empty:focus, .btn-empty.focus, .btn-empty:active, .btn-empty.active, .open > .dropdown-toggle.btn-empty { color: #88e333; background-color: transparent; border-color: #ddd; }
 .btn-group-vertical ~ .btn-hex { position: relative; bottom: 0; right: 20px; }
-@media (min-width:768px) {
+@media (min-width:1200px) {
   .btn-group-vertical ~ .btn-hex { position: absolute; }
 }
 .section.module-quickstartguide .btn-empty:hover { border-color: transparent; }
@@ -569,8 +572,11 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 @media (min-width:768px) {
   .btn-group-vertical > .btn, .btn-group-vertical > .btn-group, .btn-group-vertical > .btn-group > .btn { width: 315px; }
 }
-@media (max-width:767px) {
-  .btn-group-vertical ~ .btn { margin-top: 20px; }
+@media (min-width:768px) and (max-width:991px) {
+  .section.col-sm-4.nav-products .btn-group-vertical > .btn { width: 230px; }
+}
+@media (max-width:1199px) {
+  .btn-group-vertical ~ .btn { margin-top: 10px; }
 }
 
 .btn-group-vertical > .btn-group > .btn { float: none; }
@@ -1393,11 +1399,15 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .section.col-sm-4, .section.col-sm-6 { width: 33.33333333%; padding: 30px 0; border-right: 1px solid #888; }
   .section.col-sm-6 { width: 50%; }
   .section.summary p, .footer p { font-size: 14px; line-height: 1.7; margin-bottom: 30px; }
+  .col-sm-4.section.nav-products p { min-height: 145px; }
   .section.nav-products p { margin-bottom: 30px; }
 }
 @media (min-width:992px) {
   .col-sm-4.section.nav-products p { min-height: 110px; }
   .section.wrap .col-sm-4.section.nav-products p { min-height: 130px; }
+}
+@media (min-width:992px) and (max-width:1199px) {
+  .section.module-quickstartguide h2 { font-size: 36px; padding-top: 3px; }
 }
 @media (min-width:1024px) {
   .col-sm-4.section.nav-products p { min-height: 90px; }
@@ -1429,10 +1439,11 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .footer .section.title .btn:hover { border-color: transparent; }
 .footer .section.contact { padding-top: 50px; }
 @media (min-width:768px) {
-  .footer .section.title h2 { font-size: 72px; }
-  .footer .section.contact { background-image: url(../img/element-dotmap.svg); background-repeat: no-repeat; background-position: 0 300px; -webkit-background-size: 125% auto; -moz-background-size: 125% auto; -o-background-size: 125% auto; background-size: 125% auto; }
+  .footer .section.title h2 { font-size: 48px; }
+  .footer .section.contact { background-image: url(../img/element-dotmap.svg); background-repeat: no-repeat; background-position: 0 220px; -webkit-background-size: 125% auto; -moz-background-size: 125% auto; -o-background-size: 125% auto; background-size: 125% auto; }
 }
 @media (min-width:992px) {
+  .footer .section.title h2 { font-size: 72px; }
   .footer .section.contact { background-position: center 250px; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto;  }
 }
 
