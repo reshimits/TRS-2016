@@ -64,7 +64,7 @@
         </div>
           
         
-        <div class="section module-brands">
+        <div class="section module-brands hidden-xs">
             <div class="container-fluid">
                 <div class="row">
                     <a href="#" class="brand col-sm-1 col-sm-offset-2"><span class="icon icon-brand philips"></span></a>
@@ -84,26 +84,26 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="lead col-xs-12 col-md-6">
-                            <h2 class="text-white">Vehicle Buyers Guide:</h2>
+                            <h2 class="text-white"><span class="hidden-xs">Vehicle </span>Buyers Guide:</h2>
                         </div>  
                         <div class="col-xs-12 col-md-6">        
                             <form class="form-horizontal">
                                 <fieldset>
                                     <div class="form-group">
-                                        <div class="col-sm-3 col-md-2">
+                                        <div class="col-xs-4 col-sm-3 col-md-2">
                                             <select class="form-control drop required" id="select">
                                                 <option value="">YEAR</option>
                                                 <option value="2016">2016</option>
                                         
                                             </select>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-xs-8 col-sm-4">
                                             <select class="form-control drop required" id="select">
                                                 <option value="">MAKE</option>
                                                 
                                             </select>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-xs-12 col-sm-4">
                                             <select class="form-control drop required" id="select">
                                                 <option value="">MODEL</option>
                                                 
@@ -129,11 +129,13 @@
                         <div class="col-xs-10 col-xs-offset-1">
                             <h3 class="text-primary">More than the world's largest supplier of high-end automotive lighting upgrades</h3>
                         </div>
-                        <div class="col-sm-5 col-sm-offset-1 text-left">
-                            <p>We're a group of enthusiasts with a passion for perfecting your night-time driving experience. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. </p>
-                        </div>
-                        <div class="col-sm-5 text-left">
-                            <p>This is an upgrade for those who are serious about the looks and performance of their vehicle. If you're driving something truly special, other enthusiasts will notice you during the day - but don't make the mistake of cruising by unnoticed at night. </p>
+                        <div class="section wrap">
+                            <div class="col-sm-5 col-sm-offset-1 text-left">
+                                <p>We're a group of enthusiasts with a passion for perfecting your night-time driving experience. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. </p>
+                            </div>
+                            <div class="col-sm-5 text-left">
+                                <p>This is an upgrade for those who are serious about the looks and performance of their vehicle. If you're driving something truly special, other enthusiasts will notice you during the day - but don't make the mistake of cruising by unnoticed at night. </p>
+                            </div>
                         </div>
                         <div class="col-xs-10 col-xs-offset-1">
                             <div class="row"><hr></div>
@@ -201,10 +203,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="caption col-sm-10 col-md-8 col-lg-7 pull-right">
-                        <span class="icon icon-hot icon-before"></span><h6 class="text-special">Hot hot hot</h6>
-                        <h5 class="text-gray3">XSB Halos</h5>
-                        <p>Redefining thee meaning of what an "angel eye" is, the 2.0 version of the Morimoto XSB LEDs are the culmination of every practical lesson learned since LED halos hit the market. Usability. Reliability. Intensity. Uniformity. Simplicity. Flexible functionality. Last but not least; affordability. Nothing has been sacrificed.</p>
-                        <h5 class="text-special">$000.00</h5>
+                        <span class="icon icon-hot icon-before"></span><h6 class="text-white text-shadow">Hot hot hot</h6>
+                        <h5 class="text-gray3 text-shadow">XSB Halos</h5>
+                        <p class="text-shadow">Redefining thee meaning of what an "angel eye" is, the 2.0 version of the Morimoto XSB LEDs are the culmination of every practical lesson learned since LED halos hit the market. Usability. Reliability. Intensity. Uniformity. Simplicity. Flexible functionality. Last but not least; affordability. Nothing has been sacrificed.</p>
+                        <h5 class="text-white text-shadow">$000.00</h5>
                         <a type="button" href="#" class="btn btn-ghost">Product Details</a>
                     </div>
                 </div>
@@ -325,10 +327,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="caption col-sm-8 col-md-6">
-                        <span class="icon icon-hot icon-before"></span><h6 class="text-special">Hot hot hot</h6>
-                        <h5 class="text-gray3">XB 921 Bulbs</h5>
-                        <p>Back that thing up! Morimoto's new 921 XB LED bulbs are optimized for use in reverse lights.</p>
-                        <h5 class="text-special">$000.00</h5>
+                        <span class="icon icon-hot icon-before"></span><h6 class="text-white text-shadow">Hot hot hot</h6>
+                        <h5 class="text-gray3 text-shadow">XB 921 Bulbs</h5>
+                        <p class="text-shadow">Back that thing up! Morimoto's new 921 XB LED bulbs are optimized for use in reverse lights.</p>
+                        <h5 class="text-white text-shadow">$000.00</h5>
                         <a type="button" href="#" class="btn btn-ghost">Product Details</a>
                     </div>
                 </div>
@@ -385,10 +387,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="caption col-sm-10 col-md-8 col-lg-7 pull-right">
-                        <span class="icon icon-hot icon-before"></span><h6 class="text-special">Hot hot hot</h6>
-                        <h5 class="text-gray3">XB LED Fog Lights</h5>
-                        <p>The Morimoto XB LED projector fog lights Look great. Are well-built. Perform like champs. Have a virtually infinite life span. An unbeatable warranty, And best of all you won't need to sell your soul to afford them!</p>
-                        <h5 class="text-special">$000.00</h5>
+                        <span class="icon icon-hot icon-before"></span><h6 class="text-white text-shadow">Hot hot hot</h6>
+                        <h5 class="text-gray3 text-shadow">XB LED Fog Lights</h5>
+                        <p class="text-shadow">The Morimoto XB LED projector fog lights Look great. Are well-built. Perform like champs. Have a virtually infinite life span. An unbeatable warranty, And best of all you won't need to sell your soul to afford them!</p>
+                        <h5 class="text-white text-shadow">$000.00</h5>
                         <a type="button" href="#" class="btn btn-ghost">Product Details</a>
                     </div>
                 </div>
