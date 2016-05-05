@@ -157,7 +157,7 @@
 
         <div class="section nav-products gray2">
             <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-completekits.png" alt="Complete Retrofit KitsProduct Category" border="0"/></div>
                 <div class="col-sm-5 col-md-4">
                     <h3>Complete Retrofit Kits</h3>
                     <p>Power is nothing without control! Complete projector retrofit kits include all of the components to convert your headlights to a projector-based lighting system for unbeatable performance at night. More difficult? Yes. Worth it? Easily.</p>
@@ -176,7 +176,7 @@
 
         <div class="section nav-products gray3">
             <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="HID Systems Product Category" border="0"/></div>
                 <div class="col-sm-5 col-md-4">
                     <h3>HID Systems</h3>
                     <p>Easy and effective! Our range of HID systems from Morimoto, Hylux, and Denso come complete with new bulbs, ballasts and harnesses and make upgrading to HID a simple and reliable way to get the most out of your stock headlights.</p>
@@ -219,7 +219,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-hidsystems.png" alt="HID Projectors Product Category" border="0"/>
+                            <img class="img-responsive" src="img/category-projectors.png" alt="HID Projectors Product Category" border="0"/>
                             <h3>HID Projectors</h3>
                             <p>Put simply, your headlights are brighter for you and less glaring to others when they have projectors retrofitted in them. Capture and focus that powerful light into a controlled beam pattern!</p>
                         </div>    
@@ -279,7 +279,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-hidsystems.png" alt="Product Category" border="0"/>
+                            <img class="img-responsive" src="img/category-shrouds.png" alt="Projector Shrouds Product Category" border="0"/>
                             <h3><span class="hidden-sm">Projector </span>Shrouds</h3>
                             <p>Shrouds restore the factory-finished look of your headlights after a projector conversion by covering up any mods or hardware. It’s all about style. Find your favorite and take your pick.</p>
                             <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
@@ -293,7 +293,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-hidsystems.png" alt="Product Category" border="0"/>
+                            <img class="img-responsive" src="img/category-wireharnesses.png" alt="Wire Harnesses Product Category" border="0"/>
                             <h3>Wire Harnesses</h3>
                             <p>Proper power delivery! Wire harnesses enable full control of your new headlight system from the original switches while preventing flickering and cancelling any lamp-out warnings. Bingo.</p>
                             <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
@@ -340,7 +340,7 @@
 
         <div class="section nav-products gray2">
             <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-led.png" alt="LED Lighting Product Category" border="0"/></div>
                 <div class="col-sm-5 col-md-4">
                     <h3>LED Lighting</h3>
                     <p>LED lighting is more popular, powerful, and reliable than ever in the automotive world. Update your ride with our unbeatable selection of LED bulbs, LED Halos, Off-road lighting and accessories from Morimoto, ACME, Philips, and Osram.</p>
@@ -400,7 +400,7 @@
 
         <div class="section nav-products gray2">
             <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-motorcycle.png" alt=" Motorcycle Product Category" border="0"/></div>
+                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-motorcycle.png" alt="Motorcycle Specific Product Category" border="0"/></div>
                 <div class="col-sm-5 col-md-4">
                     <h3>Motorcycle Specific</h3>
                     <p>Perfecting the night ride! Improving visibility is important for those who travel on two wheels in the dark. We’ve got options to vastly upgrade the performance and add a more aggressive look on single and dual headlight Motorcycles.</p>
