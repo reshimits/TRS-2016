@@ -13,8 +13,11 @@
 html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ }
 body { margin: 0; background-color: #fff; }
 
-.bodyWrap { position: absolute; padding-top: 80px; height: 100vh; overflow: scroll; -webkit-overflow-scrolling: touch;
+.bodyWrap { padding-top: 80px; }
+@media (max-width:991px) {
+  .bodyWrap { position: absolute; height: 100vh; overflow: scroll; -webkit-overflow-scrolling: touch;
   content: 'viewport-units-buggyfill; height: 100vh'; }
+}
 @media (min-width:992px) {
   .bodyWrap { padding-top: 142px; }
 }
