@@ -55,14 +55,15 @@
     ================================================== -->
 
     <div class="bodyWrap">
-
-        <div class="jumbotron feature1">
-            <div class="featureHeadline col-xs-12">
-                <img src="img/feature1headline.svg" alt="" border="0"/>
+        <a href="https://www.theretrofitsource.com/hid-systems/morimoto-elite-hid-system-sierra-low-beam.html#.Vx-ucZMrLuQ" border="none" target="_blank">
+            <div class="jumbotron feature1">
+                <div class="featureHeadline col-xs-12">
+                    <img src="img/feature1headline.svg" alt="" border="0"/>
+                </div>
+                <div class="jumbotron-img"></div>
+                <div class="jumbotron-honeycomb"></div>
             </div>
-            <div class="jumbotron-img"></div>
-        </div>
-          
+        </a>
         
         <div class="section module-brands hidden-xs">
             <div class="container-fluid">
@@ -446,7 +447,7 @@
                             <div class="col-xs-12">
                                 <img class="img-responsive" src="img/category-closeouts.png" alt="Closeouts Product Category" border="0"/>
                                 <h3>Closeouts</h3>
-                                <p>If you’re a headlight junkie looking for a killer deal on parts for your next budget-build, our selection of Closeout inventory is where its at. From recycled OEM projectors to open-box or used HID or LED gear, we got it.</p>
+                                <p>If you’re a headlight junkie looking for a killer deal on parts for your next budget-build, our selection of closeout inventory is where its at. From recycled OEM projectors to open-box or used HID or LED gear, we got it.</p>
                             </div>
                             <div class="row">
                                 <div class="btn-group-vertical">
@@ -477,17 +478,10 @@
 
         </div>
 
-        <!-- <div class="section nav-products gray3">
-            <div class="container-fluid">
-                <div class="col-sm-4">
-                    <h3>Lens Etching</h3>
-                    <p>As if your retrofit wasn't unique enough, we're changing the game with our custom etching service for projector lenses. Provide your own artwork or choose one of our existing designs and we’ll get to work for you.</p>
-                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View</a>
-                </div>
-                <div class="col-sm-8"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="Product Category" border="0"/></div>
-                
-            </div>
-        </div> --> 
+        <!-- Footer
+        ================================================== -->
+
+        <?php require('shared/footer.html');?>
 
     </div> <!-- /container -->
 
@@ -498,10 +492,7 @@
     ================================================== -->
 
 
-    <!-- Footer
-    ================================================== -->
-
-    <?php require('shared/footer.html');?>
+    
 
 
 	<!-- Javascript [secondary]

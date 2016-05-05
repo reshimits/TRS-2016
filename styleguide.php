@@ -73,6 +73,7 @@
                 <img src="img/feature1headline.svg" alt="" border="0"/>
             </div>
 			<div class="jumbotron-img"></div>
+			<div class="jumbotron-honeycomb"></div>
 	  	</div>
 
 
