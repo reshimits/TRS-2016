@@ -537,7 +537,6 @@
                 }
             }, { offset: '0%' } );
         } );
-
     </script>
 
     <!-- HEADER/NAV toggle MENU BTN -->

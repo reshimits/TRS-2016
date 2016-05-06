@@ -1226,19 +1226,31 @@
 						</div>
 
 						<div class="form-group">
-						  	<label class="control-label" for="inputLarge">Large input</label>
-						  	<input class="form-control input-lg" type="text" id="inputLarge">
-						</div>
-
-						<div class="form-group">
 						  	<label class="control-label" for="inputDefault">Default input</label>
 						  	<input type="text" class="form-control" id="inputDefault">
 						</div>
 
+						<div class="form-group has-suggestions">
+						  	<label class="control-label" for="inputSuggestions">Input w/ AutoComplete Suggestions</label>
+						  	<input type="text" class="form-control" id="inputSuggestions">
+						  	<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+					  		</ul>
+						</div>
+
+						<!-- <div class="form-group">
+						  	<label class="control-label" for="inputLarge">Large input</label>
+						  	<input class="form-control input-lg" type="text" id="inputLarge">
+						</div> 
+
 						<div class="form-group">
 						  	<label class="control-label" for="inputSmall">Small input</label>
 						  	<input class="form-control input-sm" type="text" id="inputSmall">
-						</div>
+						</div>-->
 
 						<div class="form-group">
 						  	<label class="control-label">Input addons</label>

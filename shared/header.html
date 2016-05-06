@@ -30,12 +30,17 @@
                                 <div class="nav-contact">
                                     <button type="button" class="btn btn-primary col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 hidden-xs">Contact Us</button>
                                     <form class="navbar-form" role="search">
-                                        <div class="form-group">
+                                        <div class="form-group has-suggestions">
                                             <div class="input-group col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                                                <input type="text" class="form-control" placeholder="Search...">
+                                                <input type="text" class="form-control" id="inputSuggestions" placeholder="Search...">
                                                 <span class="input-group-btn">
                                                     <button class="btn btn-empty" type="button"><span class="icon icon-search"></span></button>
                                                 </span>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li><a href="#">Suggestion</a></li>
+                                                    <li><a href="#">Another suggestion</a></li>
+                                                    <li><a href="#">Some other suggestion</a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </form>
