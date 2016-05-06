@@ -166,7 +166,6 @@
                             <div class="btn-group-vertical">
                                 <a type="button" href="#" class="btn btn-default">Universal Kits</a>
                                 <a type="button" href="#" class="btn btn-default">Application Specific</a>
-                                <a type="button" href="#" class="btn btn-default">Motorcycle Kits</a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +184,6 @@
                             <div class="btn-group-vertical">
                                 <a type="button" href="#" class="btn btn-default">Universal Kits</a>
                                 <a type="button" href="#" class="btn btn-default">Application Specific</a>
-                                <a type="button" href="#" class="btn btn-default">Motorcycle Kits</a>
                             </div>
                         </div>
                     </div>
