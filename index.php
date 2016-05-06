@@ -206,7 +206,7 @@
                         <h5 class="text-gray3 text-shadow">XSB Halos</h5>
                         <p class="text-shadow">Redefining thee meaning of what an "angel eye" is, the 2.0 version of the Morimoto XSB LEDs are the culmination of every practical lesson learned since LED halos hit the market. Usability. Reliability. Intensity. Uniformity. Simplicity. Flexible functionality. Last but not least; affordability. Nothing has been sacrificed.</p>
                         <h5 class="text-white text-shadow">$000.00</h5>
-                        <a type="button" href="#" class="btn btn-ghost">Product Details</a>
+                        <a type="button" href="https://www.theretrofitsource.com/led-lighting/led-halos-strips/morimoto-xsb-led-switchback-halos.html#.VyzOtaODFBc" class="btn btn-ghost">Product Details</a>
                     </div>
                 </div>
             </div>
@@ -330,7 +330,7 @@
                         <h5 class="text-gray3 text-shadow">XB 921 Bulbs</h5>
                         <p class="text-shadow">Back that thing up! Morimoto's new 921 XB LED bulbs are optimized for use in reverse lights.</p>
                         <h5 class="text-white text-shadow">$000.00</h5>
-                        <a type="button" href="#" class="btn btn-ghost">Product Details</a>
+                        <a type="button" href="https://www.theretrofitsource.com/led-lighting/led-bulbs/xb-921-led-bulbs.html#.VyzOtaODFBc" class="btn btn-ghost">Product Details</a>
                     </div>
                 </div>
             </div>
@@ -390,7 +390,7 @@
                         <h5 class="text-gray3 text-shadow">XB LED Fog Lights</h5>
                         <p class="text-shadow">The Morimoto XB LED projector fog lights Look great. Are well-built. Perform like champs. Have a virtually infinite life span. An unbeatable warranty, And best of all you won't need to sell your soul to afford them!</p>
                         <h5 class="text-white text-shadow">$000.00</h5>
-                        <a type="button" href="#" class="btn btn-ghost">Product Details</a>
+                        <a type="button" href="https://www.theretrofitsource.com/complete-headlight-fog-light-housings.html" class="btn btn-ghost">Product Details</a>
                     </div>
                 </div>
             </div>
