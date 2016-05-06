@@ -466,7 +466,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="col-xs-12">
-                                <img class="img-responsive" src="img/category-hidsystems.png" alt="Product Category" border="0"/>
+                                <img class="img-responsive" src="img/category-lensetching.png" alt="Lens Etching Service Category" border="0"/>
                                 <h3>Lens Etching</h3>
                                 <p>As if your retrofit wasn't unique enough, we're changing the game with our custom etching service for projector lenses. Provide your own artwork or choose one of our existing designs and we’ll get to work for you.</p>
                                 <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
