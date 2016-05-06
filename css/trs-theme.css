@@ -449,6 +449,7 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .btn-block { display: block; width: 100%; }
 .btn-block + .btn-block { margin-top: 5px; }
 input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block { width: 100%; }
+button[type="submit"] { text-align: left; }
 
 .fade { opacity: 0; -webkit-transition: opacity .15s linear; -o-transition: opacity .15s linear; transition: opacity .15s linear; }
 .fade.in { opacity: 1; }
@@ -582,7 +583,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .dropup .btn-lg .caret { border-width: 0 5px 5px; }
 
 .btn-group-vertical > .btn, .btn-group-vertical > .btn-group, .btn-group-vertical > .btn-group > .btn { display: block; float: none; width: 280px; max-width: 100%; }
-.section.col-sm-4.nav-products .btn-group-vertical > .btn { width: 250px; }
+.section.col-sm-4.nav-products .btn-group-vertical > .btn { width: 250px; margin-right: 10px; }
 @media (max-width:767px) {
   .btn-group, .btn-group-vertical { width: 100%; }
 }
@@ -1106,6 +1107,7 @@ background-image: url(../img/pattern-honeycomb.png); background-position: left t
 }
 @media (min-width:992px) {
   .home .jumbotron { margin-bottom: -225px; }
+  .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 830px; }
 }
 
 
@@ -1451,7 +1453,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .section.module-quickstartguide h2 { font-size: 36px; padding-top: 3px; }
 }
 @media (min-width:1024px) {
-  .col-sm-4.section.nav-products p { min-height: 90px; }
+  .col-sm-4.section.nav-products p { min-height: 92px; }
   .section.wrap .col-sm-4.section.nav-products p { min-height: 110px; }
 }
 @media (min-width:1220px) {
