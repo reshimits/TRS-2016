@@ -945,6 +945,11 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   .navbar-right .dropdown-menu-left { right: auto; left: 0; }
 }
 
+.form-group.has-suggestions { position: relative; }
+.form-group.has-suggestions .dropdown-menu { display: block; width: 100%; font-size: 14px; background-color: #ccc; border: none; border-radius: 0 0 4px 4px; }
+.form-group.has-suggestions .dropdown-menu > li > a { padding: 8px 20px; }
+.form-group.has-suggestions .dropdown-menu > li > a:hover { color: #fff; }
+
 .navbar-inverse .container-fluid { padding: 0; }
 .header .navbar-inverse, .navbar-inverse .nav-stacked, .header .navbar-inverse .nav-stacked .dropdown-menu { min-height: calc(100vh - 100px); 
   content: 'viewport-units-buggyfill; min-height: calc(100vh - 100px)'; }
