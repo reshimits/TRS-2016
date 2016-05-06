@@ -375,46 +375,52 @@
 
     
 
-	<!-- Javascript [secondary]
-  	================================================== -->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- Javascript [secondary]
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
 
-    <!-- ALL: TOGGLE SCRIPT for Nav -->
+    <!-- HEADER/NAV size change based on scroll -->
+    <script src="js/waypoints.min.js"></script>
+    <script>
+        var $head = $( '#header' );
+        $( '.header-waypoint' ).each( function(i) {
+            var $el = $( this ),
+                animClassDown = $el.data( 'animateDown' ),
+                animClassUp = $el.data( 'animateUp' );
+
+            $el.waypoint( function( direction ) {
+                if( direction === 'down' && animClassDown ) {
+                    $head.attr('class', 'header ' + animClassDown);
+                }
+                else if( direction === 'up' && animClassUp ){
+                    $head.attr('class', 'header ' + animClassUp);
+                }
+            }, { offset: '0%' } );
+        } );
+    </script>
+
+    <!-- HEADER/NAV toggle MENU BTN -->
     <script type='text/javascript'>
-        $(function() {
-            $('.navbar-main .products').click(function() {
-                $('.header-under .dropdown-menu').slideToggle('fast');
-                return false;
-                });
-            });
-
-        $(document).click(function() {
-            $('.header-under .dropdown-menu').slideUp('fast');
-            });
-
-            $(".header-under .dropdown-menu").click(function(e) {
-            e.stopPropagation(); 
+        function toggleText(id) {
+            var showMore = document.getElementById(id);
+            (showMore.style.display=='block') ? showMore.style.display='none' : showMore.style.display='block' ;  
+        }
+        $( ".navbar-menu" ).click(function() {
+            $(".navbar-menu").toggleClass( "active" );
+            $(".bodyWrap").toggleClass( "active" );
         });
-    </script>  
+    </script>
 
-    <!-- ALL: iOS Viewport Fix -->
-    <script type="text/javascript">
-    var iOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/);
-    if(iOS){
-
-       function iosVhHeightBug() {
-          var height = $(window).height();
-          $(".dropdown-menu").css('min-height', height);
-       }
-
-       iosVhHeightBug();
-       $(window).bind('resize', iosVhHeightBug);
-    }  
-    </script> 
-    
-    
-
+    <!-- iOS Viewport Units Buggyfill -->
+    <script src="js/viewport-units-buggyfill.js"></script>
+    <script>window.viewportUnitsBuggyfill.init();
+        var hacks = require('viewport-units-buggyfill.hacks');
+        require('viewport-units-buggyfill').init({
+          hacks: hacks
+        });
+    </script>
+  
 
     <!-- End Document
     ================================================== -->
