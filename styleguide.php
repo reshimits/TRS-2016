@@ -146,10 +146,11 @@
 		<div class="section">
 			<div class="container-fluid">
 				<div class="row">
-				  	<div class="col-sm-6">
+				  	<div class="col-sm-12">
 						<div class="bs-component">
 					  		<h1>H1: <span class="lead">Page</span> Title</h1>
 					  		<h1 class="productDetail">H1: Product Detail Title</h1>
+					  		<h2 class="productCategory">H2: Product Category Title: <span class="text-weightRegular">Sub-Category Title</span></h2>
 					  		<h2>H2: Section Title</h2>
 					  		<h3>H3: Sub-Section Title</h3>
 					  		<h4>H4: Section Sub-Title</h4>
@@ -157,14 +158,11 @@
 					  		<h6>H6: Sub-Sub-Section Sub-Title</h6>
 						</div>
 				  	</div>
-				  	<div class="col-sm-6">
+				  	<div class="col-sm-12">
 						<div class="bs-component">
-					  		<h3>Example body text</h3>
 					  		<p><span class="lead">Paragraph Lead:</span> Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
 					  		<p><small>Small text.</small> &nbsp; <span class="text-weightMedium">Medium text.</span> &nbsp; <span class="text-weightBold">Bold text.</span> &nbsp; <em>Italicized text.</em> &nbsp; <span class="strikethrough">Strikethrough text.</span></p>
-						</div>
-						<div class="bs-component">
-					  		<h3>Emphasis classes</h3>
+
 					  		<p class="text-muted">Muted: Fusce dapibus, tellus ac cursus commodo.</p>
 					  		<p class="text-primary">Primary: Nullam id dolor id nibh ultricies.</p>
 					  		<!-- <p class="text-warning">Warning: Etiam porta sem malesuada magna.</p>
@@ -220,13 +218,19 @@
 					  	<a type="button" href="#" class="btn btn-ghost">Ghost</a>
 					  	<a type="button" href="#" class="btn btn-dark">Dark</a>
 					  	<a type="button" href="#" class="btn btn-empty"><span class="icon icon-cart"></span></a>
-					  	<div class="btn-group">
-					  		<a href="#">
-						  	<button type="button" class="btn btn-guide">Buyers Guide</button>
-						  	<button type="button" class="btn btn-guide">// Edit</button>
-						  	</a>
-						</div>
-						<a type="button" href="#" class="btn btn-primary btn-xs">Edit</a>
+					  	<div class="btn-group answered">
+                            <button type="button" class="btn btn-guide"><span class="lead">Step 1:</span> Reflector Size // <span class="input">Medium</span></button>
+                            <button type="button" class="btn btn-guide edit">// Edit</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-guide"><span class="lead">Step 2:</span> Performance</button>
+                            <button type="button" class="btn btn-guide edit">// Edit</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-guide" disabled="disabled"><span class="lead">Step 3:</span> Beam Pattern</button>
+                            <button type="button" class="btn btn-guide edit" disabled="disabled">// Edit</button>
+                        </div>
+						<a type="button" href="#" class="btn btn-empty btn-xs">// Edit</a>
 					</p>
 					<p class="bs-component">
 						<a type="button" href="#" class="btn btn-primary">Primary w/ Icon <span class="caret"></span></a>
