@@ -53,353 +53,163 @@
 
     <div class="bodyWrap">
         
-        <div class="jumbotron">
-            <div class="featureHeadline col-xs-6">
-                <div class="row">
-                    <img src="img/category-completekits-banner.svg" alt="Complete Retrofit Kits Product Category" border="0"/>
-                    <h4 class="productCategory">Application Specific</h4>
-                </div>
-            </div>
-            <div class="jumbotron-img"></div>
-            <div class="section promo module-buyersguide">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="caption col-sm-10 col-md-8 col-lg-7 pull-right">
-                            <span class="icon icon-motor icon-before"></span><h2 class="text-white text-shadow">Buyers Guide:</h2>
-                            <hr class="primary">
-                            <a href="#"><h5 class="text-gray3">2008 Mercedes Benz SLR Mclaren <span class="btn btn-empty btn-xs">// Edit</span> </h5></a>
-                            <p class="text-shadow">You may further refine your search:</p>
-                            
-                            <div class="btn-group answered">
-                                <button type="button" class="btn btn-guide"><span class="lead">Step 1:</span> Reflector Size // <span class="input">Medium</span></button>
-                                <button type="button" class="btn btn-guide edit">// Edit</button>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-guide"><span class="lead">Step 2:</span> Performance</button>
-                                <button type="button" class="btn btn-guide edit">// Edit</button>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-guide" disabled="disabled"><span class="lead">Step 3:</span> Beam Pattern</button>
-                                <button type="button" class="btn btn-guide edit" disabled="disabled">// Edit</button>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-guide" disabled="disabled"><span class="lead">Step 4:</span> Light Output</button>
-                                <button type="button" class="btn btn-guide edit" disabled="disabled">// Edit</button>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-guide" disabled="disabled"><span class="lead">Step 5:</span> Reflector Shape</button>
-                                <button type="button" class="btn btn-guide edit" disabled="disabled">// Edit</button>
-                            </div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-guide" disabled="disabled"><span class="lead">Step 6:</span> Light Color</button>
-                                <button type="button" class="btn btn-guide edit" disabled="disabled">// Edit</button>
-                            </div>
-                        
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div>
+        <?php require('productcategories/completekits-hero.html');?>
+
+        
 
         <div class="section texturedEdge"></div>
         <div class="section summary">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="text-center">
-                        <div class="col-xs-10 col-xs-offset-1">
-                            <h2 class="productCategory">Complete Retrofit Kits: <span class="text-weightRegular">Application Specific</span></h2>
+                        <div class="col-xs-10 col-xs-offset-1 text-center">
+                            <h1><span class="lead">Complete Retrofit Kits:</span> Application Specific</h1>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
 
 
         <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler -->
-        <div class="section module-callout" id="productGrid-productsWholesale">
+        <div class="section" id="productGrid-productsWholesale">
             <div class="container-fluid">
                 <div class="row">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="/client/TRS/MorimotoHID/projectors/productdetail.php">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right retail"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                        <h4 class="text-right wholesale"><span class="text-goldlight">$399.99</span> <span class="h5">Wholesale</span></h4>
-                                    </div>
-                                    <span class="label label-default"><img class="img-responsive" src="img/label-new.svg" alt="" border="0"/></span>
-                                </div>    
-                            </a>
+                
+                    <div class="section col-sm-4 product thumbnail">
+                        <div class="thumb-top">
+                            <div class="col-xs-10 col-xs-offset-1 text-center">
+                                <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
+                            </div>
+                            <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <p>
+                                    <span class="bullet">• Number one selling kit in our catalog.</span></br>
+                                    <span class="bullet">• Based around the H1 6.0 bi-xenon projectors and Elite HID system </span></br>
+                                    <span class="bullet">• Most universal projector retrofit kit in existence.</span>
+                                    </p>
+                                </div>
+                                <div class="thumbnail-image"><img src="img/category-completekits.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                            <div class="labelWrap">
+                                <div class="label label-new">
+                                    <div class="label-inner"><span class="icon icon-new"></span> New!</div>
+                                </div>
+                                <div class="label label-fitment">
+                                    <div class="label-inner"><span class="icon icon-fitment"></span> Fitment</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
+                        <div class="section caption gray2">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
+                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
+                                    <hr>
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                    <span class="label label-default"><img class="img-responsive" src="img/label-new.svg" alt="" border="0"/></span>
-                                </div>    
-                            </a>
-                        </div> 
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="/client/TRS/MorimotoHID/projectors/productdetail.php">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                    <span class="label label-default"><img class="img-responsive" src="img/label-new.svg" alt="" border="0"/></span>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                    <span class="label label-default"><img class="img-responsive" src="img/label-new.svg" alt="" border="0"/></span>
-                                </div>    
-                            </a>
-                        </div> 
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="/client/TRS/MorimotoHID/projectors/productdetail.php">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                    <span class="label label-default"><img class="img-responsive" src="img/label-new.svg" alt="" border="0"/></span>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                </div>    
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="thumbnailWrap" href="#">
-                                <div class="thumbnail">
-                                    <div class="thumbnail-image">
-                                        <img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none">
-                                    </div>
-                                    <div class="caption col-xs-12">
-                                        <h5>Projectors</h5>
-                                        <h3>AMP: XB35</h3>
-                                        <hr>
-                                        <h4 class="text-right"><span class="text-goldlight">$439.99</span> <span class="h5">MSRP</span></h4>
-                                    </div>
-                                    <span class="label label-default"><img class="img-responsive" src="img/label-new.svg" alt="" border="0"/></span>
-                                </div>    
-                            </a>
-                        </div> 
                     </div>
-                </div>
+
+                    <div class="section col-sm-4 product thumbnail">
+                        <div class="thumb-top">
+                            <div class="col-xs-10 col-xs-offset-1 text-center">
+                                <h5>FX-R 3.0 Projectors</h5>
+                            </div>
+                            <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <p>
+                                    <span class="bullet">• Number one selling kit in our catalog.</span></br>
+                                    <span class="bullet">• Most universal projector retrofit kit in existence.</span>
+                                    </p>
+                                </div>
+                                <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                            <div class="labelWrap">
+                                <div class="label label-new">
+                                    <div class="label-inner"><span class="icon icon-new"></span> New!</div>
+                                </div>
+                                <!-- <div class="label label-fitment">
+                                    <div class="label-inner"><span class="icon icon-fitment"></span> Fitment</div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="section caption gray3">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
+                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
+                                    <hr>
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section col-sm-4 product thumbnail">
+                        <div class="thumb-top">
+                            <div class="col-xs-10 col-xs-offset-1 text-center">
+                                <h5>MOPAR SPEC: 13-14 DODGE RAM</h5>
+                            </div>
+                            <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <p>
+                                    <span class="bullet">• Number one selling kit in our catalog.</span></br>
+                                    <span class="bullet">• Based around the H1 6.0 bi-xenon projectors and Elite HID system </span></br>
+                                    </p>
+                                </div>
+                                <div class="thumbnail-image"><img src="img/category-ballasts.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                            <div class="labelWrap">
+                                <!-- <div class="label label-new">
+                                    <div class="label-inner"><span class="icon icon-new"></span> New!</div>
+                                </div> -->
+                                <div class="label label-fitment">
+                                    <div class="label-inner"><span class="icon icon-fitment"></span> Fitment</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section caption gray2">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
+                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
+                                    <hr>
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    
+                        
+
                 </div>
             </div>
         </div>
@@ -409,7 +219,7 @@
         ================================================== -->
 
         <?php require('shared/footer.html');?>
-        
+        <?php require('shared/modals.html');?>
 
     </div> <!-- /container -->
 
