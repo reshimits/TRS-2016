@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
   	================================================== -->
 	<meta charset="utf-8">
-	<title>THE RETROFIT SOURCE // StyleGuide</title>
+	<title>StyleGuide // THE RETROFIT SOURCE</title>
 	<meta name="description" content="HTML/CSS Style Guide for designers and developers">
 	<meta name="author" content="SHIMITS Design/Development">
 
@@ -149,8 +149,8 @@
 				  	<div class="col-sm-12">
 						<div class="bs-component">
 					  		<h1>H1: <span class="lead">Page</span> Title</h1>
-					  		<h1 class="productDetail">H1: Product Detail Title</h1>
-					  		<h2 class="productCategory">H2: Product Category Title: <span class="text-weightRegular">Sub-Category Title</span></h2>
+					  		<h1 class="productdetail">H1: Product Detail Title</h1>
+					  		<h2 class="productcategory">H2: Product Category Title: <span class="text-weightRegular">Sub-Category Title</span></h2>
 					  		<h2>H2: Section Title</h2>
 					  		<h3>H3: Sub-Section Title</h3>
 					  		<h4>H4: Section Sub-Title</h4>
@@ -1331,14 +1331,21 @@
 				  	<div class="col-sm-4">
 						<a name="labels"></a> 
 						<h3>Labels</h3>
-						<div class="bs-component" style="margin-bottom: 40px;">
-						  	<span class="label label-default">Default</span>
+						
+					  	<div class="label label-new">
+					  		<div class="label-inner"><span class="icon icon-new"></span> New!</div>
+					  	</div>
+
+					  	<div class="label label-fitment">
+					  		<div class="label-inner"><span class="icon icon-fitment"></span> Fitment</div>
+					  	</div>
+
+						  	<!-- <span class="label label-default">Default</span>
 						  	<span class="label label-primary">Primary</span>
 						  	<span class="label label-success">Success</span>
 						  	<span class="label label-warning">Warning</span>
 						  	<span class="label label-danger">Danger</span>
-						  	<span class="label label-info">Info</span>
-						</div>
+						  	<span class="label label-info">Info</span> -->
 				  	</div>
 				  	<div class="col-sm-4">
 						<a name="badges"></a> 
