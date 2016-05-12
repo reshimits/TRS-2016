@@ -55,51 +55,53 @@
         
         <?php require('productcategories/completekits-hero.html');?>
 
-        
 
         <div class="section texturedEdge"></div>
         <div class="section summary">
             <div class="container-fluid">
                 <div class="row">
-                        <div class="col-xs-10 col-xs-offset-1 text-center">
-                            <h1><span class="lead">Complete Retrofit Kits:</span> Application Specific</h1>
-                        </div>
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+                        <h1>Application Specific</h1>
+                    </div>
                 </div>
             </div>
         </div>
 
 
         <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler -->
-        <div class="section" id="productGrid-productsWholesale">
+        <div class="section wrap" id="productGrid-productsWholesale">
             <div class="container-fluid">
-                <div class="row">
+                <ul class="row productGrid">
                 
-                    <div class="section col-sm-4 product thumbnail">
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
                         <div class="thumb-top">
-                            <div class="col-xs-10 col-xs-offset-1 text-center">
-                                <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
-                            </div>
-                            <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                            <div class="col-xs-12">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
                                 <div class="col-xs-12">
-                                    <p>
-                                    <span class="bullet">• Number one selling kit in our catalog.</span></br>
-                                    <span class="bullet">• Based around the H1 6.0 bi-xenon projectors and Elite HID system </span></br>
-                                    <span class="bullet">• Most universal projector retrofit kit in existence.</span>
-                                    </p>
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
                                 </div>
-                                <div class="thumbnail-image"><img src="img/category-completekits.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                            <div class="labelWrap">
-                                <div class="label label-new">
-                                    <div class="label-inner"><span class="icon icon-new"></span> New!</div>
-                                </div>
-                                <div class="label label-fitment">
-                                    <div class="label-inner"><span class="icon icon-fitment"></span> Fitment</div>
-                                </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
                             </div>
                         </div>
-                        <div class="section caption gray2">
+                        <div class="labelWrap">
+                            <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <!-- <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div> -->
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div>
+                        </div>
+                        <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
                                     <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
@@ -111,39 +113,43 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale">$359.99 
+                                    <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="section col-sm-4 product thumbnail">
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
                         <div class="thumb-top">
-                            <div class="col-xs-10 col-xs-offset-1 text-center">
-                                <h5>FX-R 3.0 Projectors</h5>
-                            </div>
-                            <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <p>
-                                    <span class="bullet">• Number one selling kit in our catalog.</span></br>
-                                    <span class="bullet">• Most universal projector retrofit kit in existence.</span>
-                                    </p>
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>FX-R 3.0 Projectors</h5>
                                 </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">LED Lighting</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
                                 <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                            <div class="labelWrap">
-                                <div class="label label-new">
-                                    <div class="label-inner"><span class="icon icon-new"></span> New!</div>
-                                </div>
-                                <!-- <div class="label label-fitment">
-                                    <div class="label-inner"><span class="icon icon-fitment"></span> Fitment</div>
-                                </div> -->
-                            </div>
                         </div>
-                        <div class="section caption gray3">
+                        <div class="labelWrap">
+                            <!-- <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div> -->
+                            <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div>
+                            <!-- <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
                                     <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
@@ -155,39 +161,43 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale">$359.99 
+                                    <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="section col-sm-4 product thumbnail">
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
                         <div class="thumb-top">
-                            <div class="col-xs-10 col-xs-offset-1 text-center">
-                                <h5>MOPAR SPEC: 13-14 DODGE RAM</h5>
-                            </div>
-                            <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                            <div class="col-xs-12">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
                                 <div class="col-xs-12">
-                                    <p>
-                                    <span class="bullet">• Number one selling kit in our catalog.</span></br>
-                                    <span class="bullet">• Based around the H1 6.0 bi-xenon projectors and Elite HID system </span></br>
-                                    </p>
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
                                 </div>
-                                <div class="thumbnail-image"><img src="img/category-ballasts.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                            <div class="labelWrap">
-                                <!-- <div class="label label-new">
-                                    <div class="label-inner"><span class="icon icon-new"></span> New!</div>
-                                </div> -->
-                                <div class="label label-fitment">
-                                    <div class="label-inner"><span class="icon icon-fitment"></span> Fitment</div>
-                                </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
                             </div>
                         </div>
-                        <div class="section caption gray2">
+                        <div class="labelWrap">
+                            <!-- <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div> -->
+                            <!-- <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div> -->
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div>
+                        </div>
+                        <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
                                     <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
@@ -199,18 +209,208 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale">$359.99 
+                                    <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                   
-                    
-                        
+                    </li>
 
-                </div>
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <div class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-motorcycle.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </div>
+                        <div class="labelWrap">
+                            <!-- <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div>
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
+                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
+                                    <hr>
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <div class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>FX-R 3.0 Projectors</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">LED Lighting</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </div>
+                        <div class="labelWrap">
+                            <!-- <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div>
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
+                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
+                                    <hr>
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <div class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </div>
+                        <div class="labelWrap">
+                            <!-- <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div>
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
+                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
+                                    <hr>
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <div class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </div>
+                        <div class="labelWrap">
+                            <!-- <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div>
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
+                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
+                                    <hr>
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
             </div>
         </div>
 
