@@ -74,7 +74,7 @@
                 <ul class="row productGrid">
                 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <div class="thumb-top">
+                        <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
@@ -89,7 +89,7 @@
                             <div class="col-xs-12">
                                 <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                        </div>
+                        </a>
                         <div class="labelWrap">
                             <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
@@ -122,7 +122,7 @@
                     </li>
 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <div class="thumb-top">
+                        <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>FX-R 3.0 Projectors</h5>
@@ -137,7 +137,7 @@
                             <div class="col-xs-12">
                                 <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                        </div>
+                        </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
@@ -170,7 +170,7 @@
                     </li>
 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <div class="thumb-top">
+                        <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
@@ -185,7 +185,7 @@
                             <div class="col-xs-12">
                                 <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                        </div>
+                        </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
@@ -218,7 +218,7 @@
                     </li>
 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <div class="thumb-top">
+                        <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
@@ -233,7 +233,7 @@
                             <div class="col-xs-12">
                                 <div class="thumbnail-image"><img src="img/category-motorcycle.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                        </div>
+                        </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
@@ -266,7 +266,7 @@
                     </li>
 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <div class="thumb-top">
+                        <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>FX-R 3.0 Projectors</h5>
@@ -281,7 +281,7 @@
                             <div class="col-xs-12">
                                 <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                        </div>
+                        </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
@@ -314,7 +314,7 @@
                     </li>
 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <div class="thumb-top">
+                        <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
@@ -329,7 +329,7 @@
                             <div class="col-xs-12">
                                 <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                        </div>
+                        </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
@@ -362,7 +362,7 @@
                     </li>
 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <div class="thumb-top">
+                        <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
@@ -377,7 +377,7 @@
                             <div class="col-xs-12">
                                 <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
                             </div>
-                        </div>
+                        </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>

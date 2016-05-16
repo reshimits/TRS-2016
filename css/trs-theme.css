@@ -248,7 +248,7 @@ mark, .mark { padding: .2em; background-color: #fcf8e3; }
 .text-weightMedium { font-family: 'PlutoSansMedium', Helvetica, Arial, sans-serif; }
 .text-weightBold { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; }
 
-ul, ol { margin-top: 0; margin-bottom: 0; -webkit-margin-before: 0; -webkit-margin-after: 0; -webkit-padding-start: 0; }
+ul, ol { margin-top: 0; margin-bottom: 0; padding: 0; -webkit-margin-before: 0; -webkit-margin-after: 0; -webkit-padding-start: 0; }
 ul ul, ol ul, ul ol, ol ol { margin-bottom: 0; }
 .list-unstyled { padding-left: 0; list-style: none; }
 .list-inline { padding-left: 0; margin-left: -5px; list-style: none; }
@@ -1157,7 +1157,8 @@ background-image: url(../img/pattern-honeycomb.png); background-position: left t
 .thumbnail { display: block; padding: 0; margin-bottom: 0; line-height: 1.4; background-color: #fff; border: none; border-radius: 0; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { margin-right: auto; margin-left: auto; }
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transparent; }
-.thumb-top { float: left; background-image: url(../img/bg-productThumb.jpg); background-repeat: no-repeat; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%; }
+.thumb-top { float: left; max-width: 100%; background-image: url(../img/bg-productThumb.jpg); background-repeat: no-repeat; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%; }
+.thumbnail a h5 { color: #666; }
 .product.thumbnail hr.primary { margin: 0 0 10px 0; }
 .thumbnail-image { margin: 100px 0 20px 0; }
 .thumbnail .caption-top { width: 100%; position: absolute; z-index: 1000; top: 10px; }
