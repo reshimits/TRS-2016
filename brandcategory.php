@@ -9,7 +9,7 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Product Category // THE RETROFIT SOURCE</title>
+    <title>Brand Category // THE RETROFIT SOURCE</title>
     <meta name="description" content="Google Description Here">
     <meta name="keywords" content="Keywords Here" />
     <meta name="author" content="SHIMITS Design/Development">
@@ -53,23 +53,30 @@
 
     <div class="bodyWrap">
         
-        <?php require('productcategories/completekits-hero.html');?>
+        <?php require('productcategories/vehicleonly-hero.html');?>
 
 
         <div class="section texturedEdge"></div>
-        <div class="section summary header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
+        <div class="section summary">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-                        <h1>Application Specific</h1>
+                        <h1>Shop by Vehicle Fitment:</h1>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="section title header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h2 class="text-center">HID Projectors</h2>
+                </div>
+            </div>    
+        </div>
 
         <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler -->
-        <div class="section wrap" id="productGrid-productsWholesale">
+        <div class="section wrap">
             <div class="container-fluid">
                 <ul class="row productGrid">
                 
@@ -145,9 +152,9 @@
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div>
-                            <!-- <div class="label label-fitment">
+                            <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div> -->
+                            </div>
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
@@ -240,10 +247,10 @@
                             </div>
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
+                            </div> -->
                             <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
-                            </div> -->
+                            </div> 
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
@@ -264,7 +271,21 @@
                             </div>
                         </div>
                     </li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="section title">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h2 class="text-center">HID Ballasts</h2>
+                </div>
+            </div>    
+        </div>
+
+        <div class="section wrap">
+            <div class="container-fluid">
+                <ul class="row productGrid">
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
                         <a href="" class="thumb-top">
                             <div class="caption-top">
@@ -288,10 +309,10 @@
                             </div>
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
+                            </div> -->
                             <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
-                            </div> -->
+                            </div> 
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
@@ -336,10 +357,10 @@
                             </div>
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
+                            </div> -->
                             <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
-                            </div> -->
+                            </div> 
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
@@ -384,10 +405,10 @@
                             </div>
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
+                            </div> -->
                             <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div> -->
+                            </div> 
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
