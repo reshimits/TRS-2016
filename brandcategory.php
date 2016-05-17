@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="productcategory completekits completekits-universalkits">
+<body class="productcategory brandcategory">
 
     <!-- Header
     ================================================== -->

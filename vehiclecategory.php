@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="productcategory completekits completekits-universalkits">
+<body class="productcategory vehiclecategory">
 
     <!-- Header
     ================================================== -->
@@ -53,7 +53,7 @@
 
     <div class="bodyWrap">
         
-        <?php require('productcategories/vehicleonly-hero.html');?>
+        <?php require('productcategories/vehicle-hero.html');?>
 
 
         <div class="section texturedEdge"></div>

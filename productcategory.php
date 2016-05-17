@@ -38,7 +38,36 @@
 
 </head>
 
-<body class="productcategory completekits completekits-universalkits">
+<!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h1, h4, and banner image -->
+<body class="productcategory accessories accessories-buildmaterials">
+<!-- <body class="productcategory accessories accessories-miscellaneous"> -->
+<!-- <body class="productcategory accessories accessories-trsgear"> -->
+<!-- <body class="productcategory ballasts ballasts-aftermarket"> -->
+<!-- <body class="productcategory ballasts ballasts-oem"> -->
+<!-- <body class="productcategory bulbs"> -->
+<!-- <body class="productcategory closeouts closeouts-parts"> -->
+<!-- <body class="productcategory closeouts closeouts-oemprojectors"> -->
+<!-- <body class="productcategory closeouts closeouts-miscellaneous"> -->
+<!-- <body class="productcategory completekits completekits-universalkits"> -->
+<!-- <body class="productcategory completekits completekits-applicationspecific"> -->
+<!-- <body class="productcategory hidsystems hidsystems-universalkits"> -->
+<!-- <body class="productcategory hidsystems hidsystems-applicationspecific"> -->
+<!-- <body class="productcategory housings housings-fullheadlights"> -->
+<!-- <body class="productcategory housings housings-ledfoglights"> -->
+<!-- <body class="productcategory housings housings-taillights"> -->
+<!-- <body class="productcategory led led-ledpoweredbulbs"> -->
+<!-- <body class="productcategory led led-halosstrips"> -->
+<!-- <body class="productcategory led led-offroad"> -->
+<!-- <body class="productcategory led led-accessories"> -->
+<!-- <body class="productcategory lenses"> -->
+<!-- <body class="productcategory lensetching"> -->
+<!-- <body class="productcategory motorcycle motorcycle-headlights"> -->
+<!-- <body class="productcategory motorcycle motorcycle-hidsystems"> -->
+<!-- <body class="productcategory motorcycle motorcycle-accessories"> -->
+<!-- <body class="productcategory projectors projectors-aftermarket"> -->
+<!-- <body class="productcategory projectors projectors-oem"> -->
+<!-- <body class="productcategory shrouds"> -->
+<!-- <body class="productcategory wireharnesses"> -->
 
     <!-- Header
     ================================================== -->
@@ -53,7 +82,7 @@
 
     <div class="bodyWrap">
         
-        <?php require('productcategories/completekits-hero.html');?>
+        <?php require('productcategories/products-hero.html');?>
 
 
         <div class="section texturedEdge"></div>
@@ -61,7 +90,25 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-                        <h1>Application Specific</h1>
+                        <h1 class="completekits-sub1 hidsystems-sub1">Universal Kits</h1>
+                        <h1 class="completekits-sub2 hidsystems-sub2">Application Specific</h1>
+                        <h1 class="projectors-sub1 ballasts-sub1 bulbs-sub1">Aftermarket</h1>
+                        <h1 class="projectors-sub2 ballasts-sub2 bulbs-sub2">OEM</h1>
+                        <h1 class="led-sub1">LED Powered Bulbs</h1>
+                        <h1 class="led-sub2">Halos, Strips, Etc.</h1>
+                        <h1 class="led-sub3">Off-Road Lighting</h1>
+                        <h1 class="led-sub4">LED Accessories</h1>
+                        <h1 class="housings-sub1">Full Headlights</h1>
+                        <h1 class="housings-sub2">LED Fog Lights</h1>
+                        <h1 class="housings-sub3">Tail Lights</h1>
+                        <h1 class="motorcycle-sub1">Headlights</h1>
+                        <h1 class="motorcycle-sub2">HID Systems</h1>
+                        <h1 class="motorcycle-sub3">Accessories</h1>
+                        <h1 class="accessories-sub1">Build Materials</h1>
+                        <h1 class="accessories-sub2 closeouts-sub3">Miscellaneous</h1>
+                        <h1 class="accessories-sub3">TRS Gear</h1>
+                        <h1 class="closeouts-sub1">HID / LED Parts</h1>
+                        <h1 class="closeouts-sub2">OEM Projectors</h1>
                     </div>
                 </div>
             </div>
