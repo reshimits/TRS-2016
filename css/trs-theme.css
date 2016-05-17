@@ -1152,7 +1152,14 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .productcategory.projectors .jumbotron .featureHeadline img.projectors-banner,
 .productcategory.shrouds .jumbotron .featureHeadline img.shrouds-banner,
 .productcategory.wireharnesses .jumbotron .featureHeadline img.wireharnesses-banner,
-.productcategory.brandcategory .jumbotron .featureHeadline img.brandcategory-banner,
+.productcategory.brandcategory-philips .jumbotron .featureHeadline img.philips-banner,
+.productcategory.brandcategory-morimoto .jumbotron .featureHeadline img.morimoto-banner,
+.productcategory.brandcategory-osram .jumbotron .featureHeadline img.osram-banner,
+.productcategory.brandcategory-denso .jumbotron .featureHeadline img.denso-banner,
+.productcategory.brandcategory-acme .jumbotron .featureHeadline img.acme-banner,
+.productcategory.brandcategory-koito .jumbotron .featureHeadline img.koito-banner,
+.productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
+.productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner,
 .productcategory.vehicle .jumbotron .featureHeadline img.vehicle-banner { display: block; }
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature1.jpg); }
@@ -1212,7 +1219,8 @@ background-image: url(../img/pattern-honeycomb.png); background-position: left t
 .productcategory.motorcycle-hidsystems .featureHeadline h4.motorcycle-sub2, .productcategory.motorcycle-hidsystems h1.motorcycle-sub2,
 .productcategory.motorcycle-accessories .featureHeadline h4.motorcycle-sub3, .productcategory.motorcycle-accessories h1.motorcycle-sub3,
 .productcategory.projectors-aftermarket .featureHeadline h4.projectors-sub1, .productcategory.projectors-aftermarket h1.projectors-sub1,
-.productcategory.projectors-oem .featureHeadline h4.projectors-sub2, .productcategory.projectors-oem h1.projectors-sub2 { display: block; }
+.productcategory.projectors-oem .featureHeadline h4.projectors-sub2, .productcategory.projectors-oem h1.projectors-sub2, 
+.productcategory.brandcategory h1, .productcategory.vehiclecategory h1 { display: block; }
 
 .thumbnail { display: block; padding: 0; margin-bottom: 0; line-height: 1.4; background-color: #fff; border: none; border-radius: 0; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { margin-right: auto; margin-left: auto; }

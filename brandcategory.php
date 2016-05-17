@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="productcategory brandcategory">
+<body class="productcategory brandcategory brandcategory-morimoto">
 
     <!-- Header
     ================================================== -->
@@ -53,7 +53,7 @@
 
     <div class="bodyWrap">
         
-        <?php require('productcategories/vehicleonly-hero.html');?>
+        <?php require('productcategories/brand-hero.html');?>
 
 
         <div class="section texturedEdge"></div>
