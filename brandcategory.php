@@ -56,27 +56,10 @@
         <?php require('productcategories/brand-hero.html');?>
 
 
-        <div class="section texturedEdge"></div>
-        <div class="section summary">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-                        <h1>Shop by Vehicle Fitment:</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section title header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
-            <div class="container-fluid">
-                <div class="col-xs-12">
-                    <h2 class="text-center">HID Projectors</h2>
-                </div>
-            </div>    
-        </div>
+        <div class="section texturedEdge header-waypoint" data-animate-down="header-small" data-animate-up="header-large"></div>
 
         <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler -->
-        <div class="section wrap">
+        <div class="section wrap" >
             <div class="container-fluid">
                 <ul class="row productGrid">
                 
@@ -104,16 +87,13 @@
                             <!-- <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
-                            <div class="label label-fitment">
+                            <!-- <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
-                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
-                                    <hr>
                                     <h3 class="retail">$439.99 
                                         <p class="note"><span class="lead">MSRP</span></p>
                                     </h3>
@@ -123,6 +103,7 @@
                                     <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                                 </div>
                             </div>
                         </div>
@@ -152,16 +133,13 @@
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div>
-                            <div class="label label-fitment">
+                            <!-- <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
-                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
-                                    <hr>
                                     <h3 class="retail">$439.99 
                                         <p class="note"><span class="lead">MSRP</span></p>
                                     </h3>
@@ -171,6 +149,7 @@
                                     <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                                 </div>
                             </div>
                         </div>
@@ -200,16 +179,13 @@
                             <!-- <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
-                            <div class="label label-fitment">
+                            <!-- <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
-                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
-                                    <hr>
                                     <h3 class="retail">$439.99 
                                         <p class="note"><span class="lead">MSRP</span></p>
                                     </h3>
@@ -219,6 +195,7 @@
                                     <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                                 </div>
                             </div>
                         </div>
@@ -248,16 +225,13 @@
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
-                            <div class="label label-fitment">
+                            <!-- <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
-                            </div> 
+                            </div> -->
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
-                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
-                                    <hr>
                                     <h3 class="retail">$439.99 
                                         <p class="note"><span class="lead">MSRP</span></p>
                                     </h3>
@@ -267,25 +241,12 @@
                                     <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                </ul>
-            </div>
-        </div>
 
-        <div class="section title">
-            <div class="container-fluid">
-                <div class="col-xs-12">
-                    <h2 class="text-center">HID Ballasts</h2>
-                </div>
-            </div>    
-        </div>
-
-        <div class="section wrap">
-            <div class="container-fluid">
-                <ul class="row productGrid">
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
                         <a href="" class="thumb-top">
                             <div class="caption-top">
@@ -310,16 +271,13 @@
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
-                            <div class="label label-fitment">
+                            <!-- <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
-                            </div> 
+                            </div> -->
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
-                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
-                                    <hr>
                                     <h3 class="retail">$439.99 
                                         <p class="note"><span class="lead">MSRP</span></p>
                                     </h3>
@@ -329,6 +287,7 @@
                                     <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                                 </div>
                             </div>
                         </div>
@@ -358,16 +317,13 @@
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
-                            <div class="label label-fitment">
+                            <!-- <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
-                            </div> 
+                            </div> -->
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
-                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
-                                    <hr>
                                     <h3 class="retail">$439.99 
                                         <p class="note"><span class="lead">MSRP</span></p>
                                     </h3>
@@ -377,6 +333,7 @@
                                     <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                                 </div>
                             </div>
                         </div>
@@ -406,16 +363,13 @@
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
-                            <div class="label label-fitment">
+                            <!-- <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div> 
+                            </div> -->
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <a type="button" href="/client/TRS/2016/productdetail.php" class="btn btn-dark"><span class="visible-lg-inline">Product </span>Details</a>
-                                    <a type="button" href="#" class="btn btn-primary">Add to Cart</a>
-                                    <hr>
                                     <h3 class="retail">$439.99 
                                         <p class="note"><span class="lead">MSRP</span></p>
                                     </h3>
@@ -425,6 +379,7 @@
                                     <h3 class="wholesale last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                                 </div>
                             </div>
                         </div>
