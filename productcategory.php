@@ -64,10 +64,10 @@
 <!-- <body class="productcategory motorcycle motorcycle-headlights"> -->
 <!-- <body class="productcategory motorcycle motorcycle-hidsystems"> -->
 <!-- <body class="productcategory motorcycle motorcycle-accessories"> -->
-<body class="productcategory projectors projectors-aftermarket">
+<!-- <body class="productcategory projectors projectors-aftermarket"> -->
 <!-- <body class="productcategory projectors projectors-oem"> -->
 <!-- <body class="productcategory shrouds"> -->
-<!-- <body class="productcategory wireharnesses"> -->
+<body class="productcategory wireharnesses">
 
     <!-- Header
     ================================================== -->

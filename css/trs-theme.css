@@ -450,7 +450,7 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .section.module-quickstartguide .btn-empty.icon { width: 38px; height: 38px; }
 .footer .section.contact .btn-empty:hover { background-color: #fff; }
 .module-buyersguide .btn-empty.btn-xs { position: absolute; top: 0; right: 0; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #fff; }
-.module-buyersguide .btn-empty.btn-xs:hover { border-color: transparent; } 
+.module-buyersguide .btn-empty.btn-xs:hover, .module-buyersguide .btn-empty.btn-xs:active { border-color: transparent; } 
 
 .navbar-form .btn-empty { color: #ccc; background: rgba(255, 255, 255, .15); border: none; border-radius: 0; border-bottom: 1px solid #999; padding: 13px 12px; padding-bottom: 14px; margin-left: 0 !important; }
 .navbar-form .btn-empty:hover, .navbar-form .btn-empty:focus, .navbar-form .btn-empty.focus, .navbar-form .btn-empty:active, .navbar-form .btn-empty.active { background: rgba(255, 255, 255, .25); border: none; border-bottom: 1px solid #999; }
@@ -1110,37 +1110,6 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   .jumbotron h1, .jumbotron .h1 { font-size: 63px; }
 }
 
-/*@-moz-keyframes animatedBackground {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.2); }
-}
-@-webkit-keyframes animatedBackground {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.2); }
-}
-@-ms-keyframes animatedBackground {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.2); }
-}
-@-o-keyframes animatedBackground {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.2); }
-}
-@keyframes animatedBackground {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.2); }
-}
-.home .jumbotron .jumbotron-img, .styleguide .jumbotron .jumbotron-img {
-  -moz-animation: animatedBackground 15s ease-in-out 2 alternate;
-  -webkit-animation: animatedBackground 15s ease-in-out 2 alternate;
-  -ms-animation: animatedBackground 15s ease-in-out 2 alternate;
-  -o-animation: animatedBackground 15s ease-in-out 2 alternate;
-  animation: animatedBackground 15s ease-in-out 2 alternate; 
-  -webkit-animation-fill-mode: forwards; 
-  -moz-animation-fill-mode: forwards; }*/
-
-/*.home .jumbotron .jumbotronCopy, .styleguide .jumbotron .jumbotronCopy { position: absolute; top: 100px; z-index: 1000; }*/
-
 .home .jumbotron, .styleguide .jumbotron { height: 440px; overflow: hidden; padding: 0; margin-bottom: -235px; }
 .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 120px; }
 .productcategory .jumbotron .featureHeadline { margin-top: 40px; margin-left: -5px; }
@@ -1168,9 +1137,18 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
 .productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner,
 .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehicle-banner { display: block; }
+
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature1.jpg); }
 .productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
+.productcategory.accessories .jumbotron, .productcategory.closeouts .jumbotron, .productcategory.housings-taillights .jumbotron, .productcategory.led-offroad .jumbotron, 
+  .productcategory.led-accessories .jumbotron, .productcategory.lensetching .jumbotron, .productcategory.motorcycle .jumbotron, 
+  .productcategory.projectors-oem .jumbotron, .productcategory.vehiclecategory .jumbotron, .productcategory.brandcategory .jumbotron { height: 240px; }
+.section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
+.productcategory.accessories .section.module-buyersguide, .productcategory.closeouts .section.module-buyersguide, .productcategory.housings-taillights .section.module-buyersguide, .productcategory.led-offroad .section.module-buyersguide, 
+  .productcategory.led-accessories .section.module-buyersguide, .productcategory.lensetching .section.module-buyersguide, .productcategory.motorcycle .section.module-buyersguide, 
+  .productcategory.projectors-oem .section.module-buyersguide { display: none; } 
+
 .productcategory.accessories .jumbotron .jumbotron-img { background-image: url(../img/category-accessories-hero.jpg); }
 .productcategory.ballasts .jumbotron .jumbotron-img { background-image: url(../img/category-ballasts-hero.jpg); }
 .productcategory.bulbs .jumbotron .jumbotron-img { background-image: url(../img/category-bulbs-hero.jpg); }
@@ -1187,13 +1165,17 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .productcategory.wireharnesses .jumbotron .jumbotron-img { background-image: url(../img/category-wireharnesses-hero.jpg); }
 .productcategory.brandcategory .jumbotron .jumbotron-img { background-image: url(../img/category-brandcategory-hero.jpg); }
 .productcategory.vehiclecategory .jumbotron .jumbotron-img { background-image: url(../img/category-vehiclecategory-hero.jpg); }
+
 .jumbotron-honeycomb { content: ''; position: absolute; width: 100%; height: 525px; top: 0px; left: 0px; z-index: 0;
-background-image: url(../img/pattern-honeycomb.png); background-position: left top; background-repeat: repeat; -webkit-background-size: 380px 350px; -moz-background-size: 380px 350px; -o-background-size: 380px 350px; background-size: 380px 350px; }
-.section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
+  background-image: url(../img/pattern-honeycomb.png); background-position: left top; background-repeat: repeat; -webkit-background-size: 380px 350px; -moz-background-size: 380px 350px; -o-background-size: 380px 350px; background-size: 380px 350px; }
 @media screen and (min-width:768px) {
+  .jumbotron { min-height: 300px; }
   .home .jumbotron, .styleguide .jumbotron { height: 680px; }
   .home .jumbotron { min-height: 400px; padding-top: 0; margin-bottom: -270px; }
-  .productcategory .jumbotron, .productcategory .jumbotron .caption { min-height: 400px; height: 500px; padding-top: 0; }
+  .productcategory .jumbotron, .productcategory .jumbotron .caption { height: 500px; padding-top: 0; }
+  .productcategory.accessories .jumbotron, .productcategory.closeouts .jumbotron, .productcategory.housings-taillights .jumbotron, .productcategory.led-offroad .jumbotron, 
+  .productcategory.led-accessories .jumbotron, .productcategory.lensetching .jumbotron, .productcategory.motorcycle .jumbotron, 
+  .productcategory.projectors-oem .jumbotron { height: 300px; }
   .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 760px; -webkit-background-size: 760px 700px; -moz-background-size: 760px 700px; -o-background-size: 760px 700px; background-size: 760px 700px; }
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 220px; }
 }
@@ -1663,7 +1645,8 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 @media (min-width:1200px) {
   .section.module-buyersguide .caption { padding-left: 320px; }
 }
-
+.section.module-buyersguide .caption .buyersGuide-vehicle:hover { cursor: pointer; }
+.section.module-buyersguide .caption .buyersGuide-vehicle:hover h5 { color: #fff !important; }
 
 
 
