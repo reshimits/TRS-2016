@@ -480,9 +480,11 @@
         ================================================== -->
 
         <?php require('shared/footer.html');?>
-        <?php require('shared/modals.html');?>
+        
 
     </div> <!-- /container -->
+
+    <?php require('shared/modals.html');?>
 
 
     <!-- End Primary Page Layout

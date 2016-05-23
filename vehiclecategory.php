@@ -395,9 +395,11 @@
         ================================================== -->
 
         <?php require('shared/footer.html');?>
-        <?php require('shared/modals.html');?>
+        
 
     </div> <!-- /container -->
+
+    <?php require('shared/modals.html');?>
 
 
     <!-- End Primary Page Layout
@@ -441,6 +443,18 @@
         $( ".navbar-menu" ).click(function() {
             $(".navbar-menu").toggleClass( "active" );
             $(".bodyWrap").toggleClass( "active" );
+        });
+    </script>
+
+    <!-- MOBILE BUYERS GUIDE SCRIPT -->
+    <script type='text/javascript'>
+        function toggleText(id) {
+            var showMore = document.getElementById(id);
+            (showMore.style.display=='block') ? showMore.style.display='none' : showMore.style.display='block' ;  
+        }
+        $( ".buyersguide-mobileStart" ).click(function() {
+            $(".buyersguide-selectionWrap").toggleClass( "active" );
+            $(".buyersguide-mobileStart").toggleClass( "active" );
         });
     </script>
 

@@ -15,7 +15,7 @@ body { margin: 0; background-color: #fff; }
 
 .bodyWrap { padding-top: 80px; }
 @media (max-width:991px) {
-  .bodyWrap { position: absolute; height: 100vh; overflow: scroll; -webkit-overflow-scrolling: touch;
+  .bodyWrap { position: absolute; height: 100vh; width: 100%; overflow: scroll; -webkit-overflow-scrolling: touch;
   content: 'viewport-units-buggyfill; height: 100vh'; }
 }
 @media (min-width:992px) {
@@ -189,13 +189,14 @@ h1, .h1 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size:
 h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1 { font-family: 'Fjalla One', sans-serif; font-size: 24px; color: #88e333; text-transform: uppercase; letter-spacing: -1px; margin: 20px 0; }
   .productcategory h1 { margin: 0; }
 h2, .h2 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 30px; line-height: 1; color: #747474; text-transform: uppercase; margin: 0; }
+  .module-buyersguide h2 { font-size: 24px; padding-top: 7px; }
 h3, .h3 { font-family: 'Fjalla One', sans-serif; font-size: 24px; text-transform: uppercase; letter-spacing: -1px; margin: 0 0 10px 0; }
   .home .section.gray2 h3, .home .section.gray3 h3 { color: #88e333; }
   .section.gray2 h3, .section.gray3 h3 { color: #fff; }
 h4, .h4 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 18px; text-transform: uppercase; margin: 20px 0; }
   .productcategory .featureHeadline h4 { font-size: 16px; margin-left: 25px; margin-top: 10px; text-shadow: 0 0 15px #191919; }
 h5, .h5 { font-family: 'Fjalla One', sans-serif; font-size: 20px; text-transform: uppercase; letter-spacing: -1px; margin: 10px 0; }
-  .module-buyersguide h5 { position: relative; }
+  .module-buyersguide h5 { position: relative; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 20%; }
 h6, .h6 { font-family: 'Fjalla One', sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: -1px; margin: 10px 0 30px 0; }
 p, .p { font-size: 13px; -webkit-margin-before: 0; -webkit-margin-after: 0; margin: 10px 0; }
   .productcategory .thumb-top p { font-size: 12px; }
@@ -204,13 +205,12 @@ p, .p { font-size: 13px; -webkit-margin-before: 0; -webkit-margin-after: 0; marg
   h1, .h1 { font-size: 48px; letter-spacing: -2px; }
   h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1 { font-size: 48px; }
   h2, .h2 { font-size: 46px; letter-spacing: -2px; }
-    .module-buyersguide h2 { font-size: 42px; }
+    .module-buyersguide h2 { font-size: 42px; padding-top: 0; }
   h3, .h3 { font-size: 32px; }
     .product.thumbnail h3 { font-size: 28px; }
   h4, .h4 { font-size: 16px; }
   .productcategory .featureHeadline h4 { font-size: 18px; margin-left: 25px; }
   h5, .h5 { font-size: 24px; }
-  .module-buyersguide h5 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 15%; }
   h6, .h6 { font-size: 16px; }
 }
 @media (min-width:768px) and (max-width:820px) {
@@ -1145,6 +1145,14 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   .productcategory.led-accessories .jumbotron, .productcategory.lensetching .jumbotron, .productcategory.motorcycle .jumbotron, 
   .productcategory.projectors-oem .jumbotron, .productcategory.vehiclecategory .jumbotron, .productcategory.brandcategory .jumbotron { height: 240px; }
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
+@media (max-width:767px) {
+  .productcategory .jumbotron { height: 200px; overflow: visible; }
+  .section.module-buyersguide { position: relative; }
+  .section.module-buyersguide .caption .buyersguide-selectionWrap { max-height: 0; overflow: hidden; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+  .section.module-buyersguide .caption .buyersguide-selectionWrap.active { max-height: 400px; }
+  .section.module-buyersguide .caption .buyersguide-mobileStart .hideguide, .section.module-buyersguide .caption .buyersguide-mobileStart.active .showguide { display: none; }
+  .section.module-buyersguide .caption .buyersguide-mobileStart.active .hideguide { display: inline-block; }
+}
 .productcategory.accessories .section.module-buyersguide, .productcategory.closeouts .section.module-buyersguide, .productcategory.housings-taillights .section.module-buyersguide, .productcategory.led-offroad .section.module-buyersguide, 
   .productcategory.led-accessories .section.module-buyersguide, .productcategory.lensetching .section.module-buyersguide, .productcategory.motorcycle .section.module-buyersguide, 
   .productcategory.projectors-oem .section.module-buyersguide { display: none; } 
@@ -1629,14 +1637,14 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.promo1 { background-image: url(../img/promo1.jpg); }
 .section.promo2 { background-image: url(../img/promo2.jpg); }
 .section.promo3 { background-image: url(../img/promo3.jpg); }
-.section.promo .caption { padding-top: 30px; padding-bottom: 50px; background-position: top right; background-repeat: no-repeat; -webkit-background-size: auto 100%; -moz-background-size: auto 100%; -o-background-size: auto 100%; background-size: auto 100%; }
-.section.promo .caption, .section.promo1 .caption, .section.promo3 .caption { padding-left: 30px; padding-right: 30px; background-image: url(../img/bg-greenDiagonal.svg); }
-.section.promo2 .caption { padding-right: 30px; padding-left: 30px; background-image: url(../img/bg-greenDiagonalL.svg); background-position: top left; }
+.section.promo .caption { padding-top: 20px; padding-bottom: 50px; background-color: #4EBB00; background-position: top right; background-repeat: no-repeat; -webkit-background-size: auto 100%; -moz-background-size: auto 100%; -o-background-size: auto 100%; background-size: auto 100%; }
+.section.promo .caption, .section.promo1 .caption, .section.promo3 .caption { padding-left: 30px; padding-right: 30px; }
+.section.promo2 .caption { padding-right: 30px; padding-left: 30px; }
 @media (min-width:768px) {
-  .section.promo .caption { background-position: top left; }
-  .section.promo2 .caption { background-position: top right; }
+  .section.promo .caption { padding-top: 30px; float: right; background-color: transparent; background-position: top left; }
   .section.promo1 .caption, .section.promo3 .caption { padding-left: 220px; }
-  .section.promo2 .caption { padding-right: 220px; }
+  .section.promo .caption, .section.promo1 .caption, .section.promo3 .caption { background-image: url(../img/bg-greenDiagonal.svg); }
+  .section.promo2 .caption { float: left; padding-right: 220px; background-image: url(../img/bg-greenDiagonalL.svg); background-position: top right; }
   .section.module-buyersguide .caption { padding-left: 290px; }
 }
 @media (min-width:992px) {
