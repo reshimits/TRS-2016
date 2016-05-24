@@ -456,6 +456,11 @@
             $(".buyersguide-selectionWrap").toggleClass( "active" );
             $(".buyersguide-mobileStart").toggleClass( "active" );
         });
+        $( ".modal .well" ).click(function() {
+            $(".modal .well").toggleClass( "active",false );
+            $(this).toggleClass( "active" );
+            $(".modal-content .modal-footer .btn").toggleClass( "disabled",false );
+        });
     </script>
 
     <!-- iOS Viewport Units Buggyfill -->

@@ -233,7 +233,7 @@
 						<a type="button" href="#" class="btn btn-empty btn-xs">// Edit</a>
 					</p>
 					<p class="bs-component">
-						<a type="button" href="#" class="btn btn-primary"><span class="icon icon-phone icon-before"></span> Primary w/ Icon</a>
+						<div type="button" href="#" class="btn btn-primary"><span class="icon icon-phone icon-before"></span> Primary w/ Icon</div>
 						<a type="button" href="#" class="btn btn-empty"><span class="icon icon-phone icon-before"></span> Empty w/ Icon</a>
 					</p>
 					<p class="bs-component">
