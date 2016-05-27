@@ -513,10 +513,19 @@
             $(".buyersguide-selectionWrap").toggleClass( "active" );
             $(".buyersguide-mobileStart").toggleClass( "active" );
         });
-        $( ".modal .well" ).click(function() {
-            $(".modal .well").toggleClass( "active",false );
+        $( ".buyersguide-selectionWrap .btn-group" ).click(function() {
+            $(".modal-bodyWrap li:first-child").toggleClass( "active",true );
+        });    
+        $( ".modal .well.option" ).click(function() {
+            $(".modal .well.option").toggleClass( "active",false );
             $(this).toggleClass( "active" );
             $(".modal-content .modal-footer .btn").toggleClass( "disabled",false );
+        });
+        $( ".modal .modal-footer .btn.continue" ).click(function() {
+            var prev = $(".modal-bodyWrap li.active");
+            $(".modal-bodyWrap li.active + li").toggleClass( "active",true );
+            prev.toggleClass( "active",false );
+            $(".modal .modal-footer .btn.continue").toggleClass( "disabled" );
         });
     </script>
 

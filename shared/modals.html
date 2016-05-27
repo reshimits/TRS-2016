@@ -4,7 +4,7 @@
 	    <div class="modal-dialog">
 	      	<div class="modal-content">
 	        	<div class="modal-header">
-	          		<div type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</div>
+	          		<div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
 	          		<h3 class="modal-title text-primary" id="myModalLabel">Login/Register</h3>
 	        	</div>
 	        	<div class="modal-body">
@@ -115,13 +115,12 @@
 	    </div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
 
-
 	<!-- MODAL: EDIT ACCOUNT INFO -->
     <div id="editaccount" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</div>
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">Edit Account Info</h3>
                 </div>
                 <div class="modal-body">
@@ -181,7 +180,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</div>
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">Edit Address</h3>
                 </div>
                 <div class="modal-body">
@@ -271,7 +270,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</div>
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">MODAL</h3>
                 </div>
                 <div class="modal-body">
@@ -372,71 +371,445 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <!-- MODAL: BUYERS GUIDE [reflector size] -->
-    <div id="buyersGuide-reflectorsize" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!-- MODAL: BUYERS GUIDE -->
+    <div id="buyersGuide" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">Buyers Guide: </h3>
                 </div>
-                <div class="modal-body">
-                    <div class="modal-body-titlecopy">
-                        <h5>Reflector Size</h5>
-                        <p class="lead text-primary">Lorem ipsum dolor sit amet, consectetuer adipiscing elit?</p>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 wellWrap">
-                            <div class="well">
-                                <p class="lead text-gray2">Look, I'm in a well! <span class="icon icon-check pull-right"></span></p>
-                                <img class="img-responsive" src="img/buyersguide/bulbs-880.svg" alt="Buyers Guide Selection Option" border="0">
+                <ul class="modal-bodyWrap">
+                    <li class="modal-body" id="buyersGuide-reflectorsize">
+                        <div class="modal-body-titlecopy">
+                            <h5>Reflector Size</h5>
+                            <p class="lead text-primary">What is the approximate height &amp; depth of your headlight reflector?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well disabled">
+                                    <img class="img-responsive" src="img/buyersguide/projectors-reflectorsize.svg" alt="Buyers Guide Diagram" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Tiny <span class="icon icon-check pull-right"></span></p>
+                                    <p>Height: 55-75mm</br>
+                                        Depth: 106-136mm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Small <span class="icon icon-check pull-right"></span></p>
+                                    <p>Height: 75-80mm</br>
+                                        Depth: 136-138mm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Medium <span class="icon icon-check pull-right"></span></p>
+                                    <p>Height: 80-95mm</br>
+                                        Depth: 138-149mm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Large <span class="icon icon-check pull-right"></span></p>
+                                    <p>Height: 95mm +</br>
+                                        Depth: 149mm +
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 wellWrap">
-                            <div class="well">
-                                <p class="lead text-gray2">Look, I'm in a well! <span class="icon icon-check pull-right"></span></p>
-                                <img class="img-responsive" src="img/buyersguide/bulbs-h1.svg" alt="Buyers Guide Selection Option" border="0">
+                    </li>
+                    <li class="modal-body" id="buyersGuide-performance">
+                        <div class="modal-body-titlecopy">
+                            <h5>Performance vs. Ease of Install</h5>
+                            <p class="lead text-primary">What are your performance vs ease-of-install requirements?</p>
+                            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well disabled">
+                                    <p class="lead text-gray2">Baseline (Stock) <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 3/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 5/10
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-performance-stock.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Matchbox <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 3/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 5/10</br>
+                                        <span class="lead">Install Difficulty:</span> 5/10
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-performance-matchbox.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini H1 <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 6/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 8/10</br>
+                                        <span class="lead">Install Difficulty:</span> 7/10
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-performance-h1.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini D2S <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 7/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 9/10</br>
+                                        <span class="lead">Install Difficulty:</span> 8/10
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-performance-d2s.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">FX-R 3.0 <span class="icon icon-check pull-right"></span></p>
+                                    <p class="note"><span class="lead">Light Output Performance:</span> 9/10</br>
+                                        <span class="lead">Cutoff Sharpness:</span> 10/10</br>
+                                        <span class="lead">Install Difficulty:</span> 10/10
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-performance-fxr.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 wellWrap">
-                            <div class="well">
-                                <p class="lead text-gray2">Look, I'm in a well! <span class="icon icon-check pull-right"></span></p>
-                                <img class="img-responsive" src="img/buyersguide/kelvin-3000k-new.svg" alt="Buyers Guide Selection Option" border="0">
+                    </li>
+                    <li class="modal-body" id="buyersGuide-beampattern">
+                        <div class="modal-body-titlecopy">
+                            <h5>Beam Pattern</h5>
+                            <p class="lead text-primary">What beam pattern do you need?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Left Hand Drive (LHD) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Oncoming traffic drives on the left side of you.</br>
+                                        <em>United States</em>
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-beampattern-left.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Right Hand Drive (RHD) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Oncoming traffic drives on the right side of you.</br>
+                                        <em>UK, Australia, India, Japan</em>
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-beampattern-right.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 wellWrap">
-                            <div class="well">
-                                <p class="lead text-gray2">Look, I'm in a well! <span class="icon icon-check pull-right"></span></p>
-                                <img class="img-responsive" src="img/buyersguide/kelvin-4500k-new.svg" alt="Buyers Guide Selection Option" border="0">
+                    </li>
+                    <li class="modal-body" id="buyersGuide-reflectorshape">
+                        <div class="modal-body-titlecopy">
+                            <h5>Reflector Shape</h5>
+                            <p class="lead text-primary">What is the overall size/shape of your headlight reflector?</p>
+                            <p>This will give you a good idea what shrouds would look best, but overall, the choice is purely aesthetic. Please note that trimming shrouds in retrofits is very common.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Round <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-reflectorshape-round.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Oval <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-reflectorshape-oval.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Flat-Sided <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-reflectorshape-flatsided.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Large <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-reflectorshape-large.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Compact/Odd <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-reflectorshape-compact.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 wellWrap">
-                            <div class="well">
-                                <p class="lead text-gray2">Look, I'm in a well! <span class="icon icon-check pull-right"></span></p>
-                                <img class="img-responsive" src="img/buyersguide/projectors-D2S-O.svg" alt="Buyers Guide Selection Option" border="0">
+                    </li>
+                    <li class="modal-body" id="buyersGuide-lightoutput">
+                        <div class="modal-body-titlecopy">
+                            <h5>Light Output</h5>
+                            <p class="lead text-primary">How much light output do you need?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">35 Watt Ballast <span class="icon icon-check pull-right"></span></p>
+                                    <p>More efficient, longer lasting. Industry Standard in all vehicles that come factory-equipped with HID headlights. Best for use on vehicles with Canbus systems or weaker than average electrical systems (old vehicles, motorcycles, etc).</p>
+                                    <p class="note"><span class="lead">Lumens:</span> <em>5800-6200</em></br>
+                                    <span class="lead">Lifespan:</span> <em>~2,000 hrs</em></br>
+                                    <span class="lead">Power Consumption:</span> <em>Average</em></br>
+                                    <span class="lead">Color Shift:</span> <em>None</em>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">55 Watt Ballast <span class="icon icon-check pull-right"></span></p>
+                                    <p>Brighter, more power hungry, lesser lifespan. Produces more output compared to all factory-installed HID headlight ballasts. Not recommended without the use of a relayed wire harness or in smaller projector and/or housings (fog lights).</p>
+                                    <p class="note"><span class="lead">Lumens:</span> <em>9100-9700</em></br>
+                                    <span class="lead">Lifespan:</span> <em>~1,500 hrs</em></br>
+                                    <span class="lead">Power Consumption:</span> <em>Above Average</em></br>
+                                    <span class="lead">Color Shift:</span> <em>Yes</em>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 wellWrap">
-                            <div class="well">
-                                <p class="lead text-gray2">Look, I'm in a well! <span class="icon icon-check pull-right"></span></p>
-                                <img class="img-responsive" src="img/buyersguide/projectors-D2S-X.svg" alt="Buyers Guide Selection Option" border="0">
+                    </li>
+                    <li class="modal-body" id="buyersGuide-kelvin">
+                        <div class="modal-body-titlecopy">
+                            <h5>Light Color</h5>
+                            <p class="lead text-primary">What color is right for you?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">3000k (Golden Yellow) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Recommended for fog lights only, the yellow light penetrates through particles in the air more effectively than white light does. Great for poor weather.</br>
+                                        <span class="note"><span class="lead">~2800 lumens (35w)</span></span>
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/kelvin-3000k.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">4500k (Warm White) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Vehicles with factory installed xenon headlights use 4300K. Best for all-season driving (mix of clear and poor weather).</br>
+                                        <span class="note"><span class="lead">~3400 lumens (35w)</span></span>
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/kelvin-4500k.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">5500k (Pure White) <span class="icon icon-check pull-right"></span></p>
+                                    <p>Our most popular, though slightly less lumens, most people find the increase in contrast at from the whiter light improves overall vision.</br>
+                                        <span class="note"><span class="lead">~3300 lumens (35w)</span></span>
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/kelvin-5500k.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">6500k (Blue Tinge) <span class="icon icon-check pull-right"></span></p>
+                                    <p>For those looking seeking a more stand-out look compared to stock, without over-compromising the amount of useful light output.</br>
+                                        <span class="note"><span class="lead">~3100 lumens (35w)</span></span>
+                                    </p>
+                                    <img class="img-responsive" src="img/buyersguide/kelvin-6500k.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 wellWrap">
-                            <div class="well">
-                                <p class="lead text-gray2">Look, I'm in a well! <span class="icon icon-check pull-right"></span></p>
-                                <img class="img-responsive" src="img/buyersguide/shrouds-large.svg" alt="Buyers Guide Selection Option" border="0">
+                    </li>
+                    <li class="modal-body" id="buyersGuide-bulbs">
+                        <div class="modal-body-titlecopy">
+                            <h5>HID Bulbs</h5>
+                            <p class="lead text-primary">What HID bulbs will you be running with the ballasts?</p>
+                            <p>This will determine whether you need them for "AMP" or "D2" Fitment.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D1S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-D1S.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D2S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-D2S.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D3S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-D3S.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D4S <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-D4S.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D2R <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-D2R.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">D2H <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-D2H.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H1 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h1.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H3 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h3.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H4 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h4.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H7 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h7.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H8 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h8.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H9 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h9.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H10 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h10.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H11 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h11.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H13 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h13.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">H16 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-h16.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">880 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-880.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">9005 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-9005.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">9006 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-9006.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">9007 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-9007.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">9012 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/bulbs-9012.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                    <li class="modal-body" id="buyersGuide-projectors">
+                        <div class="modal-body-titlecopy">
+                            <h5>Projector Shrouds</h5>
+                            <p class="lead text-primary">What projectors are you using?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Matchbox <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-matchbox.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini H1 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-h1.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini D2S (O Lens) <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-D2S-O.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Mini D2S (X Lens) <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-D2S-X.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">FX-R 3.0 <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-FXR.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 wellWrap">
+                                <div class="well option">
+                                    <p class="lead text-gray2">Other <span class="icon icon-check pull-right"></span></p>
+                                    <img class="img-responsive" src="img/buyersguide/projectors-other.svg" alt="Buyers Guide Selection Option" border="0">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul><!-- /.modal-bodyWrap -->
                 <div class="section modal-scrollUnder"></div>
                 <div class="modal-footer">
-                    <div type="button" class="btn btn-default pull-left" data-dismiss="modal"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
+                    <div type="button" class="btn btn-default back pull-left" data-dismiss="modal"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
                     <div type="submit" class="btn btn-default disabled" data-dismiss="modal">Submit</div>
-                    <div type="button" class="btn btn-primary disabled"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
+                    <div type="button" class="btn btn-primary continue disabled"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
                 </div>
             </div><!-- /.modal-content -->
+
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
