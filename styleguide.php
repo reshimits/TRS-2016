@@ -214,7 +214,7 @@
 					  	<a type="button" href="#" class="btn btn-danger disabled">Danger</a>
 					  	<a type="button" href="#" class="btn btn-link disabled">Link</a> -->
 					</p>
-					<p class="bs-component">
+					<div class="bs-component module-buyersguide">
 					  	<a type="button" href="#" class="btn btn-ghost">Ghost</a>
 					  	<a type="button" href="#" class="btn btn-dark">Dark</a>
 					  	<a type="button" href="#" class="btn btn-empty"><span class="icon icon-cart"></span></a>
@@ -231,7 +231,7 @@
                             <button type="button" class="btn btn-guide edit" disabled="disabled">// Edit</button>
                         </div>
 						<a type="button" href="#" class="btn btn-empty btn-xs">// Edit</a>
-					</p>
+					</div>
 					<p class="bs-component">
 						<div type="button" href="#" class="btn btn-primary"><span class="icon icon-phone icon-before"></span> Primary w/ Icon</div>
 						<a type="button" href="#" class="btn btn-empty"><span class="icon icon-phone icon-before"></span> Empty w/ Icon</a>

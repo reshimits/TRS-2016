@@ -116,12 +116,12 @@
 
 
         <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler -->
-        <div class="section wrap" >
+        <div class="section wrap" id="productGrid-productsWholesale">
             <div class="container-fluid">
                 <ul class="row productGrid">
                 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
+                        <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
