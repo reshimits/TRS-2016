@@ -94,7 +94,7 @@
 			<div class="container-fluid">
 				<div class="row">
 			  	<div class="col-sm-12">
-					<h5 class="text-primary">Primary: Green #88e333 <span class="text-green hover">(Hover #4ebb00)</h5>
+					<h5 class="text-primary">Primary: Green #88e333 <span class="text-green hover">(Secondary/Hover #4ebb00)</h5>
 					<div class="bs-component" style="margin-bottom: 30px">
 				  		<div class="progress">
 							<div class="progress-bar bg-primary" style="width: 100%;"></div>

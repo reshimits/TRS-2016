@@ -56,10 +56,11 @@
         <div class="section wrap">
             <div class="container-fluid">   
                 <div class="row">
-
+                    <!-- =========== Bread Crumb =========== -->
+                    <!-- =================================== -->
                     <div class="breadcrumbWrap col-xs-12">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-8 col-md-9">
+                            <div class="col-xs-12 col-sm-8 col-lg-9 hidden-xs">
                                 <ul class="breadcrumb">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">Complete Retrofit Kits</a></li>
@@ -67,7 +68,7 @@
                                     <li class="active">Mopar Spec: 13-14 Dodge Ram Low Beam Harness</li>
                                 </ul>
                             </div>
-                            <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="col-xs-12 col-sm-4 col-lg-3">
                                 <ul class="breadcrumb pull-right">
                                     <li><a href="#">Install Guide</a></li>
                                     <li><a href="#">Find a Pro</a></li>
@@ -75,6 +76,9 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- =========== Carousel =========== -->
+                    <!-- ================================ -->
                     <div class="col-xs-12">
                         <div class="row">
                             <div class="carousel slide article-slide" id="trsCarousel">
@@ -98,13 +102,19 @@
                                     <div class="item">
                                         <img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none">
                                     </div>
+                                    <div class="item">
+                                        <img src="img/temp--Morimoto XB35 AMP Ballast 3.jpg" class="img-responsive" alt="" border="none">
+                                    </div> 
+                                    <div class="item">
+                                        <img src="img/temp--Morimoto XB35 AMP Ballast 4.jpg" class="img-responsive" alt="" border="none">
+                                    </div> 
                                 </div>
                                 <!-- Carousel Nav Controls --> 
-                                <a class="left carousel-control" href="#trsCarousel" role="button" data-slide="prev"><span class=" btn btn-lg btn-empty icon icon-arrowL939598 icon-prev"></span></a>
-                                <a class="right carousel-control" href="#trsCarousel" role="button" data-slide="next"><span class="btn btn-lg btn-empty icon icon-arrowR939598 icon-next"></span></a> 
+                                <a class="left carousel-control" href="#trsCarousel" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
+                                <a class="right carousel-control" href="#trsCarousel" role="button" data-slide="next"><span class="icon icon-carouselNext"></span></a> 
                                 
                                 <!-- Indicators -->
-                                <ol class="carousel-indicators col-xs-12">
+                                <ol class="carousel-indicators col-xs-12 hidden-xs">
                                     <li class="active" data-slide-to="0" data-target="#trsCarousel"></li>
                                     <li data-slide-to="1" data-target="#trsCarousel"></li>
                                     <li data-slide-to="2" data-target="#trsCarousel"></li>  
@@ -113,7 +123,23 @@
                                     <li data-slide-to="5" data-target="#trsCarousel"></li>  
                                     <li data-slide-to="6" data-target="#trsCarousel"></li>
                                     <li data-slide-to="7" data-target="#trsCarousel"></li>               
-                                </ol>     
+                                </ol>  
+
+                                <!-- Brand --> 
+                                <div class="section wrap module-brands hidden-xs">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-philipsHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-morimotoHover.svg" class="img-responsive" alt="" border="none"></div>
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-osramHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-densoHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <!-- <div class="brand tall col-sm-2 col-sm-offset-5"><img src="img/brand-acmeHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-koitoHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <div class="brand tall col-sm-2 col-sm-offset-5"><img src="img/brand-hellaHover.svg" class="img-responsive" alt="" border="none"></div>
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-speakerHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                        </div>
+                                    </div>
+                                </div>  
                  
                             </div>
                         </div>
@@ -123,24 +149,26 @@
             </div>  
         </div>  
 
+        <!-- =========== Main =========== -->
+        <!-- ============================ -->
         <div class="section texturedEdge"></div>
-        <div class="section wrap gray3 header-waypoint" data-animate-down="header-small" data-animate-up="header-large"> 
+        <div class="section main gray3 header-waypoint" data-animate-down="header-small" data-animate-up="header-large"> 
             <div class="container-fluid">   
                 <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler --> 
                 <div class="col-xs-12" id="productGrid-productsWholesale">   
-                    <hr class="aligncenter">
+                    <hr class="first hidden-xs hidden-sm">
                     <div class="col-xs-12 col-md-4 col-md-offset-1 text-center"> 
                         <div class="row">   
                             <h4 class="text-white">Product Category</h4>
-                            <h1>Mopar Spec: 13-14 Dodge Ram Low Beam Harness</h1>
-                            <div class="btn-group">     
-                                <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                                <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                                <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                                <div type="button" class="btn btn-empty btn-xs btn-rating half-active"><span class="icon icon-reviewstar"></span></div>
-                                <div type="button" class="btn btn-empty btn-xs btn-rating"><span class="icon icon-reviewstar"></span></div>
+                            <h1><!-- Mopar Spec: 13-14 Dodge Ram Low Beam Harness -->D2S: MORIMOTO XB HID</h1>
+                            <div class="btn-group btn-rating">     
+                                <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                                <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                                <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                                <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
+                                <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                                <h4><a href="#reviews" class="text-white">22 Reviews</a>&nbsp; <a href="" class="alt">Write a Review</a></h4>
                             </div>
-                            <h4>22 Reviews <a href="">Write a Review</a></h4>
                         </div>
                     </div>        
                         
@@ -148,7 +176,7 @@
                         <div class="row">     
                             <form class="form-horizontal">
                                 <fieldset>
-                                    <div class="form-group">
+                                    <div class="form-group first">
                                         <div class="col-sm-6">
                                             <select class="form-control drop" id="select">
                                                 <option value="">Topic</option>
@@ -192,7 +220,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <p class="lead text-right text-gray2">Part #: 49468, 49469, 49470, 49471</p> 
+                                    <p class="text-right text-gray2">PART #: 49468, 49469, 49470, 49471</p> 
                                     
                                     <hr class="aligncenter">
 
@@ -211,10 +239,10 @@
 
                                         <div class="row">
                                             <div class="form-group">
-                                                <div type="button" class="btn btn-primary pull-right">Add to Cart</div>
+                                                <div type="button" class="btn btn-primary pull-right">&nbsp; Add to Cart &nbsp;</div>
                                                 <!-- <input class="submit-input" type="submit" value=""/> -->
 
-                                                <div class="input-group spinner col-xs-6 col-sm-3 pull-right">
+                                                <div class="input-group spinner pull-right">
                                                     <div class="input-group-btn">
                                                         <div class="btn btn-default subtract" type="button">-</div>
                                                     </div>
@@ -232,7 +260,7 @@
                         </div>
                     </div>
                 </div>  
-                <div class="col-xs-12">
+                <!-- <div class="col-xs-12">
                     <hr class="aligncenter">
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 text-center icon-features">
@@ -242,18 +270,20 @@
                     <div type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." class="btn btn-empty btn-hexicon"><span class="icon icon-phoneHex"></span></div>
                     <div type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." class="btn btn-empty btn-hexicon"><span class="icon icon-phoneHex"></span></div>
                     <div type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." class="btn btn-empty btn-hexicon"><span class="icon icon-phoneHex"></span></div>
-                </div>
+                </div> -->
                 
             </div>
         </div>
         <div class="section wrap hexDownEdge"></div>
 
+        <!-- =========== Details =========== -->
+        <!-- =============================== -->
         <div class="section details">
             <div class="container-fluid">
                 <div class="col-xs-12">
                     <h3>Product Details</h3>
                 </div>  
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-sm-6">
                     <p><span class="lead text-gray2">Chrysler Canbus:</span> Modern Chrysler products like the 2013+ Ram with OEM projector headlights hate headlight upgrades. Whether its a "Lamp Out" error or a flickering problem plaguing your new Ram's headlight upgrade - this harness will do the trick! </p>
 
                     <p><span class="lead text-gray2">What's in a Name:</span> Though its name suggests it will only work on a Dodge Ram, this harness is becoming more and more commonly needed on a lot of modern vehicles. Got a "lamp out" warning and suffering from annoying flickering too? this harness just may be the answer you've been looking for.</p>
@@ -264,7 +294,7 @@
 
                     <p><span class="lead text-gray2">Plug n Play:</span> The layout of the harness makes it easy to install. With just a few simple connections; even your mom could set this thing up! Wire lengths are long enough to be used in everything from compact cars to SUV's and it's designed to be 100% plug and play (no cutting or splicing needed).</p>
                 </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-sm-6">
                     <p><span class="lead text-gray2">Fail-Safe:</span> Unlike most generic harnesses out there that rely on a single low-quality relay to power both headlights, the Morimoto Harness utilizes one relay per side- so if one did happen fail, you wouldn't be left completely in the dark. Each 40A relay is completely sealed against the elements using ribbed silicone upper and lower seals, and has an flywheel diode for back-EMF protection. Every other connection harness-wide is sealed with the proper silicone grommets. Live somewhere with weather that regularly sucks? No problem.</p>
 
                     <p><span class="lead text-gray2">OEM Grade:</span> Aside from being ahead of the game from a technical standpoint, the Mopar HD relay is also a work of art. With it's wiring protected by abrasion resistant Techflex mesh sleeving and OEM-style relay cubes held together by a laser engraved mounting bracket that's been artfully anodized with a titanium gray finish - the HD relay will look factory fresh under the hood!</p>
@@ -277,13 +307,18 @@
                 <div class="section">
                     <div class="col-xs-12">
                         <div class="row">
-                            <div class="col-xs-12 col-md-4">
+                            <!-- For HARNESS Detail pages only -->
+                            <!-- <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                                <img src="img/temp--Clear_Harness_Test2.png" class="img-responsive" alt="" border="none">
+                            </div> -->
+                            <!-- STANDARD Detail pages -->
+                            <div class="col-xs-12 col-sm-4">
                                 <img src="img/productDiagram-ballast-55w.svg" class="img-responsive" alt="" border="none">
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="col-xs-12 col-sm-4">
                                 <img src="img/productDiagram-ballast-55w2.svg" class="img-responsive" alt="" border="none">
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
+                            </div> 
+                            <div class="col-xs-12 col-sm-4">
                                 <img src="img/productDiagram-ballast-55w3.svg" class="img-responsive" alt="" border="none">
                             </div>
                         </div>
@@ -390,57 +425,120 @@
 
         <div class="section title">
             <div class="container-fluid">
-                <div class="col-xs-12">
-                    <h2 class="text-center">Product Reviews</h2>
+                <div class="col-xs-12 text-center reviews">
+                    <a id="reviews"></a>
+                    <h2>Product Reviews</h2>
+                    <div class="section wrap">   
+                        <div class="btn-group btn-rating">     
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                        </div>
+                        <p class="lead text-white">3.5 out of 5 stars</p>
+                    </div>
+                    <div class="section wrap"> 
+                        <h4 class="text-secondary">22 Reviews &nbsp;<a href="" class="alt">Write a Review</a></h4>
+                    </div>
                 </div>
             </div>    
         </div>
-        <div class="section gray3"> 
+        
+        <div class="section reviews"> 
             <div class="container-fluid">   
-                <div class="col-xs-12">   
-                    <h3>Mopar Spec: 13-14 Dodge Ram Low Beam Harness</h3>
-                    <div class="btn-group">     
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating half-active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating"><span class="icon icon-reviewstar"></span></div>
+                <div class="col-xs-12"> 
+                    <div class="section wrap"> 
+                        <div class="btn-group btn-rating">     
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                        </div>
+                        <h4 class="text-secondary">3.5 out of 5 stars</h4> 
                     </div>
-                    <h4>3.5 out of 5 stars</h4>
-                    <h4>22 Reviews <a href="">Write a Review</a></h4>
-                </div>
-            </div>
-        </div>
-        <div class="section"> 
-            <div class="container-fluid">   
-                <div class="col-xs-12">  
-                    <div class="btn-group">     
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating half-active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating"><span class="icon icon-reviewstar"></span></div>
-                    </div>
-                    <h4>3.5 out of 5 stars</h4> 
-                    <h5>Night and day over my factory 02 WRX lights and great customer service</h5>
-                    <h4>Debra &nbsp;<span class="text-gray1">Reviewed: 12.22.2014</span></h4>
+                    <div class="section wrap"><h5>Night and day over my factory 02 WRX lights and great customer service</h5></div>
+                    <h4 class="text-secondary">Debra &nbsp;<span class="text-gray1 text-weightRegular">Reviewed: 12.22.2014</span></h4>
                     <p>These were a gift to me, they are currently installed in a 2004 Chevy trailblazer. I have a few comments. The output is excellent. It's like driving around with the factory high beams on. One thing that does bother me is that the cutoff does gradually slope off to each side. Nothing drastic though. My other complaint, and only a minor one is that the mount for the bulb holder was slightly off so the bracket had to be bent to be able to put all three screws in. The cutoff is as crisp as every other projector car I've parked next to but my alignment is slightly off. For the price and the improvement over factory, this can't be beaten and the quality of build is top notch.</p>
                 </div>
                 <div class="col-xs-12"><hr class="aligncenter"></div>
                 <div class="col-xs-12">  
-                    <div class="btn-group">     
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating half-active"><span class="icon icon-reviewstar"></span></div>
-                        <div type="button" class="btn btn-empty btn-xs btn-rating"><span class="icon icon-reviewstar"></span></div>
+                    <div class="section wrap"> 
+                        <div class="btn-group btn-rating">     
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                        </div>
+                        <h4 class="text-secondary">3.5 out of 5 stars</h4> 
                     </div>
-                    <h4>3.5 out of 5 stars</h4> 
-                    <h5>Night and day over my factory 02 WRX lights and great customer service</h5>
-                    <h4>Debra &nbsp;<span class="text-gray1">Reviewed: 12.22.2014</span></h4>
+                    <div class="section wrap"><h5>Unreal! Worth every penny</h5></div>
+                    <h4 class="text-secondary">Andrew &nbsp;<span class="text-gray1 text-weightRegular">Reviewed: 12.22.2014</span></h4>
+                    <p>Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.</p>
+                </div>
+                <div class="col-xs-12"><hr class="aligncenter"></div>
+                <div class="col-xs-12"> 
+                    <div class="section wrap"> 
+                        <div class="btn-group btn-rating">     
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                        </div>
+                        <h4 class="text-secondary">3.5 out of 5 stars</h4> 
+                    </div>
+                    <div class="section wrap"><h5>Night and day over my factory 02 WRX lights and great customer service</h5></div>
+                    <h4 class="text-secondary">Debra &nbsp;<span class="text-gray1 text-weightRegular">Reviewed: 12.22.2014</span></h4>
                     <p>These were a gift to me, they are currently installed in a 2004 Chevy trailblazer. I have a few comments. The output is excellent. It's like driving around with the factory high beams on. One thing that does bother me is that the cutoff does gradually slope off to each side. Nothing drastic though. My other complaint, and only a minor one is that the mount for the bulb holder was slightly off so the bracket had to be bent to be able to put all three screws in. The cutoff is as crisp as every other projector car I've parked next to but my alignment is slightly off. For the price and the improvement over factory, this can't be beaten and the quality of build is top notch.</p>
                 </div>
                 <div class="col-xs-12"><hr class="aligncenter"></div>
+                <div class="col-xs-12">  
+                    <div class="section wrap"> 
+                        <div class="btn-group btn-rating">     
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                        </div>
+                        <h4 class="text-secondary">3.5 out of 5 stars</h4> 
+                    </div>
+                    <div class="section wrap"><h5>Unreal! Worth every penny</h5></div>
+                    <h4 class="text-secondary">Andrew &nbsp;<span class="text-gray1 text-weightRegular">Reviewed: 12.22.2014</span></h4>
+                    <p>Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.</p>
+                </div>
+                <div class="col-xs-12"><hr class="aligncenter"></div>
+                <div class="col-xs-12">  
+                    <div class="section wrap"> 
+                        <div class="btn-group btn-rating">     
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                        </div>
+                        <h4 class="text-secondary">3.5 out of 5 stars</h4> 
+                    </div>
+                    <div class="section wrap"><h5>Unreal! Worth every penny</h5></div>
+                    <h4 class="text-secondary">Andrew &nbsp;<span class="text-gray1 text-weightRegular">Reviewed: 12.22.2014</span></h4>
+                    <p>Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.</p>
+                </div>
+                <div class="col-xs-12"><hr class="aligncenter"></div>
+                
+                <div class="col-xs-12 text-center">
+                    <ul class="pagination">
+                        <li class="disabled"><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -571,6 +669,53 @@
                             <!-- <div class="label label-new">
                                 <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
                             </div> -->
+                            <!-- <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div> -->
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div>
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 4th Product gets hidden Desktop and Mobile, only necessary on Tablet -->
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail visible-sm-block">
+                        <a href="productdetail.php" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </a>
+                        <div class="labelWrap">
+                            <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
                             <!-- <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
