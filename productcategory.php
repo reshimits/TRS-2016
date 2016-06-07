@@ -39,6 +39,7 @@
 </head>
 
 <!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h1, h4, and banner image -->
+
 <!-- <body class="productcategory accessories accessories-buildmaterials"> -->
 <!-- <body class="productcategory accessories accessories-miscellaneous"> -->
 <!-- <body class="productcategory accessories accessories-trsgear"> -->
@@ -67,7 +68,9 @@
 <!-- <body class="productcategory projectors projectors-aftermarket"> -->
 <!-- <body class="productcategory projectors projectors-oem"> -->
 <!-- <body class="productcategory shrouds"> -->
-<body class="productcategory wireharnesses">
+
+<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
+<body class="productcategory wireharnesses" id="wholesaleAcct">
 
     <!-- Header
     ================================================== -->
@@ -115,8 +118,7 @@
         </div> -->
 
 
-        <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler -->
-        <div class="section wrap" id="productGrid-productsWholesale">
+        <div class="section wrap">
             <div class="container-fluid">
                 <ul class="row productGrid">
                 

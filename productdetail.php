@@ -38,7 +38,8 @@
 
 </head>
 
-<body class="productdetail">
+<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
+<body class="productdetail" id="wholesaleAcct">
 
     <!-- Header
     ================================================== -->
@@ -154,8 +155,8 @@
         <div class="section texturedEdge"></div>
         <div class="section main gray3 header-waypoint" data-animate-down="header-small" data-animate-up="header-large"> 
             <div class="container-fluid">   
-                <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler --> 
-                <div class="col-xs-12" id="productGrid-productsWholesale">   
+                 
+                <div class="col-xs-12">   
                     <hr class="first hidden-xs hidden-sm">
                     <div class="col-xs-12 col-md-4 col-md-offset-1 text-center"> 
                         <div class="row">   

@@ -1296,12 +1296,12 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .product.thumbnail h3.last, .productdetail .price h3.last { margin-right: 0; }
 .product.thumbnail p.note, .productdetail .price p.note { display: none; color: #999; letter-spacing: 0; margin-top: 5px; margin-bottom: 0; }
 .product.thumbnail .wholesale, .productdetail .wholesale { display: none; }
-#productGrid-productsWholesale .product.thumbnail .wholesale, #productGrid-productsWholesale .product.thumbnail p.note, 
-  .productdetail #productGrid-productsWholesale .wholesale, .productdetail #productGrid-productsWholesale p.note { display: block; }
-#productGrid-productsWholesale .product.thumbnail h3 { font-size: 22px; }
-#productGrid-productsWholesale .product.thumbnail h3.retail, .productdetail #productGrid-productsWholesale h3.retail { text-decoration: line-through; color: #999; }
-#productGrid-productsWholesale .product.thumbnail .caption .quickCopy { display: none; }
-#productGrid-productsWholesale .product.thumbnail .caption .icon-cartQuick { margin-right: 0; }
+#wholesaleAcct .product.thumbnail .wholesale, #wholesaleAcct .product.thumbnail p.note, 
+  .productdetail#wholesaleAcct .wholesale, .productdetail#wholesaleAcct p.note { display: block; }
+#wholesaleAcct .product.thumbnail h3 { font-size: 22px; }
+#wholesaleAcct .product.thumbnail h3.retail, .productdetail#wholesaleAcct h3.retail { text-decoration: line-through; color: #999; }
+#wholesaleAcct .product.thumbnail .caption .quickCopy { display: none; }
+#wholesaleAcct .product.thumbnail .caption .icon-cartQuick { margin-right: 0; }
 @media (min-width:768px) {
   .thumbnail-image { margin: 110px 0 40px 0; }
   .product.thumbnail h3 { margin-right: 20px; }
@@ -1316,13 +1316,13 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
   .thumbnail-image { opacity: .5; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
   .thumbnail:hover .thumbnail-image, .in-action .thumbnail-image:hover { opacity: 1; cursor: pointer; }
   
-  #productGrid-productsWholesale .product.thumbnail h3 { font-size: 24px; }
-  #productGrid-productsWholesale .product.thumbnail h3.retail { float: none; margin-bottom: 10px; }
-  /*#productGrid-productsWholesale .product.thumbnail .btn-primary { margin-top: 10px; }*/
+  #wholesaleAcct .product.thumbnail h3 { font-size: 24px; }
+  #wholesaleAcct .product.thumbnail h3.retail { float: none; margin-bottom: 10px; }
+  /*#wholesaleAcct .product.thumbnail .btn-primary { margin-top: 10px; }*/
 }
 @media (min-width:1200px) {
   .thumbnail-image { margin: 100px 0 40px 0; }
-  #productGrid-productsWholesale .product.thumbnail h3.retail { float: left; margin-bottom: 0; }
+  #wholesaleAcct .product.thumbnail h3.retail { float: left; margin-bottom: 0; }
 }
 
 

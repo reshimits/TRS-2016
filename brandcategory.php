@@ -38,6 +38,7 @@
 
 </head>
 
+<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
 <body class="productcategory brandcategory brandcategory-morimoto">
 
     <!-- Header
@@ -58,7 +59,6 @@
 
         <div class="section texturedEdge header-waypoint" data-animate-down="header-small" data-animate-up="header-large"></div>
 
-        <!-- Apply id="productGrid-productsWholesale" if user is logged in as Wholesaler -->
         <div class="section wrap" >
             <div class="container-fluid">
                 <ul class="row productGrid">
