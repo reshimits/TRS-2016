@@ -321,7 +321,6 @@ output { display: block; padding-top: 7px; font-size: 14px; line-height: 1.4; co
     background: -o-linear-gradient(#fff, #e5e5e5); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#fff, #e5e5e5); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#fff, #e5e5e5); /* Standard syntax */ }
-.input-group .form-control { height: 40px; }
 .form-control:focus { border-color: #88e333; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(136, 227, 51, .6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(136, 227, 51, .6); }
 .form-control::-moz-placeholder { color: #999; opacity: 1; }
 .form-control:-ms-input-placeholder { color: #999; }
@@ -330,12 +329,23 @@ output { display: block; padding-top: 7px; font-size: 14px; line-height: 1.4; co
 @media (max-width:767px) {
   .form-control { margin-bottom: 5px; }
 }
+.btn.add, .btn.subtract { font-size: 21px; line-height: .95; }
+.input-group .form-control { height: 37px; }
 textarea.form-control { height: auto; }
 input[type="search"] { -webkit-appearance: none; }
 input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"] { line-height: 34px; line-height: 20px \0; }
 input[type="date"].input-sm, input[type="time"].input-sm, input[type="datetime-local"].input-sm, input[type="month"].input-sm { line-height: 30px; }
 input[type="date"].input-lg, input[type="time"].input-lg, input[type="datetime-local"].input-lg, input[type="month"].input-lg { line-height: 46px; }
-.form-group { margin-bottom: 10px; }
+.form-group { margin-bottom: 0; }
+@media (min-width:768px) {
+  .form-group { margin-bottom: 10px; }
+  .btn.add, .btn.subtract { font-size: 23px; }
+  .input-group .form-control { height: 39px; }
+}
+@media (min-width:992px) {
+  .btn.add, .btn.subtract { font-size: 24px; }
+  .input-group .form-control { height: 40px; }
+}
 .productdetail .price .form-group { margin: 20px 0 0 0; }
 .radio, .checkbox { position: relative; display: block; margin-top: 10px; margin-bottom: 10px; }
 .radio label, .checkbox label { min-height: 20px; padding-left: 20px; margin-bottom: 0; font-weight: normal; cursor: pointer; }
@@ -425,7 +435,6 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 }
 @media (min-width:992px) {
   .btn { font-size: 16px; }
-  .btn.add, .btn.subtract { font-size: 24px; line-height: .95; }
 }
 
 /*.btn-lg, .btn-group-lg > .btn { padding: 10px 16px; font-size: 18px; line-height: 24px; border-radius: 24px; }
@@ -554,7 +563,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .btn-group { width: 100%; }
 .productdetail .reviews .btn-group { width: auto; float: left; }
 .productdetail .reviews h4 { margin: 5px 0; }
-.productdetail .reviews .btn-group ~ h4 { float: left; margin: 5px 10px; }
+.productdetail .reviews .btn-group ~ h4 { float: left; margin: 5px 0; }
 .productdetail .section.title .reviews .btn-group, .productdetail .section.title .reviews .btn-group ~ h4 { float: none; margin: 5px 0; }
 .productdetail .section.title .reviews p.lead { margin-bottom: 10px; }
 .btn-group, .btn-group-vertical { position: relative; display: inline-block; vertical-align: middle; }
@@ -590,6 +599,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .btn-group, .btn-group-vertical { width: 100%; }
 }
 @media (min-width:768px) {
+  .productdetail .reviews .btn-group ~ h4 { margin: 5px 10px; }
   .btn-group-vertical > .btn, .btn-group-vertical > .btn-group, .btn-group-vertical > .btn-group > .btn { width: 315px; }
 }
 @media (min-width:768px) and (max-width:991px) {
