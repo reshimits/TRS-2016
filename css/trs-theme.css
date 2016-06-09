@@ -189,9 +189,8 @@ hr.primary { margin-top: 10px; border-top: 1px solid #88e333; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
-h1, .h1 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 36px; line-height: .9; color: #474747; text-transform: uppercase; margin: 20px 0; }
+h1, .h1, .jumbotron h1 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 36px; line-height: .9; color: #88e333; text-transform: uppercase; margin: 20px 0; }
 h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1 { font-family: 'Fjalla One', sans-serif; font-size: 32px; line-height: 1; color: #88e333; text-transform: uppercase; letter-spacing: -1px; margin: 20px 0; }
-  .productcategory h1 { margin: 0; }
 h2, .h2 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 30px; line-height: 1; color: #747474; text-transform: uppercase; margin: 0; }
   .module-buyersguide h2 { font-size: 24px; padding-top: 7px; }
 h3, .h3 { font-family: 'Fjalla One', sans-serif; font-size: 24px; text-transform: uppercase; letter-spacing: -1px; margin: 0 0 10px 0; }
@@ -209,7 +208,7 @@ p, .p { color: #999; font-size: 13px; -webkit-margin-before: 0; -webkit-margin-a
 p a, .p a { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; text-decoration: underline; color: inherit; }
 
 @media (min-width:768px) {
-  h1, .h1 { font-size: 48px; letter-spacing: -2px; }
+  h1, .h1, .jumbotron h1 { font-size: 48px; letter-spacing: -2px; }
   h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1 { font-size: 40px; }
   h2, .h2 { font-size: 46px; letter-spacing: -2px; }
     .module-buyersguide h2 { font-size: 42px; padding-top: 0; }
@@ -346,7 +345,7 @@ input[type="date"].input-lg, input[type="time"].input-lg, input[type="datetime-l
   .btn.add, .btn.subtract { font-size: 24px; }
   .input-group .form-control { height: 40px; }
 }
-.productdetail .price .form-group { margin: 20px 0 0 0; }
+.productdetail .price .form-group { float: right; margin: 20px 0 0 0; }
 .radio, .checkbox { position: relative; display: block; margin-top: 10px; margin-bottom: 10px; }
 .radio label, .checkbox label { min-height: 20px; padding-left: 20px; margin-bottom: 0; font-weight: normal; cursor: pointer; }
 .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] { position: absolute; margin-top: 4px \9; margin-left: -20px; }
@@ -466,17 +465,17 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .btn-primary .badge { color: #999; background-color: #fff; }
 
 .btn-empty { color: #88e333; background-color: transparent; border-color: transparent; }
-.btn-empty:hover, .btn-empty:focus, .btn-empty.focus, .btn-empty:active, .btn-empty.active, .open > .dropdown-toggle.btn-empty { color: #88e333; background-color: transparent; border-color: #ddd; }
+.btn-empty:hover, .btn-empty:focus, .btn-empty.focus, .btn-empty:active, .btn-empty.active, .open > .dropdown-toggle.btn-empty { color: #88e333; background-color: transparent; border-color: transparent; }
 .btn-empty:active, .btn-empty.active, .btn-empty.btn-hexicon:focus { -webkit-box-shadow: none; box-shadow: none; border-color: transparent; }
 .section.module-quickstartguide .btn-empty:hover { border-color: transparent; }
 .section.module-quickstartguide .btn-empty.icon { width: 38px; height: 38px; }
-.footer .section.contact .btn-empty:hover { background-color: #fff; }
+.footer .section.contact .btn-empty:hover { background-color: #fff; border-color: #ddd; }
 .btn-empty.btn-hexicon .icon, .footer .section.title .btn .icon { height: 60px; width: 60px; }
 .btn-empty.btn-hexicon:hover { border-color: transparent; }
 .module-buyersguide .btn-empty.btn-xs { position: absolute; top: 0; right: 0; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #fff; }
 .module-buyersguide .btn-empty.btn-xs:hover, .module-buyersguide .btn-empty.btn-xs:active { border-color: transparent; } 
 
-.navbar-form .btn-empty { color: #ccc; background: rgba(255, 255, 255, .15); border: none; border-radius: 0; border-bottom: 1px solid #999; padding: 13px 12px; padding-bottom: 14px; margin-left: 0 !important; }
+.navbar-form .btn-empty { color: #ccc; background: rgba(255, 255, 255, .15); border: none; border-radius: 0; border-bottom: 1px solid #999; padding: 13px 12px 12px 12px; margin-left: 0 !important; }
 .navbar-form .btn-empty:hover, .navbar-form .btn-empty:focus, .navbar-form .btn-empty.focus, .navbar-form .btn-empty:active, .navbar-form .btn-empty.active { background: rgba(255, 255, 255, .25); border: none; border-bottom: 1px solid #999; }
 .btn-hex { border: none; font-family: 'PlutoSansRegular', Helvetica, Arial, sans-serif; font-style: italic; line-height: 2; text-transform: none; }
 .btn-hex:hover { border: none; color: #88e333; background: rgba(25, 25, 25, .25);  }
@@ -493,7 +492,8 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .btn-dark:active, .btn-dark.active, .open > .dropdown-toggle.btn-dark { background-image: none; }
 .btn-dark.disabled, .btn-dark[disabled], fieldset[disabled] .btn-dark, .btn-dark.disabled:hover, .btn-dark[disabled]:hover, fieldset[disabled] .btn-dark:hover, .btn-dark.disabled:focus, .btn-dark[disabled]:focus, fieldset[disabled] .btn-dark:focus, .btn-dark.disabled.focus, .btn-dark[disabled].focus, fieldset[disabled] .btn-dark.focus, .btn-dark.disabled:active, .btn-dark[disabled]:active, fieldset[disabled] .btn-dark:active, .btn-dark.disabled.active, .btn-dark[disabled].active, fieldset[disabled] .btn-dark.active 
   { background: rgba(25, 25, 25, .25); border-color: #888; }
-
+.btn-favorite { display: none; margin-left: 10px; padding: 8px; }
+#wholesaleAcct .btn-favorite { display: inline-block; }
 
 .btn-guide { font-family: 'PlutoSansRegular', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #fff; text-align: left; background: rgba(61, 144, 0, .5); border-color: #3d9000; margin-bottom: 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .btn-guide .lead { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; }
@@ -512,6 +512,9 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
 .btn-block + .btn-block { margin-top: 5px; }
 input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block { width: 100%; }
 button[type="submit"] { text-align: left; }
+@media (max-width:767px) {
+  .btn-block.btn-installguide { margin-bottom: 5px; }
+}
 
 /*.fade { opacity: 0; -webkit-transition: opacity .15s linear; -o-transition: opacity .15s linear; transition: opacity .15s linear; }
 .fade.in { opacity: 1; }
@@ -630,6 +633,12 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 
 
 .btn .icon { height: 20px; width: 20px; }
+@media (min-width:768px) {
+  .btn-empty .icon { height: 21px; width: 21px; }
+}
+@media (min-width:992px) {
+  .btn-empty .icon { height: 22px; width: 22px; }
+}
 .btn .icon-before, .label-inner .icon-before { margin-right: 10px; }
 .btn .icon-after { float: right; margin-left: 10px; }
 
@@ -645,6 +654,8 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-carouselPrev { width: 60px; height: 60px; background-image: url(../img/icon-carouselPrev.svg); }
 .icon-chat { background-image: url(../img/icon-chat.svg); }
 .icon-check { width: 20px; height: 20px; background-image: url(../img/icon-check.svg); }
+.icon-favorite { background-image: url(../img/icon-favorite.svg); }
+.active .icon-favorite { background-image: url(../img/icon-favoriteActive.svg); }
 .icon-fitment { background-image: url(../img/icon-fitment.svg); }
 .btn .icon-hexbtn { height: 32px; width: 32px; background-image: url(../img/icon-hexbtn.svg); }
 .icon-magnify { background-image: url(../img/icon-magnify.svg); }
@@ -657,6 +668,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-modalX { background-image: url(../img/icon-modalX.svg); }
 .icon-motor { background-image: url(../img/icon-motor.svg); }
 .icon-new { background-image: url(../img/icon-new.svg); }
+.icon-news { background-image: url(../img/icon-news.svg); }
 .icon-phoneHex { background-image: url(../img/icon-phoneHex.svg); }
 .icon-phoneHex:hover { background-image: url(../img/icon-phoneHexHover.svg); }
 .icon-phone { background-image: url(../img/icon-phone.svg); }
@@ -703,10 +715,10 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .btn.dealer-badge { padding-left: 7px; margin: 0; border-left: 1px solid #666; }
   .icon-carouselNext, .icon-carouselPrev { width: 80px; height: 80px; }
 }
-.section.promo .icon, .section.tech-specs .icon, .section.in-action .icon { height: 35px; width: 35px; margin-right: 5px; }
+.section.promo .icon, .section.tech-specs .icon, .section.in-action .icon, .nav-tabs.nav-stacked .icon { height: 35px; width: 35px; margin-right: 5px; }
 .section.in-action .icon { position: absolute; right: 20px; bottom: 20px; }
 
-.input-group.spinner { width: 125px; margin-right: 10px; }
+.input-group.spinner { float: left; width: 125px; margin-right: 10px; }
 /*.btn-group-justified { display: table; width: 100%; table-layout: fixed; border-collapse: separate; }
 .btn-group-justified > .btn, .btn-group-justified > .btn-group { display: table-cell; float: none; width: 1%; }
 .btn-group-justified > .btn-group .btn { width: 100%; }
@@ -761,6 +773,21 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #fff; cursor: default; background-color: #474747; border: 1px solid #666; border-bottom-color: transparent; }
 .section.gray2 .nav-tabs > li > a > h3, .section.gray3 .nav-tabs > li > a > h3 { color: #666; margin: 0; }
 .section.gray2 .nav-tabs > li.active > a > h3, .section.gray2 .nav-tabs > li.active > a > h3:hover, .section.gray2 .nav-tabs > li.active > a > h3:focus, .section.gray3 .nav-tabs > li.active > a > h3, .section.gray3 .nav-tabs > li.active > a > h3:hover, .section.gray3 .nav-tabs > li.active > a > h3:focus { color: #fff; }
+
+.nav-tabs.nav-stacked { border-bottom: none; margin-bottom: 0; }
+.nav-tabs.nav-stacked > li { float: none; margin-bottom: 0; }
+.nav-tabs.nav-stacked > li > a { color: #666; margin-right: 0; padding: 30px; line-height: 1.4; text-align: center; border: none; border-radius: 0; background-color: #333; 
+  webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;
+  background-image: url(../img/bg-tabHover.png); background-position: -10px top; background-repeat: no-repeat; -webkit-background-size: 5px 100%; -moz-background-size: 5px 100%; background-size: 5px 100%; }
+.nav-tabs.nav-stacked > li > a:hover { border: none; background-color: #333; background-image: url(../img/bg-tabHover.png); background-position: left top; background-repeat: no-repeat; -webkit-background-size: 5px 100%; -moz-background-size: 5px 100%; background-size: 5px 100%; }
+.nav-tabs.nav-stacked > li > a h4 { margin: 0; }
+.nav-tabs.nav-stacked > li > a .icon { margin: 0 0 5px 0; float: none; }
+.nav-tabs.nav-stacked > li.active > a, .nav-tabs.nav-stacked > li.active > a:hover, .nav-tabs.nav-stacked > li.active > a:focus, .nav-tabs.nav-stacked > li.active > a:focus { color: #fff; cursor: default; background-color: #333; background-image: url(../img/bg-tabHover.png); background-position: left top; background-repeat: no-repeat; -webkit-background-size: 100% 150px; -moz-background-size: 100% 150px; background-size: 100% 150px; border: none; }
+.nav-tabs.nav-stacked > li > a .nav-tabs-arrow { position: absolute; width: 15px; height: 100%; right: 100%; top: 0; 
+  webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;
+  background-image: url(../img/bg-tabActive.png); background-position: left center; background-repeat: no-repeat; -webkit-background-size: 15px 100%; -moz-background-size: 15px 100%; background-size: 15px 100%; }
+.nav-tabs.nav-stacked > li.active > a .nav-tabs-arrow { right: -13px; }
+
 .nav-tabs.nav-justified { width: 100%; border-bottom: 0; }
 .nav-tabs.nav-justified > li { float: none; }
 .nav-tabs.nav-justified > li > a { margin-bottom: 5px; text-align: center; }
@@ -1121,9 +1148,9 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .breadcrumb > li a:hover { color: #88e333; }
 .breadcrumb > li + li:before { padding: 0 5px; color: #666; content: "/\00a0"; }
 .breadcrumb > .active { color: #666; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; }
-.breadcrumb.pull-right > li + li:before { padding: 0 15px; color: #4ebb00; }
+/*.breadcrumb.pull-right > li + li:before { padding: 0 15px; color: #4ebb00; }
 .breadcrumb.pull-right > li a { color: #4ebb00; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; }
-.breadcrumb.pull-right > li a:hover { color: #88e333; }
+.breadcrumb.pull-right > li a:hover { color: #88e333; }*/
 
 .pagination { display: inline-block; padding-left: 0; margin: 20px 0; border-radius: 4px; }
 .pagination > li { display: inline; }
@@ -1153,55 +1180,43 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 ======================================================================================================================================================
 ====================================================================================================================================================== */
 
-.jumbotron { padding: 30px; margin-bottom: 0; color: inherit; background-color: #eee; }
-.jumbotron h1, .jumbotron .h1 { color: inherit; }
+.jumbotron { padding: 0; margin-bottom: 0; color: inherit; background-color: #eee; }
 .jumbotron p { margin-bottom: 15px; font-size: 13px; font-weight: inherit; }
 .jumbotron > hr { border-top-color: #d5d5d5; }
 .container .jumbotron { border-radius: 6px; }
 .jumbotron .container { max-width: 100%; }
-@media screen and (min-width:768px) {
-  .jumbotron { padding-top: 48px; padding-bottom: 48px; }
-  .container .jumbotron { padding-right: 60px; padding-left: 60px; }
-  .jumbotron h1, .jumbotron .h1 { font-size: 63px; }
-}
+.account .jumbotron .featureHeadline h1, .utlity .jumbotron .featureHeadline h1 { margin-bottom: 0; }
+.account .jumbotron .featureHeadline h5, .utlity .jumbotron .featureHeadline h5 { margin-top: 0; }
 
-.home .jumbotron, .styleguide .jumbotron { height: 440px; overflow: hidden; padding: 0; margin-bottom: -235px; }
+
+.home .jumbotron, .styleguide .jumbotron { height: 440px; overflow: hidden; margin-bottom: -225px; }
 .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 120px; }
-.productcategory .jumbotron .featureHeadline { margin-top: 40px; margin-left: -5px; }
-.jumbotron .featureHeadline img { display: none; width: 100%; height: auto; }
-.productcategory.accessories .jumbotron .featureHeadline img.accessories-banner,
-.productcategory.ballasts .jumbotron .featureHeadline img.ballasts-banner,
-.productcategory.bulbs .jumbotron .featureHeadline img.bulbs-banner,
-.productcategory.closeouts .jumbotron .featureHeadline img.closeouts-banner,
-.productcategory.completekits .jumbotron .featureHeadline img.completekits-banner,
-.productcategory.hidsystems .jumbotron .featureHeadline img.hidsystems-banner,
-.productcategory.housings .jumbotron .featureHeadline img.housings-banner,
-.productcategory.led .jumbotron .featureHeadline img.led-banner,
-.productcategory.lenses .jumbotron .featureHeadline img.lenses-banner,
-.productcategory.lensetching .jumbotron .featureHeadline img.lensetching-banner,
-.productcategory.motorcycle .jumbotron .featureHeadline img.motorcycle-banner,
-.productcategory.projectors .jumbotron .featureHeadline img.projectors-banner,
-.productcategory.shrouds .jumbotron .featureHeadline img.shrouds-banner,
-.productcategory.wireharnesses .jumbotron .featureHeadline img.wireharnesses-banner,
-.productcategory.brandcategory-philips .jumbotron .featureHeadline img.philips-banner,
-.productcategory.brandcategory-morimoto .jumbotron .featureHeadline img.morimoto-banner,
-.productcategory.brandcategory-osram .jumbotron .featureHeadline img.osram-banner,
-.productcategory.brandcategory-denso .jumbotron .featureHeadline img.denso-banner,
-.productcategory.brandcategory-acme .jumbotron .featureHeadline img.acme-banner,
-.productcategory.brandcategory-koito .jumbotron .featureHeadline img.koito-banner,
-.productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
-.productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner,
-.productcategory.vehiclecategory .jumbotron .featureHeadline img.vehicle-banner { display: block; }
+.productcategory .jumbotron .featureHeadline, .account .jumbotron .featureHeadline { margin-top: 40px; }
+  .productcategory .jumbotron .featureHeadline { margin-left: -5px; }
+.jumbotron .featureHeadline img { width: 100%; height: auto; }
+.productcategory .jumbotron .featureHeadline img { display: none; }
+.productcategory.accessories .jumbotron .featureHeadline img.accessories-banner, .productcategory.ballasts .jumbotron .featureHeadline img.ballasts-banner,
+.productcategory.bulbs .jumbotron .featureHeadline img.bulbs-banner, .productcategory.closeouts .jumbotron .featureHeadline img.closeouts-banner,
+.productcategory.completekits .jumbotron .featureHeadline img.completekits-banner, .productcategory.hidsystems .jumbotron .featureHeadline img.hidsystems-banner,
+.productcategory.housings .jumbotron .featureHeadline img.housings-banner, .productcategory.led .jumbotron .featureHeadline img.led-banner,
+.productcategory.lenses .jumbotron .featureHeadline img.lenses-banner, .productcategory.lensetching .jumbotron .featureHeadline img.lensetching-banner,
+.productcategory.motorcycle .jumbotron .featureHeadline img.motorcycle-banner, .productcategory.projectors .jumbotron .featureHeadline img.projectors-banner,
+.productcategory.shrouds .jumbotron .featureHeadline img.shrouds-banner, .productcategory.wireharnesses .jumbotron .featureHeadline img.wireharnesses-banner,
+.productcategory.brandcategory-philips .jumbotron .featureHeadline img.philips-banner, .productcategory.brandcategory-morimoto .jumbotron .featureHeadline img.morimoto-banner, .productcategory.brandcategory-osram .jumbotron .featureHeadline img.osram-banner,
+.productcategory.brandcategory-denso .jumbotron .featureHeadline img.denso-banner, .productcategory.brandcategory-acme .jumbotron .featureHeadline img.acme-banner,
+.productcategory.brandcategory-koito .jumbotron .featureHeadline img.koito-banner, .productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
+.productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehicle-banner { display: block; }
 
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature1.jpg); }
 .productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
 .productcategory.accessories .jumbotron, .productcategory.closeouts .jumbotron, .productcategory.housings-taillights .jumbotron, .productcategory.led-offroad .jumbotron, 
   .productcategory.led-accessories .jumbotron, .productcategory.lensetching .jumbotron, .productcategory.motorcycle .jumbotron, 
-  .productcategory.projectors-oem .jumbotron, .productcategory.vehiclecategory .jumbotron, .productcategory.brandcategory .jumbotron { height: 240px; }
+  .productcategory.projectors-oem .jumbotron, .productcategory.vehiclecategory .jumbotron, .productcategory.brandcategory .jumbotron,
+  .account .jumbotron { height: 240px; }
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
 @media (max-width:767px) {
-  .productcategory .jumbotron { height: 200px; overflow: visible; }
+  .productcategory .jumbotron, .account .jumbotron { height: 200px; overflow: visible; }
   .section.module-buyersguide { position: relative; }
   .section.module-buyersguide .caption .buyersguide-selectionWrap { max-height: 0; overflow: hidden; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
   .section.module-buyersguide .caption .buyersguide-selectionWrap.active { max-height: 400px; }
@@ -1230,10 +1245,13 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .productcategory.brandcategory .jumbotron .jumbotron-img { background-image: url(../img/category-brandcategory-hero.jpg); }
 .productcategory.vehiclecategory .jumbotron .jumbotron-img { background-image: url(../img/category-vehiclecategory-hero.jpg); }
 
+.account .jumbotron .jumbotron-img { background-image: url(../img/bg-account.jpg); }
+
 .jumbotron-honeycomb { content: ''; position: absolute; width: 100%; height: 525px; top: 0px; left: 0px; z-index: 0;
   background-image: url(../img/pattern-honeycomb.png); background-position: left top; background-repeat: repeat; -webkit-background-size: 380px 350px; -moz-background-size: 380px 350px; -o-background-size: 380px 350px; background-size: 380px 350px; }
+
 @media screen and (min-width:768px) {
-  .jumbotron { min-height: 300px; }
+  .jumbotron { min-height: 280px; }
   .home .jumbotron, .styleguide .jumbotron { height: 680px; }
   .home .jumbotron { min-height: 400px; padding-top: 0; margin-bottom: -270px; }
   .productcategory .jumbotron, .productcategory .jumbotron .caption { height: 500px; padding-top: 0; }
@@ -1301,10 +1319,15 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 #wholesaleAcct .product.thumbnail h3 { font-size: 22px; }
 #wholesaleAcct .product.thumbnail h3.retail, .productdetail#wholesaleAcct h3.retail { text-decoration: line-through; color: #999; }
 #wholesaleAcct .product.thumbnail .caption .quickCopy { display: none; }
+@media (max-width:767px) {
+  .productdetail#wholesaleAcct .price .quickCopy { display: none; }
+}
 #wholesaleAcct .product.thumbnail .caption .icon-cartQuick { margin-right: 0; }
+.productdetail .price .btn { float: right; }
 @media (min-width:768px) {
   .thumbnail-image { margin: 110px 0 40px 0; }
   .product.thumbnail h3 { margin-right: 20px; }
+  .productdetail .price .btn { float: right; }
 }
 @media (min-width:768px) and (max-width:991px) {
   .productGrid li.thumbnail:nth-child(2n+0) .caption { background-color: #666; }
@@ -1729,7 +1752,6 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.hexDownEdge { height: 30px; position: relative; padding-bottom: 0; margin-top: -2px; background-color: transparent; background-image: url(../img/element-hexDownEdge.svg); background-position: center top; background-repeat: no-repeat; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
 .section.details { margin-top: -50px; padding-top: 60px; background-image: url(../img/bg-productDetails.jpg); background-position: center bottom; background-repeat: no-repeat; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
 
-
 .section.summary p, .footer p { font-size: 14px; line-height: 1.5; }
 .section.summary .col-sm-5 ~ .col-sm-5 p { margin-bottom: 30px; }
 .section.summary .btn { position: relative; z-index: 1000; margin-top: -40px; margin-bottom: 40px; }
@@ -1768,6 +1790,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 @media (min-width:1535px) {
   .col-sm-4.section.nav-products p { min-height: 55px; }
 }
+
 .section.promo { padding: 0; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section.promo1 { background-image: url(../img/promo1.jpg); }
 .section.promo2 { background-image: url(../img/promo2.jpg); }
@@ -1793,6 +1816,34 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.module-buyersguide .caption .buyersGuide-vehicle:hover { cursor: pointer; }
 .section.module-buyersguide .caption .buyersGuide-vehicle:hover h5 { color: #fff !important; }
 
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate(-100%);
+    transform: translate(-100%);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate(-100%);
+    transform: translate(-100%);
+  }
+}
+.section-ticker { overflow: hidden; margin-top: -86px; }
+.ticker-wrap { position: relative; width: 200%; padding-left: 100%; overflow: hidden; background-color: #88e333; background-color: rgba(136, 227, 51, .7); }
+.ticker { display: inline-block; position: relative; white-space: nowrap; padding-right: 100%; 
+  -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-animation-name: ticker; animation-name: ticker; -webkit-animation-duration: 20s; animation-duration: 20s; }
+.ticker-item { display: inline-block; color: #474747; padding: 20px; }
+.ticker-item .icon { height: 20px; width: 20px; margin: 2px 5px 0 0; }
 
 
 /* FOOTER

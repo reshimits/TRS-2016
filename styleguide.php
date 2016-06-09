@@ -148,9 +148,8 @@
 				<div class="row">
 				  	<div class="col-sm-12">
 						<div class="bs-component">
-					  		<h1>H1: <span class="lead">Page</span> Title</h1>
+					  		<h1>H1: Page Title: <span class="text-weightRegular text-secondary">Sub-Page Title</span></h1>
 					  		<h1 class="productdetail">H1: Product Detail Title</h1>
-					  		<h2 class="productcategory">H2: Product Category Title: <span class="text-weightRegular">Sub-Category Title</span></h2>
 					  		<h2>H2: Section Title</h2>
 					  		<h3>H3: Sub-Section Title</h3>
 					  		<h4>H4: Section Sub-Title</h4>
@@ -198,7 +197,7 @@
 			<div class="container-fluid">
 				<div class="row">
 			  	<div class="col-sm-6">
-					<p class="bs-component">
+					<div class="bs-component">
 					  	<a type="button" href="#" class="btn btn-default">Default</a>
 					  	<a type="button" href="#" class="btn btn-primary" style="margin-right: 40px;">Primary</a>
 					  	<!-- <a type="button" href="#" class="btn btn-success">Success</a>
@@ -213,7 +212,7 @@
 					  	<a type="button" href="#" class="btn btn-warning disabled">Warning</a>
 					  	<a type="button" href="#" class="btn btn-danger disabled">Danger</a>
 					  	<a type="button" href="#" class="btn btn-link disabled">Link</a> -->
-					</p>
+					</div>
 					<div class="bs-component module-buyersguide">
 					  	<a type="button" href="#" class="btn btn-ghost">Ghost</a>
 					  	<a type="button" href="#" class="btn btn-dark">Dark</a>
