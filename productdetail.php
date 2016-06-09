@@ -59,9 +59,9 @@
                 <div class="row">
                     <!-- =========== Bread Crumb =========== -->
                     <!-- =================================== -->
-                    <div class="breadcrumbWrap col-xs-12">
+                    <div class="breadcrumbWrap col-xs-12 hidden-xs">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-8 col-lg-9 hidden-xs">
+                            <div class="col-xs-12 col-sm-8 col-lg-9">
                                 <ul class="breadcrumb">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">Complete Retrofit Kits</a></li>
@@ -69,12 +69,12 @@
                                     <li class="active">Mopar Spec: 13-14 Dodge Ram Low Beam Harness</li>
                                 </ul>
                             </div>
-                            <div class="col-xs-12 col-sm-4 col-lg-3">
+                            <!-- <div class="col-xs-12 col-sm-4 col-lg-3">
                                 <ul class="breadcrumb pull-right">
                                     <li><a href="#">Install Guide</a></li>
                                     <li><a href="#">Find a Pro</a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -240,10 +240,7 @@
 
                                         <div class="row">
                                             <div class="form-group">
-                                                <div type="button" class="btn btn-primary pull-right">&nbsp; Add to Cart &nbsp;</div>
-                                                <!-- <input class="submit-input" type="submit" value=""/> -->
-
-                                                <div class="input-group spinner pull-right">
+                                                <div class="input-group spinner">
                                                     <div class="input-group-btn">
                                                         <div class="btn btn-default subtract" type="button">-</div>
                                                     </div>
@@ -252,6 +249,9 @@
                                                         <div class="btn btn-default add" type="button">+</div>
                                                     </div>
                                                 </div>
+                                                <div type="button" class="btn btn-dark btn-empty btn-favorite active"><span class="icon icon-favorite"></span></div>
+                                                <div type="button" class="btn btn-primary">&nbsp; Add <span class="quickCopy">to Cart </span>&nbsp;</div>
+                                                <!-- <input class="submit-input" type="submit" value=""/> -->
                                             </div>
                                         </div>
                                     </div>
@@ -261,6 +261,17 @@
                         </div>
                     </div>
                 </div>  
+                <div class="col-xs-12">
+                    <hr class="aligncenter">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-3 col-lg-2 col-lg-offset-4">
+                    <a type="button" href="#" class="btn btn-dark btn-block btn-installguide">Install Guide</a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                    <a type="button" href="#" class="btn btn-dark btn-block">Find a Pro</a>
+                </div>
+
                 <!-- <div class="col-xs-12">
                     <hr class="aligncenter">
                 </div>
