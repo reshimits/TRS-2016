@@ -56,7 +56,7 @@
         
         <div class="jumbotron">
             <div class="featureHeadline col-xs-12">
-                <div class="col-xs-12">
+                <div class="col-xs-12 header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
                     <h1>My Account: <span class="text-weightRegular text-secondary">Wholesale</span></h1>
                     <h5 class="text-white">Welcome, Boss Koss</h5>
                 </div>
@@ -74,7 +74,7 @@
         </div>
 
 
-        <div class="section wrap header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
+        <div class="section wrap gray3">
             <div class="container-fluid">
                 <div class="row">
                     
@@ -83,27 +83,27 @@
                             <div class="row">
                                 <ul class="nav nav-tabs nav-stacked">
                                     <li class="active"><a href="#orderhistory" data-toggle="tab">
-                                        <span class="icon icon-techspecs-compatibility"></span>
+                                        <span class="icon icon-myacct icon-myacct-orderhistory"></span>
                                         <h4>Order History</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
                                     <li><a href="#account" data-toggle="tab">
-                                        <span class="icon icon-techspecs-compatibility"></span>
+                                        <span class="icon icon-myacct"></span>
                                         <h4>My Account</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
                                     <li><a href="#catalog" data-toggle="tab">
-                                        <span class="icon icon-techspecs-compatibility"></span>
+                                        <span class="icon icon-myacct icon-myacct-catalog"></span>
                                         <h4>Catalog</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
                                     <li><a href="#marketingtools" data-toggle="tab">
-                                        <span class="icon icon-techspecs-compatibility"></span>
+                                        <span class="icon icon-myacct icon-myacct-marketingtools"></span>
                                         <h4>Marketing Tools</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
                                     <li><a href="#guides" data-toggle="tab">
-                                        <span class="icon icon-techspecs-compatibility"></span>
+                                        <span class="icon icon-myacct icon-myacct-guides"></span>
                                         <h4>Customer Guides</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
@@ -111,21 +111,22 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
-                        <div id="myTabContent" class="tab-content">
-                            <div class="tab-pane fade active in" id="orderhistory">
-                                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-                            </div>
-                            <div class="tab-pane fade" id="account">
-                                <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
-                            </div>
-                            <div class="tab-pane fade" id="catalog">
-                                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
-                            </div>
-                            <div class="tab-pane fade" id="marketingtools">
-                                <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
-                            </div>
-                            <div class="tab-pane fade" id="guides">
-                                <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade active in" id="orderhistory">
+                                    <?php require('../account/orderhistory.html');?>
+                                </div>
+                                <div class="tab-pane fade" id="account">
+                                    <?php require('../account/myacct.html');?>
+                                </div>
+                                <div class="tab-pane fade" id="catalog">
+                                    <?php require('../account/myacct.html');?>
+                                </div>
+                                <div class="tab-pane fade" id="marketingtools">
+                                    <?php require('../account/myacct.html');?>
+                                </div>
+                                <div class="tab-pane fade" id="guides">
+                                    <?php require('../account/myacct.html');?>
+                                </div>
                             </div>
                         </div>
                     </div>

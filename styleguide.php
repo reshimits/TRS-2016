@@ -740,6 +740,29 @@
 								<div class="panel-body">Panel content</div>
 					  		</div>
 
+					  		<div class="panel panel-account">
+								<div class="panel-heading"><h4 class="panel-title">Panel Account</h4></div>
+								<div class="panel-body">
+									<ul class="list-group">
+			                            <li class="list-group-item row">
+			                            	<p class="col-sm-6"><span class="lead">1x Input Trigger:</span></p>
+			                            	<p class="col-sm-6"><span class="small">9006 Male</span></p>
+			                            </li>
+			                            <li class="list-group-item active"><p><span class="lead text-white">Stock Bulb Size:</span> 9006, HB4</p></li>
+			                            <li class="list-group-item row">
+			                            	<p class="col-sm-6"><span class="lead">1x Input Trigger:</span></p>
+			                            	<p class="col-sm-6"><span class="small">9006 Male</span></p>
+			                            </li>
+			                            <li class="list-group-item active"><p><span class="lead text-white">Bi-Xenon Capable:</span> With <a href="">High Beam Splitters</a></p></li>
+			                            <li class="list-group-item row">
+			                            	<p class="col-sm-6"><span class="lead">1x Input Trigger:</span></p>
+			                            	<p class="col-sm-6"><span class="small">9006 Male</span></p>
+			                            </li>
+			                            <li class="list-group-item active"><p><span class="lead text-white">Output:</span> 35W</p></li>
+			                        </ul>
+								</div>
+					  		</div>
+
 					  		<!-- <div class="panel panel-success">
 								<div class="panel-heading">
 						  			<h3 class="panel-title">Panel success</h3>
