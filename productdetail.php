@@ -411,6 +411,33 @@
         <div class="section wrap in-action">
              <div class="container-fluid">
                 <div class="row">
+                    <!-- If there are 4 images use this layout -->
+                    <!-- <div class="col-xs-12 col-sm-3 thumbnail-image" data-toggle="modal" data-target="#photoLightbox">
+                        <span class="icon icon-magnify"></span>
+                        <div class="row">
+                            <img src="img/promo1.jpg" class="img-responsive" alt="" border="none">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 thumbnail-image" data-toggle="modal" data-target="#photoLightbox">
+                        <span class="icon icon-magnify"></span>
+                        <div class="row">
+                            <img src="img/promo2.jpg" class="img-responsive" alt="" border="none">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 thumbnail-image" data-toggle="modal" data-target="#photoLightbox">
+                        <span class="icon icon-magnify"></span>
+                        <div class="row">
+                            <img src="img/promo3.jpg" class="img-responsive" alt="" border="none">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 thumbnail-image" data-toggle="modal" data-target="#photoLightbox">
+                        <span class="icon icon-magnify"></span>
+                        <div class="row">
+                            <img src="img/promo1.jpg" class="img-responsive" alt="" border="none">
+                        </div>
+                    </div> -->
+
+                    <!-- If there are 3 images use this layout -->
                     <div class="col-xs-12 col-sm-4 thumbnail-image" data-toggle="modal" data-target="#photoLightbox">
                         <span class="icon icon-magnify"></span>
                         <div class="row">
@@ -429,6 +456,28 @@
                             <img src="img/promo3.jpg" class="img-responsive" alt="" border="none">
                         </div>
                     </div>
+
+                    <!-- If there are 2 images use this layout -->
+                    <!-- <div class="col-xs-12 col-sm-6 thumbnail-image" data-toggle="modal" data-target="#photoLightbox">
+                        <span class="icon icon-magnify"></span>
+                        <div class="row">
+                            <img src="img/promo1.jpg" class="img-responsive" alt="" border="none">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 thumbnail-image" data-toggle="modal" data-target="#photoLightbox">
+                        <span class="icon icon-magnify"></span>
+                        <div class="row">
+                            <img src="img/promo2.jpg" class="img-responsive" alt="" border="none">
+                        </div>
+                    </div> -->
+
+                    <!-- If there are 1 (rare) images use this layout -->
+                    <!-- <div class="col-xs-12 thumbnail-image" data-toggle="modal" data-target="#photoLightbox">
+                        <span class="icon icon-magnify"></span>
+                        <div class="row">
+                            <img src="img/promo1.jpg" class="img-responsive" alt="" border="none">
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
