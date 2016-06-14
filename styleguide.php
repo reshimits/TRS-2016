@@ -115,7 +115,7 @@
 					<h5 class="text-gray1">Structural: Gray1 #999  // 
 						<span class="text-gray2">Gray2 #666 </span> // 
 						<span class="text-gray3">Gray3 #474747 </span> //
-						<span class="text-gray4">Gray3 #333 </span>
+						<span class="text-gray4">Gray4 #333 </span>
 					</h5>
 					<div class="bs-component">
 				  		<div class="progress">
@@ -207,6 +207,7 @@
 					  	<a type="button" href="#" class="btn btn-link">Link</a> 
 					  	<a type="button" href="#" class="btn btn-default disabled">Default Disabled</a>-->
 					  	<a type="button" href="#" class="btn btn-primary disabled">Primary Disabled</a>
+					  	<a type="button" href="#" class="btn btn-primary btn-sm">Primary Small</a>
 					  	<!-- <a type="button" href="#" class="btn btn-success disabled">Success</a>
 					  	<a type="button" href="#" class="btn btn-info disabled">Info</a>
 					  	<a type="button" href="#" class="btn btn-warning disabled">Warning</a>

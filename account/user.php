@@ -65,21 +65,21 @@
             <div class="section wrap section-ticker">
                 <div class="ticker-wrap">
                     <div class="ticker">
-                        <h5 class="ticker-item"><span class="icon icon-news icon-before"></span><span class="text-white">2/13/16</span> Letterpress chambray brunch.</h5>
-                        <h5 class="ticker-item"><span class="icon icon-news icon-before"></span><span class="text-white">2/13/16</span> Vice mlkshk crucifix beard chillwave asymmetrical Helvetica.</h5>
-                        <h5 class="ticker-item"><span class="icon icon-news icon-before"></span><span class="text-white">2/13/16</span> Ugh PBR&B kale chips Echo Park.</h5>
+                        <h5 class="ticker-item"><span class="icon icon-news icon-before"></span><span class="text-white">6/10/16</span> The industry standard: ACME brings a hell of a bargain to the table with high-quality parts at an entry level price. <a href="">Check them out here!</a></h5>
+                        <h5 class="ticker-item"><span class="icon icon-news icon-before"></span><span class="text-white">5/23/16</span> Spring 2016 brings revisions of many current RetroQuik brackets to new projector models, and many new models added to the lineup as well! <a href="">Shop RetroQuik Systems!</a></h5>
+                        <h5 class="ticker-item"><span class="icon icon-news icon-before"></span><span class="text-white">2/13/16</span> As one of the premier JW Speaker distributors in the automotive lighting market, we're now offering the new 5.75" Cycle-centric 8690 headlamps and the awesome new adaptive 7" 8790 Motorcycle headlamp. <a href="">Shop housings!</a></h5>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <div class="section wrap gray3">
+        <div class="section wrap gray4">
             <div class="container-fluid">
                 <div class="row">
                     
                     <div class="tabWrap">
-                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                        <div class="nav-tabsWrap col-xs-12 col-sm-4 col-md-3 col-lg-2">
                             <div class="row">
                                 <ul class="nav nav-tabs nav-stacked">
                                     <li class="active"><a href="#orderhistory" data-toggle="tab">
@@ -110,8 +110,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
-                            <div id="myTabContent" class="tab-content">
+                        <div class="tab-contentWrap gray3 col-xs-12 col-sm-8 col-md-9 col-lg-10">
+                            <div id="myTabContent" class="tab-content gray3">
                                 <div class="tab-pane fade active in" id="orderhistory">
                                     <?php require('../account/orderhistory.html');?>
                                 </div>
