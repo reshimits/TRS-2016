@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Google_Drive" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.Arched_x0020_Green{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:1;}
+	.st0{fill:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{fill:url(#SVGID_4_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-20" y1="262.2046" x2="-19.2929" y2="261.4975">
+	<stop  offset="0" style="stop-color:#1EAB4B"/>
+	<stop  offset="0.9831" style="stop-color:#19361A"/>
+</linearGradient>
+<g>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="28.4878" y1="18.6358" x2="18.4366" y2="27.0089">
+		<stop  offset="0" style="stop-color:#008C47"/>
+		<stop  offset="1" style="stop-color:#2EB571"/>
+	</linearGradient>
+	<polygon class="st0" points="20.5,4 0,39.3 9.2,56 29.9,20.4 	"/>
+	<g>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="18.1863" y1="40.4197" x2="34.7295" y2="47.6529">
+			<stop  offset="0" style="stop-color:#004AE3"/>
+			<stop  offset="0.3354" style="stop-color:#286EF0"/>
+			<stop  offset="0.5571" style="stop-color:#3E82F7"/>
+			<stop  offset="1" style="stop-color:#3E82F7"/>
+		</linearGradient>
+		<polygon class="st1" points="60,39.1 18.9,39.2 9.2,56 50.1,56 		"/>
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="46.8062" y1="41.3597" x2="43.5757" y2="31.5684">
+			<stop  offset="0" style="stop-color:#E1A415"/>
+			<stop  offset="1" style="stop-color:#FDD04A"/>
+		</linearGradient>
+		<polygon class="st2" points="39.4,4 20.5,4 40.6,39.2 60,39.1 		"/>
+	</g>
+</g>
+</svg>

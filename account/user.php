@@ -119,13 +119,13 @@
                                     <?php require('../account/myacct.html');?>
                                 </div>
                                 <div class="tab-pane fade" id="catalog">
-                                    <?php require('../account/myacct.html');?>
+                                    <?php require('../account/catalog.html');?>
                                 </div>
                                 <div class="tab-pane fade" id="marketingtools">
-                                    <?php require('../account/myacct.html');?>
+                                    <?php require('../account/marketingtools.html');?>
                                 </div>
                                 <div class="tab-pane fade" id="guides">
-                                    <?php require('../account/myacct.html');?>
+                                    <?php require('../account/guides.html');?>
                                 </div>
                             </div>
                         </div>
@@ -198,6 +198,18 @@
         require('viewport-units-buggyfill').init({
           hacks: hacks
         });
+    </script>
+
+    <!-- PRODUCT QTY ORDERING: Added to style the Spinner for Numeric Inputs -->
+    <script type="text/javascript">
+        (function ($) {
+          $('.spinner .btn.add').on('click', function() {
+            $('.spinner input').val( parseInt($('.spinner input').val(), 10) + 1);
+          });
+          $('.spinner .btn.subtract').on('click', function() {
+            $('.spinner input').val( parseInt($('.spinner input').val(), 10) - 1);
+          });
+        })(jQuery);
     </script>
   
 
