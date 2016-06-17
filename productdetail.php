@@ -881,7 +881,7 @@
         });
     </script>
 
-    <!-- PRODUCT PAGES: Added to style the Spinner for Numeric Inputs -->
+    <!-- PRODUCT QTY ORDERING: Added to style the Spinner for Numeric Inputs -->
     <script type="text/javascript">
         (function ($) {
           $('.spinner .btn.add').on('click', function() {
