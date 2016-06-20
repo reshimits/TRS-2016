@@ -653,6 +653,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 
 .icon { float: left; position: relative; display: inline-block; background-position: center center; background-repeat: no-repeat; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
 .icon-acct { background-image: url(../img/icon-acct.svg); background-position: center top; }
+.icon-arrowDown { background-image: url(../img/icon-arrowDown.svg); background-position: center top; }
 .icon-arrowRcircle-fff { background-image: url(../img/icon-arrowRcircle-fff.svg); background-position: center top; }
 .icon-arrowLcircle-999 { background-image: url(../img/icon-arrowLcircle-999.svg); background-position: center top; }
 .icon-cart { background-image: url(../img/icon-cart.svg); }
@@ -867,6 +868,8 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   .account #catalog .tab-content .cta .btn-primary .quickCopy { display: none; }
   .account #catalog .tab-content .cta .btn-primary .icon-before { margin-right: 0; }
 }
+.account .nav-tabs .tab-myacct-catalog, .account .nav-tabs .tab-myacct-marketingtools { display: none; }
+.account#wholesaleAcct .nav-tabs .tab-myacct-catalog, .account#wholesaleAcct .nav-tabs .tab-myacct-marketingtools { display: block; }
 
 
 .navbar { position: relative; min-height: 50px; margin-bottom: 20px; border: 1px solid transparent; }
@@ -1083,12 +1086,13 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .dropdown { position: relative; }
 .dropdown-toggle:focus { outline: 0; }
 .dropdown-menu { position: absolute; top: 100%; left: 0; z-index: 1000; display: none; float: left; min-width: 160px; padding: 0; margin: 0; font-size: 14px; text-align: left; list-style: none; background-color: #666; -webkit-background-clip: padding-box; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, .15); border-radius: 4px; -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175); box-shadow: 0 6px 12px rgba(0, 0, 0, .175); }
-/*.nav-utility .dropdown-menu { background-color: #eee; }*/
+.btn-group .dropdown-menu { padding: 10px 0; font-family: 'PlutoSansMedium', Helvetica, Arial, sans-serif; font-size: 11px; font-size: 11.5px; text-transform: uppercase; }
 .dropdown-menu .dropdown-menu-sub, .dropdown-menu-sub { list-style: none; padding: 0; margin: 0; min-width: 160px; }
 .dropdown-menu.pull-right { right: 0; left: auto; }
 .dropdown-menu .divider { height: 1px; margin: 9px 0; overflow: hidden; background-color: #e5e5e5; }
 .dropdown-menu > li > a { display: block; padding: 3px 20px; clear: both; font-weight: normal; line-height: 1.4; color: #333; white-space: nowrap; }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { color: #262626; text-decoration: none; background-color: transparent; }
+.btn-group .dropdown-menu li:hover { background-color: #777; }
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus { color: #fff; text-decoration: none; background-color: #999; outline: 0; }
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus { color: #777; }
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus { text-decoration: none; cursor: not-allowed; background-color: transparent; background-image: none; filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
@@ -1399,7 +1403,6 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 @media (min-width:1500px) {
   .account#wholesaleAcct .product.thumbnail h3.retail { float: left; margin-bottom: 0; }
 }
-
 
 
 .media, .media-body { overflow: hidden; zoom: 1; }

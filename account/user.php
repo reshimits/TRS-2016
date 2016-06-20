@@ -82,27 +82,27 @@
                         <div class="nav-tabsWrap col-xs-12 col-sm-4 col-md-3 col-lg-2">
                             <div class="row">
                                 <ul class="nav nav-tabs nav-stacked">
-                                    <li class="active"><a href="#orderhistory" data-toggle="tab">
+                                    <li class="tab-myacct-orderhistory active"><a href="#orderhistory" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-orderhistory"></span>
                                         <h4>Order History</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
-                                    <li><a href="#account" data-toggle="tab">
+                                    <li class="tab-myacct"><a href="#account" data-toggle="tab">
                                         <span class="icon icon-myacct"></span>
                                         <h4>My Account</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
-                                    <li><a href="#catalog" data-toggle="tab">
+                                    <li class="tab-myacct-catalog"><a href="#catalog" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-catalog"></span>
                                         <h4>Catalog</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
-                                    <li><a href="#marketingtools" data-toggle="tab">
+                                    <li class="tab-myacct-marketingtools"><a href="#marketingtools" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-marketingtools"></span>
                                         <h4>Marketing Tools</h4>
                                         <span class="nav-tabs-arrow"></span>
                                     </a></li>
-                                    <li><a href="#guides" data-toggle="tab">
+                                    <li class="tab-myacct-guides"><a href="#guides" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-guides"></span>
                                         <h4>Customer Guides</h4>
                                         <span class="nav-tabs-arrow"></span>
