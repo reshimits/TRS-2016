@@ -61,7 +61,7 @@
                     <!-- =================================== -->
                     <div class="breadcrumbWrap col-xs-12 hidden-xs">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-8 col-lg-9">
+                            <div class="col-xs-12">
                                 <ul class="breadcrumb">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">Complete Retrofit Kits</a></li>
@@ -613,7 +613,7 @@
             </div>    
         </div>
         
-        <div class="section wrap" id="productGrid-productsWholesale">
+        <div class="section wrap">
             <div class="container-fluid">
                 <ul class="row productGrid">
                 
