@@ -79,43 +79,43 @@
                 <div class="row">
                     
                     <div class="tabWrap">
-                        <div class="nav-tabsWrap col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                        <div class="nav-tabsWrap col-xs-12 col-sm-3 col-lg-2">
                             <div class="row">
                                 <ul class="nav nav-tabs nav-stacked">
                                     <li class="tab-myacct-orderhistory active"><a href="#orderhistory" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-orderhistory"></span>
-                                        <h4>Order History</h4>
-                                        <span class="nav-tabs-arrow"></span>
+                                        <h4><span class="hidden-xs">Order </span>History</h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
-                                    <li class="tab-myacct"><a href="#account" data-toggle="tab">
+                                    <li class="tab-myacct"><a href="#myacct" data-toggle="tab">
                                         <span class="icon icon-myacct"></span>
-                                        <h4>My Account</h4>
-                                        <span class="nav-tabs-arrow"></span>
+                                        <h4><span class="hidden-xs">My </span>Account</h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
                                     <li class="tab-myacct-catalog"><a href="#catalog" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-catalog"></span>
                                         <h4>Catalog</h4>
-                                        <span class="nav-tabs-arrow"></span>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
                                     <li class="tab-myacct-marketingtools"><a href="#marketingtools" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-marketingtools"></span>
-                                        <h4>Marketing Tools</h4>
-                                        <span class="nav-tabs-arrow"></span>
+                                        <h4>Marketing<span class="hidden-xs"> Tools</span></h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
                                     <li class="tab-myacct-guides"><a href="#guides" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-guides"></span>
-                                        <h4>Customer Guides</h4>
-                                        <span class="nav-tabs-arrow"></span>
+                                        <h4><span class="hidden-xs">Customer </span>Guides</h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="tab-contentWrap gray3 col-xs-12 col-sm-8 col-md-9 col-lg-10">
+                        <div class="tab-contentWrap gray3 col-xs-12 col-sm-9 col-lg-10">
                             <div id="myTabContent" class="tab-content gray3">
                                 <div class="tab-pane fade active in" id="orderhistory">
                                     <?php require('../account/orderhistory.html');?>
                                 </div>
-                                <div class="tab-pane fade" id="account">
+                                <div class="tab-pane fade" id="myacct">
                                     <?php require('../account/myacct.html');?>
                                 </div>
                                 <div class="tab-pane fade" id="catalog">

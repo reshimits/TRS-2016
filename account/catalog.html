@@ -1,13 +1,13 @@
 	
 
     <div class="row">
-       	<div class="section wrap"><div class="col-xs-12"><h3 class="text-white"><em>*New Products</em></h3></div></div>
+       	<div class="section wrap hidden-xs hidden-sm"><div class="col-xs-12"><h3 class="text-white"><em>*New Products</em></h3></div></div>
         
-        <div class="section wrap" id="productGrid-productsWholesale">
+        <div class="section wrap hidden-xs hidden-sm">
             <div class="container-fluid">
                 <ul class="productGrid panel panel-account">
                 
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                    <li class="col-xs-12 col-md-6 col-lg-4 product thumbnail">
                         <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
@@ -53,7 +53,7 @@
                         </div>
                     </li>
 
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                    <li class="col-xs-12 col-md-6 col-lg-4 product thumbnail">
                         <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
@@ -99,7 +99,7 @@
                         </div>
                     </li>
 
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                    <li class="col-xs-12 col-md-6 col-lg-4 product thumbnail">
                         <a href="" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
@@ -145,8 +145,8 @@
                         </div>
                     </li>
 
-                    <!-- 4th Product gets hidden Desktop and Mobile, only necessary on Tablet -->
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail visible-sm-block">
+                    <!-- 4th Product gets hidden LARGE Desktop, Tablet and Mobile, only necessary on SMALL Desktop -->
+                    <li class="col-xs-12 col-md-6 col-lg-4 product thumbnail visible-md-block">
                         <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
@@ -197,7 +197,7 @@
         </div> 
         
 
-        <div class="section">
+        <div class="section nav-tabsWrap">
 			<div class="col-xs-12">
 			  	<ul class="nav nav-tabs">
 					<li class="active"><a href="#favoritesTab" data-toggle="tab"><h3>Favorites</h3></a></li>
@@ -207,211 +207,46 @@
 		</div>
 
   		<div id="myCatalogContent" class="tab-content">
-  			
-  			<form role="search"><!-- <form class="navbar-form" role="search"> -->
-                <div class="form-group has-suggestions">
-                    <div class="input-group col-sm-8 col-md-6">
-                        <input type="text" class="form-control" id="inputSuggestions" placeholder="Search ID, Name, or SKU...">
-                        <span class="input-group-btn">
-                            <a class="btn btn-empty" type="button"><span class="icon icon-search"></span></a>
-                        </span>
-                        <!-- <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Suggestion</a></li>
-                            <li><a href="#">Another suggestion</a></li>
-                            <li><a href="#">Some other suggestion</a></li>
-                        </ul> -->
-                    </div>
-                </div>
-            </form>
-
-            <!-- Grid Label -->
-	        <!-- <div class="section wrap">
-	        	<div class="col-xs-12 col-md-8 col-lg-9">
-			        <div class="panel panel-account panel-empty">
-						<div class="col-xs-12">
-							<div class="row">
-							<div class="col-xs-12 panel-body">
-								<ul class="list-group">
-									<div class="col-sm-2 list-group-itemWrap">
-				                    	<li class="list-group-item">
-				                    		<p class="small"><span class="lead text-white">ID</span></p>
-				                    	</li>
-				                    </div>
-									<div class="col-sm-3 list-group-itemWrap">
-				                    	<li class="list-group-item">
-				                    		<p class="small"><span class="lead text-white">Product Name</span></p>
-				                    	</li>
-				                    </div>
-									<div class="col-sm-3 list-group-itemWrap">
-				                    	<li class="list-group-item">
-				                    		<p class="small"><span class="lead text-white">SKU</span></p>
-				                    	</li>
-				                    </div>
-				                    <div class="col-sm-2 list-group-itemWrap">
-				                    	<li class="list-group-item">			                    	
-				                    		<p class="small"><span class="lead text-white">Stock Summary</span></p>
-				                    	</li>
-				                    </div>
-				                    <div class="col-sm-2 list-group-itemWrap">
-				                    	<li class="list-group-item">			                    	
-				                    		<p class="small"><span class="lead text-white">Price</span></p>
-				                    	</li>
-				                    </div>
-				                </ul>
-							</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
 
 			<div class="tab-pane fade active in" id="favoritesTab">
 	  			
-	  			<!-- Grid Item -->
-		        <!-- <div class="section half first">
-		        	<div class="col-xs-12 col-md-8 col-lg-9">
-				        <div class="panel panel-account">
-							<div class="col-xs-12">
-								<div class="row">
-								<div class="col-xs-12 panel-body">
-									<ul class="list-group">
-										<div class="col-sm-2 list-group-itemWrap bottom">
-					                    	<li class="list-group-item">
-					                    		<p class="small">51265</p>
-					                    	</li>
-					                    </div>
-										<div class="col-sm-3 list-group-itemWrap bottom alt">
-					                    	<li class="list-group-item productName">
-					                    		<p class="small"><span class="lead"><a href="#" class="text-primary">Chevrolet (Square): Morimoto XB LED Fogs</a></span></p>
-					                    	</li>
-					                    </div>
-										<div class="col-sm-3 list-group-itemWrap bottom">
-					                    	<li class="list-group-item">
-					                    		<p class="small">7-WARR-SHAPE-WRX</p>
-					                    	</li>
-					                    </div>
-					                    <div class="col-sm-2 list-group-itemWrap bottom">
-					                    	<li class="list-group-item productStock">			                    	
-					                    		<p class="small"><em><span class="lead text-secondary">190/190</span></em></p>
-					                    	</li>
-					                    </div>
-					                    <div class="col-sm-2 list-group-itemWrap bottom last">
-					                    	<li class="list-group-item">			                    	
-					                    		<p class="small"><span class="lead text-white">$150.00</span></p>
-					                    	</li>
-					                    </div>
-					                </ul>
-								</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-			  		<div class="col-xs-12 col-md-4 col-lg-3 pull-right cta">
-		                <div class="form-group">
-                            <div class="input-group spinner">
-                                <div class="input-group-btn">
-                                    <div class="btn btn-default subtract" type="button">-</div>
-                                </div>
-                                <input type="text" class="form-control" value="1">
-                                <div class="input-group-btn">
-                                    <div class="btn btn-default add" type="button">+</div>
-                                </div>
-                            </div>
-                            <div type="button" class="btn btn-dark btn-empty btn-favorite active"><span class="icon icon-favorite"></span></div>
-                            <div type="button" class="btn btn-primary" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
-                        </div>
-		            </div>
-			  	</div> --><!-- / Grid Item -->
-
-		        <!-- Grid Item -->
-		        <!-- <div class="section alt">
-		        	<div class="col-xs-12 col-md-8 col-lg-9">
-				        <div class="panel panel-account">
-							<div class="col-xs-12">
-								<div class="row">
-								<div class="col-xs-12 panel-body">
-									<ul class="list-group">
-										<div class="col-sm-2 list-group-itemWrap bottom">
-					                    	<li class="list-group-item">
-					                    		<p class="small">51265</p>
-					                    	</li>
-					                    </div>
-										<div class="col-sm-3 list-group-itemWrap bottom alt">
-					                    	<li class="list-group-item productName">
-					                    		<p class="small"><span class="lead"><a href="#" class="text-primary">Morimoto XB LED Fogs</a></span></p>
-					                    	</li>
-					                    </div>
-										<div class="col-sm-3 list-group-itemWrap bottom">
-					                    	<li class="list-group-item">
-					                    		<p class="small">7-WARR-SHAPE-WRX</p>
-					                    	</li>
-					                    </div>
-					                    <div class="col-sm-2 list-group-itemWrap bottom">
-					                    	<li class="list-group-item productStock">			                    	
-					                    		<p class="small"><em>KIT</em></p>
-					                    	</li>
-					                    </div>
-					                    <div class="col-sm-2 list-group-itemWrap bottom last">
-					                    	<li class="list-group-item">			                    	
-					                    		<p class="small"><span class="lead text-white">$150.00</span></p>
-					                    	</li>
-					                    </div>
-					                </ul>
-								</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-			  		<div class="col-xs-12 col-md-4 col-lg-3 pull-right cta">
-		                <div class="form-group">
-                            <div class="input-group spinner">
-                                <div class="input-group-btn">
-                                    <div class="btn btn-default subtract" type="button">-</div>
-                                </div>
-                                <input type="text" class="form-control" value="1">
-                                <div class="input-group-btn">
-                                    <div class="btn btn-default add" type="button">+</div>
-                                </div>
-                            </div>
-                            <div type="button" class="btn btn-dark btn-empty btn-favorite active"><span class="icon icon-favorite"></span></div>
-                            <div type="button" class="btn btn-primary" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick"></span></div>
-                        </div>
-		            </div>
-			  	</div> --><!-- / Grid Item -->
+	  			<div class="section wrap">
+		        	<div class="col-xs-12">
+		        		<h5 class="text-gray1">Complete Retrofit Kits</h5>
+		        	</div>
+		        </div>
 
 			  	<!-- Grid Item -->
-		        <div class="section half">
-					<div class="col-xs-12 col-md-8 col-lg-10">
+		        <div class="section half first">
+					<div class="col-xs-12 col-md-9 col-lg-10">
 				        <div class="panel panel-account">
-							<div class="col-xs-12 col-md-5">
+							<div class="col-xs-12 col-lg-5 main">
 								<div class="row">
-								<div class="col-xs-12 col-lg-4 panel-title">
+								<div class="col-xs-12 col-sm-3 col-lg-4 panel-title">
 									<p class="small"><span class="lead text-white">ID:</span> <a href="#" class="text-primary">57922</a></p>
 								</div>
-								<div class="col-xs-12 col-lg-8 panel-heading alt">
+								<div class="col-xs-12 col-sm-9 col-lg-8 panel-heading alt">
 									<p class="small"><span class="lead"><a href="#" class="text-primary">Chevrolet (Square): Morimoto XB LED Fogs</a></span></p>
 								</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-7">
+							<div class="col-xs-12 col-lg-7">
 								<div class="row">
 								<div class="panel-body">
 									<ul class="list-group">
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">SKU:</span> 7-WARR-SHAPE-WRX</p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    	<p class="small"><span class="lead text-white">Unit:</span> Piece</p>
 					                    	</div>
 					                    </li>
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">Stock Summary:</span> <em><span class="lead text-danger">0/19</span></em></p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    		<p class="small"><span class="lead text-white">Price:</span> $150.00</p>
 					                    	</div>
 					                    </li>
@@ -422,7 +257,7 @@
 				  		</div>
 				  	</div>
 			  		
-			  		<div class="col-xs-12 col-md-4 col-lg-2 pull-right cta">
+			  		<div class="col-xs-12 col-md-3 col-lg-2 pull-right cta">
 		                <div class="form-group">
                             <div class="input-group spinner">
                                 <div class="input-group-btn">
@@ -441,35 +276,35 @@
 
 			  	<!-- Grid Item -->
 		        <div class="section alt">
-			  		<div class="col-xs-12 col-md-8 col-lg-10">
+			  		<div class="col-xs-12 col-md-9 col-lg-10">
 				        <div class="panel panel-account">
-							<div class="col-xs-12 col-md-5">
+							<div class="col-xs-12 col-lg-5 main">
 								<div class="row">
-								<div class="col-xs-12 col-lg-4 panel-title">
+								<div class="col-xs-12 col-sm-3 col-lg-4 panel-title">
 									<p class="small"><span class="lead text-white">ID:</span> <a href="#" class="text-primary">24396</a></p>
 								</div>
-								<div class="col-xs-12 col-lg-8 panel-heading alt">
+								<div class="col-xs-12 col-sm-9 col-lg-8 panel-heading alt">
 									<p class="small"><span class="lead"><a href="#" class="text-primary">Morimoto XB LED Fogs</a></span></p>
 								</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-7">
+							<div class="col-xs-12 col-lg-7">
 								<div class="row">
 								<div class="panel-body">
 									<ul class="list-group">
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">SKU:</span> 7-WARR-SHAPE-WRX 7-WARR-SHAPE-WRX</p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    	<p class="small"><span class="lead text-white">Unit:</span> Kit</p>
 					                    	</div>
 					                    </li>
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">Stock Summary:</span> <em><span class="lead text-secondary">190/190</span></em></p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    		<p class="small"><span class="lead text-white">Price:</span> $150.00</p>
 					                    	</div>
 					                    </li>
@@ -480,7 +315,7 @@
 				  		</div>
 				  	</div>
 			  		
-			  		<div class="col-xs-12 col-md-4 col-lg-2 pull-right cta">
+			  		<div class="col-xs-12 col-md-3 col-lg-2 pull-right cta">
 		                <div class="form-group">
                             <div class="input-group spinner">
                                 <div class="input-group-btn">
@@ -496,38 +331,45 @@
                         </div>
 		            </div>
 			  	</div><!-- / Grid Item -->
+			  	<div class="section wrap"><div class="col-xs-12"><hr class="aligncenter"></div></div>
+
+			  	<div class="section wrap">
+		        	<div class="col-xs-12">
+		        		<h5 class="text-gray1">Complete Housings</h5>
+		        	</div>
+		        </div>
 
 			  	<!-- Grid Item -->
-		        <div class="section half">
-					<div class="col-xs-12 col-md-8 col-lg-10">
+		        <div class="section half first">
+					<div class="col-xs-12 col-md-9 col-lg-10">
 				        <div class="panel panel-account">
-							<div class="col-xs-12 col-md-5">
+							<div class="col-xs-12 col-lg-5 main">
 								<div class="row">
-								<div class="col-xs-12 col-lg-4 panel-title">
+								<div class="col-xs-12 col-sm-3 col-lg-4 panel-title">
 									<p class="small"><span class="lead text-white">ID:</span> <a href="#" class="text-primary">57922</a></p>
 								</div>
-								<div class="col-xs-12 col-lg-8 panel-heading alt">
+								<div class="col-xs-12 col-sm-9 col-lg-8 panel-heading alt">
 									<p class="small"><span class="lead"><a href="#" class="text-primary">Chevrolet (Square): Morimoto XB LED Fogs</a></span></p>
 								</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-7">
+							<div class="col-xs-12 col-lg-7">
 								<div class="row">
 								<div class="panel-body">
 									<ul class="list-group">
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">SKU:</span> 7-WARR-SHAPE-WRX</p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    	<p class="small"><span class="lead text-white">Unit:</span> Piece</p>
 					                    	</div>
 					                    </li>
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">Stock Summary:</span> <em><span class="lead text-danger">0/19</span></em></p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    		<p class="small"><span class="lead text-white">Price:</span> $150.00</p>
 					                    	</div>
 					                    </li>
@@ -538,7 +380,7 @@
 				  		</div>
 				  	</div>
 			  		
-			  		<div class="col-xs-12 col-md-4 col-lg-2 pull-right cta">
+			  		<div class="col-xs-12 col-md-3 col-lg-2 pull-right cta">
 		                <div class="form-group">
                             <div class="input-group spinner">
                                 <div class="input-group-btn">
@@ -557,35 +399,35 @@
 
 			  	<!-- Grid Item -->
 		        <div class="section alt">
-			  		<div class="col-xs-12 col-md-8 col-lg-10">
+			  		<div class="col-xs-12 col-md-9 col-lg-10">
 				        <div class="panel panel-account">
-							<div class="col-xs-12 col-md-5">
+							<div class="col-xs-12 col-lg-5 main">
 								<div class="row">
-								<div class="col-xs-12 col-lg-4 panel-title">
+								<div class="col-xs-12 col-sm-3 col-lg-4 panel-title">
 									<p class="small"><span class="lead text-white">ID:</span> <a href="#" class="text-primary">24396</a></p>
 								</div>
-								<div class="col-xs-12 col-lg-8 panel-heading alt">
+								<div class="col-xs-12 col-sm-9 col-lg-8 panel-heading alt">
 									<p class="small"><span class="lead"><a href="#" class="text-primary">Morimoto XB LED Fogs</a></span></p>
 								</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-7">
+							<div class="col-xs-12 col-lg-7">
 								<div class="row">
 								<div class="panel-body">
 									<ul class="list-group">
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">SKU:</span> 7-WARR-SHAPE-WRX 7-WARR-SHAPE-WRX</p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    	<p class="small"><span class="lead text-white">Unit:</span> Kit</p>
 					                    	</div>
 					                    </li>
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">Stock Summary:</span> <em><span class="lead text-secondary">190/190</span></em></p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    		<p class="small"><span class="lead text-white">Price:</span> $150.00</p>
 					                    	</div>
 					                    </li>
@@ -596,7 +438,7 @@
 				  		</div>
 				  	</div>
 			  		
-			  		<div class="col-xs-12 col-md-4 col-lg-2 pull-right cta">
+			  		<div class="col-xs-12 col-md-3 col-lg-2 pull-right cta">
 		                <div class="form-group">
                             <div class="input-group spinner">
                                 <div class="input-group-btn">
@@ -618,37 +460,53 @@
 
 			<div class="tab-pane fade" id="catalogTab">
 		  		
-		  		<!-- Grid Item -->
+		  		<form role="search"><!-- <form class="navbar-form" role="search"> -->
+	                <div class="form-group has-suggestions">
+	                    <div class="input-group col-sm-8 col-md-10 col-lg-6">
+	                        <input type="text" class="form-control" id="inputSuggestions" placeholder="Search ID, Name, or SKU...">
+	                        <span class="input-group-btn">
+	                            <a class="btn btn-empty" type="button"><span class="icon icon-search"></span></a>
+	                        </span>
+	                        <!-- <ul class="dropdown-menu" role="menu">
+	                            <li><a href="#">Suggestion</a></li>
+	                            <li><a href="#">Another suggestion</a></li>
+	                            <li><a href="#">Some other suggestion</a></li>
+	                        </ul> -->
+	                    </div>
+	                </div>
+	            </form>
+
+		        <!-- Grid Item -->
 		        <div class="section half">
-					<div class="col-xs-12 col-md-8 col-lg-10">
+					<div class="col-xs-12 col-md-9 col-lg-10">
 				        <div class="panel panel-account">
-							<div class="col-xs-12 col-md-5">
+							<div class="col-xs-12 col-lg-5 main">
 								<div class="row">
-								<div class="col-xs-12 col-lg-4 panel-title">
+								<div class="col-xs-12 col-sm-3 col-lg-4 panel-title">
 									<p class="small"><span class="lead text-white">ID:</span> <a href="#" class="text-primary">57922</a></p>
 								</div>
-								<div class="col-xs-12 col-lg-8 panel-heading alt">
+								<div class="col-xs-12 col-sm-9 col-lg-8 panel-heading alt">
 									<p class="small"><span class="lead"><a href="#" class="text-primary">Chevrolet (Square): Morimoto XB LED Fogs</a></span></p>
 								</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-7">
+							<div class="col-xs-12 col-lg-7">
 								<div class="row">
 								<div class="panel-body">
 									<ul class="list-group">
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">SKU:</span> 7-WARR-SHAPE-WRX</p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    	<p class="small"><span class="lead text-white">Unit:</span> Piece</p>
 					                    	</div>
 					                    </li>
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">Stock Summary:</span> <em><span class="lead text-danger">0/19</span></em></p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    		<p class="small"><span class="lead text-white">Price:</span> $150.00</p>
 					                    	</div>
 					                    </li>
@@ -659,7 +517,7 @@
 				  		</div>
 				  	</div>
 			  		
-			  		<div class="col-xs-12 col-md-4 col-lg-2 pull-right cta">
+			  		<div class="col-xs-12 col-md-3 col-lg-2 pull-right cta">
 		                <div class="form-group">
                             <div class="input-group spinner">
                                 <div class="input-group-btn">
@@ -670,7 +528,7 @@
                                     <div class="btn btn-sm btn-default add" type="button">+</div>
                                 </div>
                             </div>
-                            <div type="button" class="btn btn-sm btn-dark btn-empty btn-favorite"><span class="icon icon-favorite"></span></div>
+                            <div type="button" class="btn btn-sm btn-dark btn-empty btn-favorite active"><span class="icon icon-favorite"></span></div>
                             <div type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                         </div>
 		            </div>
@@ -678,35 +536,35 @@
 
 			  	<!-- Grid Item -->
 		        <div class="section alt">
-			  		<div class="col-xs-12 col-md-8 col-lg-10">
+			  		<div class="col-xs-12 col-md-9 col-lg-10">
 				        <div class="panel panel-account">
-							<div class="col-xs-12 col-md-5">
+							<div class="col-xs-12 col-lg-5 main">
 								<div class="row">
-								<div class="col-xs-12 col-lg-4 panel-title">
+								<div class="col-xs-12 col-sm-3 col-lg-4 panel-title">
 									<p class="small"><span class="lead text-white">ID:</span> <a href="#" class="text-primary">24396</a></p>
 								</div>
-								<div class="col-xs-12 col-lg-8 panel-heading alt">
+								<div class="col-xs-12 col-sm-9 col-lg-8 panel-heading alt">
 									<p class="small"><span class="lead"><a href="#" class="text-primary">Morimoto XB LED Fogs</a></span></p>
 								</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-7">
+							<div class="col-xs-12 col-lg-7">
 								<div class="row">
 								<div class="panel-body">
 									<ul class="list-group">
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">SKU:</span> 7-WARR-SHAPE-WRX 7-WARR-SHAPE-WRX</p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    	<p class="small"><span class="lead text-white">Unit:</span> Kit</p>
 					                    	</div>
 					                    </li>
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">Stock Summary:</span> <em><span class="lead text-secondary">190/190</span></em></p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    		<p class="small"><span class="lead text-white">Price:</span> $150.00</p>
 					                    	</div>
 					                    </li>
@@ -717,7 +575,7 @@
 				  		</div>
 				  	</div>
 			  		
-			  		<div class="col-xs-12 col-md-4 col-lg-2 pull-right cta">
+			  		<div class="col-xs-12 col-md-3 col-lg-2 pull-right cta">
 		                <div class="form-group">
                             <div class="input-group spinner">
                                 <div class="input-group-btn">
@@ -736,35 +594,35 @@
 
 			  	<!-- Grid Item -->
 		        <div class="section half">
-					<div class="col-xs-12 col-md-8 col-lg-10">
+					<div class="col-xs-12 col-md-9 col-lg-10">
 				        <div class="panel panel-account">
-							<div class="col-xs-12 col-md-5">
+							<div class="col-xs-12 col-lg-5 main">
 								<div class="row">
-								<div class="col-xs-12 col-lg-4 panel-title">
+								<div class="col-xs-12 col-sm-3 col-lg-4 panel-title">
 									<p class="small"><span class="lead text-white">ID:</span> <a href="#" class="text-primary">57922</a></p>
 								</div>
-								<div class="col-xs-12 col-lg-8 panel-heading alt">
-									<p class="small"><span class="lead"><a href="#" class="text-primary">Chevrolet (Square): Morimoto XB LED Fogs</a></span></p>
+								<div class="col-xs-12 col-sm-9 col-lg-8 panel-heading alt">
+									<p class="small"><span class="lead"><a href="#" class="text-primary">Chevrolet (Square): Morimoto XB LED Fogs Long Title</a></span></p>
 								</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-7">
+							<div class="col-xs-12 col-lg-7">
 								<div class="row">
 								<div class="panel-body">
 									<ul class="list-group">
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">SKU:</span> 7-WARR-SHAPE-WRX</p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    	<p class="small"><span class="lead text-white">Unit:</span> Piece</p>
 					                    	</div>
 					                    </li>
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">Stock Summary:</span> <em><span class="lead text-danger">0/19</span></em></p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    		<p class="small"><span class="lead text-white">Price:</span> $150.00</p>
 					                    	</div>
 					                    </li>
@@ -775,7 +633,7 @@
 				  		</div>
 				  	</div>
 			  		
-			  		<div class="col-xs-12 col-md-4 col-lg-2 pull-right cta">
+			  		<div class="col-xs-12 col-md-3 col-lg-2 pull-right cta">
 		                <div class="form-group">
                             <div class="input-group spinner">
                                 <div class="input-group-btn">
@@ -786,7 +644,7 @@
                                     <div class="btn btn-sm btn-default add" type="button">+</div>
                                 </div>
                             </div>
-                            <div type="button" class="btn btn-sm btn-dark btn-empty btn-favorite"><span class="icon icon-favorite"></span></div>
+                            <div type="button" class="btn btn-sm btn-dark btn-empty btn-favorite active"><span class="icon icon-favorite"></span></div>
                             <div type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                         </div>
 		            </div>
@@ -794,35 +652,35 @@
 
 			  	<!-- Grid Item -->
 		        <div class="section alt">
-			  		<div class="col-xs-12 col-md-8 col-lg-10">
+			  		<div class="col-xs-12 col-md-9 col-lg-10">
 				        <div class="panel panel-account">
-							<div class="col-xs-12 col-md-5">
+							<div class="col-xs-12 col-lg-5 main">
 								<div class="row">
-								<div class="col-xs-12 col-lg-4 panel-title">
+								<div class="col-xs-12 col-sm-3 col-lg-4 panel-title">
 									<p class="small"><span class="lead text-white">ID:</span> <a href="#" class="text-primary">24396</a></p>
 								</div>
-								<div class="col-xs-12 col-lg-8 panel-heading alt">
+								<div class="col-xs-12 col-sm-9 col-lg-8 panel-heading alt">
 									<p class="small"><span class="lead"><a href="#" class="text-primary">Morimoto XB LED Fogs</a></span></p>
 								</div>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-7">
+							<div class="col-xs-12 col-lg-7">
 								<div class="row">
 								<div class="panel-body">
 									<ul class="list-group">
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">SKU:</span> 7-WARR-SHAPE-WRX 7-WARR-SHAPE-WRX</p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    	<p class="small"><span class="lead text-white">Unit:</span> Kit</p>
 					                    	</div>
 					                    </li>
 					                    <li class="list-group-item">
-					                    	<div class="col-sm-7">
+					                    	<div class="col-sm-8">
 					                    		<p class="small"><span class="lead text-white">Stock Summary:</span> <em><span class="lead text-secondary">190/190</span></em></p>
 					                    	</div>
-					                    	<div class="col-sm-5">
+					                    	<div class="col-sm-4">
 					                    		<p class="small"><span class="lead text-white">Price:</span> $150.00</p>
 					                    	</div>
 					                    </li>
@@ -833,7 +691,7 @@
 				  		</div>
 				  	</div>
 			  		
-			  		<div class="col-xs-12 col-md-4 col-lg-2 pull-right cta">
+			  		<div class="col-xs-12 col-md-3 col-lg-2 pull-right cta">
 		                <div class="form-group">
                             <div class="input-group spinner">
                                 <div class="input-group-btn">
@@ -844,7 +702,7 @@
                                     <div class="btn btn-sm btn-default add" type="button">+</div>
                                 </div>
                             </div>
-                            <div type="button" class="btn btn-sm btn-dark btn-empty btn-favorite"><span class="icon icon-favorite"></span></div>
+                            <div type="button" class="btn btn-sm btn-dark btn-empty btn-favorite active"><span class="icon icon-favorite"></span></div>
                             <div type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
                         </div>
 		            </div>
