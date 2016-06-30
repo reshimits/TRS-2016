@@ -746,11 +746,8 @@
 				  	</div>
 				  	<div class="col-sm-4">
 						<div class="bs-component">
-					  		<div class="panel panel-primary">
-								<div class="panel-heading">
-						  			<h3 class="panel-title">Panel primary</h3>
-								</div>
-								<div class="panel-body">Panel content</div>
+					  		<div class="panel panel-empty">
+								<div class="panel-body">Empty panel</div>
 					  		</div>
 
 					  		<div class="panel panel-account">
@@ -976,14 +973,14 @@
 	      		</div>	
 
 
-				<div class="row">
+				<!--<div class="row">
 				  	<div class="col-sm-12">
 						<a name="mediaobjects"></a> 
 						<h3>Media Objects</h3>
 				  	</div>
 				</div>
 				<div class="row">
-				  	<!-- <div class="col-sm-6">
+				  	 <div class="col-sm-6">
 						<div class="bs-component">
 							<div class="panel panel-default">
 								<div class="panel-heading">Default Media Block</div>
@@ -1009,7 +1006,7 @@
 								</div>
 							</div>		  	
 						</div>
-				 	</div> -->
+				 	</div> 
 				 	<div class="col-sm-12">
 						<div class="bs-component">
 							<div class="panel panel-default">
@@ -1024,7 +1021,6 @@
 								  	          	<h4 class="media-heading">Media heading</h4>
 								  	          	<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
 								  	          	
-								  	          	<!-- Nested media object -->
 								  	          	<div class="media">
 								  	            	<a class="pull-left" href="#">
 								  	              		<img class="media-object" src="img/genericPlaceholderImage.svg" alt="Generic placeholder image" border="0">
@@ -1035,7 +1031,6 @@
 								  	            	</div>
 								  	          	</div>
 								  	          	
-								  	          	<!-- Nested media object -->
 								  	          	<div class="media">
 								  	            	<a class="pull-left" href="#">
 								  	              		<img class="media-object" src="img/genericPlaceholderImage.svg" alt="Generic placeholder image" border="0">
@@ -1071,7 +1066,7 @@
 						</div>
 				 	</div>
 				</div>
-			</div>
+			</div>-->
 			
 		</div>
 
