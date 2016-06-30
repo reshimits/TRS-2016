@@ -59,12 +59,12 @@
 
         <div class="section texturedEdge header-waypoint" data-animate-down="header-small" data-animate-up="header-large"></div>
 
-        <div class="section wrap" >
+         <div class="section wrap">
             <div class="container-fluid">
                 <ul class="row productGrid">
                 
                     <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
+                        <a href="productdetail.php" class="thumb-top">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
                                     <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
@@ -76,9 +76,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <div class="label label-new">
@@ -87,9 +85,9 @@
                             <!-- <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
-                            <!-- <div class="label label-fitment">
+                            <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div> -->
+                            </div>
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
@@ -122,9 +120,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -168,9 +164,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -179,9 +173,9 @@
                             <!-- <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
                             </div> -->
-                            <!-- <div class="label label-fitment">
+                            <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div> -->
+                            </div>
                         </div>
                         <div class="section caption">
                             <div class="col-xs-12">
@@ -214,9 +208,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-motorcycle.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 5.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -224,8 +216,8 @@
                             </div>
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div> -->
-                            <!-- <div class="label label-fitment">
+                            </div>
+                            <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
                             </div> -->
                         </div>
@@ -260,9 +252,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--bi-xenon_morimoto_mini_d2s_stage_iii_kit_1.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -270,8 +260,8 @@
                             </div>
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div> -->
-                            <!-- <div class="label label-fitment">
+                            </div>
+                            <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
                             </div> -->
                         </div>
@@ -306,9 +296,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -316,8 +304,8 @@
                             </div>
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div> -->
-                            <!-- <div class="label label-fitment">
+                            </div>
+                            <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Turn Signal</p></div>
                             </div> -->
                         </div>
@@ -352,9 +340,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -362,8 +348,8 @@
                             </div>
                             <div class="label label-sale">
                                 <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div> -->
-                            <!-- <div class="label label-fitment">
+                            </div>
+                            <div class="label label-fitment">
                                 <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
                             </div> -->
                         </div>
@@ -389,6 +375,7 @@
                 </ul>
             </div>
         </div>
+
 
         
         <!-- Footer

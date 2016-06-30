@@ -135,9 +135,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <div class="label label-new">
@@ -181,9 +179,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -227,9 +223,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -273,9 +267,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-motorcycle.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 5.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -319,9 +311,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--bi-xenon_morimoto_mini_d2s_stage_iii_kit_1.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -365,9 +355,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
@@ -411,9 +399,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <!-- <div class="label label-new">
