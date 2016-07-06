@@ -1322,41 +1322,36 @@
 				  	<div class="col-sm-12">
 						<a name="alerts"></a> 
 						<h3>Alerts</h3>
-						<div class="bs-component">
-					  		<div class="alert alert-dismissable alert-warning">
-								<button type="button" class="close" data-dismiss="alert">&times;</button>
-								<h4>Warning!</h4>
-								<p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
-					  		</div>
-						</div>
-				  	</div>
-				</div>
-				<div class="row">
-				  	<div class="col-sm-4">
-						<div class="bs-component">
-					  		<div class="alert alert-dismissable alert-danger">
-								<button type="button" class="close" data-dismiss="alert">&times;</button>
-								<strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
-					  		</div>
-						</div>
-				  	</div>
-				  	<div class="col-sm-4">
-						<div class="bs-component">
-					  		<div class="alert alert-dismissable alert-success">
-								<button type="button" class="close" data-dismiss="alert">&times;</button>
-								<strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
-					  		</div>
-						</div>
-				  	</div>
-				  	<div class="col-sm-4">
-						<div class="bs-component">
+						<!-- <div class="bs-component">
 					  		<div class="alert alert-dismissable alert-info">
 								<button type="button" class="close" data-dismiss="alert">&times;</button>
-								<strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+								<p><span class="lead">Warning!</span> Best check yo self, you're not looking too good. <a href="#" class="alert-link">Vel scelerisque nisl consectetur et</a></p>
 					  		</div>
-						</div>
+						</div> -->
 				  	</div>
 				</div>
+				
+				<div class="section half last">
+                    <div class="col-xs-12">
+                    <div class="row">
+                        <div class="alert alert-dismissable alert-danger">
+                            <div type="button" class="close" data-dismiss="alert">&times;</div>
+                           <p><span class="lead">Error!</span> Change a few things up and try submitting again.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+				<div class="section half">
+                    <div class="col-xs-12">
+                    <div class="row">
+                        <div class="alert alert-dismissable alert-success">
+                            <div type="button" class="close" data-dismiss="alert">&times;</div>
+                            <p><span class="lead">Success!</span> Product ABC has been added to your cart.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+				  	
 				<div class="row">
 				  	<div class="col-sm-4">
 						<a name="labels"></a> 
@@ -1377,7 +1372,7 @@
 						  	<span class="label label-danger">Danger</span>
 						  	<span class="label label-info">Info</span> -->
 				  	</div>
-				  	<div class="col-sm-4">
+				  	<div class="col-sm-6 col-sm-offset-2">
 						<a name="badges"></a> 
 						<h3>Badges</h3>
 						<div class="bs-component">
@@ -1385,6 +1380,7 @@
 								<li class="active"><a href="#">Home <span class="badge">42</span></a></li>
 								<li><a href="#">Profile <span class="badge"></span></a></li>
 								<li><a href="#">Messages <span class="badge">3</span></a></li>
+								<li><a type="button" href="#" class="btn btn-empty"><span class="icon icon-cart"></span><span class="badge">4</span></a></li>
 					  		</ul>
 						</div>
 				  	</div>
