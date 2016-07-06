@@ -38,7 +38,8 @@
 
 </head>
 
-<body class="utility cart">
+<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
+<body class="utility cart" id="wholesaleAcct">
 
     <!-- Header
     ================================================== -->
@@ -179,7 +180,7 @@
                                                         <div class="col-xs-12">
                                                             <select class="form-control drop" id="select">
                                                                 <option value="">Matt Kossoff 8385 Allegiance Rd. Unit E Columbus, OH, 43235 United States 4406668214</option>
-                                                                <option value="#">Matt Kossoff 8385 Allegiance Rd. Unit E Columbus, OH, 43235 United States 4406668214</option>
+                                                                <option value="#">Rob Shimits 747 Quaker Ridge Ct., Columbus, OH, 43230 United States 4406668214</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -262,7 +263,7 @@
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <div type="button" class="btn btn-primary pull-right">Continue</div>
+                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
                                     </div>
                                 </div>
                             </fieldset>
@@ -272,7 +273,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-6 section gray1 shippingmethod">
-                <div class="container-fluid">
+                <div class="container-fluid disabled">
                 <div class="col-xs-12">
                     <h3>Shipping Method</h3>
                         <form class="form-horizontal">
@@ -301,8 +302,8 @@
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <div type="button" class="btn btn-primary pull-right">Continue</div>
-                                        <h6 class="text-weight900pluto"><a href="#">&lt; Back</a></h6>
+                                        <div type="button" class="btn btn-default back"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
+                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
                                     </div>
                                 </div>
                             </fieldset>
@@ -314,7 +315,7 @@
 
         <div class="flex-row">
             <div class="col-xs-12 col-sm-6 section gray2 billingaddress">
-                <div class="container-fluid">
+                <div class="container-fluid disabled">
                 <div class="col-xs-12">
                     <h3>Billing Address</h3>
                         <form class="form-horizontal">
@@ -418,7 +419,8 @@
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <div type="button" class="btn btn-primary pull-right">Continue</div>
+                                        <div type="button" class="btn btn-default back"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
+                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
                                     </div>
                                 </div>
                             </fieldset>
@@ -428,7 +430,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-6 section gray3 billingmethod">
-                <div class="container-fluid">
+                <div class="container-fluid disabled">
                 <div class="col-xs-12">
                     <h3>Billing Method</h3>
                         <form class="form-horizontal">
@@ -516,8 +518,8 @@
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <div type="button" class="btn btn-primary pull-right">Continue</div>
-                                        <h6 class="text-weight900pluto"><a href="#">&lt; Back</a></h6>
+                                        <div type="button" class="btn btn-default back"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
+                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
                                     </div>
                                 </div>
                             </fieldset>
@@ -528,7 +530,57 @@
         </div>
         </div>
 
-        <div class="section title">
+        <div class="section title orderextras">
+            <div class="container-fluid disabled">
+                <div class="col-xs-12">
+                    <h3>Order Extras</h3>
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox"><span class="small lead text-uppercase">Internal Credit</span>
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="" value="option1" checked=""><span class="small lead text-uppercase">Credit Card</span>
+                                                <div class="reveal-if-active">
+                                                    <div class="form-group">
+                                                        <div class="col-sm-6">
+                                                            <select class="form-control drop" id="select">
+                                                                <option value="">Credit Card Type</option>
+                                                                <option value="#">Visa</option>
+                                                                <option value="#">Mastercard</option>
+                                                                <option value="#">American Express</option> 
+                                                                <option value="#">Discover</option>   
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <input type="text" class="form-control" id="inputDefault" value="Credit Card Number">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <hr class="aligncenter">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div type="button" class="btn btn-default back"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
+                                        <!-- <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div> -->
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>            
+                </div>
+            </div>
+        </div>
+
+        <div class="section title ordersummary">
             <div class="container-fluid">
                 <div class="col-xs-12">
                     <h2 class="text-center">Order Summary:</h2>
@@ -668,6 +720,47 @@
             $('.spinner input').val( parseInt($('.spinner input').val(), 10) - 1);
           });
         })(jQuery);
+    </script>
+
+    <!-- CHECKOUT BLOCK x BLOCK SCRIPT -->
+    <script type='text/javascript'>
+        function toggleText(id) {
+            var showMore = document.getElementById(id);
+            (showMore.style.display=='block') ? showMore.style.display='none' : showMore.style.display='block' ;  
+        } 
+        $( ".section.shippingaddress .btn.continue" ).click(function() {
+            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",true );
+            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",false );
+        });
+        $( ".section.shippingmethod .btn.continue" ).click(function() {
+            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",true );
+            $(".section.billingaddress .container-fluid").toggleClass( "disabled",false );
+        });
+        $( ".section.billingaddress .btn.continue" ).click(function() {
+            $(".section.billingaddress .container-fluid").toggleClass( "disabled",true );
+            $(".section.billingmethod .container-fluid").toggleClass( "disabled",false );
+        });
+        $( ".section.billingmethod .btn.continue" ).click(function() {
+            $(".section.billingmethod .container-fluid").toggleClass( "disabled",true );
+            $(".section.orderextras .container-fluid").toggleClass( "disabled",false );
+        });
+
+        $( ".section.shippingmethod .btn.back" ).click(function() {
+            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",false );
+            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",true );
+        });
+        $( ".section.billingaddress .btn.back" ).click(function() {
+            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",false );
+            $(".section.billingaddress .container-fluid").toggleClass( "disabled",true );
+        });
+        $( ".section.billingmethod .btn.back" ).click(function() {
+            $(".section.billingaddress .container-fluid").toggleClass( "disabled",false );
+            $(".section.billingmethod .container-fluid").toggleClass( "disabled",true );
+        });
+        $( ".section.orderextras .btn.back" ).click(function() {
+            $(".section.billingmethod .container-fluid").toggleClass( "disabled",false );
+            $(".section.orderextras .container-fluid").toggleClass( "disabled",true );
+        });
     </script>
   
 
