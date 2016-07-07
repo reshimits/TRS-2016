@@ -1322,15 +1322,25 @@
 				  	<div class="col-sm-12">
 						<a name="alerts"></a> 
 						<h3>Alerts</h3>
-						<!-- <div class="bs-component">
-					  		<div class="alert alert-dismissable alert-info">
-								<button type="button" class="close" data-dismiss="alert">&times;</button>
-								<p><span class="lead">Warning!</span> Best check yo self, you're not looking too good. <a href="#" class="alert-link">Vel scelerisque nisl consectetur et</a></p>
-					  		</div>
-						</div> -->
 				  	</div>
 				</div>
-				
+
+				<!-- MAGENTO STYLE ALERTS -->
+				<ul class="messages"><li class="notice-msg"><ul><li><span>This is just some general info and <a href="#">a link.</a></span></li></ul></li></ul>
+				<ul class="messages"><li class="error-msg"><ul><li><span>ERROR! Invalid login or password and <a href="#">a link.</a></span></li></ul></li></ul>
+				<ul class="messages"><li class="success-msg"><ul><li><span>SUCCESS! Product ABC has been added to your cart and <a href="#">a link.</a></span></li></ul></li></ul>
+
+				<!-- BOOTSTRAP STYLE ALERTS -->
+				<!-- <div class="section half last">
+                    <div class="col-xs-12">
+                    <div class="row">
+                        <div class="alert alert-dismissable alert-info">
+                            <div type="button" class="close" data-dismiss="alert">&times;</div>
+                           <p><span class="lead">Yo ho ho!</span> This is just some general info.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
 				<div class="section half last">
                     <div class="col-xs-12">
                     <div class="row">
@@ -1350,7 +1360,7 @@
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> -->
 				  	
 				<div class="row">
 				  	<div class="col-sm-4">
