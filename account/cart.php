@@ -174,7 +174,8 @@
                                     <div class="col-xs-12">
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option1" checked=""><span class="small lead text-uppercase">Select an entry from your Address Book</span>
+                                                <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                                <p class="small"><span class="text-uppercase">Select an entry from your Address Book</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
                                                         <div class="col-xs-12">
@@ -189,7 +190,8 @@
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option2"><span class="small lead text-uppercase">Ship to a different address</span>
+                                                <input type="radio" name="optionsRadios" id="" value="option2">
+                                                <p class="small"><span class="text-uppercase">Ship to a different address</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
@@ -223,7 +225,7 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <select class="validate-select" id="select">
+                                                            <select class="form-control drop validate-select" id="select">
                                                                 <option value="">Country</option>
                                                                 <option value="#">#</option>
                                                                 <option value="#">#</option>
@@ -280,22 +282,17 @@
                             <fieldset>
                                 <div class="form-group">
                                     <div class="col-xs-12">
-                                    <span class="small lead text-uppercase">Select a Shipping Method</span>
+                                        <p class="small"><span class="text-uppercase">Select a Shipping Method</span></p>
                                         <select class="form-control drop" id="select">
                                             <option value="">Flat Rate ... $5.00</option>
-                                            <option value="">USPS ... First Class Mail - Package ... $24.63</option>
-                                            <option value="">USPS ... Priority Mail - Package ... $5.35</option>
+                                            <option value="">USPS ... First Class Mail - Package – 1-3 business days ... $24.63</option>
+                                            <option value="">USPS ... Priority Mail - Package – 1-3 business days ... $5.35</option>
                                             <option value="">UPS ... Ground ... $6.79</option>
                                             <option value="">UPS ... 3 Day Select ... $10.22</option>
                                             <option value="">UPS ... Next Day Air Saver ... $40.16</option>
                                             <option value="">UPS ... Next Day Air ... $44.02</option>
                                         </select>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-xs-12">
-                                        <span class="small lead text-uppercase">Special Order Instructions</span>
-                                        <textarea class="form-control" rows="5" id="textArea" placeholder="Message..."></textarea>
+                                        <h6 class="pull-right text-white"><em>> Ships tomorrow, from Atlanta</em></h6>
                                     </div>
                                 </div>
                                     
@@ -324,13 +321,15 @@
                                     <div class="col-xs-12">
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option1" checked=""><span class="small lead text-uppercase">Same as Shipping Address</span>
+                                                <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                                <p class="small"><span class="text-uppercase">Same as Shipping Address</span></p>
                                                 <div class="reveal-if-active"><!-- Needs to be here to keep spacing consistent --></div>
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option2"><span class="small lead text-uppercase">Select an entry from your Address Book</span>
+                                                <input type="radio" name="optionsRadios" id="" value="option2">
+                                                <p class="small"><span class="text-uppercase">Select an entry from your Address Book</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
                                                         <div class="col-xs-12">
@@ -345,7 +344,8 @@
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option3"><span class="small lead text-uppercase">Bill to a different address</span>
+                                                <input type="radio" name="optionsRadios" id="" value="option3">
+                                                <p class="small"><span class="text-uppercase">Bill to a different address</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
@@ -408,7 +408,7 @@
                                                     </div>
                                                     <div class="checkbox">
                                                         <label>
-                                                            <input type="checkbox"><span class="small">Save to My Address Book</span>
+                                                            <input type="checkbox"><p class="small">Save to My Address Book</p>
                                                         </label>
                                                     </div>
                                                 </div>
@@ -416,6 +416,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <p>*Your shipment may be delayed if you do not provide an accurate billing address.</p>
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">
@@ -439,12 +440,15 @@
                                     <div class="col-xs-12">
                                         <div class="checkbox">
                                             <label>
-                                                <input type="checkbox"><span class="small lead text-uppercase">Internal Credit</span>
+                                                <input type="checkbox" checked>
+                                                <p class="small"><span class="text-uppercase">Store Credit</span></p>
+                                                <ul class="messages"><li class="notice-msg"><ul><li><span>$100 Available</a></span></li></ul></li></ul>
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option1" checked=""><span class="small lead text-uppercase">Credit Card</span>
+                                                <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                                <p class="small"><span class="text-uppercase">Credit Card</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
@@ -506,10 +510,11 @@
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option2"><span class="small lead text-uppercase">PayPal</span>
+                                                <input type="radio" name="optionsRadios" id="" value="option2">
+                                                <p class="small"><span class="text-uppercase">PayPal</span></p>
                                                 <div class="reveal-if-active">
                                                 <!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/bdg_now_accepting_pp_2line_w.png" border="0" alt="Now accepting PayPal"></a></td></tr></table><!-- PayPal Logo -->
-                                                <span class="small">*You will be redirected to the PayPal website</span>
+                                                <p class="small">*You will be redirected to the PayPal website</p>
                                                 </div>    
                                             </label>
                                         </div>
@@ -530,38 +535,49 @@
         </div>
         </div>
 
-        <div class="section title orderextras">
+        <div class="section gray1 orderextras">
             <div class="container-fluid disabled">
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-6">
                     <h3>Order Extras</h3>
                         <form class="form-horizontal">
                             <fieldset>
                                 <div class="form-group">
                                     <div class="col-xs-12">
-                                        <div class="checkbox">
+                                        <p class="small"><span class="text-uppercase">Promotional Code:</span></p>
+                                        <input type="text" class="form-control" id="inputDefault" value="Enter Promo Code">
+                                        <ul class="messages"><li class="success-msg"><ul><li><span>SUCCESS! 10% off Coupon Code Accepted.</span></li></ul></li></ul>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <p class="small"><span class="text-uppercase">PO #:</span></p>
+                                        <input type="text" class="form-control" id="inputDefault" value="Enter PO">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <p class="small"><span class="text-uppercase">Special Order Instructions</span></p>
+                                        <textarea class="form-control" rows="5" id="textArea" placeholder="Message..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <!-- <div class="checkbox">
                                             <label>
-                                                <input type="checkbox"><span class="small lead text-uppercase">Internal Credit</span>
+                                                <input type="checkbox">
+                                                <p class="small"><span class="text-uppercase">Drop Ship Order</span></p>
+                                            </label>
+                                        </div> -->
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                                <p class="small"><span class="text-uppercase">Drop Ship Order</span></p>
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option1" checked=""><span class="small lead text-uppercase">Credit Card</span>
-                                                <div class="reveal-if-active">
-                                                    <div class="form-group">
-                                                        <div class="col-sm-6">
-                                                            <select class="form-control drop" id="select">
-                                                                <option value="">Credit Card Type</option>
-                                                                <option value="#">Visa</option>
-                                                                <option value="#">Mastercard</option>
-                                                                <option value="#">American Express</option> 
-                                                                <option value="#">Discover</option>   
-                                                            </select>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Credit Card Number">
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <input type="radio" name="optionsRadios" id="" value="option2" checked="">
+                                                <p class="small"><span class="text-uppercase">Stock Order</span></p>
                                             </label>
                                         </div>
                                         
@@ -587,47 +603,52 @@
 
                     <div class="row">
                         <div class="col-xs-12">
-                            <hr>
-                            <h3 class="text-gray">Order Summary:</h3>
                         
-                            <div class="section description">
-                                <div class="col-xs-12 col-md-8 pull-right">
+                            <div class="section">
+                                <div class="col-xs-12 col-sm-7 pull-right">
                                     <div class="row">
                                         <h4 class="col-xs-8">Subtotal:</h4>
                                         <h4 class="col-xs-4 text-right">$399.99</h4>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-md-8 pull-right">
+                                <div class="col-xs-12 col-sm-7 pull-right">
                                     <div class="row">
                                         <h4 class="col-xs-8">Shipping &amp; Handling:</h4>
                                         <h4 class="col-xs-4 text-right">$24.04</h4>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-md-8 pull-right">
+                                <div class="col-xs-12 col-sm-7 pull-right">
                                     <div class="row">
                                         <h4 class="col-xs-8">Sales Tax:</h4>
                                         <h4 class="col-xs-4 text-right">$16.38</h4>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-md-8 pull-right">
+                                <div class="col-xs-12 col-sm-7 pull-right">
                                     <hr>
                                     <div class="row">
-                                        <h3 class="col-xs-8 text-tertiary">Total:</h3>
-                                        <h3 class="col-xs-4 text-right text-tertiary">$840.40</h3>
+                                        <h3 class="col-xs-8 text-primary">Total:</h3>
+                                        <h3 class="col-xs-4 text-right text-primary">$840.40</h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12">
-                            <div class="section description">
+                            <div class="section">
                                 <hr>
-                                <h6 class="text-weight900pluto" style="margin-bottom:10px"><a href="/client/TRS/MorimotoHID/utility/cart.php">&lt; Forgot an Item? Edit Your Cart</a></h6>
-                                <a class="btn-group pull-right" href="#">
-                                    <div type="button" class="btn btn-primary-icon"><span class="icon icon-confirm icon-withText"></span></div>
-                                    <div type="button" class="btn btn-primary">Confirm Order</div>
-                                </a>
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="row">
+                                        <h6 class=""><a href="#">&lt; Forgot an Item? Continue Shopping</a></h6>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="row">
+                                        <p>*Please double check the details of your order before submitting. Once it is processed, we can not change or cancel it.</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-primary pull-right" role="button">Confirm Order</a>
                                 
-                                <div class="panelWrap confirmOrder">
+                                
+                                <!-- <div class="panelWrap confirmOrder">
                                     <div class="panel panel-default">
                                         <div class="panel-body">
                                         <div id="review-please-wait" class="ring-spinner-wrap">
@@ -636,7 +657,7 @@
                                         <span class="h5">"Submitting order information..."</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>    
                         </div>
                         
