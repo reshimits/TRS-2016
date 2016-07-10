@@ -143,6 +143,7 @@
                 <div class="col-xs-12">
                     <h3>BI-XENON Long Title MORIMOTO MINI STAGE III (D2S) Kit <span class="btn btn-empty btn-xs edit">// Remove</span></h3>
                     <hr class="aligncenter first">
+                    <ul class="messages"><li class="error-msg"><ul><li><span>OUT OF STOCK! BI-XENON Long Title MORIMOTO MINI STAGE III (D2S) Kit is currently on backorder with an ETA of 12-12-16.</span></li></ul></li></ul>
                 </div>
                 <div class="col-sm-7 col-md-3 col-lg-3">
                     <img class="img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 6.jpg" alt="" border="0"/>
