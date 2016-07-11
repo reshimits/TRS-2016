@@ -69,23 +69,13 @@
         <div class="section cart-product">
             <div class="container-fluid">
                 <div class="col-xs-12">
-                    <h3>BI-XENON: LEXUS RX350 <span class="btn btn-empty btn-xs edit">// Remove</span></h3>
+                    <h3>BI-XENON: LEXUS RX350</h3>
                     <hr class="aligncenter first">
                 </div>
-                <div class="col-sm-7 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-3">
                     <img class="img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 4.jpg" alt="" border="0"/>
                 </div>
-                <div class="col-sm-5 col-md-5 col-lg-5">
-                    <!-- <p class="small">
-                        <span class="lead text-gray2">Bi-Xenon Projectors:</span> 2 x Morimoto Mini H1 6.0 (LHD) <span class="lead text-secondary pull-right">$0.00</span><br>
-                        <span class="lead text-gray2">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span><br>
-                        <span class="lead text-gray2">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span><br>
-                        <span class="lead text-gray2">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span><br>
-                        <span class="lead text-gray2">Shroud Style:</span> 2 x Mini Gatling Gun <span class="lead text-secondary pull-right">$0.00</span><br>
-                        <span class="lead text-gray2">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span><br>
-                        <span class="lead text-gray2">LED Halos:</span> 2 x 70mm XSB Switchback <span class="lead text-secondary pull-right">$0.00</span><br>
-                        <span class="lead text-gray2">Headlight Sealant:</span> 1 x Gray: RetroRubber <span class="lead text-secondary pull-right">$0.00</span><br>
-                    </p> -->
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-5">
                     <ul class="list-group">
                         <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Bi-Xenon Projectors:</span> 2 x Morimoto Mini H1 6.0 (LHD) <span class="lead text-secondary pull-right">$0.00</span></p></li>
                         <li class="list-group-item"><p class="small"><span class="lead text-gray2">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
@@ -120,7 +110,7 @@
                                                         <div class="btn btn-sm btn-default add" type="button">+</div>
                                                     </div>
                                                 </div>
-                                                <span class="btn btn-empty btn-xs edit">// Update</span>
+                                                <span class="btn btn-empty btn-xs edit">// Update</span><span class="btn btn-empty btn-xs edit text-gray1">// Remove</span>
                                             </div>
                                         </div>
                                         <div class="col-xs-12">
@@ -141,14 +131,14 @@
         <div class="section cart-product">
             <div class="container-fluid">
                 <div class="col-xs-12">
-                    <h3>BI-XENON Long Title MORIMOTO MINI STAGE III (D2S) Kit <span class="btn btn-empty btn-xs edit">// Remove</span></h3>
+                    <h3>BI-XENON Long Title MORIMOTO MINI STAGE III (D2S) Kit</h3>
                     <hr class="aligncenter first">
-                    <ul class="messages"><li class="error-msg"><ul><li><span>OUT OF STOCK! BI-XENON Long Title MORIMOTO MINI STAGE III (D2S) Kit is currently on backorder with an ETA of 12-12-16.</span></li></ul></li></ul>
+                    <ul class="messages"><li class="error-msg"><ul><li><span>OUT OF STOCK! All or part of this item is current sold out. More are expected in stock by 12-12-16 </span></li></ul></li></ul>
                 </div>
-                <div class="col-sm-7 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-3">
                     <img class="img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 6.jpg" alt="" border="0"/>
                 </div>
-                <div class="col-sm-5 col-md-5 col-lg-5">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-5">
                     <ul class="list-group">
                         <li class="list-group-item active"><p class="small"><span class="lead text-gray2">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
                         <li class="list-group-item"><p class="small"><span class="lead text-gray2">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
@@ -179,7 +169,7 @@
                                                         <div class="btn btn-sm btn-default add" type="button">+</div>
                                                     </div>
                                                 </div>
-                                                <span class="btn btn-empty btn-xs edit">// Update</span>
+                                                <span class="btn btn-empty btn-xs edit">// Update</span><span class="btn btn-empty btn-xs edit text-gray1">// Remove</span>
                                             </div>
                                         </div>
                                         <div class="col-xs-12">
@@ -201,8 +191,8 @@
         <div class="section title">
             <div class="container-fluid">
                 <div class="col-xs-12">
-                    <h2 class="text-right text-secondary">Sub-Total: <span class="text-weightRegular text-primary">$1,319.97</span></h2>
-                    <p class="note pull-right"><span class="lead"><em>*for a shipping quote please fill out address</em></span></p>
+                    <h3 class="text-right text-secondary">Sub-Total: <span class="text-primary">$1,319.97</span></h3>
+                    <p class="note pull-right"><span class="lead"><em>*For a shipping quote please fill out address</em></span></p>
                 </div>
             </div>    
         </div>
@@ -341,6 +331,7 @@
                             <fieldset>
                                 <div class="form-group">
                                     <div class="col-xs-12">
+                                        <h6>*We offer free standard shipping on wholesale orders over $100.</h6>
                                         <p class="small"><span class="text-uppercase">Select a Shipping Method</span></p>
                                         <select class="form-control drop" id="select">
                                             <option value="">Flat Rate ... $5.00</option>
@@ -351,7 +342,7 @@
                                             <option value="">UPS ... Next Day Air Saver ... $40.16</option>
                                             <option value="">UPS ... Next Day Air ... $44.02</option>
                                         </select>
-                                        <h6 class="pull-right text-white"><em>> Ships tomorrow, from Atlanta</em></h6>
+                                        <h6 class="pull-right text-white"><em>> Ships <span class="text-primary">tomorrow</span>, from Atlanta</em></h6>
                                     </div>
                                 </div>
                                     
@@ -475,7 +466,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p class="small"><span class="text-warning">*Your shipment may be delayed if you do not provide an accurate billing address.</span></p>
+                                <p class="small">*Your shipment may be delayed if you do not provide an accurate billing address.</p>
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">
@@ -599,49 +590,51 @@
         <div class="section gray1 orderextras">
             <div class="container-fluid disabled">
                 <div class="col-xs-12 col-sm-6 wholesaleextras">
-                    <h3>Wholesale Extras</h3>
-                    <form class="form-horizontal">
-                        <fieldset>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="optionsRadios" id="" value="option1" checked="">
-                                            <p class="small"><span class="text-uppercase">Drop Ship Order</span></p>
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="optionsRadios" id="" value="option2" checked="">
-                                            <p class="small"><span class="text-uppercase">Stock Order</span></p>
-                                        </label>
+                    <div class="section first">
+                        <h3>Purchase Order Details</h3>
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                                <p class="small"><span class="text-uppercase">This is a Stock Order</span></p>
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="" value="option2">
+                                                <p class="small"><span class="text-uppercase">This is a Drop Ship</span></p>
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <p class="small"><span class="text-uppercase">Assign a PO Number?:</span></p>
-                                    <input type="text" class="form-control" id="inputDefault" value="Enter PO#">
+                                <div class="form-group">
+                                    <div class="col-xs-12 col-sm-10 col-md-8">
+                                        <p class="small"><span class="text-uppercase">Your PO Number (Optional):</span></p>
+                                        <input type="text" class="form-control" id="inputDefault" value="Enter PO#">
+                                    </div>
                                 </div>
-                            </div>
-                        </fieldset>
-                    </form>
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6">
-                    <h3>Order Extras</h3>
+                    <h3>But Wait, There’s More</h3>
                     <form class="form-horizontal">
                         <fieldset>
                             <div class="form-group">
-                                <div class="col-xs-12">
-                                    <p class="small"><span class="text-uppercase">Promotional Code:</span></p>
+                                <div class="col-xs-12 col-sm-10 col-md-8">
+                                    <p class="small"><span class="text-uppercase">Do you have a Promotional Code?</span></p>
                                     <input type="text" class="form-control" id="inputDefault" value="Enter Promo Code">
                                     <ul class="messages"><li class="success-msg"><ul><li><span>SUCCESS! 10% off Coupon Code Accepted.</span></li></ul></li></ul>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-12">
-                                    <p class="small"><span class="text-uppercase">Special Order Instructions</span></p>
+                                    <p class="small"><span class="text-uppercase">Do you have any special requests / comments?</span></p>
                                     <textarea class="form-control" rows="5" id="textArea" placeholder="Message..."></textarea>
                                 </div>
                             </div>
@@ -706,6 +699,13 @@
                                 </div>
                                 </div>
                             </div>
+                            <div class="col-xs-12 col-sm-6 pull-right">
+                                <div class="row">
+                                <div class="col-xs-12">
+                                    <div type="button" class="btn btn-lg btn-block btn-primary active"><span class="icon icon-securecheckout icon-before"></span>Confirm Order<span class="icon icon-loaderPie"></span></div>
+                                </div>
+                                </div>
+                            </div>
                             <div class="col-xs-12 col-sm-6">
                                 <div class="row">
                                 <div class="col-xs-12">
@@ -714,26 +714,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section">
-                            <div class="col-xs-12 col-sm-6 pull-right">
-                                <div class="row">
-                                <div class="col-xs-12">
-                                    <a href="#" class="btn btn-lg btn-block btn-primary" role="button"><span class="icon icon-securecheckout icon-before"></span>Confirm Order</a>
-                                </div>
-                                </div>
-                            </div>
-                            
-                            <!-- <div class="panelWrap confirmOrder">
-                                <div class="panel panel-default">
-                                    <div class="panel-body">
-                                    <div id="review-please-wait" class="ring-spinner-wrap">
-                                        <img src="http://boot.morimotohid.com/skin/frontend/morimoto/default/img/ring-spinner.svg" alt="Submitting order information..." title="Submitting order information..." class="v-middle"> 
-                                    </div>
-                                    <span class="h5">"Submitting order information..."</span>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>    
                         
                     </div>
                 </div>
