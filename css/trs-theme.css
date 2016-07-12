@@ -514,6 +514,11 @@ input[type="radio"]:checked ~ .reveal-if-active, input[type="checkbox"]:checked 
 .btn-hex { border: none; font-family: 'PlutoSansRegular', Helvetica, Arial, sans-serif; font-style: italic; line-height: 2; text-transform: none; }
 .btn-hex:hover { border: none; color: #88e333; background: rgba(25, 25, 25, .25);  }
 
+.orderextras .form-group .input-group-btn .btn-dark { padding: 8px; margin-left: 0 !important; border-color: #777; }
+@media (min-width:768px) {
+  .orderextras .form-group .input-group-btn .btn-dark { padding: 9px; }
+}
+
 .btn-ghost { color: #fff; background: rgba(255, 255, 255, .25); border-color: #ddd; }
 .btn-ghost:hover, .btn-ghost:focus, .btn-ghost.focus, .btn-ghost:active, .btn-ghost.active, .open > .dropdown-toggle.btn-ghost { color: #fff; background: rgba(255, 255, 255, .5); border-color: #ddd; }
 .btn-ghost:active, .btn-ghost.active, .open > .dropdown-toggle.btn-ghost { background-image: none; }
@@ -1748,6 +1753,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { color: #9
 
 
 .alert, .messages { float: left; width: 100%; padding: 0; margin-bottom: 5px; border: none; border-radius: 0; }
+.header .messages { position: absolute; z-index: 1000; margin-bottom: 0; }
 .alert .alert-link, .messages a { font-weight: inherit; }
 .messages li { list-style: none; }
 .messages li ul li { text-align: center; padding: 5px; }

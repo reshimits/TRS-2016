@@ -223,7 +223,7 @@
                                     <div class="col-xs-12">
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
                                                 <p class="small"><span class="text-uppercase">Select an entry from your Address Book</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
@@ -239,37 +239,37 @@
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option2">
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
                                                 <p class="small"><span class="text-uppercase">Ship to a different address</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="First Name">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="First Name">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Last Name">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Last Name">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-sm-12">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Company Name">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Company Name">
                                                         </div>
                                                     </div>
                                                     <hr class="aligncenter">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Street Address 1">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 1">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Street Address 2">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 2">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="City">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="City">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Region/State">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Region/State">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
@@ -284,21 +284,21 @@
                                                             </select>
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Postal Code">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Postal Code">
                                                         </div>
                                                     </div>
                                                     <hr class="aligncenter">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Email Address">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Email Address">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Confirm Email Address">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Confirm Email Address">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Phone">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Phone">
                                                         </div>
                                                     </div>
                                                     <div class="checkbox">
@@ -371,14 +371,14 @@
                                     <div class="col-xs-12">
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
                                                 <p class="small"><span class="text-uppercase">Same as Shipping Address</span></p>
                                                 <div class="reveal-if-active"><!-- Needs to be here to keep spacing consistent --></div>
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option2">
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
                                                 <p class="small"><span class="text-uppercase">Select an entry from your Address Book</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
@@ -394,37 +394,37 @@
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option3">
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option3">
                                                 <p class="small"><span class="text-uppercase">Bill to a different address</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="First Name">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="First Name">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Last Name">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Last Name">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-sm-12">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Company Name">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Company Name">
                                                         </div>
                                                     </div>
                                                     <hr class="aligncenter">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Street Address 1">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 1">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Street Address 2">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 2">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="City">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="City">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Region/State">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Region/State">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
@@ -439,21 +439,21 @@
                                                             </select>
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Postal Code">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Postal Code">
                                                         </div>
                                                     </div>
                                                     <hr class="aligncenter">
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Email Address">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Email Address">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Confirm Email Address">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Confirm Email Address">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
-                                                            <input type="text" class="form-control" id="inputDefault" value="Phone">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Phone">
                                                         </div>
                                                     </div>
                                                     <div class="checkbox">
@@ -497,7 +497,7 @@
                                     </div>
                                     <div class="radio">
                                         <label>
-                                            <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                            <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
                                             <p class="small"><span class="text-uppercase">Credit Card</span></p>
                                             <div class="reveal-if-active">
                                                 <div class="form-group">
@@ -511,7 +511,7 @@
                                                         </select>
                                                     </div>
                                                     <div class="col-sm-6">
-                                                        <input type="text" class="form-control" id="inputDefault" value="Credit Card Number">
+                                                        <input type="text" class="form-control" id="inputDefault" placeholder="Credit Card Number">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -552,7 +552,7 @@
                                                         </select>
                                                     </div>
                                                     <div class="col-sm-3">
-                                                        <input type="text" class="form-control" id="inputDefault" value="CVV2">
+                                                        <input type="text" class="form-control" id="inputDefault" placeholder="CVV2">
                                                     </div>
                                                 </div>
                                             </div>
@@ -560,7 +560,7 @@
                                     </div>
                                     <div class="radio">
                                         <label>
-                                            <input type="radio" name="optionsRadios" id="" value="option2">
+                                            <input type="radio" name="optionsRadios" id="" placeholder="option2">
                                             <p class="small"><span class="text-uppercase">PayPal</span></p>
                                             <div class="reveal-if-active">
                                             <!-- PayPal Logo -->
@@ -598,13 +598,13 @@
                                     <div class="col-xs-12">
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option1" checked="">
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
                                                 <p class="small"><span class="text-uppercase">This is a Stock Order</span></p>
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" value="option2">
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
                                                 <p class="small"><span class="text-uppercase">This is a Drop Ship</span></p>
                                             </label>
                                         </div>
@@ -613,7 +613,7 @@
                                 <div class="form-group">
                                     <div class="col-xs-12 col-sm-10 col-md-8">
                                         <p class="small"><span class="text-uppercase">Your PO Number (Optional):</span></p>
-                                        <input type="text" class="form-control" id="inputDefault" value="Enter PO#">
+                                        <input type="text" class="form-control" id="inputDefault" placeholder="Enter PO#">
                                     </div>
                                 </div>
                             </fieldset>
@@ -621,14 +621,19 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-6 orderextras">
                     <h3>But Wait, There’s More</h3>
                     <form class="form-horizontal">
                         <fieldset>
                             <div class="form-group">
                                 <div class="col-xs-12 col-sm-10 col-md-8">
-                                    <p class="small"><span class="text-uppercase">Do you have a Promotional Code?</span></p>
-                                    <input type="text" class="form-control" id="inputDefault" value="Enter Promo Code">
+                                    <p class="small"><span class="text-uppercase">Do you have a Promotional Code?</span></p>                                
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="inputDefault" placeholder="Enter Promo Code">
+                                        <span class="input-group-btn">
+                                            <a class="btn btn-dark" type="button"><span class="icon icon-arrowRcircle-fff"></span></a>
+                                        </span>
+                                    </div>
                                     <ul class="messages"><li class="success-msg"><ul><li><span>SUCCESS! 10% off Coupon Code Accepted.</span></li></ul></li></ul>
                                 </div>
                             </div>
