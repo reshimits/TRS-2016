@@ -169,12 +169,14 @@
 					  		<p class="text-success">Success: Duis mollis, est non commodo luctus.</p>
 					  		<p class="text-info">Info: Maecenas sed diam eget risus varius blandit.</p> -->
 						</div>
-						<div class="bs-component">
+					</div>
+					<div class="col-sm-6">
+						<div class="section gray1">
 							<h3>Blockquote</h3>
-					  		<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  		<div class="blockquote">
+								<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</h5>
 								<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-					  		</blockquote>
+					  		</div>
 						</div>
 				  	</div>
 				</div>  	
