@@ -163,45 +163,47 @@
         <div class="section wrap crew-specs">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-12 col-lg-4 hidden-xs hidden-md">
-                        <div class="blockquote">
-                            <h5>The Retrofit Source is more than the world's largest supplier of high-end lighting upgrades. We're a group of automotive enthusiasts with a passion for perfecting your night-time driving experience. With a wide range of backgrounds from business management, marketing, the military, technology, customer service, and other automotive service sectors, our combined value consistently exceeds our customer’s expectations.</h5>
-                        </div>
+                    <div class="flex-row">
+                        <div class="col-xs-12 col-lg-4 hidden-xs hidden-md">
+                            <div class="blockquote">
+                                <h5>The Retrofit Source is more than the world's largest supplier of high-end lighting upgrades. We're a group of automotive enthusiasts with a passion for perfecting your night-time driving experience. With a wide range of backgrounds from business management, marketing, the military, technology, customer service, and other automotive service sectors, our combined value consistently exceeds our customer’s expectations.</h5>
+                            </div>
 
-                    </div>
-                    <div class="section last gray2 col-xs-12 col-lg-8">
-                        <ul class="list-group">
-                            <li class="list-group-item-heading">
-                                <span class="icon icon-crew"></span>
-                                <h3 class=" text-primary">This Squad Rolls Deep</h3>
-                            </li>
-                            <div class="section last col-xs-12 col-sm-6">
-                                <li class="list-group-item"><p><span class="lead text-white">Matt Kossoff:</span> President</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Nate Brick:</span> Chief Operating Officer</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Andrew Powers:</span> Wholesale / Marketing Manager</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Josh Kossoff:</span> Head of IT</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Rob Shimits:</span> Creative Director</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Zachary Williams:</span> Customer Relations Manager</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Jamielle Gummer:</span> Customer Relations</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Charlie Kendall:</span> Customer Relations</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Carlos Diaz:</span> Customer Relations</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Giovanni Valencia:</span> Customer Relations</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Jimmy Nguyen:</span> Customer Relations</p></li>
-                            </div>
-                            <div class="section last col-xs-12 col-sm-6">
-                                <li class="list-group-item active"><p><span class="lead text-white">Salih Tahir:</span> Customer Relations</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Val Cheban:</span> Warehouse Manager</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Tony Allen:</span> Quality Control</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Josh Keys:</span> Quality Control</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Keith Austin:</span> Quality Control</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Luis Baltazar:</span> Order Processing</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Fernando Baltazar:</span> Order Processing</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Max Baraynuk:</span> Order Processing</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Ben Francis:</span> Inventory Control</p></li>
-                                <li class="list-group-item"><p><span class="lead text-white">Susan Kossoff:</span> Human Resources</p></li>
-                                <li class="list-group-item active"><p><span class="lead text-white">Stacy Frank:</span> Accounting</p></li>
-                            </div>
-                        </ul>
+                        </div>
+                        <div class="section last gray2 col-xs-12 col-lg-8">
+                            <ul class="list-group">
+                                <li class="list-group-item-heading">
+                                    <span class="icon icon-crew"></span>
+                                    <h3 class=" text-primary">This Squad Rolls Deep</h3>
+                                </li>
+                                <div class="section last col-xs-12 col-sm-6">
+                                    <li class="list-group-item"><p><span class="lead text-white">Matt Kossoff:</span> President</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Nate Brick:</span> Chief Operating Officer</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Andrew Powers:</span> Wholesale / Marketing Manager</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Josh Kossoff:</span> Head of IT</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Rob Shimits:</span> Creative Director</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Zachary Williams:</span> Customer Relations Manager</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Jamielle Gummer:</span> Customer Relations</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Charlie Kendall:</span> Customer Relations</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Carlos Diaz:</span> Customer Relations</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Giovanni Valencia:</span> Customer Relations</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Jimmy Nguyen:</span> Customer Relations</p></li>
+                                </div>
+                                <div class="section last col-xs-12 col-sm-6">
+                                    <li class="list-group-item active"><p><span class="lead text-white">Salih Tahir:</span> Customer Relations</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Val Cheban:</span> Warehouse Manager</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Tony Allen:</span> Quality Control</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Josh Keys:</span> Quality Control</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Keith Austin:</span> Quality Control</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Luis Baltazar:</span> Order Processing</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Fernando Baltazar:</span> Order Processing</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Max Baraynuk:</span> Order Processing</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Ben Francis:</span> Inventory Control</p></li>
+                                    <li class="list-group-item"><p><span class="lead text-white">Susan Kossoff:</span> Human Resources</p></li>
+                                    <li class="list-group-item active"><p><span class="lead text-white">Stacy Frank:</span> Accounting</p></li>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
