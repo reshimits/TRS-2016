@@ -69,9 +69,9 @@
                             <span class="icon icon-after icon-arrowDown-fff"></span>
                         </div>
                         <ul class="dropdown-menu btn-block" role="menu">
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Submit a Testimonial</a></li>
-                            <li><a href="#">Job Opportunities</a></li>
+                            <li><a href="testimonials.php">Testimonials</a></li>
+                            <li><a href="testimonials.php">Submit a Testimonial</a></li>
+                            <li><a href="opportunities.php">Job Opportunities</a></li>
                         </ul>
                     </div>
                 </div>

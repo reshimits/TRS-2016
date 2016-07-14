@@ -304,7 +304,9 @@ blockquote footer:before, blockquote small:before, blockquote .small:before { co
 .blockquote-reverse footer:after, blockquote.pull-right footer:after, .blockquote-reverse small:after, blockquote.pull-right small:after, .blockquote-reverse .small:after, blockquote.pull-right .small:after { content: '\00A0 \2014'; }
 blockquote:before, blockquote:after { content: ""; }
 
-.blockquote { text-align: center; padding: 80px 30px; }
+.blockquote { text-align: center; padding: 80px 30px; position: relative; z-index: 1000; }
+.about.testimonials .blockquote { padding: 30px; }
+.about.testimonials .blockquote h6 { line-height: 1.5; }
 /*address { margin-bottom: 20px; font-style: normal; line-height: 1.4; }
 code, kbd, pre, samp { font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
 code { padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px; }
@@ -503,7 +505,8 @@ input[type="radio"]:checked ~ .reveal-if-active, input[type="checkbox"]:checked 
 .section.module-quickstartguide .btn-empty.icon { width: 38px; height: 38px; }
 .footer .section.contact .btn-empty:hover { background-color: #fff; border-color: #ddd; }
 .btn-empty.btn-hexicon .icon, .footer .section.title .btn .icon { height: 60px; width: 60px; }
-.btn-empty.btn-hexicon:hover { border-color: transparent; }
+.btn-empty.btn-hexicon:hover { border-color: transparent; cursor: default; }
+  .footer .btn-empty.btn-hexicon:hover { cursor: pointer; }
 .module-buyersguide .btn-empty.btn-xs, .btn-empty.btn-xs.edit { position: absolute; top: 0; right: 0; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #fff; }
 .module-buyersguide .btn-empty.btn-xs:hover, .module-buyersguide .btn-empty.btn-xs:active, .btn-empty.btn-xs.edit:hover, .btn-empty.btn-xs.edit:active { border-color: transparent; } 
   .panel-account .btn-empty.btn-xs.edit, .cart-product .btn-empty.btn-xs.edit { position: relative; float: right; color: #88e333; }
@@ -697,6 +700,9 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-arrowLcircle-999 { background-image: url(../img/icon-arrowLcircle-999.svg); background-position: center top; }
 .icon-blockquoteHex { background-image: url(../img/icon-blockquoteHex.svg); }
 .icon-blockquoteHexAlt { background-image: url(../img/icon-blockquoteHexAlt.svg); }
+.icon-blockquoteHex-ext { background-image: url(../img/icon-blockquoteHex-ext.svg); }
+.icon-blockquoteHex-fb { background-image: url(../img/icon-blockquoteHex-fb.svg); }
+.icon-blockquoteHex-trs { background-image: url(../img/icon-blockquoteHex-trs.svg); }
 .icon-cart { background-image: url(../img/icon-cart.svg); }
 .icon-cartQuick { background-image: url(../img/icon-cartQuick.svg); }
 .thumbnail .icon-cartQuick, .tab-content .icon-cartQuick { width: 32px; height: 22px; background-position: center -1px; }
@@ -1601,6 +1607,11 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-default > .panel-footer + .panel-collapse > .panel-body { border-bottom-color: #ddd; }
 
 .panel-empty { float: left; width: 100%; background-color: transparent; border: 6px solid #eee; border-radius: 0; margin: 10px 0 0 0; -webkit-box-shadow: none; box-shadow: none; }
+.panel-empty.panel-empty-alt .row { background-color: #474747; }
+.panel-empty.panel-empty-alt h6, .panel-empty.panel-empty-alt h6 ~ p { color: #fff; }
+.panel-empty h6 { margin-bottom: 10px; }
+.panel-empty .panel-empty-img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: .4; 
+  background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 .panel-account { float: left; width: 100%; background-color: rgba(25, 25, 25, .15); border-color: #666; margin-bottom: 0; }
 .panel-account.productGrid { padding: 1px; }
@@ -2098,6 +2109,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .about .blockquote2 { background-image: url(../img/bg-blockquote2.jpg); background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 @media (max-width:767px) {
   .about .section.crew-specs .list-group .section.last { padding: 0; }
+}
 
 
 /* FOOTER

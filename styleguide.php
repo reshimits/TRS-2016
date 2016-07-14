@@ -170,7 +170,7 @@
 					  		<p class="text-info">Info: Maecenas sed diam eget risus varius blandit.</p> -->
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-6"> 
 						<div class="section gray1">
 							<h3>Blockquote</h3>
 					  		<div class="blockquote">
@@ -179,6 +179,23 @@
 					  		</div>
 						</div>
 				  	</div>
+				  	<div class="col-xs-12 col-sm-6 col-lg-4">
+	                    <div class="panel panel-empty">
+	                        <div class="panel-body">
+	                            <div class="col-xs-12">
+	                                <div class="row" style="background-color: #474747;">
+	                                    <div class="blockquote">
+	                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex"></span></div>
+	                                        <p>07.01.2016</p>
+	                                        <h6 class="text-white">“Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.”</h6>
+	                                        <p>– Micah S Lux</p>
+	                                    </div>
+	                                    <div class="panel-empty-img" style="background-image: url(img/temp-testimonial3.jpg);"></div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
 				</div>  	
 			</div>
 		</div>
@@ -975,7 +992,7 @@
 	      		</div>	
 
 
-				<!--<div class="row">
+				<!-- <div class="row">
 				  	<div class="col-sm-12">
 						<a name="mediaobjects"></a> 
 						<h3>Media Objects</h3>
@@ -1068,7 +1085,7 @@
 						</div>
 				 	</div>
 				</div>
-			</div>-->
+			</div> -->
 			
 		</div>
 
