@@ -199,80 +199,58 @@
                             </div>
                         </div>
                     </li>
-                <!-- </ul>
-            </div>
-        </div>
-
-        <div class="section wrap">
-            <div class="col-xs-12 section gray1 blockquote1">
-                <div class="container-fluid">
-                <div class="col-xs-12">
-                    <div class="blockquote">
-                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex"></span></div>
-                        <h5 class="text-white">“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h5>
-                        <p class="text-weightMedium"><em>– Matt Kossoff, TRS President</em></p>
-                    </div>
-                </div>  
-                </div>          
-            </div>
-        </div>
-
-        <div class="section reviews"> 
-            <div class="container-fluid"> 
-                <ul class="testimonialTiles">
-                
-                 --><li data-filter-class='["trs"]' class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-trs"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6 class="">“So far, not so good. June 14th I order a retrofit kit for my Subie. Order acknowledgment states a high beam splitter cord is on back order. Fine, thats cool. So I call a couple days later just to check up, also thinking maybe they could just ship the kit without for now, I'll even pay shipping separately, so I can get install rolling, after all, splitter cord should just plug in later anyway. But I am assured that they expect them next week. Cool. I'll just wait for it all. That goes by, nothing. So I call about two weeks after ordering now. Now its not the splitter cord, its the retro quik bracket. Okaayy. So should have them after the fourth weekend. Alright. In the meantime, I get the July 1 email ad screaming out all the deals, like the 25 percent off I could have gotten on my kit, although they already ran my card quite awhile back and I ordered two weeks before. Also couldn't miss the line in the ad about "guaranteed availability in stock for just 24 hours", except that couldn't be right if I'm understanding correctly, because that would mean they have what I'm waiting for, right? Made me a bit sour. Perfection is not the issue here. Its hyping the product and the service and not delivering. At least the service at this point, not that whoever I've talked to hasn't been friendly and polite, but it seems a bit like I'm just getting a line to keep me on the hook. I have not received any communciation from them at all since my confirmation email, it has all been one way. I'm holding out because the products have great support and reviews and I've done my research. I hope that turns out to be the case whenever I do get my kit, unfortunately it doesn't look likely in time for the two week road trip I hoped to have it for. I will update this review whenever it all shakes out.”</h6>
-                                        <p class="text-weightMedium"><em>– Micah S Lux</em></p>
-                                        <div class="panel-empty-img"></div>
+                    <li data-filter-class='["trs"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-trs"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6 class="">“So far, not so good. June 14th I order a retrofit kit for my Subie. Order acknowledgment states a high beam splitter cord is on back order. Fine, thats cool. So I call a couple days later just to check up, also thinking maybe they could just ship the kit without for now, I'll even pay shipping separately, so I can get install rolling, after all, splitter cord should just plug in later anyway. But I am assured that they expect them next week. Cool. I'll just wait for it all. That goes by, nothing. So I call about two weeks after ordering now. Now its not the splitter cord, its the retro quik bracket. Okaayy. So should have them after the fourth weekend. Alright. In the meantime, I get the July 1 email ad screaming out all the deals, like the 25 percent off I could have gotten on my kit, although they already ran my card quite awhile back and I ordered two weeks before. Also couldn't miss the line in the ad about "guaranteed availability in stock for just 24 hours", except that couldn't be right if I'm understanding correctly, because that would mean they have what I'm waiting for, right? Made me a bit sour. Perfection is not the issue here. Its hyping the product and the service and not delivering. At least the service at this point, not that whoever I've talked to hasn't been friendly and polite, but it seems a bit like I'm just getting a line to keep me on the hook. I have not received any communciation from them at all since my confirmation email, it has all been one way. I'm holding out because the products have great support and reviews and I've done my research. I hope that turns out to be the case whenever I do get my kit, unfortunately it doesn't look likely in time for the two week road trip I hoped to have it for. I will update this review whenever it all shakes out.”</h6>
+                                            <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                                            <div class="panel-empty-img"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li data-filter-class='["fb"]' class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty panel-empty-alt">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-fb"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6>“I order the mini h1 retrofit kit with the 65k bulbs and 80 mm switchback rings. I order on like the 25th of March and didn't receive my order until like the 6 of May that is the only bad thing I have to say about them and I understand that it happens and you gotta roll with the punches. After my install I love the quality and look of the product. Will definitely buy again for my next vehicle. Thanks!”</h6>
-                                        <p class="text-weightMedium"><em>– Micah S Lux</em></p>
-                                    </div>
-                                    <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial2.jpg);"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li data-filter-class='["trs"]' class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-trs"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6 class="">“Had some leds but they were from eBay and they were crap n burned out. I had someone recommend me from a car meet to The Retrofit Source So I looked them up online read bout them and looked at there site, Wow what awesome products and prices. Got directions and took a ride to the store. The guys there are cooler then cool helped me out look for the best fitment for my light and gave me tips on installing them. I even got to meet the CEO. He was an awesome dude ( I want that baseball cap) TRS lol . My led lights are in and makes the car look sweet as ever and there brighter then expected oh and the trs stickers also . I am So happy I got them next time I'm gonna get the color changing ones. Hey to The Retrofit Source thanks so much 100% Happy 02 Acura rsx.”</h6>
-                                        <p class="text-weightMedium"><em>– Benny</em></p>
-                                        <div class="panel-empty-img"></div>
+                    </li>
+                    <li data-filter-class='["fb"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty panel-empty-alt">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-fb"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6>“I order the mini h1 retrofit kit with the 65k bulbs and 80 mm switchback rings. I order on like the 25th of March and didn't receive my order until like the 6 of May that is the only bad thing I have to say about them and I understand that it happens and you gotta roll with the punches. After my install I love the quality and look of the product. Will definitely buy again for my next vehicle. Thanks!”</h6>
+                                            <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                                        </div>
+                                        <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial2.jpg);"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                
+                    </li>
+                    <li data-filter-class='["trs"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-trs"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6 class="">“Had some leds but they were from eBay and they were crap n burned out. I had someone recommend me from a car meet to The Retrofit Source So I looked them up online read bout them and looked at there site, Wow what awesome products and prices. Got directions and took a ride to the store. The guys there are cooler then cool helped me out look for the best fitment for my light and gave me tips on installing them. I even got to meet the CEO. He was an awesome dude ( I want that baseball cap) TRS lol . My led lights are in and makes the car look sweet as ever and there brighter then expected oh and the trs stickers also . I am So happy I got them next time I'm gonna get the color changing ones. Hey to The Retrofit Source thanks so much 100% Happy 02 Acura rsx.”</h6>
+                                            <p class="text-weightMedium"><em>– Benny</em></p>
+                                            <div class="panel-empty-img"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 
