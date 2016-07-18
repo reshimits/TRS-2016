@@ -573,6 +573,15 @@
                 </div>
                 <div class="col-xs-12"><hr class="aligncenter"></div>
                 
+                <!-- Loading new page in pagination -->
+                <div class="col-xs-12 pagination-loader">
+                    <div class="panel panel-empty text-center">
+                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-loaderPie"></span></div>
+                    </div>
+                </div>
+                        
+
+
                 <div class="col-xs-12 text-center">
                     <ul class="pagination">
                         <li class="disabled"><a href="#">&laquo;</a></li>
