@@ -82,37 +82,10 @@
                 <div class="col-xs-12">
                     <h3>Filter Testimonials</h3>
                     <ol class="testimonialsFilters">
-                        <li class="active" data-filter="trs"><span class="filter">TRS Site Reviews</span></li>
-                        <li class="active" data-filter="fb"><span class="filter">Facebook Reviews</span></li>
-                        <li class="active" data-filter="external"><span class="filter">External Reviews</span></li>
-                        <!-- <li data-filter="all"><span class="filter">Reset</span></li> -->
+                        <li class="active" data-filter="trs"><p class="lead filter">TRS Site Reviews</p></li>
+                        <li class="active" data-filter="fb"><p class="lead filter">Facebook Reviews</p></li>
+                        <li class="active" data-filter="ext"><p class="lead filter">External Reviews</p></li>
                     </ol> 
-                    <form class="form-horizontal">
-                        <fieldset>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <div class="checkbox col-xs-12 col-sm-4">
-                                        <label>
-                                            <input type="checkbox" checked>
-                                            <p class="small"><span class="text-weightMedium">TRS Site Reviews</span></p>
-                                        </label>
-                                    </div> 
-                                    <div class="checkbox col-xs-12 col-sm-4">
-                                        <label>
-                                            <input type="checkbox" checked>
-                                            <p class="small"><span class="text-weightMedium">Facebook Reviews</span></p>
-                                        </label>
-                                    </div> 
-                                    <div class="checkbox col-xs-12 col-sm-4">
-                                        <label>
-                                            <input type="checkbox" checked>
-                                            <p class="small"><span class="text-weightMedium">External Reviews</span></p>
-                                        </label>
-                                    </div> 
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
                 </div>  
                 </div>          
             </div>
@@ -121,110 +94,112 @@
 
         <div class="section reviews"> 
             <div class="container-fluid"> 
+                <ul class="testimonialTiles">
 
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-trs"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6 class="">“Had some leds but they were from eBay and they were crap n burned out. I had someone recommend me from a car meet to The Retrofit Source So I looked them up online read bout them and looked at there site, Wow what awesome products and prices. Got directions and took a ride to the store. The guys there are cooler then cool helped me out look for the best fitment for my light and gave me tips on installing them. I even got to meet the CEO. He was an awesome dude ( I want that baseball cap) TRS lol . My led lights are in and makes the car look sweet as ever and there brighter then expected oh and the trs stickers also . I am So happy I got them next time I'm gonna get the color changing ones. Hey to The Retrofit Source thanks so much 100% Happy 02 Acura rsx.”</h6>
-                                        <p class="text-weightMedium"><em>– Benny</em></p>
-                                        <div class="panel-empty-img"></div>
+                    <li data-filter-class='["trs"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-trs"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6 class="">“Had some leds but they were from eBay and they were crap n burned out. I had someone recommend me from a car meet to The Retrofit Source So I looked them up online read bout them and looked at there site, Wow what awesome products and prices. Got directions and took a ride to the store. The guys there are cooler then cool helped me out look for the best fitment for my light and gave me tips on installing them. I even got to meet the CEO. He was an awesome dude ( I want that baseball cap) TRS lol . My led lights are in and makes the car look sweet as ever and there brighter then expected oh and the trs stickers also . I am So happy I got them next time I'm gonna get the color changing ones. Hey to The Retrofit Source thanks so much 100% Happy 02 Acura rsx.”</h6>
+                                            <p class="text-weightMedium"><em>– Benny</em></p>
+                                            <div class="panel-empty-img"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty panel-empty-alt">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-fb"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6>“I order the mini h1 retrofit kit with the 65k bulbs and 80 mm switchback rings. I order on like the 25th of March and didn't receive my order until like the 6 of May that is the only bad thing I have to say about them and I understand that it happens and you gotta roll with the punches. After my install I love the quality and look of the product. Will definitely buy again for my next vehicle. Thanks!”</h6>
-                                        <p class="text-weightMedium"><em>– Micah S Lux</em></p>
-                                    </div>
-                                    <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial2.jpg);"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-ext"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6 class="">“Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.”</h6>
-                                        <p class="text-weightMedium"><em>– Micah S Lux</em></p>
-                                        <div class="panel-empty-img"></div>
+                    </li>
+                    <li data-filter-class='["fb"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty panel-empty-alt">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-fb"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6>“I order the mini h1 retrofit kit with the 65k bulbs and 80 mm switchback rings. I order on like the 25th of March and didn't receive my order until like the 6 of May that is the only bad thing I have to say about them and I understand that it happens and you gotta roll with the punches. After my install I love the quality and look of the product. Will definitely buy again for my next vehicle. Thanks!”</h6>
+                                            <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                                        </div>
+                                        <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial2.jpg);"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty panel-empty-alt">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-fb"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6>“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h6>
-                                        <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                    </li>
+                    <li data-filter-class='["ext"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-ext"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6 class="">“Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.”</h6>
+                                            <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                                            <div class="panel-empty-img"></div>
+                                        </div>
                                     </div>
-                                    <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial1.jpg);"></div>
                                 </div>
                             </div>
+                        </div>
+                    </li>
+                    <li data-filter-class='["fb"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty panel-empty-alt">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-fb"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6>“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h6>
+                                            <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                                        </div>
+                                        <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial1.jpg);"></div>
+                                    </div>
+                                </div>
 
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-ext"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6 class="">“These were a gift to me, they are currently installed in a 2004 Chevy trailblazer. I have a few comments. The output is excellent. It's like driving around with the factory high beams on. One thing that does bother me is that the cutoff does gradually slope off to each side. Nothing drastic though. My other complaint, and only a minor one is that the mount for the bulb holder was slightly off so the bracket had to be bent to be able to put all three screws in. The cutoff is as crisp as every other projector car I've parked next to but my alignment is slightly off. For the price and the improvement over factory, this can't be beaten and the quality of build is top notch.”</h6>
-                                        <p class="text-weightMedium"><em>– Micah S Lux</em></p>
-                                        <div class="panel-empty-img"></div>
+                    </li>
+                    <li data-filter-class='["ext"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-ext"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6 class="">“These were a gift to me, they are currently installed in a 2004 Chevy trailblazer. I have a few comments. The output is excellent. It's like driving around with the factory high beams on. One thing that does bother me is that the cutoff does gradually slope off to each side. Nothing drastic though. My other complaint, and only a minor one is that the mount for the bulb holder was slightly off so the bracket had to be bent to be able to put all three screws in. The cutoff is as crisp as every other projector car I've parked next to but my alignment is slightly off. For the price and the improvement over factory, this can't be beaten and the quality of build is top notch.”</h6>
+                                            <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                                            <div class="panel-empty-img"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <div class="panel panel-empty panel-empty-alt">
-                        <div class="panel-body">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="blockquote">
-                                        <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-fb"></span></div>
-                                        <p>07.01.2016</p>
-                                        <h6>“Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.”</h6>
-                                        <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                    </li>
+                    <li data-filter-class='["fb"]' class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="panel panel-empty panel-empty-alt">
+                            <div class="panel-body">
+                                <div class="col-xs-12">
+                                    <div class="row">
+                                        <div class="blockquote">
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-fb"></span></div>
+                                            <p>07.01.2016</p>
+                                            <h6>“Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.”</h6>
+                                            <p class="text-weightMedium"><em>– Micah S Lux</em></p>
+                                        </div>
+                                        <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial3.jpg);"></div>
                                     </div>
-                                    <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial3.jpg);"></div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                <!-- </ul>
             </div>
         </div>
 
@@ -244,8 +219,9 @@
 
         <div class="section reviews"> 
             <div class="container-fluid"> 
-
-                <div class="col-xs-12 col-sm-6 col-lg-8">
+                <ul class="testimonialTiles">
+                
+                 --><li data-filter-class='["trs"]' class="col-xs-12 col-sm-6 col-lg-4">
                     <div class="panel panel-empty">
                         <div class="panel-body">
                             <div class="col-xs-12">
@@ -261,8 +237,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                </li>
+                <li data-filter-class='["fb"]' class="col-xs-12 col-sm-6 col-lg-4">
                     <div class="panel panel-empty panel-empty-alt">
                         <div class="panel-body">
                             <div class="col-xs-12">
@@ -278,8 +254,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                </li>
+                <li data-filter-class='["trs"]' class="col-xs-12 col-sm-6 col-lg-4">
                     <div class="panel panel-empty">
                         <div class="panel-body">
                             <div class="col-xs-12">
@@ -295,7 +271,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </li>
                 
             </div>
         </div>
@@ -378,8 +354,8 @@
         var options = {
           align: 'left',
           autoResize: true, // This will auto-update the layout when the browser window is resized.
-          container: $('.testimonialsContainer'), // Optional, used for some extra CSS styling
-          offset: 5, // Optional, the distance between grid items
+          container: $('.section.reviews'), // Optional, used for some extra CSS styling
+          //offset: 5, // Optional, the distance between grid items
           outerOffset: 0,
           //itemWidth: 232,  Optional, the width of a grid item
           fillEmptySpace: true, // Optional, fill the bottom of each column with widths of flexible height

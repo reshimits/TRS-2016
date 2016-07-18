@@ -305,7 +305,8 @@ blockquote footer:before, blockquote small:before, blockquote .small:before { co
 blockquote:before, blockquote:after { content: ""; }
 
 .blockquote { text-align: center; padding: 80px 30px; position: relative; z-index: 1000; }
-.about.testimonials .blockquote { padding: 30px; }
+.about.testimonials .blockquote { padding: 20px; }
+.about.testimonials .panel-empty-alt .blockquote { padding: 30px; }
 .about.testimonials .blockquote h6 { line-height: 1.5; }
 /*address { margin-bottom: 20px; font-style: normal; line-height: 1.4; }
 code, kbd, pre, samp { font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
@@ -1337,7 +1338,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .jumbotron .featureHeadline h5 a { color: #fff; text-decoration: underline; }
 .jumbotron.content { float: left; width: 100%; }
 @media (max-width:767px) {
-  .account .jumbotron .featureHeadline h1 { margin: 0; }
+  .account .jumbotron .featureHeadline h1, .utility .jumbotron .featureHeadline h1 { margin: 0; }
 }
 
 .home .jumbotron, .styleguide .jumbotron { height: 440px; overflow: hidden; margin-bottom: -225px; }
@@ -1365,7 +1366,9 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
 @media (max-width:767px) {
   .productcategory .jumbotron, .account .jumbotron, .utility .jumbotron { height: 200px; overflow: visible; }
-  .about .jumbotron.wLinks { height: 450px; } 
+  .utility .jumbotron { height: auto; position: relative; float: left; } 
+  .utility .jumbotron .featureHeadline { position: relative; z-index: 1; margin-bottom: 40px; }
+  .utility .jumbotron .jumbotron-img { position: absolute; width: 100%; }
   .section.module-buyersguide { position: relative; }
   .section.module-buyersguide .caption .buyersguide-selectionWrap { max-height: 0; overflow: hidden; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
   .section.module-buyersguide .caption .buyersguide-selectionWrap.active { max-height: 400px; }
@@ -2093,7 +2096,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
     transform: translate(-100%);
   }
 }
-.section-ticker { overflow: hidden; margin-top: -42px; }
+.section-ticker { overflow: hidden; margin-top: -48px; }
 .ticker-wrap { position: relative; width: 200%; padding-left: 100%; overflow: hidden; background-color: #88e333; background-color: rgba(136, 227, 51, .7); }
 .ticker { display: inline-block; position: relative; white-space: nowrap; padding-right: 100%; 
   -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-animation-name: ticker; animation-name: ticker; -webkit-animation-duration: 40s; animation-duration: 40s; }
@@ -2103,8 +2106,8 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .ticker-item .icon { height: 20px; width: 20px; margin: 2px 5px 0 0; }
 .ticker-wrap:hover .ticker { -webkit-animation-play-state: paused; -moz-animation-play-state: paused; -o-animation-play-state: paused; animation-play-state: paused; }
 @media (min-width:768px) {
-  .section-ticker { margin-top: -86px; }
-  .ticker-item { padding: 20px; }
+  .section-ticker { margin-top: -73px; }
+  .ticker-item { padding: 10px 20px; }
 }
 
 .about .blockquote1 { background-image: url(../img/bg-blockquote1.jpg); background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
@@ -2112,6 +2115,21 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 @media (max-width:767px) {
   .about .section.crew-specs .list-group .section.last { padding: 0; }
 }
+
+.testimonials .section.reviews { margin-bottom: 100px; }
+.testimonialsFilters { width: 100%; float: left; margin: 0; padding: 0; }
+.testimonialsFilters li { list-style: none; }
+.testimonialsFilters li .filter { float: left; line-height: 1; padding: 7px 7px 7px 25px; margin: 0 20px 0 0; background-image: url(../img/icon-checkEmpty.svg); background-repeat: no-repeat; background-position: left 2px; -webkit-background-size: 20px auto; -moz-background-size: 20px auto; background-size: 20px auto; }
+.testimonialsFilters li.active .filter { color: #88e333; background-image: url(../img/icon-check.svg); }
+.testimonialsFilters .filter:hover { cursor: pointer; }
+
+.testimonialTiles { position: relative; }
+.testimonialTiles li { list-style: none; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+.wookmark-placeholder { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+.testimonialTiles li { display: none; /* * Hide items initially to avoid a flicker effect * */ cursor: pointer; }
+.testimonialTiles li.inactive { visibility: hidden; opacity: 0; }
+
+
 
 
 /* FOOTER
