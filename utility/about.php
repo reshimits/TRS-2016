@@ -56,7 +56,7 @@
         <div class="jumbotron wLinks">
             <div class="featureHeadline col-xs-12">
                 <div class="col-xs-12 col-sm-8">
-                    <h1>Information: <span class="text-weightRegular text-secondary">About Us</span></h1>
+                    <h1>About Us</h1>
                     <h5 class="text-white"><span class="hidden-xs hidden-sm">With modest beginnings, an unwavering and arguably obsessive </span>passion has resulted in TRS becoming the largest retrofit supplier in the world.</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
