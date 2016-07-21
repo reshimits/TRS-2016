@@ -60,8 +60,8 @@
                     <h5 class="text-white">Open to only the best shops throughout North America; so feel confident that by contacting one of our affiliates below you will receive nothing but the best.</span></h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
-                    <a type="button" href="#retrofitters" class="btn btn-block btn-ghost">Rec. Retrofitters</a>
                     <a type="button" href="#dealers" class="btn btn-block btn-ghost">Authorized Dealers</a>
+                    <a type="button" href="#retrofitters" class="btn btn-block btn-ghost">Rec. Retrofitters</a>
                     <hr class="aligncenter">
                     <div class="btn-group">
                         <div type="button" class="btn btn-block btn-ghost dropdown-toggle" data-toggle="dropdown">Related Pages:
