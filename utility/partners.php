@@ -69,7 +69,7 @@
                         </div>
                         <ul class="dropdown-menu btn-block" role="menu">
                             <li><a href="#">Morimoto HID</a></li>
-                            <li><a href="#">Become a Dealer</a></li>
+                            <li><a href="dealerapp.php">Become a Dealer</a></li>
                         </ul>
                     </div>
                 </div>
@@ -88,6 +88,7 @@
                         <p>Retailers in the TRS Authorized Dealer network strive to deliver an excellent customer experience that helps you make the right choices. They can also assist in delivering the service and of course the quality products that our customers have come to expect. </p>
                         <p>The Retrofit Source honors product warranties only when the products are sold through an authorized dealer. Purchasing our products out-of-network places you at risk. We encourage you to look for the TRS Authorized Dealer logo no matter where you shop.</p>
                         <p class="note text-primary"><em>*Select a map marker to learn more.</em></p>
+                        <a type="button" href="dealerapp.php" class="btn btn-default">Become a Dealer</a>
                     </div>
                         
                     <div class="col-xs-12">

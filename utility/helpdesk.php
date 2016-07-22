@@ -67,9 +67,9 @@
         </div>
 
 
-        <div class="section texturedEdge header-waypoint" data-animate-down="header-small" data-animate-up="header-large"></div>
+        <!-- <div class="section texturedEdge header-waypoint" data-animate-down="header-small" data-animate-up="header-large"></div> -->
 
-        <div class="section"> 
+        <div class="section header-waypoint" data-animate-down="header-small" data-animate-up="header-large"> 
             <div class="container-fluid"> 
                 <div class="col-xs-12">
                     <h3><span class="text-primary">></span> Returns / Exchanges / Cancellations</h3>
