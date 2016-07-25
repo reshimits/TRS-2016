@@ -60,17 +60,9 @@
                     <h5 class="text-white">Without exception, we’ve dedicated ourselves to the art of the Happy Customer. <span class="hidden-xs hidden-sm">We’re honored to have received affirmation with some pretty kind words.</span></h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
-                    <a type="button" href="review.php" class="btn btn-block btn-ghost">Submit a Testimonial</a>
-                    <hr class="aligncenter">
-                    <div class="btn-group">
-                        <div type="button" class="btn btn-block btn-ghost dropdown-toggle" data-toggle="dropdown">Related Pages:
-                            <span class="icon icon-after icon-arrowDown-fff"></span>
-                        </div>
-                        <ul class="dropdown-menu btn-block" role="menu">
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="opportunities.php">Job Opportunities</a></li>
-                        </ul>
-                    </div>
+                    <a type="button" href="#" class="btn btn-block btn-ghost">Submit a Testimonial</a>
+                    <a type="button" href="about.php" class="btn btn-block btn-ghost">About Us</a>
+                    <a type="button" href="opportunities.php" class="btn btn-block btn-ghost">Job Opportunities</a>
                 </div>
             </div>
             <div class="jumbotron-img"></div>

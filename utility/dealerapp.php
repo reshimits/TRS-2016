@@ -61,6 +61,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
                     <a type="button" href="partners.php" class="btn btn-block btn-ghost">Partners</a>
+                    <a type="button" href="http://www.morimotohid.com/authorized-dealers/" target="_blank" class="btn btn-block btn-ghost">Morimoto HID</a>
                 </div>
             </div>
             <div class="jumbotron-img"></div>

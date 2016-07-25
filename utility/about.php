@@ -60,26 +60,14 @@
                     <h5 class="text-white"><span class="hidden-xs hidden-sm">With modest beginnings, an unwavering and arguably obsessive </span>passion has resulted in TRS becoming the largest retrofit supplier in the world.</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
-                    <a type="button" href="#briefhistory" class="btn btn-block btn-ghost">Brief History</a>
-                    <a type="button" href="#crew" class="btn btn-block btn-ghost">The TRS Crew</a>
-                    <a type="button" href="#ourshop" class="btn btn-block btn-ghost">Our Shop</a>
-                    <hr class="aligncenter">
-                    <div class="btn-group">
-                        <div type="button" class="btn btn-block btn-ghost dropdown-toggle" data-toggle="dropdown">Related Pages:
-                            <span class="icon icon-after icon-arrowDown-fff"></span>
-                        </div>
-                        <ul class="dropdown-menu btn-block" role="menu">
-                            <li><a href="testimonials.php">Testimonials</a></li>
-                            <li><a href="#">Submit a Testimonial</a></li>
-                            <li><a href="opportunities.php">Job Opportunities</a></li>
-                        </ul>
-                    </div>
+                    <a type="button" href="testimonials.php" class="btn btn-block btn-ghost">Testimonials</a>
+                    <a type="button" href="testimonials.php" class="btn btn-block btn-ghost">Submit a Testimonial</a>
+                    <a type="button" href="opportunities.php" class="btn btn-block btn-ghost">Job Opportunities</a>
                 </div>
             </div>
             <div class="jumbotron-img"></div>
         </div>
 
-        <a name="briefhistory"></a>
         <div class="section wrap briefhistory header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
             <div class="flex-row">
                 <div class="col-xs-12 col-sm-6 section">
@@ -147,7 +135,6 @@
             </div>
         </div>
 
-        <a name="crew"></a>
         <div class="section title">
             <div class="container-fluid">
                 <div class="col-xs-12">
@@ -209,7 +196,6 @@
             </div>
         </div>
 
-        <a name="ourshop"></a>
         <div class="section title">
             <div class="container-fluid">
                 <div class="col-xs-12">

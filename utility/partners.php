@@ -60,24 +60,13 @@
                     <h5 class="text-white">Open to only the best shops throughout North America; so feel confident that by contacting one of our affiliates below you will receive nothing but the best.</span></h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
-                    <a type="button" href="#dealers" class="btn btn-block btn-ghost">Authorized Dealers</a>
-                    <a type="button" href="#retrofitters" class="btn btn-block btn-ghost">Rec. Retrofitters</a>
-                    <hr class="aligncenter">
-                    <div class="btn-group">
-                        <div type="button" class="btn btn-block btn-ghost dropdown-toggle" data-toggle="dropdown">Related Pages:
-                            <span class="icon icon-after icon-arrowDown-fff"></span>
-                        </div>
-                        <ul class="dropdown-menu btn-block" role="menu">
-                            <li><a href="#">Morimoto HID</a></li>
-                            <li><a href="dealerapp.php">Become a Dealer</a></li>
-                        </ul>
-                    </div>
+                    <a type="button" href="dealerapp.php" class="btn btn-block btn-ghost">Become a Dealer</a>
+                    <a type="button" href="http://www.morimotohid.com/authorized-dealers/" target="_blank" class="btn btn-block btn-ghost">Morimoto HID</a>
                 </div>
             </div>
             <div class="jumbotron-img"></div>
         </div>
 
-        <a name="dealers"></a>
         <div class="section wrap header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
             <div class="flex-row">
                 <div class="col-xs-12 col-sm-6 section">
@@ -104,7 +93,7 @@
                     </div>  
                     </div>        
                 </div>
-                <a name="retrofitters"></a>
+
                 <div class="col-xs-12 col-sm-6 section gray2">
                     <div class="container-fluid">
                     <div class="col-xs-12 details">

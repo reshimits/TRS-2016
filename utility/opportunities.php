@@ -61,16 +61,9 @@
                     <h5 class="text-white">The Retrofit Source is always seeking talented individuals for hire!</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
-                    <div class="btn-group">
-                        <div type="button" class="btn btn-block btn-ghost dropdown-toggle" data-toggle="dropdown">Related Pages:
-                            <span class="icon icon-after icon-arrowDown-fff"></span>
-                        </div>
-                        <ul class="dropdown-menu btn-block" role="menu">
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="testimonials.php">Testimonials</a></li>
-                            <li><a href="#">Submit a Testimonial</a></li>
-                        </ul>
-                    </div>
+                    <a type="button" href="about.php" class="btn btn-block btn-ghost">About Us</a>
+                    <a type="button" href="testimonials.php" class="btn btn-block btn-ghost">Testimonials</a>
+                    <a type="button" href="testimonials.php" class="btn btn-block btn-ghost">Submit a Testimonial</a>
                 </div>
             </div>
             <div class="jumbotron-img"></div>
