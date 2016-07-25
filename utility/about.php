@@ -318,60 +318,7 @@
         });
     </script>
 
-    <!-- PRODUCT QTY ORDERING: Added to style the Spinner for Numeric Inputs -->
-    <script type="text/javascript">
-        (function ($) {
-          $('.spinner .btn.add').on('click', function() {
-            $('.spinner input').val( parseInt($('.spinner input').val(), 10) + 1);
-          });
-          $('.spinner .btn.subtract').on('click', function() {
-            $('.spinner input').val( parseInt($('.spinner input').val(), 10) - 1);
-          });
-        })(jQuery);
-    </script>
-
-    <!-- CHECKOUT BLOCK x BLOCK SCRIPT -->
-    <script type='text/javascript'>
-        function toggleText(id) {
-            var showMore = document.getElementById(id);
-            (showMore.style.display=='block') ? showMore.style.display='none' : showMore.style.display='block' ;  
-        } 
-        $( ".section.shippingaddress .btn.continue" ).click(function() {
-            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",true );
-            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",false );
-        });
-        $( ".section.shippingmethod .btn.continue" ).click(function() {
-            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",true );
-            $(".section.billingaddress .container-fluid").toggleClass( "disabled",false );
-        });
-        $( ".section.billingaddress .btn.continue" ).click(function() {
-            $(".section.billingaddress .container-fluid").toggleClass( "disabled",true );
-            $(".section.billingmethod .container-fluid").toggleClass( "disabled",false );
-        });
-        $( ".section.billingmethod .btn.continue" ).click(function() {
-            $(".section.billingmethod .container-fluid").toggleClass( "disabled",true );
-            $(".section.orderextras .container-fluid").toggleClass( "disabled",false );
-        });
-
-        $( ".section.shippingmethod .btn.back" ).click(function() {
-            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",false );
-            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",true );
-        });
-        $( ".section.billingaddress .btn.back" ).click(function() {
-            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",false );
-            $(".section.billingaddress .container-fluid").toggleClass( "disabled",true );
-        });
-        $( ".section.billingmethod .btn.back" ).click(function() {
-            $(".section.billingaddress .container-fluid").toggleClass( "disabled",false );
-            $(".section.billingmethod .container-fluid").toggleClass( "disabled",true );
-        });
-        $( ".section.orderextras .btn.back" ).click(function() {
-            $(".section.billingmethod .container-fluid").toggleClass( "disabled",false );
-            $(".section.orderextras .container-fluid").toggleClass( "disabled",true );
-        });
-    </script>
-  
-
+    
     <!-- End Document
     ================================================== -->
 
