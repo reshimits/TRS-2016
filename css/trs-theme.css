@@ -1413,6 +1413,9 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .jumbotron-honeycomb { content: ''; position: absolute; width: 100%; height: 525px; top: 0px; left: 0px; z-index: 0;
   background-image: url(../img/pattern-honeycomb.png); background-position: left top; background-repeat: repeat; -webkit-background-size: 380px 350px; -moz-background-size: 380px 350px; -o-background-size: 380px 350px; background-size: 380px 350px; }
 
+.utility.partners .jumbotron.content { height: 300px; } 
+.utility.partners .partnersMap { width: 100%; height: 100%; }
+
 @media screen and (min-width:768px) {
   .jumbotron { min-height: 280px; }
   .home .jumbotron, .styleguide .jumbotron { height: 680px; }
@@ -1426,7 +1429,6 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   .utility .jumbotron, .cart .jumbotron { height: 220px; }
   .utility .jumbotron.content, .utility .jumbotron.wLinks { height: 300px; } 
   .utility.partners .jumbotron.content { height: 400px; } 
-  .utility.partners .partnersMap { width: 100%; height: 100%; }
   .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 760px; -webkit-background-size: 760px 700px; -moz-background-size: 760px 700px; -o-background-size: 760px 700px; background-size: 760px 700px; }
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 220px; }
 }
