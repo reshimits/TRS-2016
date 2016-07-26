@@ -195,7 +195,9 @@ hr.primary { margin-top: 10px; border-top: 1px solid #88e333; }
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
 h1, .h1, .jumbotron h1 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 32px; line-height: .9; color: #88e333; text-transform: uppercase; margin: 20px 0; }
-h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1 { font-family: 'Fjalla One', sans-serif; line-height: 1; color: #88e333; text-transform: uppercase; letter-spacing: -1px; margin: 20px 0; }
+h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1, .resources .blockquote h1 { font-family: 'Fjalla One', sans-serif; line-height: 1; color: #88e333; text-transform: uppercase; letter-spacing: -1px; margin: 20px 0; }
+  .resources .blockquote h1, .resources .promo h1 { color: #fff; }
+  .resources .blockquote:hover h1 { color: #88e333; }
 h2, .h2 { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; font-size: 30px; line-height: 1; color: #747474; text-transform: uppercase; margin: 0; }
   .module-buyersguide h2 { font-size: 24px; padding-top: 7px; }
 h3, .h3 { font-family: 'Fjalla One', sans-serif; font-size: 24px; text-transform: uppercase; letter-spacing: -1px; margin: 0 0 10px 0; }
@@ -221,9 +223,12 @@ p, .p { color: #999; font-size: 13px; -webkit-margin-before: 0; -webkit-margin-a
 p a, .p a { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; text-decoration: underline; color: inherit; }
 p .small, .p .small, p.small { font-size: 11px; font-size: 11.5px; }
 
+@media (max-width:767px) {
+  .resources h6 { margin-bottom: 10px; }
+}
 @media (min-width:768px) {
   h1, .h1, .jumbotron h1 { font-size: 48px; letter-spacing: -2px; }
-  h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1 { font-size: 40px; }
+  h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1, .resources .blockquote h1 { font-size: 40px; }
   h2, .h2 { font-size: 46px; letter-spacing: -2px; }
     .module-buyersguide h2 { font-size: 42px; padding-top: 0; }
   h3, .h3 { font-size: 32px; }
@@ -236,7 +241,7 @@ p .small, .p .small, p.small { font-size: 11px; font-size: 11.5px; }
   .module-buyersguide h2 { font-size: 32px; padding-top: 4px; }
 }
 @media (min-width:992px) {
-  h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1 { font-size: 44px; }
+  h1.productdetail, .h1.productdetail, .productdetail h1, .productdetail .h1, .resources .blockquote h1 { font-size: 44px; }
   h2, .h2 { font-size: 44px; }
   .product.thumbnail h3 { font-size: 24px; }
   .productcategory .featureHeadline h4 { font-size: 24px; margin-left: 40px; }
@@ -309,6 +314,9 @@ blockquote:before, blockquote:after { content: ""; }
   .partners .blockquote { padding: 10px 20px 20px 20px; }
 .about.testimonials .panel-empty-alt .blockquote, .partners .panel-empty-alt .blockquote { padding: 30px; }
 .about.testimonials .blockquote h6, .partners .blockquote h6 { line-height: 1.5; }
+@media (max-width:767px) {
+  .resources .blockquote { padding: 0 30px; }
+}
 /*address { margin-bottom: 20px; font-style: normal; line-height: 1.4; }
 code, kbd, pre, samp { font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
 code { padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px; }
@@ -506,7 +514,7 @@ input[type="radio"]:checked ~ .reveal-if-active, input[type="checkbox"]:checked 
 .section.module-quickstartguide .btn-empty:hover { border-color: transparent; }
 .section.module-quickstartguide .btn-empty.icon { width: 38px; height: 38px; }
 .footer .section.contact .btn-empty:hover { background-color: #fff; border-color: #ddd; }
-.btn-empty.btn-hexicon .icon, .footer .section.title .btn .icon { height: 60px; width: 60px; }
+.btn-empty.btn-hexicon .icon, .footer .section.title .btn .icon, .resources .section.promo .btn-empty.btn-hexicon .icon { height: 60px; width: 60px; }
 .btn-empty.btn-hexicon:hover { border-color: transparent; cursor: default; }
   .footer .btn-empty.btn-hexicon:hover { cursor: pointer; }
 .module-buyersguide .btn-empty.btn-xs, .btn-empty.btn-xs.edit { position: absolute; top: 0; right: 0; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #fff; }
@@ -739,6 +747,11 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-phoneHex { background-image: url(../img/icon-phoneHex.svg); }
 .icon-phoneHex:hover { background-image: url(../img/icon-phoneHexHover.svg); }
 .icon-phone { background-image: url(../img/icon-phone.svg); }
+.icon-resourcesHex-gallery { background-image: url(../img/icon-resourcesHex-gallery.svg); }
+.icon-resourcesHex-guides { background-image: url(../img/icon-resourcesHex-guides.svg); }
+.icon-resourcesHex-hidplanet { background-image: url(../img/icon-resourcesHex-hidplanet.svg); }
+.icon-resourcesHex-hj { background-image: url(../img/icon-resourcesHex-hj.svg); }
+.icon-resourcesHex-tech { background-image: url(../img/icon-resourcesHex-tech.svg); }
 .icon-reviewstar { background-image: url(../img/icon-reviewstar-empty.svg); }
 .active .icon-reviewstar { background-image: url(../img/icon-reviewstar-full.svg); }
 .half-active .icon-reviewstar { background-image: url(../img/icon-reviewstar-half.svg); }
@@ -1409,6 +1422,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .cart .jumbotron .jumbotron-img { background-image: url(../img/hero-cart.jpg); }
 .helpdesk .jumbotron .jumbotron-img { background-image: url(../img/hero-helpdesk.jpg); }
 .partners .jumbotron .jumbotron-img { background-image: url(../img/hero-partners.jpg); }
+.resources .jumbotron .jumbotron-img { background-image: url(../img/hero-resources.jpg); }
 
 .jumbotron-honeycomb { content: ''; position: absolute; width: 100%; height: 525px; top: 0px; left: 0px; z-index: 0;
   background-image: url(../img/pattern-honeycomb.png); background-position: left top; background-repeat: repeat; -webkit-background-size: 380px 350px; -moz-background-size: 380px 350px; -o-background-size: 380px 350px; background-size: 380px 350px; }
@@ -1427,7 +1441,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     .account .jumbotron { height: 240px; }
   .utility .jumbotron { min-height: 220px; }
   .utility .jumbotron, .cart .jumbotron { height: 220px; }
-  .utility .jumbotron.content, .utility .jumbotron.wLinks { height: 300px; } 
+  .utility .jumbotron.content, .utility .jumbotron.wLinks { height: 320px; } 
   .utility.partners .jumbotron.content { height: 400px; } 
   .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 760px; -webkit-background-size: 760px 700px; -moz-background-size: 760px 700px; -o-background-size: 760px 700px; background-size: 760px 700px; }
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 220px; }
@@ -2072,6 +2086,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 
 .section.promo { padding: 0; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section.promo1 { background-image: url(../img/promo1.jpg); }
+  .resources .section.promo1 { background-image: url(../img/promo-resources.jpg); }
 .section.promo2 { background-image: url(../img/promo2.jpg); }
 .section.promo3 { background-image: url(../img/promo3.jpg); }
 .section.promo .caption { padding-top: 20px; padding-bottom: 50px; background-color: rgba(136, 227, 51, .8); background-position: top right; background-repeat: no-repeat; -webkit-background-size: auto 100%; -moz-background-size: auto 100%; -o-background-size: auto 100%; background-size: auto 100%; }
@@ -2079,6 +2094,9 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.promo2 .caption { padding-right: 30px; padding-left: 30px; }
 .section.module-buyersguide .caption { background-color: #4EBB00; }
 .section.promo .caption p { color: #666; }
+@media (max-width:767px) {
+  .resources .section.promo1 { text-align: center; }
+}
 @media (min-width:768px) {
   .section.promo .caption { padding-top: 30px; float: right; background-color: transparent; background-position: top left; }
   .section.promo1 .caption, .section.promo3 .caption { padding-left: 220px; }
@@ -2139,6 +2157,11 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 
 .about .blockquote1 { background-image: url(../img/bg-blockquote1.jpg); background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .about .blockquote2 { background-image: url(../img/bg-blockquote2.jpg); background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.resources .blockquote1, .resources .blockquote2, .resources .blockquote3, .resources .blockquote4 { background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.resources .blockquote1 { background-image: url(../img/bg-resources-blockquote1.jpg); }
+.resources .blockquote2 { background-image: url(../img/bg-resources-blockquote2.jpg); }
+.resources .blockquote3 { background-image: url(../img/bg-resources-blockquote3.jpg); }
+.resources .blockquote4 { background-image: url(../img/bg-resources-blockquote4.jpg); }
 @media (max-width:767px) {
   .about .section.crew-specs .list-group .section.last { padding: 0; }
 }
