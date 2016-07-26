@@ -104,7 +104,7 @@
                                     </a></li>
                                     <li class="tab-myacct-guides"><a href="#guides" data-toggle="tab">
                                         <span class="icon icon-myacct icon-myacct-guides"></span>
-                                        <h4><span class="hidden-xs">Customer </span>Guides</h4>
+                                        <h4><span class="hidden-xs">Install </span>Guides</h4>
                                         <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
                                 </ul>
