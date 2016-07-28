@@ -328,19 +328,19 @@
         <div class="section title">
             <div class="container-fluid">
                 <div class="col-xs-12">
-                    <h2 class="text-center">Tech Specs</h2>
+                    <h2 class="text-center">Product Specs</h2>
                 </div>
             </div>    
         </div>
 
-        <div class="section wrap gray2 tech-specs">
+        <div class="section wrap gray2 product-specs">
             <div class="container-fluid">
                 <div class="row">
                     <div class="section col-xs-12 col-sm-4">
                         <ul class="list-group">
                             <li class="list-group-item-heading">
-                                <span class="icon icon-techspecs-compatibility"></span>
-                                <h3 class=" text-primary">Compatibility</h3>
+                                <span class="icon icon-productspecs-included"></span>
+                                <h3 class=" text-primary">What's Included</h3>
                             </li>
                             <li class="list-group-item"><p><span class="lead text-white">Ballasts:</span> 35W, 50W</p></li>
                             <li class="list-group-item active"><p><span class="lead text-white">Stock Bulb Size:</span> 9006, HB4</p></li>
@@ -353,8 +353,8 @@
                     <div class="section gray3 col-xs-12 col-sm-4">
                         <ul class="list-group">
                             <li class="list-group-item-heading">
-                                <span class="icon icon-techspecs"></span>
-                                <h3 class=" text-primary">Tech Specs</h3>
+                                <span class="icon icon-productspecs-compatibility"></span>
+                                <h3 class=" text-primary">Compatibility</h3>
                             </li>
                             <li class="list-group-item"><p><span class="lead text-white">1x 12v Power:</span> Nickel-Plated Ring-Type</p></li>
                             <li class="list-group-item active"><p><span class="lead text-white">Output:</span> 35W</p></li>
@@ -367,8 +367,8 @@
                     <div class="section col-xs-12 col-sm-4">
                         <ul class="list-group">
                             <li class="list-group-item-heading">
-                                <span class="icon icon-techspecs-electrical"></span>
-                                <h3 class=" text-primary">Electrical</h3>
+                                <span class="icon icon-productspecs"></span>
+                                <h3 class=" text-primary">Tech Specs</h3>
                             </li>
                             <li class="list-group-item"><p><span class="lead text-white">Ballasts:</span> 35W, 50W</p></li>
                             <li class="list-group-item active"><p><span class="lead text-white">Stock Bulb Size:</span> 9006, HB4</p></li>

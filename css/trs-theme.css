@@ -759,9 +759,10 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-sale { height: 20px; width: 20px; background-image: url(../img/icon-sale.svg); }
 .icon-search { height: 20px; width: 20px; background-image: url(../img/icon-search.svg); }
 .icon-securecheckout { background-image: url(../img/icon-securecheckout.svg); }
-.icon-techspecs { background-image: url(../img/icon-techspecs.svg); }
-.icon-techspecs-compatibility { background-image: url(../img/icon-techspecs-compatibility.svg); }
-.icon-techspecs-electrical { background-image: url(../img/icon-techspecs-electrical.svg); }
+.icon-productspecs { background-image: url(../img/icon-productspecs.svg); }
+.icon-productspecs-compatibility { background-image: url(../img/icon-productspecs-compatibility.svg); }
+.icon-productspecs-electrical { background-image: url(../img/icon-productspecs-electrical.svg); }
+.icon-productspecs-included { background-image: url(../img/icon-productspecs-included.svg); }
 
 .icon-myacct { height: 40px; width: 40px; background-image: url(../img/icon-myacct.svg); -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
 .active .icon-myacct { height: 40px; width: 40px; background-image: url(../img/icon-myacctActive.svg); -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
@@ -807,7 +808,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .btn.dealer-badge { padding-left: 7px; margin: 0; border-left: 1px solid #666; }
   .icon-carouselNext, .icon-carouselPrev { width: 80px; height: 80px; }
 }
-.section.promo .icon, .section.tech-specs .icon, .section.in-action .icon { height: 35px; width: 35px; margin-right: 5px; }
+.section.promo .icon, .section.product-specs .icon, .section.in-action .icon { height: 35px; width: 35px; margin-right: 5px; }
 .section.in-action .icon { position: absolute; right: 20px; bottom: 20px; }
 
 .input-group.spinner { float: left; width: 135px; margin-right: 10px; }
@@ -1546,7 +1547,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .media > .pull-right { margin-left: 10px; }
 .media-list { padding-left: 0; list-style: none; }
 
-/*.section.wrap.tech-specs .section { padding-bottom: 0; }*/
+/*.section.wrap.product-specs .section { padding-bottom: 0; }*/
 .list-group { padding-left: 0; margin-bottom: 0; list-style: none; }
 .cart .cart-product .list-group { margin-top: 10px; }
 .list-group-item { position: relative; display: block; float: left; width: 100%; padding: 10px 30px; margin-bottom: -1px; background-color: transparent; border: none; }
@@ -1587,10 +1588,10 @@ a.list-group-item-danger .list-group-item-heading { color: inherit; }
 a.list-group-item-danger:hover, a.list-group-item-danger:focus { color: #d04427; background-color: #ebcccc; }
 a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus { color: #fff; background-color: #d04427; border-color: #d04427; }*/
 .list-group-item-heading { margin: 0; text-align: center; }
-.section.tech-specs .list-group-item-heading .icon { margin: 0 0 20px 0; float: none; }
-.section.wrap.tech-specs .list-group-item .lead { width: auto; float: none; }
+.section.product-specs .list-group-item-heading .icon { margin: 0 0 20px 0; float: none; }
+.section.wrap.product-specs .list-group-item .lead { width: auto; float: none; }
 @media (min-width:768px) and (max-width:991px) {
-  .section.wrap.tech-specs .list-group-item .lead { width: 100%; float: left;  }
+  .section.wrap.product-specs .list-group-item .lead { width: 100%; float: left;  }
 }
 .list-group-item-text { margin-bottom: 0; line-height: 1.3; }
 
