@@ -216,7 +216,7 @@ h6, .h6 { font-family: 'Fjalla One', sans-serif; font-size: 14px; text-transform
   .cart .shippingmethod h6 { margin-bottom: 10px; }
 p, .p { color: #999; font-size: 13px; -webkit-margin-before: 0; -webkit-margin-after: 0; margin: 10px 0; }
   .productcategory .thumb-top p, .account .thumb-top p { font-size: 12px; }
-  .section.details p, .about .briefhistory p, .about .ourshop p, .helpdesk .panel-default p { color: #757575; }
+  .section.details p, .about .briefhistory p, .about .ourshop p, .helpdesk .panel-default p, .resources.tech p { color: #757575; }
   .cart .checkout p, .cart .orderextras p, .cart .cart-product .cta p { margin: 0; }
   .cart .section.gray1 p { color: #666; }
   .cart .section.gray2 p, .cart .section.gray3 p { color: #999; }
@@ -943,7 +943,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .tab-content > .tab-pane { display: none; }
 .tab-content > .active { display: block; }
 .account .tab-content .cta .btn-group-justified, .account .tab-content .cta .btn-group-justified ~ .btn, .account .tab-content .cta .btn-primary, .account #catalog .tab-content .cta .btn-favorite,
-  .account #guides .cta .btn { margin-top: 10px; }
+  #guides .cta .btn { margin-top: 10px; }
 .account .tab-content .cta .btn-group-justified.disabled, .account .tab-content .cta .btn-group-justified ~ .btn.disabled { display: none; }
 .account .tab-content .section { padding-left: 15px; padding-right: 15px; }
 .account .tab-content .section.nav-tabsWrap { padding-top: 0; padding-bottom: 15px; }
@@ -952,7 +952,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 @media (min-width:992px) {
   .account .tab-content .section.nav-tabsWrap { padding-top: 30px; padding-bottom: 30px; }
-  .account .tab-content .cta .btn-group-justified, .account .tab-content .cta .btn-group-justified ~ .btn, .account #myacct .cta .btn-primary, .account #guides .cta .btn { margin-top: 0; }
+  .account .tab-content .cta .btn-group-justified, .account .tab-content .cta .btn-group-justified ~ .btn, .account #myacct .cta .btn-primary, #guides .cta .btn { margin-top: 0; }
 }
 @media (min-width:1200px) {
   
@@ -1424,6 +1424,9 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .helpdesk .jumbotron .jumbotron-img { background-image: url(../img/hero-helpdesk.jpg); }
 .partners .jumbotron .jumbotron-img { background-image: url(../img/hero-partners.jpg); }
 .resources .jumbotron .jumbotron-img { background-image: url(../img/hero-resources.jpg); }
+.resources.gallery .jumbotron .jumbotron-img { background-image: url(../img/hero-gallery.jpg); }
+.resources.guides .jumbotron .jumbotron-img { background-image: url(../img/hero-guides.jpg); }
+.resources.tech .jumbotron .jumbotron-img { background-image: url(../img/hero-tech.jpg); }
 
 .jumbotron-honeycomb { content: ''; position: absolute; width: 100%; height: 525px; top: 0px; left: 0px; z-index: 0;
   background-image: url(../img/pattern-honeycomb.png); background-position: left top; background-repeat: repeat; -webkit-background-size: 380px 350px; -moz-background-size: 380px 350px; -o-background-size: 380px 350px; background-size: 380px 350px; }

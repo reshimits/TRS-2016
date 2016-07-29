@@ -60,9 +60,9 @@
                     <h5 class="text-white">Our hub of headlight happiness! Pro tips, user uploaded pics, headlight tech, and of course social media.</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
-                    <a type="button" href="customerguides.php" class="btn btn-block btn-ghost">Install Guides</a>
+                    <a type="button" href="guides.php" class="btn btn-block btn-ghost">Install Guides</a>
+                    <a type="button" href="tech-clearlenses.php" class="btn btn-block btn-ghost">Headlight Tech</a>
                     <a type="button" href="gallery.php" class="btn btn-block btn-ghost">Customer Gallery</a>
-                    <a type="button" href="tech.php" class="btn btn-block btn-ghost">Headlight Tech</a>
                     <a type="button" href="https://www.hidplanet.com/forums/forum" target="_blank" class="btn btn-block btn-ghost">HID Planet Forum</a>
                     <a type="button" href="https://www.facebook.com/groups/389976441138867/" target="_blank" class="btn btn-block btn-ghost">Headlight Junkies</a>
                 </div>
@@ -74,7 +74,7 @@
             <div class="flex-row">
                 <div class="col-xs-12 col-sm-6 section blockquote1">
                     <div class="container-fluid">
-                    <a href="customerguides.php">
+                    <a href="guides.php">
                         <div class="col-xs-12">
                             <div class="section first">
                             <div class="blockquote">
