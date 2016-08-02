@@ -38,6 +38,7 @@
 
 </head>
 
+<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
 <body class="utility resources guides">
 
     <!-- Header

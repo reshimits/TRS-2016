@@ -9,7 +9,7 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Customer Gallery Hub // THE RETROFIT SOURCE</title>
+    <title>Customer Gallery // THE RETROFIT SOURCE</title>
     <meta name="description" content="Google Description Here">
     <meta name="keywords" content="Keywords Here" />
     <meta name="author" content="SHIMITS Design/Development">
@@ -38,7 +38,8 @@
 
 </head>
 
-<body class="utility resources gallery">
+<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
+<body class="account utility gallery">
 
     <!-- Header
     ================================================== -->
@@ -53,232 +54,84 @@
 
     <div class="bodyWrap">
         
-        <div class="jumbotron wLinks">
+        <div class="jumbotron">
             <div class="featureHeadline col-xs-12">
                 <div class="col-xs-12 col-sm-8">
-                    <h1>Customer Gallery: <span class="text-weightRegular text-secondary">Hub</span></h1>
-                    <h5 class="text-white">With thousands of customers rocking the roads with TRS retrofits, it would be blasphemy if we didn't share the pics.</h5>
+                    <h1>Customer Gallery</h1>
+                    <h5 class="text-white"><span class="hidden-xs">With thousands of customers rocking the roads with TRS retrofits, </span>it would be blasphemy if we didn't share the pics.</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
-                    <a type="button" href="#" class="btn btn-block btn-ghost">Case Studies</a>
-                    <a type="button" href="#" class="btn btn-block btn-ghost">Customer Cars</a>
-                    <a type="button" href="#" class="btn btn-block btn-ghost">Retrofits in Progress</a>
-                    <a type="button" href="#" class="btn btn-block btn-ghost">Output Shots</a>
+                    <a type="button" href="resources.php" class="btn btn-block btn-ghost">Resources Hub</a>
+                    <hr class="aligncenter half">
+                    <div type="button" class="btn btn-block btn-primary">Share Photos</div>
                 </div>
             </div>
             <div class="jumbotron-img"></div>
+            <!-- <div class="section wrap section-ticker">
+                <div class="ticker-wrap">
+                    <div class="ticker">
+                        <h5 class="ticker-item"><div type="button" class="btn btn-sm btn-dark">Share Photos</div></h5>
+                    </div>
+                </div>
+            </div> -->
         </div>
 
+        
 
-        <div class="section wrap header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
-            <div class="flex-row">
-                <div class="col-xs-12 col-sm-6 section blockquote1">
-                    <div class="container-fluid">
-                    <a href="guides.php">
-                        <div class="col-xs-12">
-                            <div class="section first">
-                            <div class="blockquote">
-                                <div class="btn btn-empty btn-hexicon"><span class="icon icon-resourcesHex-guides"></span></div>
-                                <h1>Install Guides</h1>
-                                <h6 class="text-white">Do it right, the first time. If you’ve got some parts and don’t know where to start, dig in. </h6>
-                            </div>
-                            </div>
-                        </div>  
-                    </a>
-                    </div>          
-                </div>
-
-                <div class="col-xs-12 col-sm-6 section gray2 blockquote2">
-                    <div class="container-fluid">
-                    <a href="tech.php">
-                        <div class="col-xs-12">
-                            <div class="section first">
-                            <div class="blockquote">
-                                <div class="btn btn-empty btn-hexicon"><span class="icon icon-resourcesHex-tech"></span></div>
-                                <h1>Headlight Tech</h1>
-                                <h6 class="text-white">Knowledge is power! Educate yourself and understand why retrofitting is the right thing to do.</h6>
-                            </div>
-                            </div>
-                        </div>  
-                    </a>
-                    </div>          
-                </div>
-            </div>
-
-            <div class="flex-row">
-                <div class="col-xs-12 col-sm-6 section blockquote1">
-                    <div class="container-fluid">
-                    <a href="guides.php">
-                        <div class="col-xs-12">
-                            <div class="section first">
-                            <div class="blockquote">
-                                <div class="btn btn-empty btn-hexicon"><span class="icon icon-resourcesHex-guides"></span></div>
-                                <h1>Install Guides</h1>
-                                <h6 class="text-white">Do it right, the first time. If you’ve got some parts and don’t know where to start, dig in. </h6>
-                            </div>
-                            </div>
-                        </div>  
-                    </a>
-                    </div>          
-                </div>
-
-                <div class="col-xs-12 col-sm-6 section gray2 blockquote2">
-                    <div class="container-fluid">
-                    <a href="tech.php">
-                        <div class="col-xs-12">
-                            <div class="section first">
-                            <div class="blockquote">
-                                <div class="btn btn-empty btn-hexicon"><span class="icon icon-resourcesHex-tech"></span></div>
-                                <h1>Headlight Tech</h1>
-                                <h6 class="text-white">Knowledge is power! Educate yourself and understand why retrofitting is the right thing to do.</h6>
-                            </div>
-                            </div>
-                        </div>  
-                    </a>
-                    </div>          
-                </div>
-            </div>
-
-
-
+        <div class="section wrap gray4">
             <div class="container-fluid">
-                <ul class="row productGrid">
-                
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="productdetail.php" class="thumb-top">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
-                                </div>
-                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thumbnail-image"><img src="../img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                        <div class="labelWrap">
-                            <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div>
-                            <!-- <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div> -->
-                            <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div>
-                        </div>
-                        <div class="section caption">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <h3 class="retail">$439.99 
-                                        <p class="note"><span class="lead">MSRP</span></p>
-                                    </h3>
-                                    <h3 class="wholesale">$399.99 
-                                        <p class="note"><span class="lead">Wholesale</span></p>
-                                    </h3>
-                                    <h3 class="wholesale last">$359.99 
-                                        <p class="note"><span class="lead">10 or More</span></p>
-                                    </h3>
-                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
-                                </div>
+                <div class="row">
+                    
+                    <div class="tabWrap">
+                        <div class="nav-tabsWrap col-xs-12 col-sm-3 col-lg-2">
+                            <div class="row">
+                                <ul class="nav nav-tabs nav-stacked">
+                                    <li class="tab-gallery-customercars active"><a href="#customercars" data-toggle="tab">
+                                        <span class="icon icon-gallery icon-gallery-customercars"></span>
+                                        <h4>Customer Cars</h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
+                                    </a></li>
+                                    <li class="tab-gallery-retroprogress"><a href="#retroprogress" data-toggle="tab">
+                                        <span class="icon icon-gallery icon-gallery-retroprogress"></span>
+                                        <h4>Retrofits in Progress</h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
+                                    </a></li>
+                                    <li class="tab-gallery-outputshots"><a href="#outputshots" data-toggle="tab">
+                                        <span class="icon icon-gallery icon-gallery-outputshots"></span>
+                                        <h4>Output Shots</h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
+                                    </a></li>
+                                    <li class="tab-gallery-appexamples"><a href="#appexamples" data-toggle="tab">
+                                        <span class="icon icon-gallery icon-gallery-appexamples"></span>
+                                        <h4>Application Examples</h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
+                                    </a></li>
+                                </ul>
                             </div>
                         </div>
-                    </li>
+                        <div class="tab-contentWrap gray3 col-xs-12 col-sm-9 col-lg-10">
+                            <div id="myTabContent" class="tab-content gray3">
+                                <div class="tab-pane fade active in" id="customercars">
+                                    <?php require('../utility/customercars.html');?>
+                                </div>
+                                <div class="tab-pane fade" id="retroprogress">
+                                    <?php require('../utility/retroprogress.html');?>
+                                </div>
+                                <div class="tab-pane fade" id="outputshots">
+                                    <?php require('../utility/outputshots.html');?>
+                                </div>
+                                <div class="tab-pane fade" id="appexamples">
+                                    <?php require('../utility/appexamples.html');?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>FX-R 3.0 Projectors</h5>
-                                </div>
-                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">LED Lighting</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thumbnail-image"><img src="../img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                        <div class="labelWrap">
-                            <!-- <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div> -->
-                            <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div>
-                            <!-- <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div> -->
-                        </div>
-                        <div class="section caption">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <h3 class="retail">$439.99 
-                                        <p class="note"><span class="lead">MSRP</span></p>
-                                    </h3>
-                                    <h3 class="wholesale">$399.99 
-                                        <p class="note"><span class="lead">Wholesale</span></p>
-                                    </h3>
-                                    <h3 class="wholesale last">$359.99 
-                                        <p class="note"><span class="lead">10 or More</span></p>
-                                    </h3>
-                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
-                        <a href="" class="thumb-top">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
-                                </div>
-                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thumbnail-image"><img src="../img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                        <div class="labelWrap">
-                            <!-- <div class="label label-new">
-                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
-                            </div> -->
-                            <!-- <div class="label label-sale">
-                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
-                            </div> -->
-                            <div class="label label-fitment">
-                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
-                            </div>
-                        </div>
-                        <div class="section caption">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <h3 class="retail">$439.99 
-                                        <p class="note"><span class="lead">MSRP</span></p>
-                                    </h3>
-                                    <h3 class="wholesale">$399.99 
-                                        <p class="note"><span class="lead">Wholesale</span></p>
-                                    </h3>
-                                    <h3 class="wholesale last">$359.99 
-                                        <p class="note"><span class="lead">10 or More</span></p>
-                                    </h3>
-                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                </div>
             </div>
         </div>
 
+        
         <!-- Footer
         ================================================== -->
 
@@ -343,7 +196,8 @@
         });
     </script>
 
-    
+  
+
     <!-- End Document
     ================================================== -->
 
