@@ -58,25 +58,53 @@
             <div class="featureHeadline col-xs-12">
                 <div class="col-xs-12 col-sm-8">
                     <h1>Customer Gallery</h1>
-                    <h5 class="text-white"><span class="hidden-xs">With thousands of customers rocking the roads with TRS retrofits, </span>it would be blasphemy if we didn't share the pics.</h5>
+                    <h5 class="text-white hidden-xs "><span class="hidden-sm">With thousands of customers rocking the roads with TRS retrofits, </span>it would be blasphemy if we didn't share the pics.</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
                     <a type="button" href="resources.php" class="btn btn-block btn-ghost">Resources Hub</a>
-                    <hr class="aligncenter half">
-                    <div type="button" class="btn btn-block btn-primary">Share Photos</div>
+                   <!--  <hr class="aligncenter half">
+                    <div type="button" class="btn btn-block btn-primary">Share Photos</div> -->
                 </div>
             </div>
             <div class="jumbotron-img"></div>
-            <!-- <div class="section wrap section-ticker">
-                <div class="ticker-wrap">
-                    <div class="ticker">
-                        <h5 class="ticker-item"><div type="button" class="btn btn-sm btn-dark">Share Photos</div></h5>
-                    </div>
-                </div>
-            </div> -->
+            
         </div>
 
-        
+        <div class="section gray2 gallerytoolbar header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
+            <div class="container-fluid">
+                <div class="col-xs-12 col-sm-7 col-md-8">
+                    <form role="search">
+                        <div class="form-group">
+                            <p class="lead filter">Search Ours:</p>
+                            <div class="col-xs-12 col-sm-3">
+                                <select class="form-control drop required" id="select">
+                                    <option value="">MAKE</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-3">
+                                <select class="form-control drop required" id="select">
+                                    <option value="">MODEL</option>
+                                    
+                                </select>
+                            </div>
+                            <p class="lead filter" style="float:left;">or</p>
+                            <div class="col-xs-12 col-sm-4">
+                                <input type="text" class="form-control" id="inputSuggestions" placeholder="Search Keywords...">
+                            </div>
+
+                            <div class="col-xs-1 col-xs-offset-11 col-sm-1 col-sm-offset-0">
+                                <button type="submit" class="btn btn-empty icon icon-arrowRcircle-fff pull-right" href="#"></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
+                    <p class="lead filter">Add Yours:</p>
+                    <div type="button" class="btn btn-block btn-primary">&nbsp; Share Photos &nbsp;</div>
+                </div>
+            </div>
+        </div>
 
         <div class="section wrap gray4">
             <div class="container-fluid">
@@ -106,6 +134,11 @@
                                         <h4>Application Examples</h4>
                                         <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
+                                    <!-- <li class="tab-gallery-customercars"><a href="#gallerysearch" data-toggle="tab">
+                                        <span class="icon icon-gallery icon-gallery-customercars"></span>
+                                        <h4>Search</h4>
+                                        <span class="nav-tabs-arrow hidden-xs"></span>
+                                    </a></li> -->
                                 </ul>
                             </div>
                         </div>
