@@ -94,7 +94,7 @@
                             </div>
 
                             <div class="col-xs-1 col-xs-offset-11 col-sm-1 col-sm-offset-0">
-                                <button type="submit" class="btn btn-empty icon icon-arrowRcircle-fff pull-right" href="#"></button>
+                                <div type="submit" class="btn btn-empty icon icon-arrowRcircle-fff pull-right"></div>
                             </div>
                         </div>
                     </form>
@@ -134,11 +134,11 @@
                                         <h4>Application Examples</h4>
                                         <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
-                                    <!-- <li class="tab-gallery-customercars"><a href="#gallerysearch" data-toggle="tab">
-                                        <span class="icon icon-gallery icon-gallery-customercars"></span>
+                                    <li class="tab-gallery-gallerysearch"><a href="#gallerysearch" data-toggle="tab">
+                                        <span class="icon icon-gallery icon-gallery-gallerysearch"></span>
                                         <h4>Search</h4>
                                         <span class="nav-tabs-arrow hidden-xs"></span>
-                                    </a></li> -->
+                                    </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -155,6 +155,9 @@
                                 </div>
                                 <div class="tab-pane fade" id="appexamples">
                                     <?php require('../utility/appexamples.html');?>
+                                </div>
+                                <div class="tab-pane fade" id="gallerysearch">
+                                    <?php require('../utility/gallerysearch.html');?>
                                 </div>
                             </div>
                         </div>
@@ -217,6 +220,22 @@
         $( ".navbar-menu" ).click(function() {
             $(".navbar-menu").toggleClass( "active" );
             $(".bodyWrap").toggleClass( "active" );
+        });
+    </script>
+
+    <!-- GALLERY SEARCH toggle -->
+    <script type='text/javascript'>
+        function toggleText(id) {
+            var showMore = document.getElementById(id);
+            (showMore.style.display=='block') ? showMore.style.display='none' : showMore.style.display='block' ;  
+        }
+        $( ".gallerytoolbar .form-group .btn-empty" ).click(function() {
+            $(".nav-tabs li").toggleClass( "active",false );
+            $(".tab-content .tab-pane").toggleClass( "active",false );
+            $(".tab-content .tab-pane").toggleClass( "in",false );
+            $(".nav-tabs .tab-gallery-gallerysearch").toggleClass( "active" );
+            $(".tab-content #gallerysearch").toggleClass( "active" );
+            $(".tab-content #gallerysearch").toggleClass( "in" );
         });
     </script>
 

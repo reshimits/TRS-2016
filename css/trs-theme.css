@@ -784,6 +784,8 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .active .icon-gallery.icon-gallery-outputshots { background-image: url(../img/icon-gallery-outputshotsActive.svg); }
 .icon-gallery.icon-gallery-appexamples { background-image: url(../img/icon-gallery-appexamples.svg); }
 .active .icon-gallery.icon-gallery-appexamples { background-image: url(../img/icon-gallery-appexamplesActive.svg); }
+.icon-gallery.icon-gallery-gallerysearch { background-image: url(../img/icon-gallery-gallerysearch.svg); }
+.active .icon-gallery.icon-gallery-gallerysearch { background-image: url(../img/icon-gallery-gallerysearchActive.svg); }
 
 .icon-brand { height: 100%; width: 100%; -webkit-transition: all .35s ease; -o-transition: all .35s ease; transition: all .35s ease; }
 .icon-brand.acme { background-image: url(../img/brand-acme.svg); }
@@ -901,7 +903,6 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .nav-tabs.nav-stacked > li.active > a .nav-tabs-arrow { right: -13px; }
 @media (max-width:767px) {
   .account .nav-tabs.nav-stacked > li { float: left; width: 20%; }
-    .account.gallery .nav-tabs.nav-stacked > li { float: left; width: 25%; }
   .account .nav-tabs.nav-stacked > li > a { padding: 10px; }
     .account.gallery .nav-tabs.nav-stacked > li > a { min-height: 88px; }
   .account .nav-tabs.nav-stacked > li > a h4 { font-size: 8px; }
@@ -916,6 +917,9 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   .nav-tabs.nav-justified > li { display: table-cell; width: 1%; }
   .nav-tabs.nav-justified > li > a { margin-bottom: 0; }
   .nav-tabs.nav-stacked > li > a { padding: 30px; }
+
+  .nav-tabs.nav-stacked > li.tab-gallery-gallerysearch { display: none; } 
+  .nav-tabs.nav-stacked > li.tab-gallery-gallerysearch.active { display: block; } 
 }
 .nav-tabs.nav-justified > li > a { margin-right: 0; border-radius: 4px; }
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus { border: 1px solid #ddd; }
