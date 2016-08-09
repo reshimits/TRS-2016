@@ -117,6 +117,16 @@
             </div>
         </div> -->
 
+        <!-- If there are no matching products: -->
+        <div class="section short">
+            <div class="section">
+            <div class="container-fluid">
+                <div class="col-xs-12 text-center">
+                    <h3>Sorry, there are no products that meet your specific needs in this category...</h3>
+                </div>
+            </div>
+            </div>
+        </div>
 
         <div class="section wrap">
             <div class="container-fluid">

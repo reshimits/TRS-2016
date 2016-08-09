@@ -2034,6 +2034,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.half { padding: 20px 0; }
 .section.first { padding-top: 0; }
 .section.last { padding-bottom: 0; }
+.section.short { min-height: 400px; }
 @media (max-width:767px) {
   .cart .section.cart-product ~ .section.cart-product { padding-top: 0; }
 }
