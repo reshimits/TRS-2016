@@ -188,11 +188,12 @@
         </div> 
 
 
-        <div class="section title">
+        <div class="section title subtotal">
             <div class="container-fluid">
                 <div class="col-xs-12">
                     <h3 class="text-right text-secondary">Sub-Total: <span class="text-primary">$1,319.97</span></h3>
-                    <p class="note pull-right"><span class="lead"><em>*For a shipping quote please fill out address</em></span></p>
+                    <div class="section wrap"><h6 class="pull-right text-gray1">*We offer free standard shipping on orders over $100. <span class="text-white">You're only <span class="text-primary">$26</span> away!</span></h6></div>
+                    <div class="section wrap"><p class="note pull-right"><span class="lead"><em>*For a shipping quote please fill out address</em></span></p></div>
                 </div>
             </div>    
         </div>
@@ -331,7 +332,6 @@
                             <fieldset>
                                 <div class="form-group">
                                     <div class="col-xs-12">
-                                        <h6>*We offer free standard shipping on wholesale orders over $100.</h6>
                                         <p class="small"><span class="text-uppercase">Select a Shipping Method</span></p>
                                         <select class="form-control drop" id="select">
                                             <option value="">Flat Rate ... $5.00</option>
