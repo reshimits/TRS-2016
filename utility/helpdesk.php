@@ -60,7 +60,7 @@
                     <h5 class="text-white">Returns &amp; Exchanges, Warranties and Shipping, Terms &amp; Condiitons and Payment Policies.</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
-                    <a type="button" href="review.php" class="btn btn-block btn-ghost">Returns/Exchanges</a>
+                    <a type="button" href="#" class="btn btn-block btn-ghost">Returns/Exchanges</a>
                 </div>
             </div>
             <div class="jumbotron-img"></div>

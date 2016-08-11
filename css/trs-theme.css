@@ -213,7 +213,7 @@ h5, .h5 { font-family: 'Fjalla One', sans-serif; font-size: 20px; line-height: 1
   .module-buyersguide h5 { position: relative; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 20%; }
   .cart .cart-product .cta h5 { margin: 5px 0; }
 h6, .h6 { font-family: 'Fjalla One', sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: -1px; margin: 10px 0 30px 0; }
-  .cart .shippingmethod h6 { margin-bottom: 10px; }
+  .cart .subtotal h6 { margin-bottom: 0; }
 p, .p { color: #999; font-size: 13px; -webkit-margin-before: 0; -webkit-margin-after: 0; margin: 10px 0; }
   .productcategory .thumb-top p, .account .thumb-top p { font-size: 12px; }
     .account.gallery .thumb-top p { margin-bottom: 10px; }
@@ -1585,6 +1585,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .cart .cart-product .list-group { margin-top: 10px; }
 .list-group-item { position: relative; display: block; float: left; width: 100%; padding: 10px 30px; margin-bottom: -1px; background-color: transparent; border: none; }
 .cart .cart-product .list-group-item { padding: 5px 10px; }
+.sitemap .list-group-item { padding: 0 0 10px 10px; }
+.sitemap .list-group-item > ul > .list-group-item { padding: 10px 0 0 10px; }
 .list-group-item:first-child { border-top-left-radius: 0; border-top-right-radius: 0; }
 .list-group-item:last-child { margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
 .list-group-item p { margin: 0; }
@@ -2035,6 +2037,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.first { padding-top: 0; }
 .section.last { padding-bottom: 0; }
 .section.short { min-height: 400px; }
+.section.details.short { min-height: 600px; }
 @media (max-width:767px) {
   .cart .section.cart-product ~ .section.cart-product { padding-top: 0; }
 }
