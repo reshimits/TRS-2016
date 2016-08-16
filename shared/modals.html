@@ -6,85 +6,91 @@
 	        	<div class="modal-header">
 	          		<div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
 	          		<h3 class="modal-title text-primary" id="myModalLabel">Login/Register</h3>
+                    <hr>
 	        	</div>
-	        	<div class="modal-body">
-	          		<h5>To continue, please create a new account or login with an existing username and password.</h5>
-	          		<p class="small">With an account, we'll save your contact and shipping information so that you can take always advantage of a more convenient shopping experience.</p>
-	        		<hr>
-	        		<h4 class="text-tertiary">Returning Customer</h4>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <h5>Returning Customer</h5>
+                    </div>
 	          		<form class="form-horizontal">
                         <fieldset>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Email">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Password">
                                 </div>
-                                <div class="col-sm-12">
-                                	<div class="small pull-right"><a href="/client/TRS/MorimotoHID/utility/account.php">Forgot Password</a></div>
+                                <div class="col-xs-12">
+                                	
                                	</div>
                             </div>
                             <hr>
                             <div class="form-group">
-                                <div class="col-sm-12">
-                                    <div class="btn btn-large pull-right"><input class="submit-input" type="submit" value=""/><span class="submit-input-text">Login</span></div>
+                                <div class="col-xs-12">
+                                    <div class="small" style="float:left;"><a href="#">Forgot Password</a></div>
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Login</div>
                                 </div>
                             </div>
                         </fieldset>
                     </form>
+                    <hr class="aligncenter first">
                 </div>
-
+                
 	        	<div class="modal-body modal-body-alt">
-	        		<h4 class="text-tertiary">New Customer Registration</h4>
+	        		<div class="modal-body-titlecopy">
+                        <h5>New Customer Registration</h5>
+                        <p class="lead">Login with an existing username and password (above), or please create a new account.</p>
+                        <p class="small">With an account, we'll save your contact and shipping information so that you can take always advantage of a more convenient shopping experience. Sign up today!</p>
+                    </div>
 	          		<form class="form-horizontal">
                         <fieldset>
                             <div class="form-group">
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                     <input type="text" class="form-control" id="inputDefault" value="Email">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Password">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Confirm Password">
                                 </div>
                             </div>
                             <hr>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="First Name">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Last Name">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                     <input type="text" class="form-control" id="inputDefault" value="Company Name">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Street Address 1">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Street Address 2">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="City">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Region/State">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-6">
-                                    <select class="" id="country">
+                                <div class="col-xs-12 col-sm-6">
+                                    <select class="form-control drop validate-select" id="select">
                                         <option value="">Country</option>
                                         <option value="#">#</option>
                                         <option value="#">#</option>
@@ -93,19 +99,19 @@
                                         <option value="#">#</option>
                                     </select>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Postal Code">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Phone">
                                 </div>
                             </div>                            
                             <hr>
                             <div class="form-group">
-                                <div class="col-sm-12">
-                                    <div class="btn btn-large pull-right"><input class="submit-input" type="submit" value=""/><span class="submit-input-text">Register</span></div>
+                                <div class="col-xs-12">
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Register</div>
                                 </div>
                             </div>
                         </fieldset>
@@ -122,23 +128,24 @@
                 <div class="modal-header">
                     <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">Edit Account Info</h3>
+                    <hr>
                 </div>
                 <div class="modal-body">
                     <form class="form-horizontal">
                         <fieldset>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="First Name">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Last Name">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                     <input type="text" class="form-control" id="inputDefault" value="Email Address">
                                 </div>
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox"> <span class="small">Change Password</span>
@@ -149,23 +156,23 @@
                             <div class="change-password">
 	                            <div class="form-group">
 	                            	<hr>
-	                                <div class="col-sm-12">
+	                                <div class="col-xs-12">
 	                                    <input type="text" class="form-control" id="inputDefault" value="Current Password">
 	                                </div>
 	                            </div>
 	                            <div class="form-group">    
-	                                <div class="col-sm-6">
+	                                <div class="col-xs-12 col-sm-6">
 	                                    <input type="text" class="form-control" id="inputDefault" value="New Password">
 	                                </div>
-	                                <div class="col-sm-6">
+	                                <div class="col-xs-12 col-sm-6">
 	                                    <input type="text" class="form-control" id="inputDefault" value="Confirm New Password">
 	                                </div>
 	                            </div>
 	                        </div>    
                             <hr>
                             <div class="form-group">
-                                <div class="col-sm-12">
-                                    <div class="btn btn-large pull-right"><input class="submit-input" type="submit" value=""/><span class="submit-input-text">Save</span></div>
+                                <div class="col-xs-12">
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Login</div>
                                 </div>
                             </div>
                         </fieldset>
@@ -182,42 +189,43 @@
                 <div class="modal-header">
                     <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">Edit Address</h3>
+                    <hr>
                 </div>
                 <div class="modal-body">
                     <form class="form-horizontal">
                         <fieldset>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="First Name">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Last Name">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                     <input type="text" class="form-control" id="inputDefault" value="Company Name">
                                 </div>
                             </div>
                             <hr>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Street Address 1">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Street Address 2">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="City">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Region/State">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <select class="form-control drop" id="select">
                                         <option value="">Country</option>
                                         <option value="#">#</option>
@@ -227,22 +235,22 @@
                                         <option value="#">#</option>
                                     </select>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Postal Code">
                                 </div>
                             </div>
                             <hr>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Email Address">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Phone">
                                 </div>
                             </div>
                             <hr>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox"> <span class="small">Make Default Billing Address</span>
@@ -254,8 +262,8 @@
                                         </label>
                                     </div>
                                 </div>    
-                                <div class="col-sm-6">
-                                    <div class="btn btn-large pull-right"><input class="submit-input" type="submit" value=""/><span class="submit-input-text">Save</span></div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Login</div>
                                 </div>
                             </div>
                         </fieldset>
@@ -272,23 +280,24 @@
                 <div class="modal-header">
                     <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">MODAL</h3>
+                    <hr>
                 </div>
                 <div class="modal-body">
                     <form class="form-horizontal">
                         <fieldset>
                             <div class="form-group">
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="First Name">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-xs-12 col-sm-6">
                                     <input type="text" class="form-control" id="inputDefault" value="Last Name">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                     <input type="text" class="form-control" id="inputDefault" value="Email Address">
                                 </div>
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox"> <span class="small">Change Password</span>
@@ -299,23 +308,23 @@
                             <div class="change-password">
                                 <div class="form-group">
                                     <hr>
-                                    <div class="col-sm-12">
+                                    <div class="col-xs-12">
                                         <input type="text" class="form-control" id="inputDefault" value="Current Password">
                                     </div>
                                 </div>
                                 <div class="form-group">    
-                                    <div class="col-sm-6">
+                                    <div class="col-xs-12 col-sm-6">
                                         <input type="text" class="form-control" id="inputDefault" value="New Password">
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-xs-12 col-sm-6">
                                         <input type="text" class="form-control" id="inputDefault" value="Confirm New Password">
                                     </div>
                                 </div>
                             </div>    
                             <hr>
                             <div class="form-group">
-                                <div class="col-sm-12">
-                                    <div class="btn btn-large pull-right"><input class="submit-input" type="submit" value=""/><span class="submit-input-text">Save</span></div>
+                                <div class="col-xs-12">
+                                    <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Login</div>
                                 </div>
                             </div>
                         </fieldset>
@@ -332,6 +341,7 @@
                 <div class="modal-header">
                     <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">Buyers Guide: </h3>
+                    <hr>
                 </div>
                 <div class="modal-body">
                     <div class="modal-body-titlecopy">
@@ -378,6 +388,7 @@
                 <div class="modal-header">
                     <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
                     <h3 class="modal-title text-primary" id="myModalLabel">Buyers Guide: </h3>
+                    <hr>
                 </div>
                 <ul class="modal-bodyWrap">
                     
@@ -843,59 +854,675 @@
 
     <!-- MODAL: PHOTO LIGHTBOX -->
     <div id="photoLightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-lg modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
-                    <h3 class="modal-title text-primary" id="myModalLabel">MODAL</h3>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Porsche 911</h3>
+                    <hr>
                 </div>
-                <div class="modal-body">
-                    <form class="form-horizontal">
-                        <fieldset>
-                            <div class="form-group">
-                                <div class="col-sm-6">
-                                    <input type="text" class="form-control" id="inputDefault" value="First Name">
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="text" class="form-control" id="inputDefault" value="Last Name">
+
+                <!-- If only a single image is opening it will use same HTML structure, it just wont need to have the extra slides (obviously) nor the Controls/Indicators -->
+                <!-- <div class="modal-body">
+                    <div class="carousel slide article-slide" id="trsGalleryCarousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Porsche</p></li>
+                                            <li class="list-group-item"><p>#911</p></li>
+                                            <li class="list-group-item"><p>#Rauh</p></li>
+                                            <li class="list-group-item"><p>#RuahWelt</p></li>
+                                            <li class="list-group-item"><p>#idlers</p></li>
+                                            <li class="list-group-item"><p>#silver</p></li>
+                                            <li class="list-group-item"><p>#martini</p></li>
+                                            <li class="list-group-item"><p>#orange</p></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <div class="col-sm-12">
-                                    <input type="text" class="form-control" id="inputDefault" value="Email Address">
+                        </div> 
+                    </div>
+                </div> -->
+
+                <div class="modal-body">
+                    <div class="carousel slide article-slide" id="trsGalleryCarousel">
+                        <!-- Carousel Slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Porsche</p></li>
+                                            <li class="list-group-item"><p>#911</p></li>
+                                            <li class="list-group-item"><p>#Rauh</p></li>
+                                            <li class="list-group-item"><p>#RuahWelt</p></li>
+                                            <li class="list-group-item"><p>#idlers</p></li>
+                                            <li class="list-group-item"><p>#silver</p></li>
+                                            <li class="list-group-item"><p>#martini</p></li>
+                                            <li class="list-group-item"><p>#orange</p></li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="col-xs-12 col-sm-8">
+                                        <ul class="list-group parts">
+                                            <li class="list-group-item"><h5>Parts List:</h5>
+                                                <ul>
+                                                    <li class="list-group-item"><p><span class="lead">Projector:</span> FX-R 3.0</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Ballasts:</span> Morimoto 3Five Ballasts (35w)</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Bulbs:</span> D2S: Philips 85122</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Shrouds:</span> E46-R (Extended)</p></li>
+                                                    <li class="list-group-item"><p><span class="lead">Wire Harnesses:</span> Bi-xenon: 'MotoControl 9003/H4/HB2</p></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div> -->
                                 </div>
-                                <div class="col-sm-12">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> <span class="small">Change Password</span>
-                                        </label>
+                            </div>
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery2.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>#Toyota</p></li>
+                                            <li class="list-group-item"><p>#truck</p></li>
+                                            <li class="list-group-item"><p>#pickup</p></li>
+                                            <li class="list-group-item"><p>#white</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery3.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>No Tags</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery4.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Tags:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>No Tags</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Nav Controls --> 
+                        <a class="left carousel-control" href="#trsGalleryCarousel" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
+                        <a class="right carousel-control" href="#trsGalleryCarousel" role="button" data-slide="next"><span class="icon icon-carouselNext"></span></a> 
+                        
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators col-xs-12 hidden-xs">
+                            <li class="active" data-slide-to="0" data-target="#trsGalleryCarousel"></li>
+                            <li data-slide-to="1" data-target="#trsGalleryCarousel"></li>
+                            <li data-slide-to="2" data-target="#trsGalleryCarousel"></li>  
+                            <li data-slide-to="3" data-target="#trsGalleryCarousel"></li>             
+                        </ol>  
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ADVANCED PHOTO LIGHTBOX -->
+    <div id="advancedPhotoLightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel"><span class="hidden-xs hidden-sm">Application Example: </span>Pop Up Headlight Retrofit</h3>
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    <div class="carousel slide article-slide" id="trsGalleryCarousel2">
+                        <!-- Carousel Slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Caption:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>BMW E36 M3 Winter Rally Retrofit</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery2.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Caption:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>BMW E36 M3 Retrofit under construction</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery3.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Caption:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>BMW E36 Winter Rally car in action</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="item">
+                                <img src="/client/TRS/2016/img/temp-gallery4.png" class="img-responsive" alt="" border="none">
+                                <div class="carousel-caption">
+                                    <div class="col-xs-12">
+                                        <h5>Caption:</h5>
+                                        <ul class="list-group tags">
+                                            <li class="list-group-item"><p>Demonstrating the light output on a clean path</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Nav Controls --> 
+                        <a class="left carousel-control" href="#trsGalleryCarousel2" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
+                        <a class="right carousel-control" href="#trsGalleryCarousel2" role="button" data-slide="next"><span class="icon icon-carouselNext"></span></a> 
+                        
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators col-xs-12 hidden-xs">
+                            <li class="active" data-slide-to="0" data-target="#trsGalleryCarousel2"></li>
+                            <li data-slide-to="1" data-target="#trsGalleryCarousel2"></li>
+                            <li data-slide-to="2" data-target="#trsGalleryCarousel2"></li>  
+                            <li data-slide-to="3" data-target="#trsGalleryCarousel2"></li>             
+                        </ol>  
+                    </div>
+
+                    <div class="col-xs-12 hidden-md hidden-lg"><div class="row"><hr class="aligncenter"></div></div>
+                    <div class="section wrap">
+                        <h5>Vehicle Build Info:</h5>
+                        <p><span class="lead">Projector:</span> FX-R 3.0</p>
+                        <p><span class="lead">Ballasts:</span> Morimoto 3Five Ballasts (35w)</p>
+                        <p><span class="lead">Bulbs:</span> D2S: Philips 85122</p>
+                        <p><span class="lead">Shrouds:</span> E46-R (Extended)</p>
+                        <p><span class="lead">Wire Harnesses:</span> Bi-xenon: 'MotoControl 9003/H4/HB2</p>
+                    </div>
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+                    <div class="section wrap">
+                        <h5>Owner Comments:</h5>
+                        <p>Could not be happier with this set-up, it absolutely blows any other lighting set-up out of the water! I was preparing my car for the 2012 Alcan 5000 Winter Rally, and we were faced with a number of challenges fitting the car with a bright enough lighting set-up without compromising vehicle cooling characteristics. This may seem like an odd thing to go hand-in-hand, however, after doing some testing ourselves and discussing with a few folks who have arctic BMW experience, we found out that the E36 cars do not have any problem whatsoever keeping at temperature in the harsh arctic environments we would be facing. While this is great from a performance point of view, the challenge we had was that by fitting traditional auxiliary lights on the car in front of the grille like on most other rally cars, we would cause the car to overheat. Roof mounted solutions were banned by regulations, and a hood pod was out of the question for aerodynamic reasons. By being able to combine the low and high beams into one of the two areas of the OEM housing, I was able to free up the old high beam spot to build my own, integrated, auxiliary lamps. Since the majority of the rally would be in pitch black, blowing snow, or extreme low-visibility situations, I needed to get the widest and longest throwing projector available, with the brightest set-up. The 4300K with 55W ballasts is super bright in both low and high be am configurations, and the 3000K bulbs in the auxiliary's cut through fog and snow like no other. A nice thing about the super sharp cut-off and even beam pattern in the FX-R's are that they don't glare back at you as much as regular reflector bowl halogens do in decreasing weather conditions. Reliability was extremely important as well, as nobody wants to be fixing broken headlights (or anything for that matter) at -40 below. Never encountered any sort of problems at all. Would definitely fit these again, they don't even compare to most OEM HID set-ups or aftermarket options. Our TRS retrofit was brighter and more reliable than anybody else's set-up on the Alcan 5000, even when compared to some of the very expensive rally-spec'd lighting pods some people had!</p>
+                    </div>
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+                    <div class="section wrap">
+                        <h5>TRS Build Notes:</h5>
+                        <p>The mission: cross the finish line in the Alcan 5000 winter rally race in record time and in one piece. Not an easy feat! So when our customer Daniel began prepping his BMW M3 for the journey, he knew a set of high performance lights were a must. Having retrofitted his street car with parts from TRS, he was already familiar with the power of a proper projector system. We've suggested the FX-R bi-xenon projectors to many E36 BMW owners over the years, and knew they;'d be just the ticket for the job. Spec'd with the Morimoto 5Five 50w Ballasts and 5Five 4300K D2S bulbs, this setup produced over 8000 lumens of reliable and controlled light output.</p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: DEALER DETAIL -->
+    <div id="partnersDetail" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Black Flame Customs</h3>
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    <div class="section half first">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="row">
+                                <img src="/client/TRS/2016/img/partners-blackflamecustoms_logo.png" class="img-responsive" alt="" border="none">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-7 col-md-offset-1">
+                            <p><span class="lead">Business Hours:</span> M-F 9am - 4pm MST Sat/Sun - eMails/support</p>
+                            <p><span class="lead">Address:</span>Fort Collins, CO 80526</p>
+                            <p><span class="lead">Web:</span><a href="http://www.BlackFlameCustoms.com" target="_blank">www.BlackFlameCustoms.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+                    
+                    <div class="section half">
+                        <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="modal-body-titlecopy">
+                                <h5>About Black Flame Customs</h5>
+                            </div>
+                            <p class="lead">Black Flame Customs brings top level custom automotive lighting to life. We pride ourselves on the design, integration &amp; fabrication of high performance HID components into all types of headlight applications.</p>
+                            <p>With ten plus years of experience &amp; hundreds upon hundreds of HID Projector Retrofit conversions completed, we step up to every headlight build with the confidence and professionalism you deserve. By putting your lights in our hands we guarantee youíll enjoy the finished product.</p>
+                            <p>All of our projects are built from scratch. This ensures that the combination of our skills with your lighting goals yields the best possible outcome. Better than OEM quality HID lighting is what we strive for in each and every build. We use the best components, innovative fabrication techniques &amp; work with you (our valued customers) on all the details. From a simple clear lens upgrade to a full turnkey HID projector retrofit package with custom paint ñ weíve got you covered.</p>
+                            <p>With our ever-growing knowledge base, lifetime craftsmanship guarantee &amp; post-sales support we stand behind our work with excellent customer service.</p>
+                        </div>
+                    
+                        <div class="col-xs-12 col-md-6">
+                            <div class="modal-body-titlecopy">
+                                <h5>Email Black Flame Customs</h5>
+                            </div>
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <p class="lead">Personal Information</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="First Name">
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="Email">
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="Phone">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    
+                                    <p class="lead">Vehicle Information</p>                                    
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <select class="form-control drop validate-select" id="select">
+                                                <option value="">Year</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <select class="form-control drop validate-select" id="select">
+                                                <option value="">Make</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <select class="form-control drop validate-select" id="select">
+                                                <option value="">Model</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    
+                                    <p class="lead">Message</p> 
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <select class="form-control drop validate-select" id="select">
+                                                <option value="">Topic</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="text" class="form-control" id="inputDefault" value="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <textarea class="form-control" rows="5" id="textArea" placeholder="Message..."></textarea>
+                                        </div>  
+                                    </div>
+
+                                    <hr>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Send</div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="section wrap">
+                        <div class="carousel slide article-slide" id="trsPartnersCarousel">
+                            <!-- Carousel Slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="/client/TRS/2016/img/temp-gallery1.png" class="img-responsive" alt="" border="none">
+                                    <div class="carousel-caption">
+                                        <div class="col-xs-12">
+                                            <h5>Caption:</h5>
+                                            <ul class="list-group tags">
+                                                <li class="list-group-item"><p>BMW E36 M3 Winter Rally Retrofit</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="/client/TRS/2016/img/temp-gallery2.png" class="img-responsive" alt="" border="none">
+                                    <div class="carousel-caption">
+                                        <div class="col-xs-12">
+                                            <h5>Caption:</h5>
+                                            <ul class="list-group tags">
+                                                <li class="list-group-item"><p>BMW E36 M3 Retrofit under construction</p></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div> 
+                                <div class="item">
+                                    <img src="/client/TRS/2016/img/temp-gallery3.png" class="img-responsive" alt="" border="none">
+                                    <div class="carousel-caption">
+                                        <div class="col-xs-12">
+                                            <h5>Caption:</h5>
+                                            <ul class="list-group tags">
+                                                <li class="list-group-item"><p>BMW E36 Winter Rally car in action</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="item">
+                                    <img src="/client/TRS/2016/img/temp-gallery4.png" class="img-responsive" alt="" border="none">
+                                    <div class="carousel-caption">
+                                        <div class="col-xs-12">
+                                            <h5>Caption:</h5>
+                                            <ul class="list-group tags">
+                                                <li class="list-group-item"><p>Demonstrating the light output on a clean path</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="change-password">
-                                <div class="form-group">
+                            <!-- Carousel Nav Controls --> 
+                            <a class="left carousel-control" href="#trsPartnersCarousel" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
+                            <a class="right carousel-control" href="#trsPartnersCarousel" role="button" data-slide="next"><span class="icon icon-carouselNext"></span></a> 
+                            
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators col-xs-12 hidden-xs">
+                                <li class="active" data-slide-to="0" data-target="#trsPartnersCarousel"></li>
+                                <li data-slide-to="1" data-target="#trsPartnersCarousel"></li>
+                                <li data-slide-to="2" data-target="#trsPartnersCarousel"></li>  
+                                <li data-slide-to="3" data-target="#trsPartnersCarousel"></li>             
+                            </ol>  
+                        </div>
+                    </div>
+
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: IMAGE UPLOADER -->
+    <div id="sharePhotos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Share Photos</h3>
+                    <hr>
+                </div>
+
+                <div class="modal-body">
+                    
+                    <div class="section wrap">
+                        <div class="modal-body-titlecopy">
+                            <h5>We want you!</h5>
+                        </div>
+                        <p class="lead">Well, really we just want to see your ride. If you’ve used our products and want to share the results with the world, then join our customer gallery!</p>
+                        <p>Upload up to 5 photos and include tags that others can use to find ‘em later.  (ex. #MiniH1, #Morimoto #Panamera #Subaru #Tacoma)</p>
+                        <p>Within a few days, your photos will be glorified forever in our galleries for others to enjoy and take inspiration from. </p>
+                    </div>
+                    
+                    <div class="col-xs-12"><div class="row"><hr class="aligncenter first"></div></div>
+
+                    <div class="section half">
+                        <div class="modal-body-titlecopy">
+                            <h5>Upload up to 5 images at a time</h5>
+                        </div>
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 1</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 1 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 1 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
                                     <hr>
-                                    <div class="col-sm-12">
-                                        <input type="text" class="form-control" id="inputDefault" value="Current Password">
+                                </div>
+
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 2</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 2 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 2 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 3</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 3 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 3 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 4</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 4 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 4 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="section wrap">
+                                    <p class="lead text-primary">Image 5</p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <input type="file" name="pic" accept="image/*">
+                                        </div>
+                                    </div>
+                                    <div class="form-groupWrap">
+                                        <p class="lead">Image 5 Vehicle Information</p>                                    
+                                        <div class="form-group">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Make</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <select class="form-control drop validate-select" id="select">
+                                                    <option value="">Model</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                    <option value="#">#</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead">Image 5 Searchable Tags <span class="note">(Please be sure to include "#" before each entry, and include a space between entries.)</span> </p>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control" id="inputDefault" value="Tags">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Submit</div>
                                     </div>
                                 </div>
-                                <div class="form-group">    
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" id="inputDefault" value="New Password">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" id="inputDefault" value="Confirm New Password">
-                                    </div>
-                                </div>
-                            </div>    
-                            <hr>
-                            <div class="form-group">
-                                <div class="col-sm-12">
-                                    <div class="btn btn-large pull-right"><input class="submit-input" type="submit" value=""/><span class="submit-input-text">Save</span></div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
+                            </fieldset>
+                        </form>
+                    </div>
+                    
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->

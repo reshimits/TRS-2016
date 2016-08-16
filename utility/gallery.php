@@ -58,7 +58,7 @@
             <div class="featureHeadline col-xs-12">
                 <div class="col-xs-12 col-sm-8">
                     <h1>Customer Gallery</h1>
-                    <h5 class="text-white hidden-xs "><span class="hidden-sm">With thousands of customers rocking the roads with TRS retrofits, </span>it would be blasphemy if we didn't share the pics.</h5>
+                    <h5 class="text-white"><span class="hidden-sm">With thousands of customers rocking the roads with TRS retrofits, </span>it would be blasphemy if we didn't share the pics.</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
                     <a type="button" href="resources.php" class="btn btn-block btn-ghost">Resources Hub</a>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
                     <p class="lead filter">Add Yours:</p>
-                    <div type="button" class="btn btn-block btn-primary">&nbsp; Share Photos &nbsp;</div>
+                    <div type="button" data-toggle="modal" data-target="#sharePhotos" class="btn btn-block btn-primary">&nbsp; Share Photos &nbsp;</div>
                 </div>
             </div>
         </div>
@@ -236,6 +236,32 @@
             $(".nav-tabs .tab-gallery-gallerysearch").toggleClass( "active" );
             $(".tab-content #gallerysearch").toggleClass( "active" );
             $(".tab-content #gallerysearch").toggleClass( "in" );
+        });
+    </script>
+
+    <!-- GALLERY DeActivate Carousel Automatic Transition -->
+    <script type='text/javascript'>
+        $(document).ready(function(){
+            $("#trsGalleryCarousel").carousel("pause");
+            // Enable Carousel Controls
+            $(".left").click(function(){
+                $("#trsGalleryCarousel").carousel("prev");
+            });
+            $(".right").click(function(){
+                $("#trsGalleryCarousel").carousel("next");
+            });
+        });
+    </script>
+    <script type='text/javascript'>
+        $(document).ready(function(){
+            $("#trsGalleryCarousel2").carousel("pause");
+            // Enable Carousel Controls
+            $(".left").click(function(){
+                $("#trsGalleryCarousel2").carousel("prev");
+            });
+            $(".right").click(function(){
+                $("#trsGalleryCarousel2").carousel("next");
+            });
         });
     </script>
 

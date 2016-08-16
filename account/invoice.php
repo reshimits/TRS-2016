@@ -39,7 +39,7 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="utility invoice">
+<body class="utility cart invoice">
 
     <!-- Header
     ================================================== -->
@@ -67,7 +67,15 @@
         <div class="section header-waypoint" data-animate-down="header-small" data-animate-up="header-large"> 
             <div class="section">
             <div class="container-fluid"> 
+                <div class="col-xs-12">
+                    <h1>Invoice</h1>
+                    <h5 class="text-gray1">Thank you for your order!</h5>
 
+                    ORDER #123456789
+                    Completed 10/10/2013   -   -   -   15:07:35 EST
+                    Please keep this invoice for your records. 
+                    An email containing this invoice has been sent to "your email."
+                </div>
             </div>
             </div>
         </div>

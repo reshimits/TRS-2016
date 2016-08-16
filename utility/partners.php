@@ -163,7 +163,7 @@
                             </div>
                         </div>
                     </li>
-                    <li data-filter-class='["advancedInstaller"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li data-filter-class='["advancedInstaller"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3" data-toggle="modal" data-target="#partnersDetail">
                         <div class="panel panel-empty panel-empty-alt">
                             <div class="panel-body">
                                 <div class="col-xs-12">
@@ -172,7 +172,7 @@
                                             <div class="btn btn-empty btn-hexicon"><span class="icon icon-mapMarker-advancedInstaller"></span></div>
                                             <h6>XD Creations</h6>
                                             <p>City, ST</p>
-                                            <a type="button" href="#" class="btn btn-empty btn-xs">// Get Details</a>
+                                            <a type="button" class="btn btn-empty btn-xs">// Get Details</a>
                                         </div>
                                         <div class="panel-empty-img" style="background-image: url(../img/temp-partner4.jpg);"></div>
                                     </div>
@@ -180,7 +180,7 @@
                             </div>
                         </div>
                     </li>
-                    <li data-filter-class='["stockingDealer"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li data-filter-class='["stockingDealer"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3" data-toggle="modal" data-target="#partnersDetail">
                         <div class="panel panel-empty panel-empty-alt">
                             <div class="panel-body">
                                 <div class="col-xs-12">
@@ -189,7 +189,7 @@
                                             <div class="btn btn-empty btn-hexicon"><span class="icon icon-mapMarker-stockingDealer"></span></div>
                                             <h6>Black Flame Customs</h6>
                                             <p>City, ST</p>
-                                            <a type="button" href="#" class="btn btn-empty btn-xs">// Get Details</a>
+                                            <a type="button" class="btn btn-empty btn-xs">// Get Details</a>
                                         </div>
                                         <div class="panel-empty-img" style="background-image: url(../img/temp-partner2.jpg);"></div>
                                     </div>
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                     </li>
-                    <li data-filter-class='["stockingDealer"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li data-filter-class='["stockingDealer"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3" data-toggle="modal" data-target="#partnersDetail">
                         <div class="panel panel-empty panel-empty-alt">
                             <div class="panel-body">
                                 <div class="col-xs-12">
@@ -238,7 +238,7 @@
                                             <div class="btn btn-empty btn-hexicon"><span class="icon icon-mapMarker-stockingDealer"></span></div>
                                             <h6>HID KIT PROS</h6>
                                             <p>City, ST</p>
-                                            <a type="button" href="#" class="btn btn-empty btn-xs">// Get Details</a>
+                                            <a type="button" class="btn btn-empty btn-xs">// Get Details</a>
                                         </div>
                                         <div class="panel-empty-img" style="background-image: url(../img/temp-partner1.jpg);"></div>
                                     </div>
@@ -263,7 +263,7 @@
                             </div>
                         </div>
                     </li>
-                    <li data-filter-class='["stockingDealer"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li data-filter-class='["stockingDealer"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3" data-toggle="modal" data-target="#partnersDetail">
                         <div class="panel panel-empty panel-empty-alt">
                             <div class="panel-body">
                                 <div class="col-xs-12">
@@ -272,7 +272,7 @@
                                             <div class="btn btn-empty btn-hexicon"><span class="icon icon-mapMarker-stockingDealer"></span></div>
                                             <h6>Lightwerkz</h6>
                                             <p>City, ST</p>
-                                            <a type="button" href="#" class="btn btn-empty btn-xs">// Get Details</a>
+                                            <a type="button" class="btn btn-empty btn-xs">// Get Details</a>
                                         </div>
                                         <div class="panel-empty-img" style="background-image: url(../img/temp-partner4.jpg);"></div>
                                     </div>
@@ -296,7 +296,7 @@
                             </div>
                         </div>
                     </li>
-                    <li data-filter-class='["advancedInstaller"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <li data-filter-class='["advancedInstaller"]' class="col-xs-12 col-sm-6 col-md-4 col-lg-3" data-toggle="modal" data-target="#partnersDetail">
                         <div class="panel panel-empty panel-empty-alt">
                             <div class="panel-body">
                                 <div class="col-xs-12">
@@ -305,7 +305,7 @@
                                             <div class="btn btn-empty btn-hexicon"><span class="icon icon-mapMarker-advancedInstaller"></span></div>
                                             <h6>Kustom 54 Lighting</h6>
                                             <p>City, ST</p>
-                                            <a type="button" href="#" class="btn btn-empty btn-xs">// Get Details</a>
+                                            <a type="button" class="btn btn-empty btn-xs">// Get Details</a>
                                         </div>
                                         <div class="panel-empty-img" style="background-image: url(../img/temp-partner3.jpg);"></div>
                                     </div>
@@ -411,7 +411,21 @@
                 $('.btn').not(this).popover('hide');
             });
         });
-    </script>   
+    </script> 
+
+    <!-- GALLERY DeActivate Carousel Automatic Transition -->
+    <script type='text/javascript'>
+        $(document).ready(function(){
+            $("#trsPartnersCarousel").carousel("pause");
+            // Enable Carousel Controls
+            $(".left").click(function(){
+                $("#trsPartnersCarousel").carousel("prev");
+            });
+            $(".right").click(function(){
+                $("#trsPartnersCarousel").carousel("next");
+            });
+        });
+    </script>
 
     <!-- DYNAMIC ELEMENT GRID PLUG-IN -->
     <script src="../js/jquery.wookmark.min.js"></script>
