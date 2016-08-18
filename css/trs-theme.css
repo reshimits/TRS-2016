@@ -1720,7 +1720,8 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 #marketingtools .panel-account .panel-body .list-group-itemWrap.sourceCode, #marketingtools .panel-account.dealerbadge-morimoto .panel-body .list-group-itemWrap.sourceCode, #guides .panel-account.troubleshootingguide .panel-body .list-group-itemWrap.sourceCode 
   { border-left: none; }
 
-#marketingtools .panel-account.dealerbadge-trs .list-group-itemWrap.dealerbadgepreview .list-group-item img, #marketingtools .panel-account.dealerbadge-morimoto .panel-title img { max-width: 300px; }
+#marketingtools .panel-account.dealerbadge-trs .list-group-itemWrap.dealerbadgepreview .list-group-item img { max-width: 380px; }
+#marketingtools .panel-account.dealerbadge-morimoto .panel-title img { max-width: 300px; }
 
 @media (min-width:768px) {
   .panel-account .list-group-itemWrap { border-right: 1px solid #666; }
