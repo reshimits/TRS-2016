@@ -121,6 +121,7 @@
 	    </div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
 
+
 	<!-- MODAL: EDIT ACCOUNT INFO -->
     <div id="editaccount" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -272,6 +273,67 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+
+    <!-- MODAL: ACCOUNT MODIFY ORDER -->
+    <div id="modifyorder" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Modify Order</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <p class="lead">Are you sure you want to modify this order?</p>
+                        <hr class="aligncenter first">
+                    </div>
+                    <div class="section half">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+                                <a type="button" data-dismiss="modal" class="btn btn-default btn-block">No</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a type="button" href="#" class="btn btn-primary btn-block">Yes</a>
+                                <!-- If yes, then order will be cancelled and all parts will be back in their shopping cart (take to shopping cart page) -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- MODAL: ACCOUNT CANCEL ORDER -->
+    <div id="cancelorder" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div type="button" class="close btn btn-empty" data-dismiss="modal" aria-hidden="true"><span class="icon icon-modalX"></span></div>
+                    <h3 class="modal-title text-primary" id="myModalLabel">Cancel Order</h3>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-titlecopy">
+                        <p class="lead">Are you sure you want to cancel this order?</p>
+                        <hr class="aligncenter first">
+                    </div>
+                    <div class="section half">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+                                <a type="button" data-dismiss="modal" class="btn btn-default btn-block">No</a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a type="button" href="#" class="btn btn-primary btn-block">Yes</a>
+                                <!-- If yes, then order will be cancelled in the system and take back to their account page showing the order grid and a “cancelled” status -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
 
     <!-- MODAL: QUICK ADD TO CART -->
     <div id="quickAddtoCart" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
