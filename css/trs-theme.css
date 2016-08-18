@@ -992,6 +992,10 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .navbar-header, .navbar-CTAs, .navbar-phone, .navbar-split, .navbar-account, .navbar-cart, .navbar-brand.logo, .navbar-brand.logotype, .navbar-split, .navbar-split .navbar-account, .navbar-split .navbar-cart, .navbar-split .icon-acct, .navbar-split .icon-cart, .navbar-menu .navbar-headertext, .navbar-phone .navbar-headertext 
   { -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
 .header .navbar-header, .header .navbar-CTAs, .header .navbar-phone, .header .navbar-split, .header .navbar-account, .header .navbar-cart, .header .navbar-menu { padding: 0; height: 80px; overflow: hidden; }
+  .header.header-large .section.logout .navbar-CTAs { height: auto; }
+    .header.header-small .section.logout .navbar-CTAs { height: auto; }
+    .header .section.logout { position: absolute; z-index: 1; }
+    .header.header-large .section.logout, .header.header-small .section.logout { top: 80px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
 
 .navbar-brand.logo { float: left; width: 72px; padding: 15px 15px 18px 15px; }
 .navbar-brand.logotype { float: left; width: 0; height: auto; padding: 0; overflow: hidden; }
@@ -1034,6 +1038,8 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 @media (min-width:992px) {
   .header.header-large .navbar-header, .header.header-large .navbar-CTAs, .header.header-large .navbar-phone, .header.header-large .navbar-split, .header.header-large .navbar-account, .header.header-large .navbar-cart, .header.header-large .navbar-menu { padding: 0; height: 142px; }
   .header.header-small .navbar-header, .header.header-small .navbar-CTAs, .header.header-small .navbar-phone, .header.header-small .navbar-split, .header.header-small .navbar-account, .header.header-small .navbar-cart, .header.header-small .navbar-menu { padding: 0; height: 80px; overflow: hidden; }
+    .header.header-large .section.logout { top: 142px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
+    .header.header-small .section.logout { top: 80px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
   .header.header-large .navbar-brand.logo { width: 132px; padding: 20px 20px 30px 30px; }
   .header.header-small .navbar-brand.logo { width: 0; padding: 0; }
   .header.header-large .navbar-brand.logotype { width: 360px; height: 100px; padding: 45px 0 0 0; }
@@ -1066,7 +1072,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   /*.navbar-collapse.collapse { display: block !important; height: auto !important; padding-bottom: 0; overflow: visible !important; }*/
   .navbar-collapse.in { overflow-y: visible; }
 }
-.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 100vh; 
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 100vh; position: relative; z-index: 2;
   content: 'viewport-units-buggyfill; max-height: 100vh'; }
 /*@media (max-device-width:480px) and (orientation:landscape) {
   .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 200px; }
@@ -1364,7 +1370,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 ======================================================================================================================================================
 ====================================================================================================================================================== */
 
-.jumbotron { padding: 0; margin-bottom: 0; color: inherit; background-color: #eee; }
+.jumbotron { padding: 0; margin-bottom: 0; color: inherit; background-color: #eee; width: 100%; }
 .jumbotron p { margin-bottom: 15px; font-size: 13px; font-weight: inherit; }
 .jumbotron > hr { border-top-color: #d5d5d5; }
 .container .jumbotron { border-radius: 6px; }
