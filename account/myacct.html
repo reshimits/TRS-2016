@@ -33,7 +33,7 @@
 			                    </div>
 			                    <div class="col-xs-12 col-sm-6 list-group-itemWrap wholesaleagreement">
 			                    	<li class="list-group-item">			                    	
-			                    		<p class="small"><span class="lead text-white"><a href="#" class="text-primary">View Wholesale Agreement</a></span> </p>
+			                    		<p class="small"><span class="lead text-white"><a href="TRS-AuthDealerProgram.pdf" target="_blank" class="text-primary">View Wholesale Agreement</a></span> </p>
 			                    	</li>
 			                    </div>
 			                </ul>
@@ -44,8 +44,8 @@
 		  	</div>
 
 	  		<div class="col-xs-12 col-md-4 col-lg-3 cta">
-                <a type="button" href="#" class="btn btn-sm btn-primary btn-block">Edit Account Info</a>
-	            <a type="button" href="#" class="btn btn-sm btn-dark btn-block">Change Password</a>
+                <a type="button" data-toggle="modal" data-target="#editaccount" class="btn btn-sm btn-primary btn-block">Edit Account Info</a>
+	            <a type="button" data-toggle="modal" data-target="#editaccount" class="btn btn-sm btn-dark btn-block">Change Password</a>
 	        </div>
 
             <div class="col-xs-12"><hr class="aligncenter"></div>
@@ -107,82 +107,198 @@
 		  	</div>
 
 	  		<div class="col-xs-12 col-md-4 col-lg-3 cta">
-                <a type="button" href="#" class="btn btn-sm btn-primary btn-block">Add an Address</a>
-	            <a type="button" href="#" class="btn btn-sm btn-dark btn-block">Manage Addresses</a>
+                <a type="button" data-toggle="modal" data-target="#editaddress" class="btn btn-sm btn-primary btn-block">Add an Address</a>
+	            <a type="button" data-toggle="collapse" data-parent="#myacct" href="#manageaddresses" class="btn btn-sm btn-dark btn-block">Manage Addresses</a>
 	        </div>
 
             <div class="col-xs-12"><hr class="aligncenter"></div>
-	  	</div>
+            
+            <div class="col-xs-12">
+            	<div id="manageaddresses" class="section wrap panel-collapse collapse">
+	        		<div class="section wrap">
+			        	<h5 class="text-gray1">Default Addresses</h5>
+			        </div>
+			        <div class="section half first">
+			        <div class="row">
+		        		<div class="col-xs-12 col-md-8 col-lg-9">
+					        <div class="panel panel-account addressbook">
+								<div class="col-xs-12 defaultbilling">
+									<div class="row">
+									<div class="col-xs-12 panel-title">
+										<p class="small"><span class="lead text-white">Default Billing Address:</span></p>
+									</div>
+									<div class="col-xs-12 panel-body">
+										<ul class="list-group">
+											<div class="col-xs-12 list-group-itemWrap alt">
+						                    	<li class="list-group-item">
+						                    		<p class="small"><span class="lead text-white">RobertRobertBoBobert ShimitsShimitsMuhFuckinFoShimits</span></p>
+						                    		<p class="small">747 Quaker Ridge Ct. <br>
+						                    		Columbus, OH, 43235<br>
+						                    		United States<br>
+						                    		440.666.8214
+						                    		</p>
+						                    	</li>
+						                    </div>
+						                </ul>
+						            </div>
+									</div>
+								</div>
+								
+					  		</div>
+					  	</div>
+					  	<div class="col-xs-12 col-md-4 col-lg-3 cta">
+			                <a type="button" data-toggle="modal" data-target="#editaddress" class="btn btn-sm btn-primary btn-block">Edit Address</a>
+				        </div>
+				    </div>
+				    </div>
+
+				  	<div class="section alt">
+				  	<div class="row">
+			        	<div class="col-xs-12 col-md-8 col-lg-9">
+					        <div class="panel panel-account addressbook">
+					  			<div class="col-xs-12 defaultshipping">
+									<div class="row">
+									<div class="col-xs-12 panel-title">
+										<p class="small"><span class="lead text-white">Default Shipping Address:</span></p>
+									</div>
+									<div class="col-xs-12 panel-body">
+										<ul class="list-group">
+											<div class="col-xs-12 list-group-itemWrap alt last">
+						                    	<li class="list-group-item">
+						                    		<p class="small"><span class="lead text-white">RobertRobertBoBobert ShimitsShimitsMuhFuckinFoShimits</span></p>
+						                    		<p class="small">747 Quaker Ridge Ct. <br>
+						                    		Columbus, OH, 43235<br>
+						                    		United States<br>
+						                    		440.666.8214
+						                    		</p>
+						                    	</li>
+						                    </div>
+						                </ul>
+						            </div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+				  		<div class="col-xs-12 col-md-4 col-lg-3 cta">
+			                <a type="button" data-toggle="modal" data-target="#editaddress" class="btn btn-sm btn-primary btn-block">Edit Address</a>
+				        </div>
+				    </div>
+				    </div>
+
+				    <div class="section half last">
+			        	<h5 class="text-gray1">Additional Addresses</h5>
+			        </div>
+			        <div class="section half first">
+			        <div class="row">
+		        		<div class="col-xs-12 col-md-8 col-lg-9">
+					        <div class="panel panel-account addressbook">
+								<div class="col-xs-12 defaultbilling">
+									<div class="row">
+									<div class="col-xs-12 panel-title">
+										<p class="small"><span class="lead text-white">Additional Address 1:</span></p>
+									</div>
+									<div class="col-xs-12 panel-body">
+										<ul class="list-group">
+											<div class="col-xs-12 list-group-itemWrap alt">
+						                    	<li class="list-group-item">
+						                    		<p class="small"><span class="lead text-white">RobertRobertBoBobert ShimitsShimitsMuhFuckinFoShimits</span></p>
+						                    		<p class="small">747 Quaker Ridge Ct. <br>
+						                    		Columbus, OH, 43235<br>
+						                    		United States<br>
+						                    		440.666.8214
+						                    		</p>
+						                    	</li>
+						                    </div>
+						                </ul>
+						            </div>
+									</div>
+								</div>
+								
+					  		</div>
+					  	</div>
+					  	<div class="col-xs-12 col-md-4 col-lg-3 cta">
+			                <a type="button" data-toggle="modal" data-target="#editaddress" class="btn btn-sm btn-primary btn-block">Edit Address</a>
+				        </div>
+				    </div>
+				    </div>
+
+			  	</div>
+	        </div>
+	    </div>
+
 
 	  	<div class="section wrap"><div class="col-xs-12"><h3 class="text-white">My Saved Cards</h3></div></div>
         
-        <!-- Grid Item -->
-		<div class="section half first savedcards">
-			<div class="col-xs-12 col-md-8 col-lg-9">
-				
-		        <div class="panel panel-account">
-					<div class="col-xs-12">
-						<div class="row">
-						<div class="col-xs-12 panel-title">
-							<p class="small"><span class="lead text-white">American Express</span></p>
+        <div class="savedcards">
+	        <!-- Grid Item -->
+			<div class="section half first">
+				<div class="col-xs-12 col-md-8 col-lg-9">
+					
+			        <div class="panel panel-account savedcard">
+						<div class="col-xs-12">
+							<div class="row">
+							<div class="col-xs-12 panel-title">
+								<p class="small"><span class="lead text-white">American Express</span></p>
+							</div>
+							<div class="col-xs-12 panel-body">
+								<ul class="list-group">
+				                    <li class="list-group-item alt">
+				                    	<div class="col-sm-7 col-md-8 col-lg-7">
+				                    		<p class="small"><span class="lead text-white">Card Number:</span> XXXX-XXXX-XXXX-3456</p>
+				                    	</div>
+				                    	<!-- <div class="col-sm-5 col-md-4 col-lg-5">
+				                    		<p class="small"><span class="lead text-white">Last Used:</span> 12/30/2015</p>
+				                    	</div> -->
+				                    </li>
+				                </ul>
+							</div>
+							</div>
 						</div>
-						<div class="col-xs-12 panel-body">
-							<ul class="list-group">
-			                    <li class="list-group-item alt">
-			                    	<div class="col-sm-7 col-md-8 col-lg-7">
-			                    		<p class="small"><span class="lead text-white">Card Number:</span> XXXX-XXXX-XXXX-3456</p>
-			                    	</div>
-			                    	<!-- <div class="col-sm-5 col-md-4 col-lg-5">
-			                    		<p class="small"><span class="lead text-white">Last Used:</span> 12/30/2015</p>
-			                    	</div> -->
-			                    </li>
-			                </ul>
-						</div>
-						</div>
-					</div>
-		  		</div>
+			  		</div>
+			  	</div>
+
+			  	<div class="col-xs-12 col-md-4 col-lg-3 cta">
+		            <a type="button" data-toggle="modal" data-target="#removecard" class="btn btn-sm btn-dark btn-block">Remove Card</a>
+		        </div>
+
 		  	</div>
 
-		  	<div class="col-xs-12 col-md-4 col-lg-3 cta">
-	            <a type="button" href="#" class="btn btn-sm btn-dark btn-block">Remove Card</a>
-	        </div>
-
-	  	</div>
-
-	  	<!-- Grid Item -->
-        <div class="section alt savedcards">
-        	<div class="col-xs-12 col-md-8 col-lg-9">
-				
-		       <div class="panel panel-account">
-					<div class="col-xs-12">
-						<div class="row">
-						<div class="col-xs-12 panel-title">
-							<p class="small"><span class="lead text-white">American Express</span></p>
+		  	<!-- Grid Item -->
+	        <div class="section alt">
+	        	<div class="col-xs-12 col-md-8 col-lg-9">
+					
+			       <div class="panel panel-account savedcard">
+						<div class="col-xs-12">
+							<div class="row">
+							<div class="col-xs-12 panel-title">
+								<p class="small"><span class="lead text-white">American Express</span></p>
+							</div>
+							<div class="col-xs-12 panel-body">
+								<ul class="list-group">
+				                    <li class="list-group-item alt">
+				                    	<div class="col-sm-7 col-md-8 col-lg-7">
+				                    		<p class="small"><span class="lead text-white">Card Number:</span> XXXX-XXXX-XXXX-3456</p>
+				                    	</div>
+				                    	<!-- <div class="col-sm-5 col-md-4 col-lg-5">
+				                    		<p class="small"><span class="lead text-white">Last Used:</span> 12/30/2015</p>
+				                    	</div> -->
+				                    </li>
+				                </ul>
+							</div>
+							</div>
 						</div>
-						<div class="col-xs-12 panel-body">
-							<ul class="list-group">
-			                    <li class="list-group-item alt">
-			                    	<div class="col-sm-7 col-md-8 col-lg-7">
-			                    		<p class="small"><span class="lead text-white">Card Number:</span> XXXX-XXXX-XXXX-3456</p>
-			                    	</div>
-			                    	<!-- <div class="col-sm-5 col-md-4 col-lg-5">
-			                    		<p class="small"><span class="lead text-white">Last Used:</span> 12/30/2015</p>
-			                    	</div> -->
-			                    </li>
-			                </ul>
-						</div>
-						</div>
-					</div>
-		  		</div>
-		  	</div>
+			  		</div>
+			  	</div>
 
-		  	<div class="col-xs-12 col-md-4 col-lg-3 cta">
-                <!-- <a type="button" href="#" class="btn btn-sm btn-primary btn-block">Add a Card</a> -->
-	            <a type="button" href="#" class="btn btn-sm btn-dark btn-block">Remove Card</a>
-	        </div>
+			  	<div class="col-xs-12 col-md-4 col-lg-3 cta">
+	                <!-- <a type="button" href="#" class="btn btn-sm btn-primary btn-block">Add a Card</a> -->
+		            <a type="button" data-toggle="modal" data-target="#removecard" class="btn btn-sm btn-dark btn-block">Remove Card</a>
+		        </div>
 
-	  	</div><!-- / Grid Item -->
-        
-
+		  	</div><!-- / Grid Item -->
+		</div>
 
     </div>
+
+    

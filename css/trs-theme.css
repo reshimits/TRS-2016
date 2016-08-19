@@ -963,7 +963,11 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   #guides .cta .btn, #myacct .savedcards .cta .btn { margin-top: 10px; }
 .account .tab-content .cta .btn-group-justified.disabled, .account .tab-content .cta .btn-group-justified ~ .btn.disabled { display: none; }
 .account .tab-content .section { padding-left: 15px; padding-right: 15px; }
+/*Manage Addresses Panel-Collapse*/
+.account .tab-content .section .section.wrap.panel-collapse { padding: 0; border-radius: 4px; border: 1px solid #666; }
+/*.account .tab-content .section .section.wrap .section { padding-right: 0; padding-left: 0; }*/
 .account .tab-content .section.nav-tabsWrap { padding-top: 0; padding-bottom: 15px; }
+
 @media (min-width:768px) {
   .account .tab-content .section { padding-left: 30px; padding-right: 30px; }
 }
@@ -1714,12 +1718,12 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 #orderhistory .panel-account .panel-title, #catalog .panel-account .panel-title, #catalog .panel-account .list-group-itemWrap
   { border: none; }
 .panel-account .list-group-item:last-child, .panel-account .list-group-itemWrap.last, #myacct .panel-account.accountinfo .list-group-itemWrap.customergroup, #myacct .panel-account.accountinfo .list-group-itemWrap.wholesaleagreement,
-  #myacct .panel-account.savedcards .list-group-itemWrap,
+  #myacct .panel-account.savedcard .list-group-itemWrap,
   #marketingtools .panel-account .panel-body .list-group-itemWrap.sourceCode
   { border-bottom: none; }
 .panel-account .list-group-itemWrap, .panel-account .list-group-itemWrap.last, #myacct .panel-account.accountinfo .list-group-itemWrap.lastname, #myacct .panel-account.accountinfo .list-group-itemWrap.wholesaleagreement,
-  #myacct .panel-account.addressbook .defaultshipping .panel-title, #myacct .panel-account.addressbook .defaultbilling .panel-title, #myacct .panel-account.addressbook .defaultbilling .list-group-itemWrap,
-  #myacct .panel-account.savedcards .panel-title, #marketingtools .panel-account.dealerbadge-trs .list-group-itemWrap.dealerbadgepreview, #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-title,
+  #myacct .section.wrap.panel-collapse .panel-account.addressbook .defaultbilling .panel-title, #myacct .panel-account.addressbook .defaultshipping .panel-title, #myacct .panel-account.addressbook .defaultbilling .panel-title, #myacct .panel-account.addressbook .defaultbilling .list-group-itemWrap, #myacct .section.wrap.panel-collapse .panel-account.addressbook .defaultbilling .list-group-itemWrap,
+  #myacct .panel-account.savedcard .panel-title, #marketingtools .panel-account.dealerbadge-trs .list-group-itemWrap.dealerbadgepreview, #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-title,
   #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotodark .panel-title, #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-body .list-group-itemWrap.sourceCode, 
   #guides .panel-account .panel-body .list-group-itemWrap 
   { border-right: none; }
@@ -1786,7 +1790,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 .well { min-height: 20px; padding: 12px; margin-bottom: 20px; background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; -webkit-box-shadow: none; box-shadow: none; }
 .well p.lead { margin-bottom: 10px; }
-.well:hover { cursor: pointer; border: 1px solid #88e333; }
+#buyersGuide .well:hover { cursor: pointer; border: 1px solid #88e333; }
 .well.active { border: 1px solid #88e333; }
 .well.active p.lead { color: #88e333 !important; }
 .well.disabled { cursor: default; opacity: .6; background-color: #fff; border: 1px dashed #ddd; }
@@ -1938,7 +1942,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .modal-lg .modal-header hr { background-image: url(../img/element-texturedHR900.svg); background-position: center bottom; background-repeat: no-repeat; -webkit-background-size: 100% 8px; -moz-background-size: 100% 8px; -o-background-size: 100% 8px; background-size: 100% 8px; }
 }
 @media (min-width:1200px) {
-  .modal-lg { width: 1100px; }
+  #photoLightbox .modal-lg, #advancedPhotoLightbox .modal-lg, #partnersDetail .modal-lg { width: 1100px; }
   .modal-lg .modal-header hr { background-image: url(../img/element-texturedHR1100.svg); background-position: center bottom; background-repeat: no-repeat; -webkit-background-size: 100% 8px; -moz-background-size: 100% 8px; -o-background-size: 100% 8px; background-size: 100% 8px; }
 }
 /*@media (min-width:1400px) {
