@@ -1595,7 +1595,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .list-group { padding-left: 0; margin-bottom: 0; list-style: none; }
 .cart .cart-product .list-group { margin-top: 10px; }
 .list-group-item { position: relative; display: block; float: left; width: 100%; padding: 10px 30px; margin-bottom: -1px; background-color: transparent; border: none; }
-.cart .cart-product .list-group-item { padding: 5px 10px; }
+.cart .cart-product .list-group-item, #orderdetails .cart-product .list-group-item { padding: 5px 10px; }
 .sitemap .list-group-item, .carousel-caption .list-group-item { padding: 0 0 10px 10px; }
 .carousel-caption .list-group.tags .list-group-item { width: auto; }
 .sitemap .list-group-item > ul > .list-group-item { padding: 10px 0 0 10px; }
@@ -1611,7 +1611,7 @@ a.list-group-item:hover, a.list-group-item:focus { color: #555; text-decoration:
 .list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading { color: inherit; }
 .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text { color: #777; }
 .list-group-item.active, .list-group-item.alt, .list-group-itemWrap.alt, .list-group-item.active:hover, .list-group-item.active:focus, a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus { z-index: 2; color: #fff; background-color: rgba(25, 25, 25, .25); border: none; }
-.cart .cart-product .list-group-item.active { background-color: #eee; }
+.cart .cart-product .list-group-item.active, #orderdetails .cart-product .list-group-item.active { background-color: #eee; }
 .list-group-item.active .list-group-item-heading, .list-group-item.active:hover .list-group-item-heading, .list-group-item.active:focus .list-group-item-heading, .list-group-item.active .list-group-item-heading > small, .list-group-item.active:hover .list-group-item-heading > small, .list-group-item.active:focus .list-group-item-heading > small, .list-group-item.active .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading > .small { color: inherit; }
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text { color: #e1edf7; }
 /*.list-group-item-success { color: #88e333; background-color: #dff0d8; }
@@ -1891,7 +1891,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .modal-open .modal { overflow-x: hidden; overflow-y: auto; }
 .modal-dialog { position: relative; width: auto; margin: 10px; }*/
 .modal-content { position: relative; background-color: #fff; overflow: hidden; -webkit-background-clip: padding-box; background-clip: padding-box; border: 1px solid #999; border: 1px solid rgba(0, 0, 0, .2); border-radius: 6px; outline: 0; -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5); box-shadow: 0 3px 9px rgba(0, 0, 0, .5); }
-
+  .invoice .modal-content { box-shadow: none; }
 .modal-backdrop { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 1040; background-color: #191919;
   background-image: url(../img/pattern-honeycomb.png); background-position: left top; background-repeat: repeat; -webkit-background-size: 760px 700px; -moz-background-size: 760px 700px; -o-background-size: 760px 700px; background-size: 760px 700px; }
 .modal-backdrop.fade { filter: alpha(opacity=0); opacity: 0; }
@@ -1924,6 +1924,8 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .modal-body-titlecopy h5 { margin: 0 0 5px 0; }
 .modal-body-titlecopy p { margin-top: 0; }
 .modal-footer { float: left; width: 100%; position: relative; border-radius: 0 0 6px 6px; overflow: hidden; z-index: 1000; padding: 20px 30px 30px 30px; text-align: right; border-top: 1px solid #ddd; background-color: #eee; }
+  #orderdetails .modal-footer { text-align: left; }
+  #orderdetails .modal-footer h4 { margin-top: 0; }
 .modal-footer .btn + .btn { margin-bottom: 0; margin-left: 5px; }
 .modal-footer .btn + .btn + .btn { margin-top: 10px; }
 @media (min-width:420px) {
