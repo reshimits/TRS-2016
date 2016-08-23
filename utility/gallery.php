@@ -121,7 +121,7 @@
                                     </a></li>
                                     <li class="tab-gallery-retroprogress"><a href="#retroprogress" data-toggle="tab">
                                         <span class="icon icon-gallery icon-gallery-retroprogress"></span>
-                                        <h4>Retrofits in Progress</h4>
+                                        <h4>Retro<span class="hidden-xs">fits in</span> Progress</h4>
                                         <span class="nav-tabs-arrow hidden-xs"></span>
                                     </a></li>
                                     <li class="tab-gallery-outputshots"><a href="#outputshots" data-toggle="tab">
