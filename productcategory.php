@@ -70,7 +70,7 @@
 <!-- <body class="productcategory shrouds"> -->
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="productcategory wireharnesses" id="wholesaleAcct">
+<body class="productcategory wireharnesses" id="">
 
     <!-- Header
     ================================================== -->
