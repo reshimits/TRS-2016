@@ -63,7 +63,7 @@
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
                     <a type="button" href="about.php" class="btn btn-block btn-ghost">About Us</a>
                     <a type="button" href="testimonials.php" class="btn btn-block btn-ghost">Testimonials</a>
-                    <a type="button" href="testimonials.php" class="btn btn-block btn-ghost">Submit a Testimonial</a>
+                    <a type="button" data-toggle="modal" data-target="#writereview" class="btn btn-block btn-ghost">Submit a Testimonial</a>
                 </div>
             </div>
             <div class="jumbotron-img"></div>

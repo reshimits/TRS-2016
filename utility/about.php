@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 pull-right">
                     <a type="button" href="testimonials.php" class="btn btn-block btn-ghost">Testimonials</a>
-                    <a type="button" href="testimonials.php" class="btn btn-block btn-ghost">Submit a Testimonial</a>
+                    <a type="button" data-toggle="modal" data-target="#writereview" class="btn btn-block btn-ghost">Submit a Testimonial</a>
                     <a type="button" href="opportunities.php" class="btn btn-block btn-ghost">Job Opportunities</a>
                 </div>
             </div>
