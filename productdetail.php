@@ -152,7 +152,7 @@
                                 <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
                                 <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
                                 <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
-                                <h4><a href="#reviews" class="text-white">22 Reviews</a>&nbsp; <a href="" class="alt">Write a Review</a></h4>
+                                <h4><a href="#reviews" class="text-white">22 Reviews</a>&nbsp; <a data-toggle="modal" data-target="#writereview" class="alt">Write a Review</a></h4>
                             </div>
                         </div>
                     </div>        
