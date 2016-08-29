@@ -336,49 +336,56 @@
         <div class="section wrap gray2 product-specs">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="section col-xs-12 col-sm-4">
-                        <ul class="list-group">
-                            <li class="list-group-item-heading">
-                                <span class="icon icon-productspecs-included"></span>
-                                <h3 class=" text-primary">What's Included</h3>
-                            </li>
-                            <li class="list-group-item"><p><span class="lead text-white">Ballasts:</span> 35W, 50W</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">Stock Bulb Size:</span> 9006, HB4</p></li>
-                            <li class="list-group-item"><p><span class="lead text-white">HID Systems:</span> Low or High Beams and Fog Lights</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">Bi-Xenon Capable:</span> With <a href="">High Beam Splitters</a></p></li>
-                            <li class="list-group-item"><p><span class="lead text-white">1x 12v Power:</span> Nickel-Plated Ring-Type</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">Output:</span> 35W</p></li>
-                        </ul>
+                    <div class="flex-row">
+                        <div class="section col-xs-12 col-sm-4">
+                            <ul class="list-group">
+                                <li class="list-group-item-heading">
+                                    <span class="icon icon-productspecs-included"></span>
+                                    <h3 class=" text-primary">What's Included</h3>
+                                </li>
+                                <li class="list-group-item"><p><span class="lead text-white">Ballasts:</span> 35W, 50W</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">Stock Bulb Size:</span> 9006, HB4</p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">HID Systems:</span> Low or High Beams and Fog Lights</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">Bi-Xenon Capable:</span> With <a href="">High Beam Splitters</a></p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">1x 12v Power:</span> Nickel-Plated Ring-Type</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">Output:</span> 35W</p></li>
+                            </ul>
+                        </div>
+                        <div class="section gray3 col-xs-12 col-sm-4">
+                            <ul class="list-group">
+                                <li class="list-group-item-heading">
+                                    <span class="icon icon-productspecs-compatibility"></span>
+                                    <h3 class=" text-primary">Compatibility</h3>
+                                </li>
+                                <li class="list-group-item"><p><span class="lead text-white">APPLICATIONS:</span> Universal / Size Allowing</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">CAPABILITIES:</span> Both Low &amp; High Beam</p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">PROJECTOR WIDTH:</span> 104mm</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">PROJECTOR HEIGHT:</span> 77mm</p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">PROJECTOR DEPTH:</span> 139mm (includes bulb holder)</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">PROJECTOR LENS:</span> 2.5 Inches (diameter)</p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">MOUNTING SHAFT:</span> 20mm diameter (H4/H7 direct fit)</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">MINIMUM HOUSING DEPTH:</span> 115mm</p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">WIRE HARNESS:</span> Match your original bulb size</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">SHROUDS:</span> All styles (centric rings included if req'd)</p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">LED HALOS:</span> Varies according to shroud style </p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">CERTIFICATIONS:</span> Exceeds DOT requirements</p></li>
+                            </ul>
+                        </div>
+                        <div class="section col-xs-12 col-sm-4">
+                            <ul class="list-group">
+                                <li class="list-group-item-heading">
+                                    <span class="icon icon-productspecs"></span>
+                                    <h3 class=" text-primary">Tech Specs</h3>
+                                </li>
+                                <li class="list-group-item"><p><span class="lead text-white">Ballasts:</span> 35W, 50W</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">Stock Bulb Size:</span> 9006, HB4</p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">HID Systems:</span> Low or High Beams and Fog Lights</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">Bi-Xenon Capable:</span> With <a href="">High Beam Splitters</a></p></li>
+                                <li class="list-group-item"><p><span class="lead text-white">1x 12v Power:</span> Nickel-Plated Ring-Type</p></li>
+                                <li class="list-group-item active"><p><span class="lead text-white">Output:</span> 35W</p></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="section gray3 col-xs-12 col-sm-4">
-                        <ul class="list-group">
-                            <li class="list-group-item-heading">
-                                <span class="icon icon-productspecs-compatibility"></span>
-                                <h3 class=" text-primary">Compatibility</h3>
-                            </li>
-                            <li class="list-group-item"><p><span class="lead text-white">1x 12v Power:</span> Nickel-Plated Ring-Type</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">Output:</span> 35W</p></li>
-                            <li class="list-group-item"><p><span class="lead text-white">Stock Bulb Size:</span> 9006, HB4</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">HID Systems:</span> Low or High Beams and Fog Lights</p></li>
-                            <li class="list-group-item"><p><span class="lead text-white">Ballasts:</span> 35W, 50W</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">Bi-Xenon Capable:</span> With <a href="">High Beam Splitters</a></p></li>
-                        </ul>
-                    </div>
-                    <div class="section col-xs-12 col-sm-4">
-                        <ul class="list-group">
-                            <li class="list-group-item-heading">
-                                <span class="icon icon-productspecs"></span>
-                                <h3 class=" text-primary">Tech Specs</h3>
-                            </li>
-                            <li class="list-group-item"><p><span class="lead text-white">Ballasts:</span> 35W, 50W</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">Stock Bulb Size:</span> 9006, HB4</p></li>
-                            <li class="list-group-item"><p><span class="lead text-white">HID Systems:</span> Low or High Beams and Fog Lights</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">Bi-Xenon Capable:</span> With <a href="">High Beam Splitters</a></p></li>
-                            <li class="list-group-item"><p><span class="lead text-white">1x 12v Power:</span> Nickel-Plated Ring-Type</p></li>
-                            <li class="list-group-item active"><p><span class="lead text-white">Output:</span> 35W</p></li>
-                        </ul>
-                    </div>
-
                 </div>
             </div>
         </div>          
@@ -478,18 +485,19 @@
                             <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
                             <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
                             <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
-                            <div type="button" class="btn btn-empty btn-xs half-active disabled"><span class="icon icon-reviewstar"></span></div>
-                            <div type="button" class="btn btn-empty btn-xs disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
+                            <div type="button" class="btn btn-empty btn-xs active disabled"><span class="icon icon-reviewstar"></span></div>
                         </div>
-                        <p class="lead text-white">3.5 out of 5 stars</p>
+                        <p class="lead text-white">5 out of 5 stars</p>
                     </div>
                     <div class="section wrap"> 
-                        <h4 class="text-secondary">22 Reviews &nbsp;<a href="" class="alt">Write a Review</a></h4>
+                        <h4 class="text-secondary">0 Reviews &nbsp;<a href="" class="alt">Write the First Review</a></h4>
                     </div>
                 </div>
             </div>    
         </div>
         
+        <!-- If 0 Reviews, hide this section -->
         <div class="section reviews"> 
             <div class="container-fluid">   
                 <div class="col-xs-12"> 
