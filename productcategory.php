@@ -38,6 +38,7 @@
 
 </head>
 
+<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
 <!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h1, h4, and banner image -->
 
 <!-- <body class="productcategory accessories accessories-buildmaterials"> -->
@@ -51,7 +52,7 @@
 <!-- <body class="productcategory closeouts closeouts-miscellaneous"> -->
 <!-- <body class="productcategory completekits completekits-universalkits"> -->
 <!-- <body class="productcategory completekits completekits-applicationspecific"> -->
-<!-- <body class="productcategory hidsystems hidsystems-universalkits"> -->
+<body class="productcategory hidsystems hidsystems-universalkits">
 <!-- <body class="productcategory hidsystems hidsystems-applicationspecific"> -->
 <!-- <body class="productcategory housings housings-fullheadlights"> -->
 <!-- <body class="productcategory housings housings-ledfoglights"> -->
@@ -68,9 +69,10 @@
 <!-- <body class="productcategory projectors projectors-aftermarket"> -->
 <!-- <body class="productcategory projectors projectors-oem"> -->
 <!-- <body class="productcategory shrouds"> -->
+<!-- <body class="productcategory wireharnesses"> -->
 
-<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="productcategory wireharnesses" id="">
+
+
 
     <!-- Header
     ================================================== -->
