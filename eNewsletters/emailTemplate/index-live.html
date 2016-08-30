@@ -1,0 +1,205 @@
+<body style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; background: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:13px; margin:0; padding:0px;">
+<table cellspacing="0" cellpadding="0" border="0" height="100%" width="100%">
+    <tr>
+        <td align="center" valign="top" style="padding-top: 0px; padding-right: 0px; padding-bottom:20px; padding-left: 0px;">
+            <center>
+                <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" border="0" width="600" style="border:1px solid #cccccc; padding:0px;">
+                    <tr>
+                        <td>
+                            <table cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td width="465" height="115" align="left" valign="top">
+                                        <a href="http://www.theretrofitsource.com/" target="_blank"><img src="{{skin url='img/email-headerlogo.jpg'}}" alt="The Retrofit Source" width="465" height="115" border="0" /></a>
+
+                                    </td>
+                                    <td width="133" height="115" align="left" valign="top">
+                                        <a href="tel:404-220-7940"><img src="{{skin url='img/email-header2.jpg" width="133" height="115" /></a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <center>
+                                <table width="558" cellspacing="0" cellpadding="0" border="0" style="padding-top:10px;">
+                                    <tr>
+                                        <td align="left" valign="middle" bgcolor="#FFFFFF" style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #88e333; font-weight:bold; padding:10px;">YOUR INVOICE FOR ORDER #{{var order.increment_id}}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="middle" bgcolor="#FFFFFF" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #999999; font-weight:bold; padding:10px;">Placed on {{var order.getCreatedAtFormated('long')}}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-top:10px;">
+                                            <center><img src="{{skin url='img/email-texturedHR.jpg"></center>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="top" style="padding-top: 30px; padding-right: 10px; padding-bottom:30px; padding-left: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #999999;">
+                                            <span style="font-size:22px; font-weight:normal; line-height:22px; margin:0 0 11px 0; color:#666666;">Hello, {{htmlescape var=$order.getCustomerName()}}</span><br><br>
+                                            Thank you for your order from The Retrofit Source. Once your package ships we will send an email with a link to track your order. You can check the status of your order by logging into <strong><a href="{{store url="customer/account/"}}"> your account</a></strong>.<br><br>
+                                            If you have any questions about your order please contact us at <a href="mailto:{{config path='trans_email/ident_support/email'}}">{{config path='trans_email/ident_support/email'}}</a> or call us at {{config path='general/store_information/phone}}, {{config path='general/store_information/phone_hours}}<br><br>
+                                            Please refer to the <a href="#"><strong>Install Guides</strong></a> section of our website for helpful information on all of our products.<br><br>
+                                            Your order information is below. Thanks again for your business!
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td align="center">
+                                            <table width="558" cellspacing="0" cellpadding="0" border="0">
+                                                <tr>
+                                                    <td style="padding-top:10px; padding-bottom:10px;" align="left" valign="top" width="265">
+                                                        <table width="274" cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" style="border:1px solid #cccccc; border-radius:4px;">
+                                                            <tr>
+                                                                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #666666; font-weight:bold; padding:10px;" width="305">
+                                                                    <strong>SHIPPING ADDRESS:</strong>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="font-size:12px; padding:10px;">
+                                                                    {{var order.getShippingAddress().format('html')}}
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td style="padding-top:10px; padding-bottom:10px;"  align="right" valign="top" width="265">
+                                                        <table width="274" cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" style="border:1px solid #cccccc; border-radius:4px;">
+                                                            <tr>
+                                                                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #666666; font-weight:bold; padding:10px;" width="305">
+                                                                    <strong>SHIPPING METHOD:</strong>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="font-size:12px; padding:10px;">
+                                                                    {{var order.getShippingDescription()}}
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-top:10px;" align="left" valign="top" width="265">
+                                                        <table width="274" cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" style="border:1px solid #cccccc; border-radius:4px;">
+                                                            <tr>
+                                                                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #666666; font-weight:bold; padding:10px;" width="305">
+                                                                    <strong>BILLING ADDRESS:</strong>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="font-size:12px; padding:10px;">
+                                                                    {{var order.billing_address.format('html')}}
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td style="padding-top:10px;" align="right" valign="top" width="265">
+                                                        <table width="274" cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" style="border:1px solid #cccccc; border-radius:4px;">
+                                                            <tr>
+                                                                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #666666; font-weight:bold; padding:10px;" width="305">
+                                                                    <strong>BILLING METHOD:</strong>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="font-size:12px; padding:10px;">
+                                                                    {{var payment_html}}
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td align="center">
+                                            <table width="568" cellspacing="0" cellpadding="0" border="0">
+                                                <tr>
+                                                    <td style="padding-top:20px; padding-bottom:10px;" align="left" valign="top">
+                                                        <table width="568" cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" style="border:1px solid #cccccc; border-radius:4px;">
+                                                            <tr>
+                                                                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #666666; font-weight:bold; padding:10px;" width="305">
+                                                                    <strong>ORDER ITEMS:</strong>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="font-size:12px; padding:10px;">
+                                                                    {{layout handle="sales_email_order_items" order=$order}}
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td align="center" valign="top" style="padding-top: 0px; padding-right: 10px; padding-bottom:30px; padding-left: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #999999;">
+                                            <table width="558" cellspacing="0" cellpadding="0" border="0">
+                                                {{var comment}}<br><br>
+                                                Thank you,<br>
+                                                The Retrofit Source
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+                <table width="600" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <td align="center" bgcolor="#474747">
+                            <center><img src="{{skin url='img/email-footercap.jpg" width="600" height="18" border="0" /></center>
+                            <center>
+                                <table cellspacing="0" cellpadding="0" border="0" width="538">
+                                    <tr>
+                                        <td align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #999999; line-height:20px">
+                                            {{config path='general/store_information/address'}}<br />
+                                            <a href="tel:404-220-7940" style="color:#999999; text-decoration:none">{{config path='general/store_information/phone'}}</a><br />
+                                            <a href="mailto:support@theretrofitsource.com" style="color:#999999; text-decoration:none">{{config path='trans_email/ident_support/email'}}</a></td>
+                                        <td align="right" valign="bottom">
+                                            <table cellspacing="0" cellpadding="0" border="0">
+                                                <tr>
+                                                    <td width="40" align="left" valign="middle">
+                                                        <a href="https://www.youtube.com/user/RetrofitSource"><img src="{{skin url='img/email-socialYT.jpg'}}" alt="YouTube" width="30" height="30" border="0" /></a>
+                                                    </td>
+                                                    <td width="40" align="left" valign="middle">
+                                                        <a href="https://www.facebook.com/TheRetrofitSource"><img src="{{skin url='img/email-socialFB.jpg'}}" alt="Facebook" width="30" height="30" border="0" /></a>
+                                                    </td>
+                                                    <td width="40" align="left" valign="middle">
+                                                        <a href="https://twitter.com/retrofitsource"><img src="{{skin url='img/email-socialTW.jpg'}}" alt="Twitter" width="30" height="30" border="0" /></a>
+                                                    </td>
+                                                    <td width="40" align="left" valign="middle">
+                                                        <a href="https://www.instagram.com/theretrofitsource/"><img src="{{skin url='img/email-socialIG.jpg'}}" alt="Instagram" width="30" height="30" border="0" /></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img src="{{skin url='img/email-footer.jpg" width="600" height="18" border="0" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #999999; padding-top:4px;">
+                            <center><small>Copyright &copy; 2016 The Retrofit Source. All rights reserved.</small></center>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </td>
+    </tr>
+</table>
+</body>
+
+<style>
+body,td { color:#666666; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+a {color: #666666;}
+</style>
+
