@@ -210,7 +210,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 col-sm-offset-6"> <!-- col-sm-offset-6 is added to last dropdown option if orphan -->
                                             <label>Optional Capacitor Link:</label>
                                             <select class="form-control drop" id="select">
                                                 <option value="">Topic</option>
