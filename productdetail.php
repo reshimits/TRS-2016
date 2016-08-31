@@ -163,6 +163,7 @@
                                 <fieldset>
                                     <div class="form-group first">
                                         <div class="col-sm-6">
+                                            <label>HID Ballasts:</label>
                                             <select class="form-control drop" id="select">
                                                 <option value="">Topic</option>
                                                 <option value="#">#</option>
@@ -173,6 +174,7 @@
                                             </select>
                                         </div>
                                         <div class="col-sm-6">
+                                            <label>Ballast Igniters:</label>
                                             <select class="form-control drop" id="select">
                                                 <option value="">Topic</option>
                                                 <option value="#">#</option>
@@ -185,6 +187,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="col-sm-6">
+                                            <label>D2S HID Bulbs:</label>
                                             <select class="form-control drop" id="select">
                                                 <option value="">Topic</option>
                                                 <option value="#">#</option>
@@ -195,6 +198,20 @@
                                             </select>
                                         </div>
                                         <div class="col-sm-6">
+                                            <label>Optional Carbon Brackets:</label>
+                                            <select class="form-control drop" id="select">
+                                                <option value="">Topic</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                                <option value="#">#</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-6">
+                                            <label>Optional Capacitor Link:</label>
                                             <select class="form-control drop" id="select">
                                                 <option value="">Topic</option>
                                                 <option value="#">#</option>

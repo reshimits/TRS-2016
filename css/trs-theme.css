@@ -214,15 +214,15 @@ h5, .h5 { font-family: 'Fjalla One', sans-serif; font-size: 20px; line-height: 1
   .cart .cart-product .cta h5 { margin: 5px 0; }
 h6, .h6 { font-family: 'Fjalla One', sans-serif; font-size: 14px; text-transform: uppercase; letter-spacing: -1px; margin: 10px 0 30px 0; }
   .cart .subtotal h6 { margin-bottom: 0; }
-p, .p { color: #999; font-size: 13px; -webkit-margin-before: 0; -webkit-margin-after: 0; margin: 10px 0; }
+p, .p, label { color: #999; font-size: 13px; -webkit-margin-before: 0; -webkit-margin-after: 0; margin: 10px 0; }
   .productcategory .thumb-top p, .account .thumb-top p { font-size: 12px; }
     .account.gallery .thumb-top p { margin-bottom: 10px; }
   .section.details p, .about .briefhistory p, .about .ourshop p, .helpdesk .panel-default p, .resources.tech p { color: #757575; }
-  .cart .checkout p, .cart .orderextras p, .cart .cart-product .cta p { margin: 0; }
+  .cart .checkout p, .cart .orderextras p, .cart .cart-product .cta p, label { margin: 0; }
   .cart .section.gray1 p { color: #666; }
   .cart .section.gray2 p, .cart .section.gray3 p { color: #999; }
 p a, .p a { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; text-decoration: underline; color: inherit; }
-p .small, .p .small, p.small { font-size: 11px; font-size: 11.5px; }
+p .small, .p .small, p.small, label { font-size: 11px; font-size: 11.5px; }
 
 @media (max-width:767px) {
   .resources h6 { margin-bottom: 10px; }
@@ -335,7 +335,7 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
 
 fieldset { min-width: 0; padding: 0; margin: 0; border: 0; }
 legend { display: block; width: 100%; padding: 0; margin-bottom: 20px; font-size: 21px; line-height: inherit; color: #333; border: 0; border-bottom: 1px solid #e5e5e5; }
-label { display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: bold; }
+label { display: inline-block; max-width: 100%; text-transform: uppercase; font-weight: inherit; }
 input[type="search"] { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 input[type="radio"], input[type="checkbox"] { margin: 0; margin-top: 1px \9; line-height: normal; }
 input[type="file"] { display: block; }
