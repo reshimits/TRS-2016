@@ -1247,8 +1247,8 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 .form-group.has-suggestions { position: relative; }
 .form-group.has-suggestions .dropdown-menu { display: block; width: 100%; font-size: 14px; background-color: #ccc; border: none; border-radius: 0 0 4px 4px; }
-.form-group.has-suggestions .dropdown-menu > li > a { padding: 8px 20px; }
-.form-group.has-suggestions .dropdown-menu > li > a:hover { color: #fff; }
+.form-group.has-suggestions .dropdown-menu > li { display: block; clear: both; font-weight: normal; line-height: 1.4; color: #333; white-space: nowrap; padding: 8px 20px; }
+.form-group.has-suggestions .dropdown-menu > li:hover { color: #fff; }
 
 .account .tab-content .form-group.has-suggestions { left: 30px; max-width: 260px; }
 .account .tab-content .form-group.has-suggestions .input-group-btn .btn-empty { background-color: rgba(25, 25, 25, .25); }
