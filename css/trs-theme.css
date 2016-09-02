@@ -2081,10 +2081,13 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.half { padding: 20px 0; }
 .section.first { padding-top: 0; }
 .section.last { padding-bottom: 0; }
-.section.short { min-height: 400px; }
+.section.short, .account .tab-contentWrap { min-height: 400px; }
 .section.details.short { min-height: 600px; }
 @media (max-width:767px) {
   .cart .section.cart-product ~ .section.cart-product { padding-top: 0; }
+}
+@media (min-width:768px) {
+  .account .tab-contentWrap { min-height: 660px; }
 }
 
 .section.title { background-color: #373737; }
