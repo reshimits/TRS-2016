@@ -66,6 +66,17 @@
 
         <div class="section texturedEdge header-waypoint" data-animate-down="header-small" data-animate-up="header-large"></div>
 
+        <!-- If no Products are in Cart -->
+        <!-- <div class="section short">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h3>You have no items in your shopping cart.</h3>
+                    <h5 class="text-gray1">Click <a href="">here</a> to continue shopping.</h5>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- If Products are in Cart -->
         <div class="section cart-product">
             <div class="container-fluid">
                 <div class="col-xs-12">
