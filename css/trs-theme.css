@@ -1413,7 +1413,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .productcategory.brandcategory-philips .jumbotron .featureHeadline img.philips-banner, .productcategory.brandcategory-morimoto .jumbotron .featureHeadline img.morimoto-banner, .productcategory.brandcategory-osram .jumbotron .featureHeadline img.osram-banner,
 .productcategory.brandcategory-denso .jumbotron .featureHeadline img.denso-banner, .productcategory.brandcategory-acme .jumbotron .featureHeadline img.acme-banner,
 .productcategory.brandcategory-koito .jumbotron .featureHeadline img.koito-banner, .productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
-.productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehicle-banner { display: block; }
+.productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehiclecategory-banner { display: block; }
 
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature1.jpg); }
