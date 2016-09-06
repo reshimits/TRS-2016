@@ -123,17 +123,17 @@
                         </div>
                     </li>
                     <li data-filter-class='["ext"]' class="col-xs-12 col-sm-6 col-lg-4">
-                        <div class="panel panel-empty">
+                        <div class="panel panel-empty panel-empty-alt">
                             <div class="panel-body">
                                 <div class="col-xs-12">
                                     <div class="row">
                                         <div class="blockquote">
-                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-ext"></span></div>
+                                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex-extLink"></span></div>
                                             <p>07.01.2016</p>
-                                            <h6>“Packaging was very nice. Everything comes very neat and labeled clearly. Everything is very straight forward. Light output is way way better. I picked 5500k bulbs. Also have switchback halos behind my shrouds. Tapping them into power etc takes a bit but all is good and works well. Very bright signal and white lite from the switchback xsb. The mini h1 fits very nice in my titan low beam had to trim the shroud slightly (Apollo 3.0) other than that everything is excellent.”</h6>
+                                            <h6><a href="#">1953 PLYMOUTH SUBURBAN SEALED7 HEADLIGHTS</a></h6>
                                             <p class="text-weightMedium"><em>– Micah S Lux</em></p>
                                         </div>
-                                        <div class="panel-empty-img"></div>
+                                        <div class="panel-empty-img" style="background-image: url(../img/temp-testimonial1.jpg);"></div>
                                     </div>
                                 </div>
                             </div>
