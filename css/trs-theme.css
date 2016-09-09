@@ -1541,9 +1541,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .productdetail .price h3 { float: right; }
 .product.thumbnail h3.last, .productdetail .price h3.last { margin-right: 0; }
 .product.thumbnail p.note, .productdetail .price p.note { display: none; color: #999; letter-spacing: 0; margin-top: 5px; margin-bottom: 0; }
-.product.thumbnail .wholesale, .productdetail .wholesale, .product.thumbnail.product-new .label-new, .productdetail.product-new .label-new { display: none; }
-#wholesaleAcct .product.thumbnail .wholesale, #wholesaleAcct .product.thumbnail p.note, 
-  .productdetail#wholesaleAcct .wholesale, .productdetail#wholesaleAcct p.note { display: block; }
+.product.thumbnail .retail, .productdetail .retail, .product.thumbnail .tenplus, .productdetail .tenplus, .product.thumbnail.product-new .label-new, .productdetail.product-new .label-new { display: none; }
+#wholesaleAcct .product.thumbnail .retail, #wholesaleAcct .product.thumbnail .tenplus, #wholesaleAcct .product.thumbnail p.note, 
+  .productdetail#wholesaleAcct .retail, .productdetail#wholesaleAcct .tenplus, .productdetail#wholesaleAcct p.note { display: block; }
 #wholesaleAcct .product.thumbnail h3 { font-size: 22px; }
 #wholesaleAcct .product.thumbnail h3.retail, .productdetail#wholesaleAcct h3.retail { text-decoration: line-through; color: #999; }
 #wholesaleAcct .product.thumbnail .caption .quickCopy { display: none; }

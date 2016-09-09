@@ -228,7 +228,7 @@
 
                                     <div class="col-xs-12 price">
                                         <div class="row">
-                                            <h3 class="wholesale last">$359.99 
+                                            <h3 class="tenplus last">$359.99 
                                                 <p class="note"><span class="lead">10 or More</span></p>
                                             </h3>
                                             <h3 class="wholesale">$399.99 
