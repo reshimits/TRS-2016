@@ -144,7 +144,7 @@
                 <div class="col-xs-12">
                     <h3>BI-XENON Long Title MORIMOTO MINI STAGE III (D2S) Kit</h3>
                     <hr class="aligncenter first">
-                    <ul class="messages"><li class="error-msg"><ul><li><span>OUT OF STOCK! All or part of this item is current sold out. More are expected in stock by 12-12-16 </span></li></ul></li></ul>
+                    <ul class="messages"><li class="error-msg"><ul><li><span>OUT OF STOCK! 2x Morimoto XB35 (35w) are current sold out. More are expected in stock by 12-12-16 </span></li></ul></li></ul>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-2 col-lg-3">
                     <img class="img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 6.jpg" alt="" border="0"/>
