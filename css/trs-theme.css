@@ -1627,6 +1627,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .list-group-item:first-child { border-top-left-radius: 0; border-top-right-radius: 0; }
 .list-group-item:last-child { margin-bottom: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
 .list-group-item p { margin: 0; }
+.product-specs .list-group-item a { color: #88e333; }
+.product-specs .list-group-item a:hover { color: #4ebb00; }
 .list-group-item > .badge { float: right; }
 .list-group-item > .badge + .badge { margin-right: 5px; }
 a.list-group-item { color: #555; }
