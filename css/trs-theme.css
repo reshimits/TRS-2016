@@ -2131,6 +2131,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 
 .section.checkout { margin-top: -30px; }
 .section.details { background-image: url(../img/bg-productDetails.jpg); background-position: center bottom; background-repeat: no-repeat; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
+.productdetail .section.details { margin-top: -30px; padding-top: 60px; }
 
 #wholesaleAcct .section.checkout .checkoutmethod { display: none; }
 #wholesaleAcct .section.checkout .shippingaddress { padding-top: 60px; }
@@ -2160,6 +2161,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .partners .details { min-height: 500px; }
 }
 @media (min-width:992px) {
+  .productdetail .section.details { margin-top: -50px; padding-top: 60px; }
   .productdetail .section.module-brands .brand { bottom: 30px; }
   .section.hexDownEdge { height: 50px; }
   .col-sm-4.section.nav-products p { min-height: 110px; }
