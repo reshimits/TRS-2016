@@ -2332,3 +2332,18 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .styleguide footer p { clear: left; margin-bottom: 0 }
 
 
+
+/* 3rd Party Alterations
+======================================================================================================================================================
+====================================================================================================================================================== */
+
+/*Honeypot Input*/
+#comment2 { background: transparent; border: none; cursor: default; pointer-events: none; }
+
+/*PayPal*/
+#paypal-complete { float: right; margin-bottom: 10px; }
+#paypal-label { line-height: 30px; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #ffc439; font-size: 16px; }    
+
+
+
+

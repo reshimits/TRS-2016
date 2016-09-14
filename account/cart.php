@@ -749,7 +749,7 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-6">
+                                <div class="col-xs-12 col-md-6">
                                     <div class="row">
                                     <div class="col-xs-12">
                                         <p class="text-right">*Please double check the details of your order before submitting. Once it is processed, we can not change or cancel it.</p>
