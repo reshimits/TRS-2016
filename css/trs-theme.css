@@ -219,6 +219,7 @@ p, .p, label { color: #999; font-size: 13px; -webkit-margin-before: 0; -webkit-m
     .account.gallery .thumb-top p { margin-bottom: 10px; }
   .section.details p, .about .briefhistory p, .about .ourshop p, .helpdesk .panel-default p, .resources.tech p { color: #757575; }
   .cart .checkout p, .cart .orderextras p, .cart .cart-product .cta p, label { margin: 0; }
+  .cart .checkout .ordersummary .note p { margin-top: 10px; }
   .cart .section.gray1 p { color: #666; }
   .cart .section.gray2 p, .cart .section.gray3 p { color: #999; }
 p a, .p a { font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; text-decoration: underline; color: inherit; }
@@ -2341,7 +2342,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 #comment2 { background: transparent; border: none; cursor: default; pointer-events: none; }
 
 /*PayPal*/
-#paypal-complete { float: right; margin-bottom: 10px; }
+#paypal-complete { float: right; }
 #paypal-label { line-height: 30px; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #ffc439; font-size: 16px; }    
 
 
