@@ -2344,7 +2344,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 /*PayPal*/
 #paypal-complete { float: right; }
 #paypal-label { line-height: 30px; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #ffc439; font-size: 16px; }    
-
+#paypal-container { float: left; }
 
 
 
