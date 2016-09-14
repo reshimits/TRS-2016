@@ -246,158 +246,10 @@
                 </div>
             </div>
 
-            <div class="section wrap">
-                <div class="flex-row">
-                    <div class="col-xs-12 col-sm-6 section shippingaddress">
-                        <div class="container-fluid disabled">
-                        <div class="col-xs-12">
-                            <h3>Shipping Address</h3>
-                                <form class="form-horizontal">
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
-                                                        <p class="small"><span class="text-uppercase">Select an entry from your Address Book</span></p>
-                                                        <div class="reveal-if-active">
-                                                            <div class="form-group">
-                                                                <div class="col-xs-12">
-                                                                    <select class="form-control drop" id="select">
-                                                                        <option value="">Matt Kossoff 8385 Allegiance Rd. Unit E Columbus, OH, 43235 United States 4406668214</option>
-                                                                        <option value="#">Rob Shimits 747 Quaker Ridge Ct., Columbus, OH, 43230 United States 4406668214</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="optionsRadios" id="" placeholder="option2">
-                                                        <p class="small"><span class="text-uppercase">Ship to a different address</span></p>
-                                                        <div class="reveal-if-active">
-                                                            <div class="form-group">
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="First Name">
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Last Name">
-                                                                </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <div class="col-sm-12">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Company Name">
-                                                                </div>
-                                                            </div>
-                                                            <hr class="aligncenter">
-                                                            <div class="form-group">
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 1">
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 2">
-                                                                </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="City">
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Region/State">
-                                                                </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <div class="col-sm-6">
-                                                                    <select class="form-control drop validate-select" id="select">
-                                                                        <option value="">Country</option>
-                                                                        <option value="#">#</option>
-                                                                        <option value="#">#</option>
-                                                                        <option value="#">#</option>
-                                                                        <option value="#">#</option>
-                                                                        <option value="#">#</option>
-                                                                    </select>
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Postal Code">
-                                                                </div>
-                                                            </div>
-                                                            <hr class="aligncenter">
-                                                            <div class="form-group">
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Email Address">
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Confirm Email Address">
-                                                                </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <div class="col-sm-6">
-                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Phone">
-                                                                </div>
-                                                            </div>
-                                                            <div class="checkbox">
-                                                                <label>
-                                                                    <input type="checkbox"><span class="small">Save to My Address Book</span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr class="aligncenter">
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                </form>
-                        </div>  
-                        </div>          
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 section gray1 shippingmethod">
-                        <div class="container-fluid disabled">
-                        <div class="col-xs-12">
-                            <h3>Shipping Method</h3>
-                                <form class="form-horizontal">
-                                    <fieldset>
-                                        <div class="form-group">
-                                            <div class="col-xs-12">
-                                                <p class="small"><span class="text-uppercase">Select a Shipping Method</span></p>
-                                                <select class="form-control drop" id="select">
-                                                    <option value="">Flat Rate ... $5.00</option>
-                                                    <option value="">USPS ... First Class Mail - Package – 1-3 business days ... $24.63</option>
-                                                    <option value="">USPS ... Priority Mail - Package – 1-3 business days ... $5.35</option>
-                                                    <option value="">UPS ... Ground ... $6.79</option>
-                                                    <option value="">UPS ... 3 Day Select ... $10.22</option>
-                                                    <option value="">UPS ... Next Day Air Saver ... $40.16</option>
-                                                    <option value="">UPS ... Next Day Air ... $44.02</option>
-                                                </select>
-                                                <h6 class="pull-right text-white"><em>> Ships <span class="text-primary">tomorrow</span>, from Atlanta</em></h6>
-                                            </div>
-                                        </div>
-                                            
-                                        <hr class="aligncenter">
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <div type="button" class="btn btn-default back"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
-                                                <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                </form>            
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="section wrap">
                 <div class="flex-row">
-                    <div class="col-xs-12 col-sm-6 section gray2 billingaddress">
+                    <div class="col-xs-12 col-sm-6 section billingaddress">
                         <div class="container-fluid disabled">
                         <div class="col-xs-12">
                             <h3>Billing Address</h3>
@@ -405,13 +257,6 @@
                                 <fieldset>
                                     <div class="form-group">
                                         <div class="col-xs-12">
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
-                                                    <p class="small"><span class="text-uppercase">Same as Shipping Address</span></p>
-                                                    <div class="reveal-if-active"><!-- Needs to be here to keep spacing consistent --></div>
-                                                </label>
-                                            </div>
                                             <div class="radio">
                                                 <label>
                                                     <input type="radio" name="optionsRadios" id="" placeholder="option2">
@@ -516,7 +361,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 section gray3 billingmethod">
+                    <div class="col-xs-12 col-sm-6 section gray1 billingmethod">
                         <div class="container-fluid disabled">
                         <div class="col-xs-12">
                             <h3>Billing Method</h3>
@@ -617,6 +462,163 @@
                                     </div>
                                 </fieldset>
                             </form>            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section wrap">
+                <div class="flex-row">
+                    <div class="col-xs-12 col-sm-6 section gray2 shippingaddress">
+                        <div class="container-fluid disabled">
+                        <div class="col-xs-12">
+                            <h3>Shipping Address</h3>
+                                <form class="form-horizontal">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
+                                                        <p class="small"><span class="text-uppercase">Same as Billing Address</span></p>
+                                                        <div class="reveal-if-active"><!-- Needs to be here to keep spacing consistent --></div>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
+                                                        <p class="small"><span class="text-uppercase">Select an entry from your Address Book</span></p>
+                                                        <div class="reveal-if-active">
+                                                            <div class="form-group">
+                                                                <div class="col-xs-12">
+                                                                    <select class="form-control drop" id="select">
+                                                                        <option value="">Matt Kossoff 8385 Allegiance Rd. Unit E Columbus, OH, 43235 United States 4406668214</option>
+                                                                        <option value="#">Rob Shimits 747 Quaker Ridge Ct., Columbus, OH, 43230 United States 4406668214</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="optionsRadios" id="" placeholder="option2">
+                                                        <p class="small"><span class="text-uppercase">Ship to a different address</span></p>
+                                                        <div class="reveal-if-active">
+                                                            <div class="form-group">
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="First Name">
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Last Name">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="col-sm-12">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Company Name">
+                                                                </div>
+                                                            </div>
+                                                            <hr class="aligncenter">
+                                                            <div class="form-group">
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 1">
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 2">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="City">
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Region/State">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="col-sm-6">
+                                                                    <select class="form-control drop validate-select" id="select">
+                                                                        <option value="">Country</option>
+                                                                        <option value="#">#</option>
+                                                                        <option value="#">#</option>
+                                                                        <option value="#">#</option>
+                                                                        <option value="#">#</option>
+                                                                        <option value="#">#</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Postal Code">
+                                                                </div>
+                                                            </div>
+                                                            <hr class="aligncenter">
+                                                            <div class="form-group">
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Email Address">
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Confirm Email Address">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="col-sm-6">
+                                                                    <input type="text" class="form-control" id="inputDefault" placeholder="Phone">
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox">
+                                                                <label>
+                                                                    <input type="checkbox"><span class="small">Save to My Address Book</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="aligncenter">
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <div type="button" class="btn btn-default back"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
+                                                <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                        </div>  
+                        </div>          
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 section gray3 shippingmethod">
+                        <div class="container-fluid disabled">
+                        <div class="col-xs-12">
+                            <h3>Shipping Method</h3>
+                                <form class="form-horizontal">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <p class="small"><span class="text-uppercase">Select a Shipping Method</span></p>
+                                                <select class="form-control drop" id="select">
+                                                    <option value="">Flat Rate ... $5.00</option>
+                                                    <option value="">USPS ... First Class Mail - Package – 1-3 business days ... $24.63</option>
+                                                    <option value="">USPS ... Priority Mail - Package – 1-3 business days ... $5.35</option>
+                                                    <option value="">UPS ... Ground ... $6.79</option>
+                                                    <option value="">UPS ... 3 Day Select ... $10.22</option>
+                                                    <option value="">UPS ... Next Day Air Saver ... $40.16</option>
+                                                    <option value="">UPS ... Next Day Air ... $44.02</option>
+                                                </select>
+                                                <h6 class="pull-right text-white"><em>> Ships <span class="text-primary">tomorrow</span>, from Atlanta</em></h6>
+                                            </div>
+                                        </div>
+                                            
+                                        <hr class="aligncenter">
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <div type="button" class="btn btn-default back"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
+                                                <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Continue</div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>            
                         </div>
                         </div>
                     </div>
@@ -848,14 +850,6 @@
         } 
         $( ".section.checkoutmethod .btn.guest" ).click(function() {
             $(".section.checkoutmethod .container-fluid").toggleClass( "disabled",true );
-            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",false );
-        });
-        $( ".section.shippingaddress .btn.continue" ).click(function() {
-            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",true );
-            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",false );
-        });
-        $( ".section.shippingmethod .btn.continue" ).click(function() {
-            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",true );
             $(".section.billingaddress .container-fluid").toggleClass( "disabled",false );
         });
         $( ".section.billingaddress .btn.continue" ).click(function() {
@@ -864,23 +858,35 @@
         });
         $( ".section.billingmethod .btn.continue" ).click(function() {
             $(".section.billingmethod .container-fluid").toggleClass( "disabled",true );
+            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",false );
+        });
+        $( ".section.shippingaddress .btn.continue" ).click(function() {
+            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",true );
+            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",false );
+        });
+        $( ".section.shippingmethod .btn.continue" ).click(function() {
+            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",true );
             $(".section.orderextras .container-fluid").toggleClass( "disabled",false );
         });
 
-        $( ".section.shippingmethod .btn.back" ).click(function() {
-            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",false );
-            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",true );
-        });
         $( ".section.billingaddress .btn.back" ).click(function() {
-            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",false );
+            $(".section.checkoutmethod .container-fluid").toggleClass( "disabled",false );
             $(".section.billingaddress .container-fluid").toggleClass( "disabled",true );
         });
         $( ".section.billingmethod .btn.back" ).click(function() {
             $(".section.billingaddress .container-fluid").toggleClass( "disabled",false );
             $(".section.billingmethod .container-fluid").toggleClass( "disabled",true );
         });
-        $( ".section.orderextras .btn.back" ).click(function() {
+        $( ".section.shippingaddress .btn.back" ).click(function() {
             $(".section.billingmethod .container-fluid").toggleClass( "disabled",false );
+            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",true );
+        });
+        $( ".section.shippingmethod .btn.back" ).click(function() {
+            $(".section.shippingaddress .container-fluid").toggleClass( "disabled",false );
+            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",true );
+        });
+        $( ".section.orderextras .btn.back" ).click(function() {
+            $(".section.shippingmethod .container-fluid").toggleClass( "disabled",false );
             $(".section.orderextras .container-fluid").toggleClass( "disabled",true );
         });
     </script>
