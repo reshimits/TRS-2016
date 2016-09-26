@@ -2137,7 +2137,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .productdetail .section.details { margin-top: -30px; padding-top: 60px; }
 
 #wholesaleAcct .section.checkout .checkoutmethod { display: none; }
-#wholesaleAcct .section.checkout .shippingaddress { padding-top: 60px; }
+#wholesaleAcct .section.checkout .billingaddress { padding-top: 60px; }
 
 .section.summary p, .footer p { font-size: 14px; line-height: 1.5; }
 .section.summary .col-sm-5 ~ .col-sm-5 p { margin-bottom: 30px; }
