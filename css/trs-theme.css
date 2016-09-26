@@ -2160,7 +2160,8 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .section.summary p, .footer p { line-height: 1.7; margin-bottom: 30px; }
   .col-sm-4.section.nav-products p { min-height: 145px; }
   .section.nav-products p { margin-bottom: 30px; }
-  #wholesaleAcct .section.checkout .shippingaddress, #wholesaleAcct .section.checkout .shippingmethod { padding-top: 60px; }
+  #wholesaleAcct .section.checkout .billingaddress, #wholesaleAcct .section.checkout .billingmethod, 
+    .section.checkout .billingaddress.nocheckoutmethod, .section.checkout .billingmethod.nocheckoutmethod { padding-top: 60px; }
   .partners .details { min-height: 500px; }
 }
 @media (min-width:992px) {

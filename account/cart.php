@@ -39,7 +39,7 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="utility cart" id="">
+<body class="utility cart" id="wholesaleAcct">
 
     <!-- Header
     ================================================== -->
@@ -249,7 +249,7 @@
 
             <div class="section wrap">
                 <div class="flex-row">
-                    <div class="col-xs-12 col-sm-6 section billingaddress">
+                    <div class="col-xs-12 col-sm-6 section billingaddress nocheckoutmethod">
                         <div class="container-fluid disabled">
                         <div class="col-xs-12">
                             <h3>Billing Address</h3>
@@ -361,7 +361,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 section gray1 billingmethod">
+                    <div class="col-xs-12 col-sm-6 section gray1 billingmethod nocheckoutmethod">
                         <div class="container-fluid disabled">
                         <div class="col-xs-12">
                             <h3>Billing Method</h3>
