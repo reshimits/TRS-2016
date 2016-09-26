@@ -2339,7 +2339,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 ====================================================================================================================================================== */
 
 /*Honeypot Input*/
-#comment2 { background: transparent; border: none; cursor: default; pointer-events: none; }
+/*#comment2 { background: transparent; border: none; cursor: default; pointer-events: none; }*/
 
 /*PayPal*/
 #paypal-complete { float: right; }
