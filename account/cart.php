@@ -39,7 +39,7 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="utility cart" id="wholesaleAcct">
+<body class="utility cart" id="">
 
     <!-- Header
     ================================================== -->
@@ -669,7 +669,7 @@
                                         <div class="input-group">
                                             <input type="text" class="form-control" id="inputDefault" placeholder="Enter Promo Code">
                                             <span class="input-group-btn">
-                                                <a class="btn btn-dark" type="button"><span class="icon icon-arrowRcircle-fff"></span></a>
+                                                <a class="btn btn-dark" type="button"> Apply</a>
                                             </span>
                                         </div>
                                         <ul class="messages"><li class="success-msg"><ul><li><span>SUCCESS! 10% off Coupon Code Accepted.</span></li></ul></li></ul>
