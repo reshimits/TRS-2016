@@ -441,6 +441,7 @@ input[type="radio"]:checked ~ .reveal-if-active, input[type="checkbox"]:checked 
 .btn-empty.btn-hexicon:hover { border-color: transparent; cursor: default; }
   .footer .btn-empty.btn-hexicon:hover { cursor: pointer; }
 .module-buyersguide .btn-empty.btn-xs, .btn-empty.btn-xs.edit { position: absolute; top: 0; right: 0; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #fff; }
+.module-buyersguide .btn-empty.btn-xs.reset { position: relative; float: right; margin-bottom: 10px; }
 .module-buyersguide .btn-empty.btn-xs:hover, .module-buyersguide .btn-empty.btn-xs:active, .btn-empty.btn-xs.edit:hover, .btn-empty.btn-xs.edit:active { border-color: transparent; } 
   .panel-account .btn-empty.btn-xs.edit, .cart-product .btn-empty.btn-xs.edit { position: relative; float: right; color: #88e333; }
   .cart-product .btn-empty.btn-xs.edit { margin-top: 10px; }
@@ -455,6 +456,7 @@ input[type="radio"]:checked ~ .reveal-if-active, input[type="checkbox"]:checked 
 .orderextras .form-group .input-group-btn .btn-dark { padding: 8px; margin-left: 0 !important; border-color: #777; }
 @media (min-width:768px) {
   .orderextras .form-group .input-group-btn .btn-dark { padding: 9px; line-height: 1.3; }
+  .module-buyersguide .btn-empty.btn-xs.reset { margin-top: -32px; margin-bottom: 0; }
 }
 
 .btn-ghost { color: #fff; background: rgba(255, 255, 255, .25); border-color: #ddd; }
