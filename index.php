@@ -55,7 +55,7 @@
     ================================================== -->
 
     <div class="bodyWrap">
-        <a href="https://www.theretrofitsource.com/hid-systems/morimoto-elite-hid-system-sierra-low-beam.html#.Vx-ucZMrLuQ" border="none" target="_blank">
+        <a href="#" border="none" target="_blank">
             <div class="jumbotron feature1">
                 <div class="featureHeadline col-xs-12">
                     <img src="img/feature2016-10headline.svg" alt="" border="0"/>
