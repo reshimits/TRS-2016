@@ -57,7 +57,7 @@
     <div class="bodyWrap">
         <a href="#" border="none" target="_blank">
             <div class="jumbotron feature1">
-                <div class="featureHeadline col-xs-12 col-xlg-8 col-xlg-offset-2">
+                <div class="featureHeadline col-xs-12 col-xlg-8 col-xlg-offset-2 col-2xlg-6 col-2xlg-offset-3">
                     <img src="img/feature2016-10headline.svg" alt="" border="0"/>
                 </div>
                 <div class="jumbotron-img"></div>
