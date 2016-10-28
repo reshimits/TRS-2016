@@ -416,64 +416,65 @@
         </div> 
 
         <div class="section wrap gray3">
-            
-            <div class="col-sm-4 section nav-products gray3">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12">
+            <div class="flex-row">
+                <div class="col-sm-4 section nav-products gray3">
+                    <div class="container-fluid">
+                        <div class="row">
                             <div class="col-xs-12">
-                                <img class="img-responsive" src="img/category-accessories.png" alt="Accessories Product Category" border="0"/>
-                                <h3>Accessories</h3>
-                                <p>The difference is in the details. TRS is the industry-expert in custom headlights; and we’ve got the right selection of helpful build-materials, spare parts, and other awesome extras to help you get the job right the first time.</p>
-                            </div>    
-                            <div class="row">
-                                <div class="btn-group-vertical">
-                                    <a type="button" href="#" class="btn btn-default">Build Materials</a>
-                                    <a type="button" href="#" class="btn btn-default">Miscellaneous</a>
-                                    <a type="button" href="#" class="btn btn-default">TRS Gear</a>
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-accessories.png" alt="Accessories Product Category" border="0"/>
+                                    <h3>Accessories</h3>
+                                    <p>The difference is in the details. TRS is the industry-expert in custom headlights; and we’ve got the right selection of helpful build-materials, spare parts, and other awesome extras to help you get the job right the first time.</p>
+                                </div>    
+                                <div class="row">
+                                    <div class="btn-group-vertical">
+                                        <a type="button" href="#" class="btn btn-default">Build Materials</a>
+                                        <a type="button" href="#" class="btn btn-default">Miscellaneous</a>
+                                        <a type="button" href="#" class="btn btn-default">TRS Gear</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-sm-4 section nav-products gray2">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-closeouts.png" alt="Closeouts Product Category" border="0"/>
+                                    <h3>Closeouts</h3>
+                                    <p>If you’re a headlight junkie looking for a killer deal on parts for your next budget-build, our selection of closeout inventory is where its at. From recycled OEM projectors to open-box or used HID or LED gear, we got it.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                                <!-- <div class="row">
+                                    <div class="btn-group-vertical">
+                                        <a type="button" href="#" class="btn btn-default">HID / LED Parts</a>
+                                        <a type="button" href="#" class="btn btn-default">OEM Projectors</a>
+                                        <a type="button" href="#" class="btn btn-default">Miscellaneous</a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-sm-4 section nav-products gray3 last">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-lensetching.png" alt="Lens Etching Service Category" border="0"/>
+                                    <h3>Lens Etching</h3>
+                                    <p>As if your retrofit wasn't unique enough, we're changing the game with our custom etching service for projector lenses. Provide your own artwork or choose one of our existing designs and we’ll get to work for you.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </div>
-
-            <div class="col-sm-4 section nav-products gray2">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="col-xs-12">
-                                <img class="img-responsive" src="img/category-closeouts.png" alt="Closeouts Product Category" border="0"/>
-                                <h3>Closeouts</h3>
-                                <p>If you’re a headlight junkie looking for a killer deal on parts for your next budget-build, our selection of closeout inventory is where its at. From recycled OEM projectors to open-box or used HID or LED gear, we got it.</p>
-                            </div>
-                            <div class="row">
-                                <div class="btn-group-vertical">
-                                    <a type="button" href="#" class="btn btn-default">HID / LED Parts</a>
-                                    <a type="button" href="#" class="btn btn-default">OEM Projectors</a>
-                                    <a type="button" href="#" class="btn btn-default">Miscellaneous</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-
-            <div class="col-sm-4 section nav-products gray3 last">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="col-xs-12">
-                                <img class="img-responsive" src="img/category-lensetching.png" alt="Lens Etching Service Category" border="0"/>
-                                <h3>Lens Etching</h3>
-                                <p>As if your retrofit wasn't unique enough, we're changing the game with our custom etching service for projector lenses. Provide your own artwork or choose one of our existing designs and we’ll get to work for you.</p>
-                                <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-
         </div>
 
         <!-- Footer
