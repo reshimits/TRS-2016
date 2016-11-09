@@ -598,6 +598,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 
 .icon { float: left; position: relative; display: inline-block; background-position: center center; background-repeat: no-repeat; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
 .icon-acct { background-image: url(../img/icon-acct.svg); background-position: center top; }
+.icon-amazon { background-image: url(../img/icon-amazon.svg); }
 .icon-arrowDown { background-image: url(../img/icon-arrowDown.svg); background-position: center top; }
 .icon-arrowDown-fff { background-image: url(../img/icon-arrowDown-fff.svg); background-position: center top; }
 .icon-arrowRcircle-fff { background-image: url(../img/icon-arrowRcircle-fff.svg); background-position: center top; }
@@ -727,6 +728,8 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .cart .cart-product .input-group.spinner { width: 100%; }
 }
 
+.btn.amazon { color: #f90; border-color: #f90; }
+.amazon .icon-amazon { height: 24px; width: 24px; }
 .input-group-btn { z-index: 1000; }
 
 /* Navs

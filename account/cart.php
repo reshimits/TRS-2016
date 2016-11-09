@@ -231,14 +231,17 @@
                         <div class="section">
                             <h3>Checkout Method</h3>
                             <div class="row">
-                                <div class="col-xs-12 col-sm-4">
-                                    <div type="button" class="btn btn-lg btn-block btn-dark guest">Continue as Guest</div>
+                                <div class="col-xs-12 col-sm-3">
+                                    <div type="button" class="btn btn-block btn-dark guest">Cont<span class="hidden-sm">inue</span> as Guest</div>
                                 </div>
-                                <div class="col-xs-12 col-sm-4">
-                                    <div data-toggle="modal" data-target="#login" type="button" class="btn btn-lg btn-block btn-default">Register</div>
+                                <div class="col-xs-12 col-sm-3">
+                                    <div data-toggle="modal" data-target="#login" type="button" class="btn btn-block btn-default">Register</div>
                                 </div>
-                                <div class="col-xs-12 col-sm-4">
-                                    <div data-toggle="modal" data-target="#login" type="button" class="btn btn-lg btn-block btn-primary">Log In</div>
+                                <div class="col-xs-12 col-sm-3">
+                                    <div data-toggle="modal" data-target="#login" type="button" class="btn btn-block btn-primary">Log In</div>
+                                </div>
+                                <div class="col-xs-12 col-sm-3">
+                                    <div type="button" class="btn btn-block btn-default amazon"><span class="icon icon-amazon icon-before"></span> <span class="hidden-sm">Pay with </span>Amazon</div>
                                 </div>
                             </div>
                         </div>
