@@ -1233,11 +1233,11 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 
 .home .jumbotron, .styleguide .jumbotron { height: 440px; overflow: hidden; margin-bottom: -225px; }
-.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 60px; }
 .productcategory .jumbotron .featureHeadline, .account .jumbotron .featureHeadline, .utility .jumbotron .featureHeadline { margin-top: 40px; }
   .productcategory .jumbotron .featureHeadline { margin-left: -5px; }
 .jumbotron .featureHeadline img { width: 100%; height: auto; }
 .productcategory .jumbotron .featureHeadline img { display: none; }
+
 .productcategory.accessories .jumbotron .featureHeadline img.accessories-banner, .productcategory.ballasts .jumbotron .featureHeadline img.ballasts-banner,
 .productcategory.bulbs .jumbotron .featureHeadline img.bulbs-banner, .productcategory.closeouts .jumbotron .featureHeadline img.closeouts-banner,
 .productcategory.completekits .jumbotron .featureHeadline img.completekits-banner, .productcategory.hidsystems .jumbotron .featureHeadline img.hidsystems-banner,
@@ -1251,7 +1251,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehiclecategory-banner { display: block; }
 
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-10.jpg); }
+.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-11.jpg); }
 .productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
@@ -1306,9 +1306,6 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .utility.partners .jumbotron.content { height: 300px; } 
 .utility.partners .partnersMap { width: 100%; height: 100%; }
 
-@media (min-width:500px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 0; }
-}
 @media screen and (min-width:768px) {
   .jumbotron { min-height: 280px; }
   .home .jumbotron, .styleguide .jumbotron { height: 680px; }
@@ -1322,12 +1319,32 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .utility .jumbotron, .cart .jumbotron { height: 220px; }
   .utility .jumbotron.content, .utility .jumbotron.wLinks { height: 320px; } 
   .utility.partners .jumbotron.content { height: 400px; } 
-  .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 760px; -webkit-background-size: 760px 700px; -moz-background-size: 760px 700px; -o-background-size: 760px 700px; background-size: 760px 700px; }
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
+  .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 760px; -webkit-background-size: 760px 700px; -moz-background-size: 760px 700px; -o-background-size: 760px 700px; background-size: 760px 700px; }=
 }
 @media (min-width:992px) {
   .home .jumbotron { margin-bottom: -225px; }
   .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 830px; }
+}
+
+
+.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
+/*@media (min-width:500px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 0; }
+}*/
+@media (min-width:768px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
+}
+@media (min-width:992px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 200px; }
+}
+@media (min-width:1200px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
+}
+@media (min-width:1500px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
+}
+@media (min-width:2000px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
 }
 
 .productcategory .featureHeadline h4, .productcategory h1 { display: none; }
