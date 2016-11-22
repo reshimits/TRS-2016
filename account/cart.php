@@ -741,6 +741,7 @@
                                 <div class="col-xs-12 col-sm-6">
                                     <div class="row">
                                     <div class="col-xs-12">
+                                        <div type="button" class="btn btn-default back"><span class="icon icon-arrowLcircle-999 icon-before"></span> Back</div>
                                         <h6 class=""><a href="#">&lt; Forgot an Item? Continue Shopping</a></h6>
                                     </div>
                                     </div>
