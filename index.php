@@ -64,11 +64,21 @@
                 <div class="jumbotron-honeycomb"></div>
             </div>
         </a> -->
-        <a href="#" border="none" target="_blank">
+       <!--  <a href="#" border="none" target="_blank">
             <div class="jumbotron feature1">
                 <div class="featureHeadline col-xs-12">
                     <div class="row">
                         <img src="img/feature2016-11headline.svg" alt="" border="0"/>
+                    </div>
+                </div>
+                <div class="jumbotron-img"></div>
+            </div>
+        </a> -->
+        <a href="#" border="none" target="_blank">
+            <div class="jumbotron feature1">
+                <div class="featureHeadline col-xs-12">
+                    <div class="row">
+                        <img src="img/feature2016-11bheadline.svg" alt="" border="0"/>
                     </div>
                 </div>
                 <div class="jumbotron-img"></div>

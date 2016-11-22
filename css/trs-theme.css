@@ -1251,7 +1251,10 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehiclecategory-banner { display: block; }
 
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-11.jpg); }
+/*Black Friday*/ 
+/*.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-11.jpg); }*/
+/*Cyber Monday*/ 
+.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-11b.jpg); }
 .productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
@@ -1327,10 +1330,8 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 
 
-.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
-/*@media (min-width:500px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 0; }
-}*/
+/*Black Friday*/
+/*.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
 @media (min-width:768px) {
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
 }
@@ -1345,6 +1346,24 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 @media (min-width:2000px) {
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
+}*/
+
+/*Cyber Monday*/
+.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 70px; }
+@media (min-width:500px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 30px; }
+}
+@media (min-width:768px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
+}
+@media (min-width:1200px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
+}
+@media (min-width:1500px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 50px; }
+}
+@media (min-width:2000px) {
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 30px; }
 }
 
 .productcategory .featureHeadline h4, .productcategory h1 { display: none; }
