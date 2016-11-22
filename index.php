@@ -64,7 +64,7 @@
                 <div class="jumbotron-honeycomb"></div>
             </div>
         </a> -->
-       <!--  <a href="#" border="none" target="_blank">
+       <!--  <a href="eNewsletters/2016-blackFriday/index.html" border="none" target="_blank">
             <div class="jumbotron feature1">
                 <div class="featureHeadline col-xs-12">
                     <div class="row">
@@ -74,7 +74,7 @@
                 <div class="jumbotron-img"></div>
             </div>
         </a> -->
-        <a href="#" border="none" target="_blank">
+        <a href="eNewsletters/2016-blackFriday/index-cybermonday.html" border="none" target="_blank">
             <div class="jumbotron feature1">
                 <div class="featureHeadline col-xs-12">
                     <div class="row">
