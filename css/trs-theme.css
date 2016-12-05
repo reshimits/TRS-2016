@@ -1885,6 +1885,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .section.nav-products p { margin-bottom: 30px; }
   #wholesaleAcct .section.checkout .billingaddress, #wholesaleAcct .section.checkout .billingmethod, 
     .section.checkout .billingaddress.nocheckoutmethod, .section.checkout .billingmethod.nocheckoutmethod { padding-top: 60px; }
+    #wholesaleAcct #amazon-checkout .section.checkout .billingmethod { padding-top: 30px; }
   .partners .details { min-height: 500px; }
 }
 @media (min-width:992px) {
