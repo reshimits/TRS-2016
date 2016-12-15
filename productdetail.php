@@ -85,14 +85,14 @@
                             <div class="carousel slide article-slide" id="trsCarousel">
                                 <!-- Carousel Slides -->
                                 <div class="carousel-inner">
-                                    <div class="item active"><img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
-                                    <div class="item"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
-                                    <div class="item"><img src="img/temp--Morimoto XB35 AMP Ballast 3.jpg" class="img-responsive" alt="" border="none"></div> 
-                                    <div class="item"><img src="img/temp--Morimoto XB35 AMP Ballast 4.jpg" class="img-responsive" alt="" border="none"></div> 
-                                    <div class="item"><img src="img/temp--Morimoto XB35 AMP Ballast 5.jpg" class="img-responsive" alt="" border="none"></div>
-                                    <div class="item"><img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
-                                    <div class="item"><img src="img/temp--Morimoto XB35 AMP Ballast 3.jpg" class="img-responsive" alt="" border="none"></div> 
-                                    <div class="item"><img src="img/temp--Morimoto XB35 AMP Ballast 4.jpg" class="img-responsive" alt="" border="none"></div> 
+                                    <div class="item active" data-toggle="modal" data-target="#photoLightbox4products"><img src="img/temp--Morimoto XB35 AMP Ballast 1.jpg" class="img-responsive" alt="" border="none"></div>
+                                    <div class="item" data-toggle="modal" data-target="#photoLightbox4products"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
+                                    <div class="item" data-toggle="modal" data-target="#photoLightbox4products"><img src="img/temp--Morimoto XB35 AMP Ballast 3.jpg" class="img-responsive" alt="" border="none"></div> 
+                                    <div class="item" data-toggle="modal" data-target="#photoLightbox4products"><img src="img/temp--Morimoto XB35 AMP Ballast 4.jpg" class="img-responsive" alt="" border="none"></div> 
+                                    <div class="item" data-toggle="modal" data-target="#photoLightbox4products"><img src="img/temp--Morimoto XB35 AMP Ballast 5.jpg" class="img-responsive" alt="" border="none"></div>
+                                    <div class="item" data-toggle="modal" data-target="#photoLightbox4products"><img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
+                                    <div class="item" data-toggle="modal" data-target="#photoLightbox4products"><img src="img/temp--Morimoto XB35 AMP Ballast 3.jpg" class="img-responsive" alt="" border="none"></div> 
+                                    <div class="item" data-toggle="modal" data-target="#photoLightbox4products"><img src="img/temp--Morimoto XB35 AMP Ballast 4.jpg" class="img-responsive" alt="" border="none"></div> 
                                 </div>
                                 <!-- Carousel Nav Controls --> 
                                 <a class="left carousel-control" href="#trsCarousel" role="button" data-slide="prev"><span class="icon icon-carouselPrev"></span></a>
@@ -120,7 +120,7 @@
                                             <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-densoHover.svg" class="img-responsive" alt="" border="none"></div> -->
                                             <!-- <div class="brand tall col-sm-2 col-sm-offset-5"><img src="img/brand-acmeHover.svg" class="img-responsive" alt="" border="none"></div> -->
                                             <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-koitoHover.svg" class="img-responsive" alt="" border="none"></div> -->
-                                            <div class="brand tall col-sm-2 col-sm-offset-5"><img src="img/brand-hellaHover.svg" class="img-responsive" alt="" border="none"></div>
+                                            <!-- <div class="brand tall col-sm-2 col-sm-offset-5"><img src="img/brand-hellaHover.svg" class="img-responsive" alt="" border="none"></div> -->
                                             <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-speakerHover.svg" class="img-responsive" alt="" border="none"></div> -->
                                         </div>
                                     </div>

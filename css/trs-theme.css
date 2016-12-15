@@ -1811,6 +1811,14 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .modal .carousel-caption .list-group-item p { font-size: 12px; }
   .modal .carousel-indicators { position: relative; bottom: 0; }
 }
+@media (min-width:1500px) {
+  #trsCarousel.carousel, #trsCarousel .carousel-inner { max-height: 600px; }
+  #trsCarousel .carousel-inner > .item { height: 600px; }
+}
+@media (min-width:2000px) {
+  #trsCarousel.carousel, #trsCarousel .carousel-inner { max-height: 700px; }
+  #trsCarousel .carousel-inner > .item { height: 700px; }
+}
 
 
 /* PAGE SPECIFIC STYLES
