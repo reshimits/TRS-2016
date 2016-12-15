@@ -1792,6 +1792,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 @media (min-width:992px) {
   #trsCarousel.carousel, #trsCarousel .carousel-inner { max-height: 500px; }
   #trsCarousel .carousel-inner > .item { height: 500px; }
+  #trsCarousel .carousel-inner > .item:hover { cursor: pointer; }
   .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, -15%); }
     .modal .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: none; }
   .carousel-indicators li, .carousel-indicators .active, .carousel-indicators .active:hover { width: 75px; }
