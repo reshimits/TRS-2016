@@ -1254,7 +1254,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 /*Black Friday*/ 
 /*.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-11.jpg); }*/
 /*Cyber Monday*/ 
-.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-12.jpg); }
+.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-12xmas.jpg); }
 .productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
@@ -1330,21 +1330,21 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 
 
-.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
+.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 70px; }
 @media (min-width:500px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 60px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 40px; }
 }
 @media (min-width:768px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 220px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
 }
 @media (min-width:992px) {
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
 }
 @media (min-width:1200px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 120px; }
 }
 @media (min-width:1500px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 120px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 80px; }
 }
 @media (min-width:2000px) {
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
