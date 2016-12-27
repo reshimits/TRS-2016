@@ -414,8 +414,33 @@
                         </div>
                     </li>
 
-
                 </ul>
+
+
+                <div class="section content">
+                    <div class="col-xs-12"><hr class="aligncenter"></div>
+                    <div class="col-xs-12 col-md-6">
+                        <h2><span class="h5">Replacement HID Projectors</span></h2>
+                        <p>On the road, a brighter, more concentrated headlight beam that casts less glare at on-coming traffic is a recipe for safely getting to where you need to go. Take the opportunity to improve your automotive lighting performance with retrofitted projectors that effectively capture and focus light into a controlled pattern that's optimal for driving at night and in dark conditions.</p>
+                        <p>Whether you're in the market for swap-in HID projectors or HID fog light projectors, The Retrofit Source offers a broad selection of top quality, high-performance products to fit your budget and your needs.</p>
+                        <h2><span class="h5">Easy Install HID Projectors</span></h2>
+                        <p>Our easy install HID projectors by Morimoto set the standard in the industry as supreme low beam replacements that improve light distribution so you can see more and be better seen. And have no fear, there's plenty of power in reserve for high beam performance on demand, capable of cutting through the darkest of nights for hundreds of meters.</p>
+                        <p>Like the name says, these HID projectors are easy to install in a few simple steps and with minimal cutting (if any) thanks to a longer threaded shaft and simple-to-follow instructions.</p>
+                        <h2><span class="h5">HID Fog Light Projectors</span></h2>
+                        <p>Don't let foggy conditions slow you down with HID fog light projectors that can be quickly retrofitted into an existing fog light. We carry bi-xenon HID projectors with both low and high beam capabilities for an added dimension of on- or off-road illumination. The compact size, exceptionally powerful output and easy step-by-step installation make these fog light kits nothing short of a technical marvel.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <h2><span class="h5">Swap-in HID Projectors</span></h2>
+                        <p>As genuine automotive enthusiasts who can't resist a quality upgrade, we've experienced nothing but good vibes working with the swap-in HID projectors we carry. Simply open up the HID projector housings on your vehicle, remove your unimpressive original projectors and &ldquo;swap in&rdquo; a high performing replacement product capable of casting 10 times as much light on the situation.</p>
+                        <p>Our swap-in projectors feature a bi-xenon bulb that's the perfect solution for a new retrofit or direct replacement that outperforms OEM.</p>
+                        <h2><span class="h5">Bi-Xenon HID Projectors</span></h2>
+                        <p>When you're looking for an out-of-the-box solution for brighter, more precise automotive lighting on a dime, TRS has you covered. We offer entry-level HID projectors that cast more light on the road than your original gear.</p>
+                        <p>They're not the fanciest HID projector we sell, but they'll get the job done better than almost any other budget product with a sharp and colorful cutoff line and solid, consistent output.</p>
+                        <h2><span class="h5">Advanced Install HID Projectors</span></h2>
+                        <p>When you aren't afraid to get your hands dirty and take on a technical challenge, these top-of-the-line HID projector replacements are well worth the time and effort it takes to install them.</p>
+                        <p>Each advanced install HID projector can be custom tuned for optimal output, delivering high precision castings, advanced optics and a clear lens that blazes a path through the dimmest driving conditions. We carry both bi-xenon HID projectors and low beam models that will safely integrate into your lighting system and enhance performance beyond factory specifications.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
