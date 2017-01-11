@@ -251,7 +251,6 @@
                     <p><span class="text-weightBold">3. Continuous operation:</span> <br>
                     All metal salts are in the vapor phase, the arc has attained its stable shape and the lumen output from the bulb is maxed out. The ballast now supplies stable electrical current so the bulb won't/shouldn't flicker. In D1 and D2 systems, the stable operating voltage is AC85V, and AC42V in D3/D4 systems.</p>
                 </div>
-                </div>
             </div>
         </div>
 
