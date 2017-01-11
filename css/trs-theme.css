@@ -388,6 +388,7 @@ input[type="radio"]:checked ~ .reveal-if-active, input[type="checkbox"]:checked 
 .rating > input:checked ~ label:hover, .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { background-image: url(../img/icon-reviewstar-full.svg); opacity: .7; }
 
+
 /* Buttons
 ======================================================================================================================================================
 ====================================================================================================================================================== */
@@ -2080,5 +2081,6 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 #paypal-label { line-height: 30px; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #ffc439; font-size: 16px; }    
 #paypal-container { float: left; }
 
-
+/*BrainTree*/
+#braintree-hosted-submit { display: none; }
 
