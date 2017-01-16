@@ -1847,6 +1847,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .section.gray3 { background-color: #474747; border-bottom: 1px solid #888; }
 .section.gray4 { background-color: #333; }
 .section.wrap .section.gray2, .section.wrap .section.gray3, .footer .section.gray3 { border-bottom: none; }
+.section.wrap .flex-row .section.gray2, .section.wrap .flex-row .section.gray3 { border-bottom: 1px solid #888; }
 .section.gray2.last, .section.gray3.last { border-right: none; }
 /*.utility .section { overflow: visible; padding: 20px 0; }*/
 .section.alt { background-color: #505050; padding: 10px 0; }

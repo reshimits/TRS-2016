@@ -159,7 +159,7 @@
             <div class="container-fluid">
                 <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-completekits.png" alt="Complete Retrofit KitsProduct Category" border="0"/></div>
                 <div class="col-sm-5 col-md-4">
-                    <h3>Complete Retrofit Kits</h3>
+                    <h3>Projector Retrofit Kits</h3>
                     <p>Power is nothing without control! Complete projector retrofit kits include all of the components to convert your headlights to a projector-based lighting system for unbeatable performance at night. More difficult? Yes. Worth it? Easily.</p>
                     <div class="row">
                         <div class="row">
@@ -178,7 +178,7 @@
                 <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="HID Systems Product Category" border="0"/></div>
                 <div class="col-sm-5 col-md-4">
                     <h3>HID Systems</h3>
-                    <p>Easy and effective! Our range of HID systems from Morimoto, Hylux, and Denso come complete with new bulbs, ballasts and harnesses and make upgrading to HID a simple and reliable way to get the most out of your stock headlights.</p>
+                    <p>Easy and effective — two words that are music to your automotive ears when you’re searching for HID headlight conversion kits to retrofit your vehicle! Our range of HID light kits and systems from Morimoto, Hylux, and Denso come complete with new bulbs, ballasts and harnesses and make upgrading to HID a simple and reliable way to get the most out of your stock headlights. The standard HID headlight kits we carry pump up the power at a value price. If you’re searching for the best HID lighting systems on the market, our premium and OEM options offer unmatched quality, performance, and longevity.</p>
                     <div class="row">
                         <div class="row">
                             <div class="btn-group-vertical">
@@ -212,103 +212,113 @@
             </div>
         </div> 
 
-        <div class="col-sm-4 section nav-products gray2">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-projectors.png" alt="HID Projectors Product Category" border="0"/>
-                            <h3>HID Projectors</h3>
-                            <p>Put simply, your headlights are brighter for you and less glaring to others when they have projectors retrofitted in them. Capture and focus that powerful light into a controlled beam pattern!</p>
-                        </div>    
+        <div class="section wrap">
+            <div class="flex-row">
+                <div class="col-sm-4 section nav-products gray2">
+                    <div class="container-fluid">
                         <div class="row">
-                            <div class="btn-group-vertical">
-                                <a type="button" href="#" class="btn btn-default">Aftermarket</a>
-                                <a type="button" href="#" class="btn btn-default">OEM</a>
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-projectors.png" alt="HID Projectors Product Category" border="0"/>
+                                    <h3>HID Projectors</h3>
+                                    <p>When you choose an HID headlight projector retrofit from us, you’re able to capture and focus that powerful light into a controlled beam pattern. Shop our complete selection, including easy-install, advanced-install, swap-in, and basic bi-xenon HID projectors. We also carry projector fog light retrofits, as well as VIP HID projector headlights that deliver a wider, brighter, and sharper low beam.</p>
+                                </div>    
+                                <div class="row">
+                                    <div class="btn-group-vertical">
+                                        <a type="button" href="#" class="btn btn-default">Aftermarket</a>
+                                        <a type="button" href="#" class="btn btn-default">OEM</a>
+                                    </div>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
                             </div>
-                            <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 section nav-products gray3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-ballasts.png" alt="HID Ballasts Product Category" border="0"/>
+                                    <h3>HID Ballasts</h3>
+                                    <p>Looking for an HID ballast replacement or upgrade? TRS carries options ranging from entry-level HID ballast kits that won’t break the bank to OEM-quality HID headlight ballasts for all types of vehicles and applications. Whether you need a single ballast component for a repair or a complete out of the box retrofit solution, TRS will be happy to shed light on the best solution.</p>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-group-vertical">
+                                        <a type="button" href="#" class="btn btn-default">Aftermarket</a>
+                                        <a type="button" href="#" class="btn btn-default">OEM</a>
+                                    </div>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-sm-4 section nav-products gray2">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-bulbs.png" alt="HID Bulbs Product Category" border="0"/>
+                                    <h3>HID Bulbs</h3>
+                                    <p>High performance HID bulb offerings are available from Morimoto, Philips, and Osram! You’ll find HID headlight bulbs ranging from 3000K to 6500K that deliver more lumens, extended coverage, and look as good as they perform. When it comes to aftermarket and OEM HID replacement bulbs for safe, fatigue-free driving — bright is always right!</p>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-group-vertical">
+                                        <a type="button" href="#" class="btn btn-default">Aftermarket</a>
+                                        <a type="button" href="#" class="btn btn-default">OEM</a>
+                                    </div>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 section nav-products gray3">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-ballasts.png" alt="HID Ballasts Product Category" border="0"/>
-                            <h3>HID Ballasts</h3>
-                            <p>Ballasts are a necessity to ignite and continuously operate a High Intensity Discharge bulb. TRS offers the best brands from Denso, Matsushita, Mitsubishi Hylux, ACME, and Morimoto.</p>
-                        </div>
+
+        
+        <div class="section wrap">
+            <div class="flex-row">
+                <div class="col-sm-4 section nav-products gray3">
+                    <div class="container-fluid">
                         <div class="row">
-                            <div class="btn-group-vertical">
-                                <a type="button" href="#" class="btn btn-default">Aftermarket</a>
-                                <a type="button" href="#" class="btn btn-default">OEM</a>
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-shrouds.png" alt="Projector Shrouds Product Category" border="0"/>
+                                    <h3><span class="hidden-sm">Projector </span>Shrouds</h3>
+                                    <p>Shrouds restore the factory-finished look of your headlights after a projector conversion by covering up any mods or hardware. It’s all about style. Find your favorite and take your pick.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
                             </div>
-                            <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div> 
-        <div class="col-sm-4 section nav-products gray2">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-bulbs.png" alt="HID Bulbs Product Category" border="0"/>
-                            <h3>HID Bulbs</h3>
-                            <p>We stock a full-range of HID and halogen H and D series bulbs for OE replacements and upgrades. High performance offerings are available from Morimoto, Philips, and Osram!</p>
-                        </div>
+                <div class="col-sm-4 section nav-products gray2">
+                    <div class="container-fluid">
                         <div class="row">
-                            <div class="btn-group-vertical">
-                                <a type="button" href="#" class="btn btn-default">Aftermarket</a>
-                                <a type="button" href="#" class="btn btn-default">OEM</a>
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-wireharnesses.png" alt="Wire Harnesses Product Category" border="0"/>
+                                    <h3>Wire Harnesses</h3>
+                                    <p>Proper power delivery! Wire harnesses enable full control of your new headlight system from the original switches while preventing flickering and cancelling any lamp-out warnings. Bingo.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
                             </div>
-                            <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4 section nav-products gray3">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-shrouds.png" alt="Projector Shrouds Product Category" border="0"/>
-                            <h3><span class="hidden-sm">Projector </span>Shrouds</h3>
-                            <p>Shrouds restore the factory-finished look of your headlights after a projector conversion by covering up any mods or hardware. It’s all about style. Find your favorite and take your pick.</p>
-                            <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4 section nav-products gray2">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-wireharnesses.png" alt="Wire Harnesses Product Category" border="0"/>
-                            <h3>Wire Harnesses</h3>
-                            <p>Proper power delivery! Wire harnesses enable full control of your new headlight system from the original switches while preventing flickering and cancelling any lamp-out warnings. Bingo.</p>
-                            <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <div class="col-sm-4 section nav-products gray3">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-xs-12">
-                            <img class="img-responsive" src="img/category-lenses.png" alt="Clear Lenses Product Category" border="0"/>
-                            <h3>Clear Lenses</h3>
-                            <p>Stock sucks! And so do the lenses on your OEM Projectors. A clear lens swap will unleash the projector’s full performance potential to maximize intensity, width, cutoff sharpness, and color.</p>
-                            <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                </div> 
+                <div class="col-sm-4 section nav-products gray3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-lenses.png" alt="Clear Lenses Product Category" border="0"/>
+                                    <h3>Clear Lenses</h3>
+                                    <p>Stock sucks! And so do the lenses on your OEM Projectors. A clear lens swap will unleash the projector’s full performance potential to maximize intensity, width, cutoff sharpness, and color.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -340,8 +350,8 @@
             <div class="container-fluid">
                 <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-led.png" alt="LED Lighting Product Category" border="0"/></div>
                 <div class="col-sm-5 col-md-4">
-                    <h3>LED Lighting</h3>
-                    <p>LED lighting is more popular, powerful, and reliable than ever in the automotive world. Update your ride with our unbeatable selection of LED bulbs, LED Halos, Off-road lighting and accessories from Morimoto, ACME, Philips, and Osram.</p>
+                    <h3>LED Products</h3>
+                    <p>LED lighting is more popular, powerful, and reliable than ever in the automotive world. Update your ride with our unbeatable selection of LED bulbs, LED Halos, Off-road lighting and accessories from Morimoto, ACME, Philips, and Osram. We carry everything from LED headlight kits for cars, trucks, and motorcycles to interior LED bulbs, reverse lights, spotlights, and more. From overall quality and performance to longevity and fitment, we take great pleasure in putting the LED automotive lights we sell to the test. You get all the benefits of a quality product, while steering clear of the dark side of LED.</p>
                     <div class="row">
                         <div class="row">
                             <div class="btn-group-vertical">
@@ -360,8 +370,8 @@
             <div class="container-fluid">
                 <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-housings.png" alt="Complete Housings Product Category" border="0"/></div>
                 <div class="col-sm-5 col-md-4">
-                    <h3>Complete Housings</h3>
-                    <p>Bolt on unbeatable light output! Bolt on modern reliability! Bolt on a new look! TRS offers LED and HID based head lights and fog lights from J.W. Speaker and Morimoto designed for many popular makes and models on the road today.</p>
+                    <h3>Heads, Fogs, and Tails</h3>
+                    <p>Bolt on unbeatable light output! Bolt on modern reliability! Bolt on a new look! Universal LED headlights, universal HID taillights, and LED fog light bulbs have the power to provide an instant upgrade that’s customized to your ride. TRS offers LED and HID based head lights and fog lights from J.W. Speaker and Morimoto designed for many popular makes and models on the road today. Our universal LED headlights come in a range of sizes, outputs, and features for cars, trucks, and motorcycles. The LED fog light bulbs we sell are easy to use, add character to any ride, and are built to last.</p>
                     <div class="row">
                         <div class="row">
                             <div class="btn-group-vertical">
