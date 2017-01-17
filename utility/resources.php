@@ -95,7 +95,7 @@
                             <div class="section first">
                             <div class="blockquote">
                                 <div class="btn btn-empty btn-hexicon"><span class="icon icon-resourcesHex-tech"></span></div>
-                                <h1>Headlight Tech</h1>
+                                <h1>Headlight Tech Blog</h1>
                                 <h6 class="text-white">Knowledge is power! Educate yourself and understand why retrofitting is the right thing to do.</h6>
                             </div>
                             </div>
