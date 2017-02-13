@@ -151,13 +151,13 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="flex-row">
-                        <div class="col-xs-12 col-lg-4 hidden-xs hidden-md">
+                        <div class="col-xs-12 col-md-4 hidden-xs hidden-sm">
                             <div class="blockquote">
                                 <h5>The Retrofit Source is more than the world's largest supplier of high-end lighting upgrades. We're a group of automotive enthusiasts with a passion for perfecting your night-time driving experience. With a wide range of backgrounds from business management, marketing, the military, technology, customer service, and other automotive service sectors, our combined value consistently exceeds our customer’s expectations.</h5>
                             </div>
 
                         </div>
-                        <div class="section last gray2 col-xs-12 col-lg-8">
+                        <div class="section last gray2 col-xs-12 col-md-8">
                             <ul class="list-group">
                                 <li class="list-group-item-heading">
                                     <span class="icon icon-crew"></span>
