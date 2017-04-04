@@ -1252,10 +1252,8 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehiclecategory-banner { display: block; }
 
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-/*Black Friday*/ 
-/*.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2016-11.jpg); }*/
-/*Cyber Monday*/ 
-.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2017-3.jpg); }
+
+.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2017-4.jpg); }
 .productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
@@ -1331,21 +1329,21 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 
 
-.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 70px; }
+.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 70px; /*Added due to full width*/ padding-left: 0; padding-right: 0; }
 @media (min-width:500px) {
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 40px; }
 }
 @media (min-width:768px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 200px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 90px; }
 }
 @media (min-width:992px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 170px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 110px; }
 }
 @media (min-width:1200px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 90px; }
 }
 @media (min-width:1500px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 120px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 80px; }
 }
 @media (min-width:2000px) {
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
