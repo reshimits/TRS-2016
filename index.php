@@ -39,7 +39,8 @@
 
 </head>
 
-<body class="home">
+<!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
+<body class="home" id="wholesaleAcct">
 
 
     <!-- Header
@@ -55,10 +56,10 @@
     ================================================== -->
 
     <div class="bodyWrap">
-        <a href="https://www.theretrofitsource.com/led-lighting/led-halos-strips/morimoto-xbt-rgb-led-halos.html" border="none" target="_blank">
+        <a href="#" border="none" target="_blank">
             <div class="jumbotron feature1">
                 <div class="featureHeadline col-xs-12 col-xlg-10 col-xlg-offset-1 col-2xlg-8 col-2xlg-offset-2">
-                    <img src="img/feature2017-3headline.svg" alt="" border="0"/>
+                    <img src="img/feature2017-4headline.svg" alt="" border="0"/>
                 </div>
                 <div class="jumbotron-img"></div>
                 <!-- <div class="jumbotron-honeycomb"></div> -->
@@ -147,345 +148,440 @@
             </div>
         </div>
 
+        <!-- - - - - 
+        - - - - - - -
+        |           |
+        |   BLOG    | 
+        |           |
+        - - - - - - -
+        - - - - - -->
         <div class="section title header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
             <div class="container-fluid">
                 <div class="col-xs-12">
-                    <h2 class="text-center">Shop by Category:</h2>
+                    <h2 class="text-center">New Developments:</h2>
                 </div>
             </div>    
         </div>
 
-        <div class="section nav-products gray2">
-            <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-completekits.png" alt="Complete Retrofit KitsProduct Category" border="0"/></div>
-                <div class="col-sm-5 col-md-4">
-                    <h3>Projector Retrofit Kits</h3>
-                    <p>Power is nothing without control! Complete projector retrofit kits include all of the components to convert your headlights to a projector-based lighting system for unbeatable performance at night. More difficult? Yes. Worth it? Easily.</p>
-                    <div class="row">
-                        <div class="row">
-                            <div class="btn-group-vertical">
-                                <a type="button" href="#" class="btn btn-default">Universal Kits</a>
-                                <a type="button" href="#" class="btn btn-default">Application Specific</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-        <div class="section nav-products gray3">
-            <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-hidsystems.png" alt="HID Systems Product Category" border="0"/></div>
-                <div class="col-sm-5 col-md-4">
-                    <h3>HID Systems</h3>
-                    <p>Easy and effective — two words that are music to your automotive ears when you’re searching for HID headlight conversion kits to retrofit your vehicle! Our range of HID light kits and systems from Morimoto, Hylux, and Denso come complete with new bulbs, ballasts and harnesses and make upgrading to HID a simple and reliable way to get the most out of your stock headlights. The standard HID headlight kits we carry pump up the power at a value price. If you’re searching for the best HID lighting systems on the market, our premium and OEM options offer unmatched quality, performance, and longevity.</p>
-                    <div class="row">
-                        <div class="row">
-                            <div class="btn-group-vertical">
-                                <a type="button" href="#" class="btn btn-default">Universal Kits</a>
-                                <a type="button" href="#" class="btn btn-default">Application Specific</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-        <!-- - - - - 
-        - - - - - - -
-        |           |
-        |   PROMO   | 
-        |           |
-        - - - - - - -
-        - - - - - -->
         <div class="section promo promo1">
             <div class="container-fluid">
                 <div class="row">
                     <div class="caption col-sm-10 col-md-8 col-lg-7 pull-right">
-                        <span class="icon icon-hot icon-before"></span><h6 class="text-white text-shadow">Hot hot hot</h6>
-                        <h5 class="text-gray3 text-shadow">XSB Halos</h5>
-                        <p class="text-shadow">Redefining thee meaning of what an "angel eye" is, the 2.0 version of the Morimoto XSB LEDs are the culmination of every practical lesson learned since LED halos hit the market. Usability. Reliability. Intensity. Uniformity. Simplicity. Flexible functionality. Last but not least; affordability. Nothing has been sacrificed.</p>
-                        <h5 class="text-white text-shadow">$000.00</h5>
-                        <a type="button" href="https://www.theretrofitsource.com/led-lighting/led-halos-strips/morimoto-xsb-led-switchback-halos.html#.VyzOtaODFBc" class="btn btn-ghost">Product Details</a>
+                        <span class="icon icon-hot icon-before"></span><h6 class="text-white text-shadow">New Blog post: 3/15/2017</h6>
+                        <h5 class="text-gray3 text-shadow">HEADLIGHT TECH: CLEAR LENSES</h5>
+                        <p class="text-shadow">Most OEM projectors out there come standard with what is known as "fresnel" lenses. These projector lenses have circular lines molded into their surface, and are often produced with less than optically clear glass. So what? Well the fresnel lines and frosted/ translucent glass dim the output and soften the beam pattern so the projectors aren't performing to their full potential...</p>
+                        <a type="button" href="#" class="btn btn-ghost">Read More</a>
+                        <a type="button" href="#" class="btn btn-ghost">More from the Blog</a>
                     </div>
                 </div>
             </div>
         </div> 
 
-        <div class="section wrap">
-            <div class="flex-row">
-                <div class="col-sm-4 section nav-products gray2">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-projectors.png" alt="HID Projectors Product Category" border="0"/>
-                                    <h3>HID Projectors</h3>
-                                    <p>When you choose an HID headlight projector retrofit from us, you’re able to capture and focus that powerful light into a controlled beam pattern. Shop our complete selection, including easy-install, advanced-install, swap-in, and basic bi-xenon HID projectors. We also carry projector fog light retrofits, as well as VIP HID projector headlights that deliver a wider, brighter, and sharper low beam.</p>
-                                </div>    
-                                <div class="row">
-                                    <div class="btn-group-vertical">
-                                        <a type="button" href="#" class="btn btn-default">Aftermarket</a>
-                                        <a type="button" href="#" class="btn btn-default">OEM</a>
-                                    </div>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 section nav-products gray3">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-ballasts.png" alt="HID Ballasts Product Category" border="0"/>
-                                    <h3>HID Ballasts</h3>
-                                    <p>Looking for an HID ballast replacement or upgrade? TRS carries options ranging from entry-level HID ballast kits that won’t break the bank to OEM-quality HID headlight ballasts for all types of vehicles and applications. Whether you need a single ballast component for a repair or a complete out of the box retrofit solution, TRS will be happy to shed light on the best solution.</p>
-                                </div>
-                                <div class="row">
-                                    <div class="btn-group-vertical">
-                                        <a type="button" href="#" class="btn btn-default">Aftermarket</a>
-                                        <a type="button" href="#" class="btn btn-default">OEM</a>
-                                    </div>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                <div class="col-sm-4 section nav-products gray2">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-bulbs.png" alt="HID Bulbs Product Category" border="0"/>
-                                    <h3>HID Bulbs</h3>
-                                    <p>High performance HID bulb offerings are available from Morimoto, Philips, and Osram! You’ll find HID headlight bulbs ranging from 3000K to 6500K that deliver more lumens, extended coverage, and look as good as they perform. When it comes to aftermarket and OEM HID replacement bulbs for safe, fatigue-free driving — bright is always right!</p>
-                                </div>
-                                <div class="row">
-                                    <div class="btn-group-vertical">
-                                        <a type="button" href="#" class="btn btn-default">Aftermarket</a>
-                                        <a type="button" href="#" class="btn btn-default">OEM</a>
-                                    </div>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="section wrap">
-            <div class="flex-row">
-                <div class="col-sm-4 section nav-products gray3">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-shrouds.png" alt="Projector Shrouds Product Category" border="0"/>
-                                    <h3><span class="hidden-sm">Projector </span>Shrouds</h3>
-                                    <p>Shrouds restore the factory-finished look of your headlights after a projector conversion by covering up any mods or hardware. It’s all about style. Find your favorite and take your pick.</p>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 section nav-products gray2">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-wireharnesses.png" alt="Wire Harnesses Product Category" border="0"/>
-                                    <h3>Wire Harnesses</h3>
-                                    <p>Proper power delivery! Wire harnesses enable full control of your new headlight system from the original switches while preventing flickering and cancelling any lamp-out warnings. Bingo.</p>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                <div class="col-sm-4 section nav-products gray3">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-lenses.png" alt="Clear Lenses Product Category" border="0"/>
-                                    <h3>Clear Lenses</h3>
-                                    <p>Stock sucks! And so do the lenses on your OEM Projectors. A clear lens swap will unleash the projector’s full performance potential to maximize intensity, width, cutoff sharpness, and color.</p>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- - - - - 
         - - - - - - -
         |           |
-        |   PROMO   | 
+        |    NEW    | 
         |           |
         - - - - - - -
         - - - - - -->
-        <div class="section promo promo2">
+        <div class="section wrap">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="caption col-sm-8 col-md-6">
-                        <span class="icon icon-hot icon-before"></span><h6 class="text-white text-shadow">Hot hot hot</h6>
-                        <h5 class="text-gray3 text-shadow">XB 921 Bulbs</h5>
-                        <p class="text-shadow">Back that thing up! Morimoto's new 921 XB LED bulbs are optimized for use in reverse lights.</p>
-                        <h5 class="text-white text-shadow">$000.00</h5>
-                        <a type="button" href="https://www.theretrofitsource.com/led-lighting/led-bulbs/xb-921-led-bulbs.html#.VyzOtaODFBc" class="btn btn-ghost">Product Details</a>
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-        <div class="section nav-products gray2">
-            <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-led.png" alt="LED Lighting Product Category" border="0"/></div>
-                <div class="col-sm-5 col-md-4">
-                    <h3>LED Products</h3>
-                    <p>LED lighting is more popular, powerful, and reliable than ever in the automotive world. Update your ride with our unbeatable selection of LED bulbs, LED Halos, Off-road lighting and accessories from Morimoto, ACME, Philips, and Osram. We carry everything from LED headlight kits for cars, trucks, and motorcycles to interior LED bulbs, reverse lights, spotlights, and more. From overall quality and performance to longevity and fitment, we take great pleasure in putting the LED automotive lights we sell to the test. You get all the benefits of a quality product, while steering clear of the dark side of LED.</p>
-                    <div class="row">
-                        <div class="row">
-                            <div class="btn-group-vertical">
-                                <a type="button" href="#" class="btn btn-default">LED Powered Bulbs</a>
-                                <a type="button" href="#" class="btn btn-default">Halos, Strips, Etc.</a>
-                                <a type="button" href="#" class="btn btn-default">Off-Road Lighting</a>
-                                <a type="button" href="#" class="btn btn-default">LED Accessories</a>
+                <ul class="row productGrid">
+                
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <a href="productdetail.php" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </a>
+                        <div class="labelWrap">
+                            <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <!-- <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div> -->
+                           <!--  <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
+                    </li>
 
-        <div class="section nav-products gray3">
-            <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-housings.png" alt="Complete Housings Product Category" border="0"/></div>
-                <div class="col-sm-5 col-md-4">
-                    <h3>Heads, Fogs, and Tails</h3>
-                    <p>Bolt on unbeatable light output! Bolt on modern reliability! Bolt on a new look! Universal LED headlights, universal HID taillights, and LED fog light bulbs have the power to provide an instant upgrade that’s customized to your ride. TRS offers LED and HID based head lights and fog lights from J.W. Speaker and Morimoto designed for many popular makes and models on the road today. Our universal LED headlights come in a range of sizes, outputs, and features for cars, trucks, and motorcycles. The LED fog light bulbs we sell are easy to use, add character to any ride, and are built to last.</p>
-                    <div class="row">
-                        <div class="row">
-                            <div class="btn-group-vertical">
-                                <a type="button" href="#" class="btn btn-default">Full Headlights</a>
-                                <a type="button" href="#" class="btn btn-default">LED Fog Lights</a>
-                                <a type="button" href="#" class="btn btn-default">Tail Lights</a>
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <a href="" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>FX-R 3.0 Projectors</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">LED Lighting</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </a>
+                        <div class="labelWrap">
+                            <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <!-- <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div> -->
+                            <!-- <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail">
+                        <a href="" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </a>
+                        <div class="labelWrap">
+                            <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <!-- <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div> -->
+                            <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div>
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 4th Product gets hidden Desktop and Mobile, only necessary on Tablet -->
+                    <li class="col-xs-12 col-sm-6 col-md-4 product thumbnail visible-sm-block">
+                        <a href="productdetail.php" class="thumb-top">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>MOPAR SPEC: 13-14 DODGE RAM LOW BEAM HARNESS</h5>
+                                </div>
+                                <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Advanced Install HID Projectors</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
+                            </div>
+                        </a>
+                        <div class="labelWrap">
+                            <div class="label label-new">
+                                <div class="label-inner"><span class="icon icon-new icon-before"></span> New!</div>
+                            </div>
+                            <!-- <div class="label label-sale">
+                                <div class="label-inner"><span class="icon icon-sale icon-before"></span> Sale!</div>
+                            </div> -->
+                            <!-- <div class="label label-fitment">
+                                <div class="label-inner"><span class="icon icon-fitment icon-before"></span> <p><span class="lead">Your Fitment:</span> <br> Front Turn Signal</p></div>
+                            </div> -->
+                        </div>
+                        <div class="section caption">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <h3 class="retail">$439.99 
+                                        <p class="note"><span class="lead">MSRP</span></p>
+                                    </h3>
+                                    <h3 class="wholesale">$399.99 
+                                        <p class="note"><span class="lead">Wholesale</span></p>
+                                    </h3>
+                                    <h3 class="wholesale last">$359.99 
+                                        <p class="note"><span class="lead">10 or More</span></p>
+                                    </h3>
+                                    <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div> 
+        </div>
+
 
         <!-- - - - - 
         - - - - - - -
         |           |
-        |   PROMO   | 
+        |  SOCIAL   | 
         |           |
         - - - - - - -
         - - - - - -->
-        <div class="section promo promo3">
+        <div class="section title">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="caption col-sm-10 col-md-8 col-lg-7 pull-right">
-                        <span class="icon icon-hot icon-before"></span><h6 class="text-white text-shadow">Hot hot hot</h6>
-                        <h5 class="text-gray3 text-shadow">XB LED Fog Lights</h5>
-                        <p class="text-shadow">The Morimoto XB LED projector fog lights Look great. Are well-built. Perform like champs. Have a virtually infinite life span. An unbeatable warranty, And best of all you won't need to sell your soul to afford them!</p>
-                        <h5 class="text-white text-shadow">$000.00</h5>
-                        <a type="button" href="https://www.theretrofitsource.com/complete-headlight-fog-light-housings.html" class="btn btn-ghost">Product Details</a>
-                    </div>
+                <div class="col-xs-12">
+                    <h2 class="text-center">Social Scene:</h2>
                 </div>
-            </div>
-        </div> 
+            </div>    
+        </div>
 
-        <div class="section nav-products gray2">
+
+        <div class="section gray3">
             <div class="container-fluid">
-                <div class="col-sm-7 col-md-8 pull-right"><img class="img-responsive pull-right" src="img/category-motorcycle.png" alt="Motorcycle Specific Product Category" border="0"/></div>
-                <div class="col-sm-5 col-md-4">
-                    <h3>Motorcycle Specific</h3>
-                    <p>Perfecting the night ride! Improving visibility is important for those who travel on two wheels in the dark. We’ve got options to vastly upgrade the performance and add a more aggressive look on single and dual headlight Motorcycles.</p>
-                    <div class="row">
-                        <div class="row">
-                            <div class="btn-group-vertical">
-                                <a type="button" href="#" class="btn btn-default">Headlights</a>
-                                <a type="button" href="#" class="btn btn-default">HID Systems</a>
-                                <a type="button" href="#" class="btn btn-default">Accessories</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-        <div class="section wrap gray3">
-            <div class="flex-row">
-                <div class="col-sm-4 section nav-products gray3">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-accessories.png" alt="Accessories Product Category" border="0"/>
-                                    <h3>Accessories</h3>
-                                    <p>The difference is in the details. TRS is the industry-expert in custom headlights; and we’ve got the right selection of helpful build-materials, spare parts, and other awesome extras to help you get the job right the first time.</p>
-                                </div>    
-                                <div class="row">
-                                    <div class="btn-group-vertical">
-                                        <a type="button" href="#" class="btn btn-default">Build Materials</a>
-                                        <a type="button" href="#" class="btn btn-default">Miscellaneous</a>
-                                        <a type="button" href="#" class="btn btn-default">TRS Gear</a>
-                                    </div>
+                <ul class="productGrid panel panel-account">
+                
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
+                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Porsche 911</h5>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 section nav-products gray2">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
+                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
                                 <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-closeouts.png" alt="Closeouts Product Category" border="0"/>
-                                    <h3>Closeouts</h3>
-                                    <p>If you’re a headlight junkie looking for a killer deal on parts for your next budget-build, our selection of closeout inventory is where its at. From recycled OEM projectors to open-box or used HID or LED gear, we got it.</p>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
-                                </div>
-                                <!-- <div class="row">
-                                    <div class="btn-group-vertical">
-                                        <a type="button" href="#" class="btn btn-default">HID / LED Parts</a>
-                                        <a type="button" href="#" class="btn btn-default">OEM Projectors</a>
-                                        <a type="button" href="#" class="btn btn-default">Miscellaneous</a>
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Sub-Title</p>
                                     </div>
                                 </div> -->
                             </div>
-                        </div>
-                    </div>
-                </div> 
+                            <div class="thumbnail-image"><img src="img/temp-gallery1.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                    </li>
 
-                <div class="col-sm-4 section nav-products gray3 last">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-lensetching.png" alt="Lens Etching Service Category" border="0"/>
-                                    <h3>Lens Etching</h3>
-                                    <p>As if your retrofit wasn't unique enough, we're changing the game with our custom etching service for projector lenses. Provide your own artwork or choose one of our existing designs and we’ll get to work for you.</p>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
+                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Toyota Tundra</h5>
                                 </div>
+                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                    </div>
+                                </div> -->
                             </div>
-                        </div>
-                    </div>
-                </div> 
+                            <div class="thumbnail-image"><img src="img/temp-gallery2.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                    </li>
+
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
+                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Pontiac Grand Prix</h5>
+                                </div>
+                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp-gallery3.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                    </li>
+
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
+                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Subaru Impreza (95-01)</h5>
+                                </div>
+                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp-gallery4.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                    </li>
+
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
+                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Chrysler Town and Country</h5>
+                                </div>
+                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp-gallery5.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                    </li>
+
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
+                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Ford F-Trucks</h5>
+                                </div>
+                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp-gallery6.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                    </li>
+
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
+                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Jeep Wrangler</h5>
+                                </div>
+                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp-gallery7.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                    </li>
+
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
+                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                            <div class="caption-top">
+                                <div class="col-xs-10 col-xs-offset-1 text-center">
+                                    <h5>Mercedes Benz C-Class</h5>
+                                </div>
+                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
+                                <div class="col-xs-12">
+                                    <div class="col-xs-12">
+                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="thumbnail-image"><img src="img/temp-gallery8.png" class="img-responsive" alt="" border="none"></div>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+
+
+        <!-- - - - - 
+        - - - - - - -
+        |           |
+        |   WORD    | 
+        |           |
+        - - - - - - -
+        - - - - - -->
+        <div class="section title">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h2 class="text-center">Word on the Street:</h2>
+                </div>
+            </div>    
+        </div>
+
+        <div class="section wrap briefhistory header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
+            <div class="flex-row">
+                <div class="col-xs-12 col-sm-6 section bg-primary blockquote2">
+                    <div class="container-fluid">
+                    <div class="col-xs-12">
+                        <div class="section">
+                        <div class="blockquote">
+                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHexAlt"></span></div>
+                            <h5>“The Retrofit Source offers the absolute best when it comes to HID headlight retrofitting. We will make every customer happy without exception to uphold the reputation that we've worked so hard to build.”</h5>
+                        </div>
+                        </div>
+                    </div>  
+                    </div>          
+                </div>
+
+                <div class="col-xs-12 col-sm-6 section gray1 blockquote1">
+                    <div class="container-fluid">
+                    <div class="col-xs-12">
+                        <div class="blockquote">
+                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex"></span></div>
+                            <h5 class="text-white">“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h5>
+                        </div>
+                    </div>  
+                    </div>          
+                </div>
+            </div>
+        </div>
+
+
 
         <!-- Footer
         ================================================== -->
@@ -525,13 +621,6 @@
         });
     </script>   
     
-    <script>
-        $(document).ready(function(){
-            $('.carousel').carousel({
-                interval: 2000
-            });
-        });
-    </script>
 
     <!-- HEADER/NAV size change based on scroll -->
     <script src="js/waypoints.min.js"></script>
@@ -561,8 +650,31 @@
         }
         $( ".navbar-menu" ).click(function() {
             $(".navbar-menu").toggleClass( "active" );
-            $(".bodyWrap").toggleClass( "active" );
+            // $(".bodyWrap").toggleClass( "active" );
         });
+        $('.navbar-nav .dropdown').on('show.bs.dropdown', function() {
+            $(".bodyWrap").toggleClass('active', true);
+        });
+
+        $('.navbar-nav .dropdown').on('hidden.bs.dropdown', function() {
+            $('.bodyWrap').toggleClass('active', false);
+        });
+
+        // NAV toggle SUB MENU
+        $(".dropdown-menu > li").hover(
+            function() {
+                $('.dropdown-menu-itemContent.toggle').toggleClass("toggle", false);
+                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", true);
+            },
+            function() {
+                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", false);
+                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
+            });
+        $(".dropdown-menu > li.filler").hover(
+            function() {
+                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
+            });    
+
     </script>
 
 
