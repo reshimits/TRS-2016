@@ -1,0 +1,174 @@
+
+	<header class="navbar navbar-fixed-top">
+        <div id="header" class="header header-large">
+            <div class="navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header col-xs-4 col-sm-6">
+                        <a class="navbar-brand logo" href="/client/TRS/2016/index.php"><img src="/client/TRS/2016/img/logo.svg" alt="The Retrofit Source Logo" border="0"/></a>
+                        <a class="navbar-brand logotype" href="/client/TRS/2016/index.php"><img src="/client/TRS/2016/img/logotype-tagline.svg" alt="The Retrofit Source" border="0"/></a>
+                    </div>
+                    
+                    <div class="navbar-CTAs col-xs-8 col-sm-6">
+                        <div class="navbar-phone col-xs-3 col-sm-6"><a href="tel:404-220-7940" class="navbar-headertext tel"><span class="hidden-xs">404.220.7940</span><span class="icon icon-phone visible-xs-block"></span></a></div>
+                        <div class="navbar-split col-xs-6 col-sm-4 col-md-3">
+                            <a data-toggle="modal" data-target="#login" class="navbar-account col-xs-6"><span class="icon icon-acct"></span></a>
+                            <a href="#" class="navbar-cart col-xs-6"><span class="icon icon-cart"></span><span class="badge">24</span></a>
+                        </div>
+                        <div class="navbar-menu col-xs-3 col-sm-2 col-md-3" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="navbar-headertext">MENU</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Only shows once a user has Logged In -->
+                <div class="section wrap logout">
+                    <div class="navbar-CTAs col-xs-8 col-xs-offset-4 col-sm-6 col-sm-offset-6">
+                        <div class="col-xs-3 col-xs-offset-9 col-sm-2 col-sm-offset-10 col-md-3 col-md-offset-9 bg-gray2 text-center">
+                            <div class="row">
+                                <a type="button" href="#" class="btn btn-empty btn-xs"><span class="text-white"><span class="hidden-xs hidden-sm">// </span>Log Out</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- For Homepage Only -->
+            <!-- <ul class="messages"><li class="notice-msg"><ul><li><span>WE OFFER FREE STANDARD SHIPPING ON ORDERS OVER $100!</span></li></ul></li></ul> -->
+
+            <!-- <ul class="messages"><li class="success-msg"><ul><li><span>SUCCESS! Product ABC has been added to your cart.</span></li></ul></li></ul> -->
+
+            <div class="navbar-collapse collapse">
+                <div class="navbar-inverse" role="navigation">
+                    <div class="container-fluid">
+
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="nav-contact">
+                                    <a type="button" href="#contact" class="btn btn-primary col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 hidden-xs">Contact Us</a>
+                                    <form class="navbar-form" role="search">
+                                        <div class="form-group has-suggestions">
+                                            <div class="input-group col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                                                <input type="text" class="form-control" id="inputSuggestions" placeholder="Search...">
+                                                <span class="input-group-btn">
+                                                    <a class="btn btn-empty" type="button"><span class="icon icon-search"></span></a>
+                                                </span>
+                                                <!-- <ul class="dropdown-menu" role="menu">
+                                                    <li>Suggestion</li>
+                                                    <li>Another suggestion</li>
+                                                    <li>Some other suggestion</li>
+                                                </ul> -->
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <ul class="nav nav-pills nav-stacked col-xs-6 nav-utility">
+                                    <!-- <li class="nav-stacked-top">Information</li> -->
+                                    <li class="nav-feature about"><span class="bg"></span><a href="/client/TRS/2016/utility/about.php" class="">About Us</a></li>
+                                    <li class="nav-feature partners"><span class="bg"></span><a href="/client/TRS/2016/utility/partners.php" class="">Partners</a></li>
+                                    <li class="nav-feature helpdesk"><span class="bg"></span><a href="/client/TRS/2016/utility/helpdesk.php" class="">Help Desk</a></li>
+                                    <li class="nav-feature resources"><span class="bg"></span><a href="/client/TRS/2016/utility/resources.php" class="">Resources</a></li>
+                                </ul>
+
+
+                                <ul class="nav nav-pills nav-stacked col-xs-6 nav-products">
+                                    <li class="nav-stacked-top">Products</li>
+                                    <li class="dropdown alt">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projector <span class="hidden-xs">Retrofit </span>Kits <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-stacked-top">Projector Kits</li>
+                                            <li class="nav-stacked-nonLink back"><span class="caret"></span> Back</li>
+                                            <li class="dropdown alt"><a href="productcategory.php">Universal Kits</a></li>
+                                            <li><a href="productcategory.php">Application Specific</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HID Systems <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-stacked-top">HID Systems</li>
+                                            <li class="nav-stacked-nonLink back"><span class="caret"></span> Back</li>
+                                            <li class="dropdown alt"><a href="#">Universal Kits</a></li>
+                                            <li><a href="#">Application Specific</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown alt">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-stacked-top">Components</li>
+                                            <li class="nav-stacked-nonLink back"><span class="caret"></span> Back</li>
+                                            <li class="dropdown alt"><a href="#">HID Projectors</a></li>
+                                            <li><a href="#">HID Ballasts</a></li>
+                                            <li class="dropdown alt"><a href="#">HID Bulbs</a></li>
+                                            <li><a href="#"><span class="hidden-xs">Projector </span>Shrouds</a></li>
+                                            <li class="dropdown alt"><a href="#">Wire Harnesses</a></li>
+                                            <li><a href="#">Clear Lenses</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">LED Lighting <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-stacked-top">LED Lighting</li>
+                                            <li class="nav-stacked-nonLink back"><span class="caret"></span> Back</li>
+                                            <li class="dropdown alt"><a href="#">LED Powered Bulbs</a></li>
+                                            <li><a href="#">Halos, Strips, Etc.</a></li>
+                                            <li class="dropdown alt"><a href="#">Off-Road Lighting</a></li>
+                                            <li><a href="#">LED Accessories</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown alt">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Heads, Fogs, <span class="hidden-xs">&amp; </span>Tails <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-stacked-top">Heads, Fogs &amp; Tails</li>
+                                            <li class="nav-stacked-nonLink back"><span class="caret"></span> Back</li>
+                                            <li class="dropdown alt"><a href="#">Full Headlights</a></li>
+                                            <li><a href="#">LED Fog Lights</a></li>
+                                            <li class="dropdown alt"><a href="#">Tail Lights</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Motorcycle <span class="hidden-xs">Specific</span> <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-stacked-top">Motorcycle Specific</li>
+                                            <li class="nav-stacked-nonLink back"><span class="caret"></span> Back</li>
+                                            <li class="dropdown alt"><a href="#">Headlights</a></li>
+                                            <li><a href="#">HID Systems</a></li>
+                                            <li class="dropdown alt"><a href="#">Accessories</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown alt">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accessories <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-stacked-top">Accessories</li>
+                                            <li class="nav-stacked-nonLink back"><span class="caret"></span> Back</li>
+                                            <li class="dropdown alt"><a href="#">Build Materials</a></li>
+                                            <li><a href="#">Miscellaneous</a></li>
+                                            <li class="dropdown alt"><a href="#">TRS Gear</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Closeouts <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-stacked-top">Closeouts</li>
+                                            <li class="nav-stacked-nonLink back"><span class="caret"></span> Back</li>
+                                            <li class="dropdown alt"><a href="#">HID / LED Parts</a></li>
+                                            <li><a href="#">OEM Projectors</a></li>
+                                            <li class="dropdown alt"><a href="#">Miscellaneous</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li class="dropdown"><a href="#">Closeouts<span class="caret"></span></a></li>
+                                    <li class="alt"><a href="#">Lens Etching<span class="caret"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div><!--/.navbar-collapse -->
+        </div>
+
+    </header>   
