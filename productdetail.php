@@ -226,6 +226,10 @@
                                     
                                     <hr class="aligncenter">
 
+                                    <div class="section half first notice-shipping">
+                                        <ul class="messages"><li class="notice-msg"><ul><li><span>WE OFFER FREE STANDARD SHIPPING ON ORDERS OVER $100!</span></li></ul></li></ul>
+                                    </div>
+
                                     <div class="col-xs-12 price">
                                         <div class="row">
                                             <h3 class="tenplus last">$359.99 

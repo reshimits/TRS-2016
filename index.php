@@ -40,7 +40,7 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="home" id="wholesaleAcct">
+<body class="home">
 
 
     <!-- Header
@@ -167,11 +167,25 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="caption col-sm-10 col-md-8 col-lg-7 pull-right">
-                        <span class="icon icon-hot icon-before"></span><h6 class="text-white text-shadow">New Blog post: 3/15/2017</h6>
+                        <span class="icon icon-blogpost icon-before"></span><h6 class="text-white text-shadow">New Blog post: 3/15/2017</h6>
                         <h5 class="text-gray3 text-shadow">HEADLIGHT TECH: CLEAR LENSES</h5>
                         <p class="text-shadow">Most OEM projectors out there come standard with what is known as "fresnel" lenses. These projector lenses have circular lines molded into their surface, and are often produced with less than optically clear glass. So what? Well the fresnel lines and frosted/ translucent glass dim the output and soften the beam pattern so the projectors aren't performing to their full potential...</p>
-                        <a type="button" href="#" class="btn btn-ghost">Read More</a>
-                        <a type="button" href="#" class="btn btn-ghost">More from the Blog</a>
+                        <!-- <div class="section wrap"><a type="button" href="#" class="btn btn-ghost">Read More</a></div>
+                        <a type="button" href="#" class="btn btn-ghost">More from the Blog</a> -->
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4 col-lg-5">
+                                    <div class="row">
+                                        <a type="button" href="#" class="btn btn-block btn-ghost">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-7 col-md-offset-1 col-lg-6 col-lg-offset-1">
+                                    <div class="row">
+                                        <a type="button" href="#" class="btn btn-block btn-ghost">More from the Blog</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -226,7 +240,7 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale last">$359.99 
+                                    <h3 class="tenplus last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                     <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
@@ -272,7 +286,7 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale last">$359.99 
+                                    <h3 class="tenplus last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                     <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
@@ -318,7 +332,7 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale last">$359.99 
+                                    <h3 class="tenplus last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                     <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
@@ -365,7 +379,7 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale last">$359.99 
+                                    <h3 class="tenplus last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                     <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
@@ -376,6 +390,165 @@
                 </ul>
             </div>
         </div>
+
+
+        <!-- - - - - 
+        - - - - - - -
+        |           |
+        | CATEGOIES | 
+        |           |
+        - - - - - - -
+        - - - - - -->
+        <div class="section title">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h2 class="text-center">Popular Categories:</h2>
+                </div>
+            </div>    
+        </div>
+        <div class="section wrap">
+            <div class="flex-row">
+                <div class="col-sm-4 section nav-products gray2">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-projectors.png" alt="HID Projectors Product Category" border="0"/>
+                                    <h3>HID Projectors</h3>
+                                    <p>When you choose an HID headlight projector retrofit from us, you’re able to capture and focus that powerful light into a controlled beam pattern. Shop our complete selection, including easy-install, advanced-install, swap-in, and basic bi-xenon HID projectors. We also carry projector fog light retrofits, as well as VIP HID projector headlights that deliver a wider, brighter, and sharper low beam.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 section nav-products gray3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-ballasts.png" alt="HID Ballasts Product Category" border="0"/>
+                                    <h3>HID Ballasts</h3>
+                                    <p>Looking for an HID ballast replacement or upgrade? TRS carries options ranging from entry-level HID ballast kits that won’t break the bank to OEM-quality HID headlight ballasts for all types of vehicles and applications. Whether you need a single ballast component for a repair or a complete out of the box retrofit solution, TRS will be happy to shed light on the best solution.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-sm-4 section nav-products gray2">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-bulbs.png" alt="HID Bulbs Product Category" border="0"/>
+                                    <h3>HID Bulbs</h3>
+                                    <p>High performance HID bulb offerings are available from Morimoto, Philips, and Osram! You’ll find HID headlight bulbs ranging from 3000K to 6500K that deliver more lumens, extended coverage, and look as good as they perform. When it comes to aftermarket and OEM HID replacement bulbs for safe, fatigue-free driving — bright is always right!</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="section wrap">
+            <div class="flex-row">
+                <div class="col-sm-4 section nav-products gray3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-completekits.png" alt="Projector Retrofit Kits Product Category" border="0"/>
+                                    <h3>Projector<span class="hidden-md hidden-lg"> Retrofits</span><span class="hidden-xs hidden-sm hidden-xlg"> Kits</span></h3>
+                                    <p>Power is nothing without control! Complete projector retrofit kits include all of the components to convert your headlights to a projector-based lighting system for unbeatable performance at night. More difficult? Yes. Worth it? Easily. Our easy-install and advanced-install projector retrofit kits come fully equipped with bi-xenon projectors, HID ballasts, projector shrouds, high quality HID bulbs and top notch wiring.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 section nav-products gray2">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-hidsystems.png" alt="HID Systems Product Category" border="0"/>
+                                    <h3>HID Systems</h3>
+                                    <p>Searching for HID headlight conversion kits to retrofit your vehicle? Our range of HID light kits and systems come complete with new bulbs, ballasts and harnesses. Upgrading to HID is easy with our standard HID headlight kits that pump up the power at a value price. If you’re looking for the best HID lighting systems on the market, our premium and OEM options offer unmatched quality, performance, and longevity.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-sm-4 section nav-products gray3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12">
+                                    <img class="img-responsive" src="img/category-led2.png" alt="LED Lighting Product Category" border="0"/>
+                                    <h3>LED Lighting</h3>
+                                    <p>Update your ride with our unbeatable selection of LED bulbs, LED halos and off-road lighting from Morimoto, ACME, Philips, and Osram. We carry everything from LED headlight kits for cars, trucks, and motorcycles to interior LED bulbs, reverse lights, spotlights, and more. From overall quality and performance to longevity and fitment, we take great pleasure in putting the LED automotive lights we sell to the test.</p>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- - - - - 
+        - - - - - - -
+        |           |
+        |   WORD    | 
+        |           |
+        - - - - - - -
+        - - - - - -->
+        <div class="section title">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h2 class="text-center">Word on the Street:</h2>
+                </div>
+            </div>    
+        </div>
+
+        <div class="section wrap homequotes">
+            <div class="flex-row">
+                <div class="col-xs-12 col-sm-6 section gray1 blockquote1">
+                    <div class="container-fluid">
+                    <div class="col-xs-12">
+                        <div class="blockquote">
+                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHexAlt"></span></div>
+                            <h5 class="text-white">“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h5>
+                        </div>
+                    </div>  
+                    </div>          
+                </div>
+                <div class="col-xs-12 col-sm-6 section bg-gray2 blockquote2">
+                    <div class="container-fluid">
+                    <div class="col-xs-12">
+                        <div class="blockquote">
+                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex"></span></div>
+                            <h5>“The Retrofit Source offers the absolute best when it comes to HID headlight retrofitting. We will make every customer happy without exception to uphold the reputation that we've worked so hard to build.”</h5>
+                        </div>
+                    </div>  
+                    </div>          
+                </div>
+            </div>
+            <div class="section wrap homequotes-cta text-center">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div class="row"><hr></div>
+                </div> 
+                <a type="button" class="btn btn-primary" href="#">See More Testimonials</a>
+            </div>
+        </div>
+
 
 
         <!-- - - - - 
@@ -394,143 +567,79 @@
         </div>
 
 
-        <div class="section gray3">
+        <div class="section gray3 gallery">
             <div class="container-fluid">
                 <ul class="productGrid panel panel-account">
                 
                     <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
-                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                        <a class="thumb-top" href="#">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>Porsche 911</h5>
+                                    <h5><span class="icon icon-socialpull-facebook icon-before"></span></h5>
+                                    <h5><span class="icon icon-sociallikes icon-before"></span> 117 <span class="icon icon-socialcomments icon-before"></span> 4</h5>
                                 </div>
-                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
+                                <div class="col-xs-8 col-xs-offset-2 hidden-xs"><hr class="primary"></div>
+                                <div class="col-xs-12 hidden-xs">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                        <p class="lead text-muted text-center">March 17 at 12:30pm</p>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                             <div class="thumbnail-image"><img src="img/temp-gallery1.png" class="img-responsive" alt="" border="none"></div>
                         </a>
                     </li>
 
                     <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
-                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                        <a class="thumb-top" href="#">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>Toyota Tundra</h5>
+                                    <h5><span class="icon icon-socialpull-instagram icon-before"></span></h5>
+                                    <h5><span class="icon icon-sociallikes icon-before"></span> 117 <span class="icon icon-socialcomments icon-before"></span> 4</h5>
                                 </div>
-                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
+                                <div class="col-xs-8 col-xs-offset-2 hidden-xs"><hr class="primary"></div>
+                                <div class="col-xs-12 hidden-xs">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                        <p class="lead text-muted text-center">March 17 at 12:30pm</p>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                             <div class="thumbnail-image"><img src="img/temp-gallery2.png" class="img-responsive" alt="" border="none"></div>
                         </a>
                     </li>
 
                     <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
-                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                        <a class="thumb-top" href="#">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>Pontiac Grand Prix</h5>
+                                    <h5><span class="icon icon-socialpull-facebook icon-before"></span></h5>
+                                    <h5><span class="icon icon-sociallikes icon-before"></span> 117 <span class="icon icon-socialcomments icon-before"></span> 4</h5>
                                 </div>
-                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
+                                <div class="col-xs-8 col-xs-offset-2 hidden-xs"><hr class="primary"></div>
+                                <div class="col-xs-12 hidden-xs">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                        <p class="lead text-muted text-center">March 17 at 12:30pm</p>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                             <div class="thumbnail-image"><img src="img/temp-gallery3.png" class="img-responsive" alt="" border="none"></div>
                         </a>
                     </li>
 
-                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
-                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
+                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail hidden-md">
+                        <a class="thumb-top" href="#">
                             <div class="caption-top">
                                 <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>Subaru Impreza (95-01)</h5>
+                                    <h5><span class="icon icon-socialpull-instagram icon-before"></span></h5>
+                                    <h5><span class="icon icon-sociallikes icon-before"></span> 117 <span class="icon icon-socialcomments icon-before"></span> 4</h5>
                                 </div>
-                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
+                                <div class="col-xs-8 col-xs-offset-2 hidden-xs"><hr class="primary"></div>
+                                <div class="col-xs-12 hidden-xs">
                                     <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Sub-Title</p>
+                                        <p class="lead text-muted text-center">March 17 at 12:30pm</p>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                             <div class="thumbnail-image"><img src="img/temp-gallery4.png" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                    </li>
-
-                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
-                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>Chrysler Town and Country</h5>
-                                </div>
-                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Sub-Title</p>
-                                    </div>
-                                </div> -->
-                            </div>
-                            <div class="thumbnail-image"><img src="img/temp-gallery5.png" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                    </li>
-
-                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
-                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>Ford F-Trucks</h5>
-                                </div>
-                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Sub-Title</p>
-                                    </div>
-                                </div> -->
-                            </div>
-                            <div class="thumbnail-image"><img src="img/temp-gallery6.png" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                    </li>
-
-                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
-                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>Jeep Wrangler</h5>
-                                </div>
-                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Sub-Title</p>
-                                    </div>
-                                </div> -->
-                            </div>
-                            <div class="thumbnail-image"><img src="img/temp-gallery7.png" class="img-responsive" alt="" border="none"></div>
-                        </a>
-                    </li>
-
-                    <li class="col-xs-6 col-md-4 col-lg-3 product thumbnail">
-                        <a class="thumb-top" data-toggle="modal" data-target="#photoLightbox">
-                            <div class="caption-top">
-                                <div class="col-xs-10 col-xs-offset-1 text-center">
-                                    <h5>Mercedes Benz C-Class</h5>
-                                </div>
-                                <!-- <div class="col-xs-8 col-xs-offset-2"><hr class="primary"></div>
-                                <div class="col-xs-12">
-                                    <div class="col-xs-12">
-                                        <p class="lead text-muted text-center">Sub-Title</p>
-                                    </div>
-                                </div> -->
-                            </div>
-                            <div class="thumbnail-image"><img src="img/temp-gallery8.png" class="img-responsive" alt="" border="none"></div>
                         </a>
                     </li>
                 </ul>
@@ -538,48 +647,7 @@
         </div>
 
 
-        <!-- - - - - 
-        - - - - - - -
-        |           |
-        |   WORD    | 
-        |           |
-        - - - - - - -
-        - - - - - -->
-        <div class="section title">
-            <div class="container-fluid">
-                <div class="col-xs-12">
-                    <h2 class="text-center">Word on the Street:</h2>
-                </div>
-            </div>    
-        </div>
-
-        <div class="section wrap briefhistory header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
-            <div class="flex-row">
-                <div class="col-xs-12 col-sm-6 section bg-primary blockquote2">
-                    <div class="container-fluid">
-                    <div class="col-xs-12">
-                        <div class="section">
-                        <div class="blockquote">
-                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHexAlt"></span></div>
-                            <h5>“The Retrofit Source offers the absolute best when it comes to HID headlight retrofitting. We will make every customer happy without exception to uphold the reputation that we've worked so hard to build.”</h5>
-                        </div>
-                        </div>
-                    </div>  
-                    </div>          
-                </div>
-
-                <div class="col-xs-12 col-sm-6 section gray1 blockquote1">
-                    <div class="container-fluid">
-                    <div class="col-xs-12">
-                        <div class="blockquote">
-                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex"></span></div>
-                            <h5 class="text-white">“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h5>
-                        </div>
-                    </div>  
-                    </div>          
-                </div>
-            </div>
-        </div>
+        
 
 
 
