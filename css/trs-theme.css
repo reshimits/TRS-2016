@@ -44,12 +44,16 @@ body { margin: 0; background-color: #fff; }
 @media (min-width:1200px) and (max-width:1499px) {
   .hidden-lg { display: none !important; }
 }
-@media (min-width:1500px) and (max-width:1999px){
-  .hidden-xlg { display: none !important; }
-}
 @media (min-width:1500px){
   .hidden-lg { display: inline !important; }
 }
+@media (min-width:1500px) and (max-width:1999px){
+  .hidden-xlg { display: none !important; }
+}
+@media (min-width:2000px) {
+  .hidden-2xlg { display: none !important; }
+}
+
 
 
 /* Colors
@@ -1020,7 +1024,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 @media (min-width:1200px) {
   .header .navbar-utility .navbar-utilityLinks { display: block; }
-  .header.header-large .navbar-utility .navbar-headertext, .header.header-small .navbar-utility .navbar-headertext { padding: 5px 30px 0 0; }
+  .header.header-large .navbar-utility .navbar-headertext, .header.header-small .navbar-utility .navbar-headertext { padding: 10px 30px 0 0; }
 }
 @media (min-width:1500px) {
   .header .navbar-utility .navbar-utilityLinks { padding-left: 100px; }
@@ -1268,17 +1272,25 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .jumbotron .featureHeadline img { width: 100%; height: auto; }
 .productcategory .jumbotron .featureHeadline img { display: none; }
 
-.productcategory.accessories .jumbotron .featureHeadline img.accessories-banner, .productcategory.ballasts .jumbotron .featureHeadline img.ballasts-banner,
-.productcategory.bulbs .jumbotron .featureHeadline img.bulbs-banner, .productcategory.closeouts .jumbotron .featureHeadline img.closeouts-banner,
-.productcategory.completekits .jumbotron .featureHeadline img.completekits-banner, .productcategory.hidsystems .jumbotron .featureHeadline img.hidsystems-banner,
-.productcategory.housings .jumbotron .featureHeadline img.housings-banner, .productcategory.led .jumbotron .featureHeadline img.led-banner,
-.productcategory.lenses .jumbotron .featureHeadline img.lenses-banner, .productcategory.lensetching .jumbotron .featureHeadline img.lensetching-banner,
-.productcategory.motorcycle .jumbotron .featureHeadline img.motorcycle-banner, .productcategory.projectors .jumbotron .featureHeadline img.projectors-banner,
-.productcategory.shrouds .jumbotron .featureHeadline img.shrouds-banner, .productcategory.wireharnesses .jumbotron .featureHeadline img.wireharnesses-banner,
-.productcategory.brandcategory-philips .jumbotron .featureHeadline img.philips-banner, .productcategory.brandcategory-morimoto .jumbotron .featureHeadline img.morimoto-banner, .productcategory.brandcategory-osram .jumbotron .featureHeadline img.osram-banner,
-.productcategory.brandcategory-denso .jumbotron .featureHeadline img.denso-banner, .productcategory.brandcategory-acme .jumbotron .featureHeadline img.acme-banner,
-.productcategory.brandcategory-koito .jumbotron .featureHeadline img.koito-banner, .productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
-.productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehiclecategory-banner { display: block; }
+.productcategory.projectorretrofits .jumbotron .featureHeadline img.projectorretrofits-banner, 
+.productcategory.plugnplay .jumbotron .featureHeadline img.plugnplay-banner,
+.productcategory.ballasts .jumbotron .featureHeadline img.ballasts-banner,
+.productcategory.bulbs .jumbotron .featureHeadline img.bulbs-banner, 
+.productcategory.led .jumbotron .featureHeadline img.led-banner,
+.productcategory.assemblies .jumbotron .featureHeadline img.assemblies-banner, 
+.productcategory.vehiclespec .jumbotron .featureHeadline img.vehiclespec-banner, 
+.productcategory.wiring .jumbotron .featureHeadline img.wiring-banner,
+.productcategory.accessories .jumbotron .featureHeadline img.accessories-banner, 
+.productcategory.closeouts .jumbotron .featureHeadline img.closeouts-banner,
+.productcategory.brandcategory-philips .jumbotron .featureHeadline img.philips-banner, 
+.productcategory.brandcategory-morimoto .jumbotron .featureHeadline img.morimoto-banner, 
+.productcategory.brandcategory-osram .jumbotron .featureHeadline img.osram-banner,
+.productcategory.brandcategory-denso .jumbotron .featureHeadline img.denso-banner, 
+.productcategory.brandcategory-acme .jumbotron .featureHeadline img.acme-banner,
+.productcategory.brandcategory-koito .jumbotron .featureHeadline img.koito-banner, 
+.productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
+.productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, 
+.productcategory.vehiclecategory .jumbotron .featureHeadline img.vehiclecategory-banner { display: block; }
 
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
@@ -1298,26 +1310,49 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .section.module-buyersguide .caption .buyersguide-mobileStart .hideguide, .section.module-buyersguide .caption .buyersguide-mobileStart.active .showguide { display: none; }
   .section.module-buyersguide .caption .buyersguide-mobileStart.active .hideguide { display: inline-block; }
 }
-.productcategory.accessories .section.module-buyersguide, .productcategory.closeouts .section.module-buyersguide, .productcategory.housings-taillights .section.module-buyersguide, .productcategory.led-offroad .section.module-buyersguide, 
-  .productcategory.led-accessories .section.module-buyersguide, .productcategory.lensetching .section.module-buyersguide, .productcategory.motorcycle .section.module-buyersguide, 
-  .productcategory.projectors-oem .section.module-buyersguide { display: none; } 
+.productcategory.led-switchback .section.module-buyersguide,
+.productcategory.led-colorchanging .section.module-buyersguide,
+.productcategory.led-drl .section.module-buyersguide,
+.productcategory.assemblies-taillights .section.module-buyersguide,
+.productcategory.assemblies-offroad .section.module-buyersguide,
+.productcategory.vehiclespec-motorcycle .section.module-buyersguide,
+.productcategory.wiring-pigtailsadapters .section.module-buyersguide,
+.productcategory.wiring-parts .section.module-buyersguide,
+.productcategory.accessories .section.module-buyersguide, 
+.productcategory.closeouts .section.module-buyersguide { display: none; } 
 
-.productcategory.accessories .jumbotron .jumbotron-img { background-image: url(../img/category-accessories-hero.jpg); }
-.productcategory.ballasts .jumbotron .jumbotron-img { background-image: url(../img/category-ballasts-hero.jpg); }
-.productcategory.bulbs .jumbotron .jumbotron-img { background-image: url(../img/category-bulbs-hero.jpg); }
-.productcategory.closeouts .jumbotron .jumbotron-img { background-image: url(../img/category-closeouts-hero.jpg); }
-.productcategory.completekits .jumbotron .jumbotron-img { background-image: url(../img/category-completekits-hero.jpg); }
-.productcategory.hidsystems .jumbotron .jumbotron-img { background-image: url(../img/category-hidsystems-hero.jpg); }
-.productcategory.housings .jumbotron .jumbotron-img { background-image: url(../img/category-housings-hero.jpg); }
-.productcategory.led .jumbotron .jumbotron-img { background-image: url(../img/category-led-hero.jpg); }
-.productcategory.lenses .jumbotron .jumbotron-img { background-image: url(../img/category-lenses-hero.jpg); }
-.productcategory.lensetching .jumbotron .jumbotron-img { background-image: url(../img/category-lensetching-hero.jpg); }
-.productcategory.motorcycle .jumbotron .jumbotron-img { background-image: url(../img/category-motorcycle-hero.jpg); }
-.productcategory.projectors .jumbotron .jumbotron-img { background-image: url(../img/category-projectors-hero.jpg); }
-.productcategory.shrouds .jumbotron .jumbotron-img { background-image: url(../img/category-shrouds-hero.jpg); }
-.productcategory.wireharnesses .jumbotron .jumbotron-img { background-image: url(../img/category-wireharnesses-hero.jpg); }
-.productcategory.brandcategory .jumbotron .jumbotron-img { background-image: url(../img/category-brandcategory-hero.jpg); }
-.productcategory.vehiclecategory .jumbotron .jumbotron-img { background-image: url(../img/category-vehiclecategory-hero.jpg); }
+.productcategory.projectorretrofits-universalkits .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-projectorretrofits-universalkits-hero.jpg); }
+.productcategory.projectorretrofits-applicationspecific .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-projectorretrofits-applicationspecific-hero.jpg); }
+.productcategory.projectorretrofits-projectors .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-projectorretrofits-projectors-hero.jpg); }
+.productcategory.projectorretrofits-shrouds .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-projectorretrofits-shrouds-hero.jpg); }
+.productcategory.projectorretrofits-lenses .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-projectorretrofits-lenses-hero.jpg); }
+.productcategory.plugnplay-hidsystems .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-plugnplay-hidsystems-hero.jpg); }
+.productcategory.plugnplay-applicationspecific .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-plugnplay-applicationspecific-hero.jpg); }
+.productcategory.plugnplay-ledheadlights .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-plugnplay-ledheadlights-hero.jpg); }
+.productcategory.plugnplay-ledfoglights .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-plugnplay-ledfoglights-hero.jpg); }
+.productcategory.bulbs-oem .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-bulbs-oem-hero.jpg); }
+.productcategory.bulbs-aftermarket .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-bulbs-aftermarket-hero.jpg); }
+.productcategory.ballasts-oem .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ballasts-oem-hero.jpg); }
+.productcategory.ballasts-aftermarket .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ballasts-aftermarket-hero.jpg); }
+.productcategory.led-ledbulbs .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-led-ledbulbs-hero.jpg); }
+.productcategory.led-switchback .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-led-switchback-hero.jpg); }
+.productcategory.led-colorchanging .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-led-colorchanging-hero.jpg); }
+.productcategory.led-drl .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-led-drl-hero.jpg); }
+.productcategory.assemblies-fullheadlights .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-assemblies-fullheadlights-hero.jpg); }
+.productcategory.assemblies-ledfoglights .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-plugnplay-ledfoglights-hero.jpg); }
+.productcategory.assemblies-offroad .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-assemblies-offroad-hero.jpg); }
+.productcategory.assemblies-taillights .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-assemblies-taillights-hero.jpg); }
+.productcategory.vehiclespec-motorcycle .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-vehiclespec-motorcycle-hero.jpg); }
+.productcategory.vehiclespec-truck .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-vehiclespec-truck-hero.jpg); }
+.productcategory.vehiclespec-packages .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-vehiclespec-packages-hero.jpg); }
+.productcategory.wiring-relay .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-wiring-relay-hero.jpg); }
+.productcategory.wiring-pigtailsadapters .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-wiring-pigtailsadapters-hero.jpg); }
+.productcategory.wiring-parts .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-wiring-parts-hero.jpg); }
+.productcategory.accessories-buildmaterials .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-accessories-buildmaterials-hero.jpg); }
+.productcategory.accessories-trsgear .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-accessories-trsgear-hero.jpg); }
+.productcategory.closeouts .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-closeouts-hero.jpg); }
+.productcategory.brandcategory .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-brandcategory-hero.jpg); }
+.productcategory.vehiclecategory .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-vehiclecategory-hero.jpg); }
 
 .about .jumbotron .jumbotron-img { background-image: url(../img/hero-about.jpg); background-position: center bottom; }
 .about .jumbotron.crew .jumbotron-img { background-image: url(../img/hero-crew.jpg); background-position: center center; }
@@ -1342,10 +1377,19 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .home .jumbotron, .styleguide .jumbotron { height: 680px; }
   .home .jumbotron { min-height: 400px; padding-top: 0; margin-bottom: -270px; }
   .productcategory .jumbotron, .productcategory .jumbotron .caption { height: 500px; padding-top: 0; }
-  .productcategory.accessories .jumbotron, .productcategory.closeouts .jumbotron, .productcategory.housings-taillights .jumbotron, .productcategory.led-offroad .jumbotron, 
-    .productcategory.led-accessories .jumbotron, .productcategory.lensetching .jumbotron, .productcategory.motorcycle .jumbotron, 
-    .productcategory.projectors-oem .jumbotron, .productcategory.vehiclecategory .jumbotron, .productcategory.brandcategory .jumbotron,
-    .account .jumbotron { height: 240px; }
+  .productcategory.led-switchback .jumbotron,
+  .productcategory.led-colorchanging .jumbotron,
+  .productcategory.led-drl .jumbotron,
+  .productcategory.assemblies-taillights .jumbotron,
+  .productcategory.assemblies-offroad .jumbotron,
+  .productcategory.vehiclespec-motorcycle .jumbotron,
+  .productcategory.wiring-pigtailsadapters .jumbotron,
+  .productcategory.wiring-parts .jumbotron,
+  .productcategory.accessories .jumbotron, 
+  .productcategory.closeouts .jumbotron,
+  .productcategory.vehiclecategory .jumbotron, 
+  .productcategory.brandcategory .jumbotron,
+  .account .jumbotron { height: 240px; }
   .utility .jumbotron { min-height: 220px; }
   .utility .jumbotron, .cart .jumbotron { height: 220px; }
   .utility .jumbotron.content, .utility .jumbotron.wLinks { height: 320px; } 
@@ -1379,31 +1423,35 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 
 .productcategory .featureHeadline h4, .productcategory h1 { display: none; }
-.productcategory.accessories-buildmaterials .featureHeadline h4.accessories-sub1, .productcategory.accessories-buildmaterials h1.accessories-sub1,
-.productcategory.accessories-miscellaneous .featureHeadline h4.accessories-sub2, .productcategory.accessories-miscellaneous h1.accessories-sub2,
-.productcategory.accessories-trsgear .featureHeadline h4.accessories-sub3, .productcategory.accessories-trsgear h1.accessories-sub3,
-.productcategory.ballasts-aftermarket .featureHeadline h4.ballasts-sub1, .productcategory.ballasts-aftermarket h1.ballasts-sub1,
-.productcategory.ballasts-oem .featureHeadline h4.ballasts-sub2, .productcategory.ballasts-oem h1.ballasts-sub2,
-.productcategory.closeouts-parts .featureHeadline h4.closeouts-sub1, .productcategory.closeouts-parts h1.closeouts-sub1,
-.productcategory.closeouts-oemprojectors .featureHeadline h4.closeouts-sub2, .productcategory.closeouts-oemprojectors h1.closeouts-sub2,
-.productcategory.closeouts-miscellaneous .featureHeadline h4.closeouts-sub3, .productcategory.closeouts-miscellaneous h1.closeouts-sub3,
-.productcategory.completekits-universalkits .featureHeadline h4.completekits-sub1, .productcategory.completekits-universalkits h1.completekits-sub1,
-.productcategory.completekits-applicationspecific .featureHeadline h4.completekits-sub2, .productcategory.completekits-applicationspecific h1.completekits-sub2, 
-.productcategory.hidsystems-universalkits .featureHeadline h4.hidsystems-sub1, .productcategory.hidsystems-universalkits h1.hidsystems-sub1,
-.productcategory.hidsystems-applicationspecific .featureHeadline h4.hidsystems-sub2, .productcategory.hidsystems-applicationspecific h1.hidsystems-sub2,
-.productcategory.housings-fullheadlights .featureHeadline h4.housings-sub1, .productcategory.housings-fullheadlights h1.housings-sub1,
-.productcategory.housings-ledfoglights .featureHeadline h4.housings-sub2, .productcategory.housings-ledfoglights h1.housings-sub2,
-.productcategory.housings-taillights .featureHeadline h4.housings-sub3, .productcategory.housings-taillights h1.housings-sub3,
-.productcategory.led-ledpoweredbulbs .featureHeadline h4.led-sub1, .productcategory.led-ledpoweredbulbs h1.led-sub1,
-.productcategory.led-halosstrips .featureHeadline h4.led-sub2, .productcategory.led-halosstrips h1.led-sub2,
-.productcategory.led-offroad .featureHeadline h4.led-sub3, .productcategory.led-offroad h1.led-sub3,
-.productcategory.led-accessories .featureHeadline h4.led-sub4, .productcategory.led-accessories h1.led-sub4,
-.productcategory.motorcycle-headlights .featureHeadline h4.motorcycle-sub1, .productcategory.motorcycle-headlights h1.motorcycle-sub1,
-.productcategory.motorcycle-hidsystems .featureHeadline h4.motorcycle-sub2, .productcategory.motorcycle-hidsystems h1.motorcycle-sub2,
-.productcategory.motorcycle-accessories .featureHeadline h4.motorcycle-sub3, .productcategory.motorcycle-accessories h1.motorcycle-sub3,
-.productcategory.projectors-aftermarket .featureHeadline h4.projectors-sub1, .productcategory.projectors-aftermarket h1.projectors-sub1,
-.productcategory.projectors-oem .featureHeadline h4.projectors-sub2, .productcategory.projectors-oem h1.projectors-sub2, 
-.productcategory.brandcategory h1, .productcategory.vehiclecategory h1 { display: block; }
+.productcategory.projectorretrofits-universalkits .featureHeadline h4.projectorretrofits-sub1, 
+.productcategory.projectorretrofits-applicationspecific .featureHeadline h4.projectorretrofits-sub2,
+.productcategory.projectorretrofits-projectors .featureHeadline h4.projectorretrofits-sub3,
+.productcategory.projectorretrofits-shrouds .featureHeadline h4.projectorretrofits-sub4,
+.productcategory.projectorretrofits-lenses .featureHeadline h4.projectorretrofits-sub5,
+.productcategory.plugnplay-hidsystems .featureHeadline h4.plugnplay-sub1, 
+.productcategory.plugnplay-applicationspecific .featureHeadline h4.plugnplay-sub2, 
+.productcategory.plugnplay-ledheadlights .featureHeadline h4.plugnplay-sub3, 
+.productcategory.plugnplay-ledfoglights .featureHeadline h4.plugnplay-sub4, 
+.productcategory.bulbs-oem .featureHeadline h4.bulbs-sub1,
+.productcategory.bulbs-aftermarket .featureHeadline h4.bulbs-sub2, 
+.productcategory.ballasts-oem .featureHeadline h4.ballasts-sub1,
+.productcategory.ballasts-aftermarket .featureHeadline h4.ballasts-sub2, 
+.productcategory.led-ledbulbs .featureHeadline h4.led-sub1, 
+.productcategory.led-switchback .featureHeadline h4.led-sub2, 
+.productcategory.led-colorchanging .featureHeadline h4.led-sub3, 
+.productcategory.led-drl .featureHeadline h4.led-sub4, 
+.productcategory.assemblies-fullheadlights .featureHeadline h4.assemblies-sub1,
+.productcategory.assemblies-ledfoglights .featureHeadline h4.assemblies-sub2, 
+.productcategory.assemblies-offroad .featureHeadline h4.assemblies-sub3, 
+.productcategory.assemblies-taillights .featureHeadline h4.assemblies-sub4, 
+.productcategory.vehiclespec-motorcycle .featureHeadline h4.vehiclespec-sub1, 
+.productcategory.vehiclespec-truck .featureHeadline h4.vehiclespec-sub2, 
+.productcategory.vehiclespec-packages .featureHeadline h4.vehiclespec-sub3,
+.productcategory.wiring-relay .featureHeadline h4.wiring-sub1, 
+.productcategory.wiring-pigtailsadapters .featureHeadline h4.wiring-sub2,
+.productcategory.wiring-parts .featureHeadline h4.wiring-sub3,
+.productcategory.accessories-buildmaterials .featureHeadline h4.accessories-sub1, 
+.productcategory.accessories-trsgear .featureHeadline h4.accessories-sub2 { display: block; }
 
 .thumbnail { display: block; padding: 0; margin-bottom: 0; line-height: 1.4; background-color: #fff; border: none; border-radius: 0; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { margin-right: auto; margin-left: auto; }

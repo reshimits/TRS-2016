@@ -39,37 +39,38 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h1, h4, and banner image -->
+<!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h4, and banner image -->
 
-<!-- <body class="productcategory accessories accessories-buildmaterials"> -->
-<!-- <body class="productcategory accessories accessories-miscellaneous"> -->
-<!-- <body class="productcategory accessories accessories-trsgear"> -->
-<!-- <body class="productcategory ballasts ballasts-aftermarket"> -->
+<!-- <body class="productcategory projectorretrofits projectorretrofits-universalkits"> -->
+<!-- <body class="productcategory projectorretrofits projectorretrofits-applicationspecific"> -->
+<!-- <body class="productcategory projectorretrofits projectorretrofits-projectors"> -->
+<!-- <body class="productcategory projectorretrofits projectorretrofits-shrouds"> -->
+<!-- <body class="productcategory projectorretrofits projectorretrofits-lenses"> -->
+<!-- <body class="productcategory plugnplay plugnplay-hidsystems"> -->
+<!-- <body class="productcategory plugnplay plugnplay-applicationspecific"> -->
+<!-- <body class="productcategory plugnplay plugnplay-ledheadlights"> -->
+<!-- <body class="productcategory plugnplay plugnplay-ledfoglights"> -->
+<!-- <body class="productcategory bulbs bulbs-oem"> -->
+<!-- <body class="productcategory bulbs bulbs-aftermarket"> -->
 <!-- <body class="productcategory ballasts ballasts-oem"> -->
-<!-- <body class="productcategory bulbs"> -->
-<!-- <body class="productcategory closeouts closeouts-parts"> -->
-<!-- <body class="productcategory closeouts closeouts-oemprojectors"> -->
-<!-- <body class="productcategory closeouts closeouts-miscellaneous"> -->
-<!-- <body class="productcategory completekits completekits-universalkits"> -->
-<!-- <body class="productcategory completekits completekits-applicationspecific"> -->
-<body class="productcategory hidsystems hidsystems-universalkits" id="wholesaleAcct">
-<!-- <body class="productcategory hidsystems hidsystems-applicationspecific"> -->
-<!-- <body class="productcategory housings housings-fullheadlights"> -->
-<!-- <body class="productcategory housings housings-ledfoglights"> -->
-<!-- <body class="productcategory housings housings-taillights"> -->
-<!-- <body class="productcategory led led-ledpoweredbulbs"> -->
-<!-- <body class="productcategory led led-halosstrips"> -->
-<!-- <body class="productcategory led led-offroad"> -->
-<!-- <body class="productcategory led led-accessories"> -->
-<!-- <body class="productcategory lenses"> -->
-<!-- <body class="productcategory lensetching"> -->
-<!-- <body class="productcategory motorcycle motorcycle-headlights"> -->
-<!-- <body class="productcategory motorcycle motorcycle-hidsystems"> -->
-<!-- <body class="productcategory motorcycle motorcycle-accessories"> -->
-<!-- <body class="productcategory projectors projectors-aftermarket"> -->
-<!-- <body class="productcategory projectors projectors-oem"> -->
-<!-- <body class="productcategory shrouds"> -->
-<!-- <body class="productcategory wireharnesses"> -->
+<!-- <body class="productcategory ballasts ballasts-aftermarket"> -->
+<!-- <body class="productcategory led led-ledbulbs"> -->
+<!-- <body class="productcategory led led-switchback"> -->
+<!-- <body class="productcategory led led-colorchanging"> -->
+<body class="productcategory led led-drl">
+<!-- <body class="productcategory assemblies assemblies-fullheadlights"> -->
+<!-- <body class="productcategory assemblies assemblies-ledfoglights"> -->
+<!-- <body class="productcategory assemblies assemblies-offroad"> -->
+<!-- <body class="productcategory assemblies assemblies-taillights"> -->
+<!-- <body class="productcategory vehiclespec vehiclespec-motorcycle"> -->
+<!-- <body class="productcategory vehiclespec vehiclespec-truck"> -->
+<!-- <body class="productcategory vehiclespec vehiclespec-packages"> -->
+<!-- <body class="productcategory wiring wiring-relay"> -->
+<!-- <body class="productcategory wiring wiring-pigtailsadapters" id="wholesaleAcct"> -->
+<!-- <body class="productcategory wiring wiring-parts"> -->
+<!-- <body class="productcategory accessories accessories-buildmaterials"> -->
+<!-- <body class="productcategory accessories accessories-trsgear"> -->
+<!-- <body class="productcategory closeouts"> -->
 
 
 

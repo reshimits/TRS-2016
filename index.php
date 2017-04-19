@@ -133,16 +133,18 @@
                         </div>
                         <div class="section wrap">
                             <div class="col-sm-5 col-sm-offset-1 text-left">
-                                <p>We're a group of enthusiasts with a passion for perfecting your night-time driving experience. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. </p>
+                                <p>Are you searching for an easy and cost-effective way to upgrade headlight bulbs on your car, truck, motorcycle, or off-road vehicle? We're a group of enthusiasts with a passion for perfecting your night-time driving experience. Our goal is to supply you with the best performing headlight upgrades that have been tailored to fit your application, at a price that works within budget. These are HID headlight upgrades for those who are serious about the looks and performance of their vehicle.</p>
                             </div>
                             <div class="col-sm-5 text-left">
-                                <p>This is an upgrade for those who are serious about the looks and performance of their vehicle. If you're driving something truly special, other enthusiasts will notice you during the day - but don't make the mistake of cruising by unnoticed at night. </p>
+                                <p>If you're driving something truly special, other enthusiasts will notice you during the day - but don't make the mistake of cruising by unnoticed at night. We carry a variety of individual aftermarket and OEM automobile lighting products, and we offer the ability to put together custom headlight upgrade kits to your specific requirements. From HID headlight upgrades to the latest LED bulbs and accessories, TRS will set you up with everything you need to improve vision on the road and provide a personalized style that stands out from the crowd.</p>
                             </div>
                         </div>
                         <div class="col-xs-10 col-xs-offset-1">
                             <div class="row"><hr></div>
                         </div> 
-                        <a type="button" class="btn btn-primary" href="#">More About TRS</a>
+                        <div class="section wrap">
+                            <a type="button" class="btn btn-primary" href="#">More About TRS</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -464,7 +466,7 @@
                                     <img class="img-responsive" src="img/category-completekits.png" alt="Projector Retrofit Kits Product Category" border="0"/>
                                     <h3>Projector<span class="hidden-md hidden-lg"> Retrofits</span><span class="hidden-xs hidden-sm hidden-xlg"> Kits</span></h3>
                                     <p>Power is nothing without control! Complete projector retrofit kits include all of the components to convert your headlights to a projector-based lighting system for unbeatable performance at night. More difficult? Yes. Worth it? Easily. Our easy-install and advanced-install projector retrofit kits come fully equipped with bi-xenon projectors, HID ballasts, projector shrouds, high quality HID bulbs and top notch wiring.</p>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All Universal Kits</a>
                                 </div>
                             </div>
                         </div>
@@ -492,7 +494,7 @@
                                     <img class="img-responsive" src="img/category-led2.png" alt="LED Lighting Product Category" border="0"/>
                                     <h3>LED Lighting</h3>
                                     <p>Update your ride with our unbeatable selection of LED bulbs, LED halos and off-road lighting from Morimoto, ACME, Philips, and Osram. We carry everything from LED headlight kits for cars, trucks, and motorcycles to interior LED bulbs, reverse lights, spotlights, and more. From overall quality and performance to longevity and fitment, we take great pleasure in putting the LED automotive lights we sell to the test.</p>
-                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
+                                    <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All LED Bulbs</a>
                                 </div>
                             </div>
                         </div>
@@ -526,6 +528,7 @@
                         <div class="blockquote">
                             <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHexAlt"></span></div>
                             <h5 class="text-white">“We truly believed that everybody without a retrofit didn't know what they were missing. By significantly lowering prices, creating a single source for all required components, and educating those who gave us the chance, we were on a mission.”</h5>
+                            <p class="text-weightMedium text-white"><em>– Micah S Lux</em></p>
                         </div>
                     </div>  
                     </div>          
@@ -536,6 +539,7 @@
                         <div class="blockquote">
                             <div class="btn btn-empty btn-hexicon"><span class="icon icon-blockquoteHex"></span></div>
                             <h5>“The Retrofit Source offers the absolute best when it comes to HID headlight retrofitting. We will make every customer happy without exception to uphold the reputation that we've worked so hard to build.”</h5>
+                            <p class="text-weightMedium text-white"><em>– Ben Solo</em></p>
                         </div>
                     </div>  
                     </div>          

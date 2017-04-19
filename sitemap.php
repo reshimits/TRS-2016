@@ -65,65 +65,71 @@
                     <h5><a href="/client/TRS/2016/index.php">Home</a></h5>
                     <h5 class="text-white">Product Categories</h5>
                     <ul class="list-group">
-                        <li class="list-group-item"><p><span class="lead text-gray1">Complete Retrofit Kits</span></p>
+                        <li class="list-group-item"><p><span class="lead text-gray1">Projector Retrofits</span></p>
                             <ul>
                                 <li class="list-group-item"><a href="#">Universal Kits</a></li>
                                 <li class="list-group-item"><a href="#">Application Specific</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-group-item"><p><span class="lead text-gray1">HID Systems</span></p>
-                            <ul>
-                                <li class="list-group-item"><a href="#">Universal Kits</a></li>
-                                <li class="list-group-item"><a href="#">Application Specific</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-group-item"><p><span class="lead text-gray1">Components</span></p>
-                            <ul>
-                                <li class="list-group-item"><a href="#">HID Projectors</a></li>
-                                <li class="list-group-item"><a href="#">HID Ballasts</a></li>
-                                <li class="list-group-item"><a href="#">HID Bulbs</a></li>
                                 <li class="list-group-item"><a href="#">Projector Shrouds</a></li>
-                                <li class="list-group-item"><a href="#">Wire Harnesses</a></li>
-                                <li class="list-group-item"><a href="#">Clear Lenses</a></li>
+                                <li class="list-group-item"><a href="#">Clear Lenses &amp; Etching</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><p><span class="lead text-gray1">Plug N Play</span></p>
+                            <ul>
+                                <li class="list-group-item"><a href="#">HID Systems</a></li>
+                                <li class="list-group-item"><a href="#">Application Specific</a></li>
+                                <li class="list-group-item"><a href="#">LED Headlight Bulbs</a></li>
+                                <li class="list-group-item"><a href="#">LED Fog Lights</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><p><span class="lead text-gray1">HID Bulbs</span></p>
+                            <ul>
+                                <li class="list-group-item"><a href="#">OEM / D Series</a></li>
+                                <li class="list-group-item"><a href="#">Aftermarket / H Series</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><p><span class="lead text-gray1">HID Ballasts</span></p>
+                            <ul>
+                                <li class="list-group-item"><a href="#">OEM</a></li>
+                                <li class="list-group-item"><a href="#">Aftermarket</a></li>
                             </ul>
                         </li>
                         <li class="list-group-item"><p><span class="lead text-gray1">LED Lighting</span></p>
                             <ul>
-                                <li class="list-group-item"><a href="#">LED Powered Bulbs</a></li>
-                                <li class="list-group-item"><a href="#">Halos, Strips, Etc.</a></li>
-                                <li class="list-group-item"><a href="#">Off-Road Lighting</a></li>
-                                <li class="list-group-item"><a href="#">LED Accessories</a></li>
+                                <li class="list-group-item"><a href="#">LED Bulbs</a></li>
+                                <li class="list-group-item"><a href="#">Switchback Accessories</a></li>
+                                <li class="list-group-item"><a href="#">Color-Changing Accessories</a></li>
+                                <li class="list-group-item"><a href="#">Daytime Running Lights</a></li>
                             </ul>
                         </li>
-                        <li class="list-group-item"><p><span class="lead text-gray1">Complete Housings</span></p>
+                        <li class="list-group-item"><p><span class="lead text-gray1">Assemblies</span></p>
                             <ul>
                                 <li class="list-group-item"><a href="#">Full Headlights</a></li>
                                 <li class="list-group-item"><a href="#">LED Fog Lights</a></li>
                                 <li class="list-group-item"><a href="#">Tail Lights</a></li>
+                                <li class="list-group-item"><a href="#">Off Road Lighting</a></li>
                             </ul>
                         </li>
-                        <li class="list-group-item"><p><span class="lead text-gray1">Motorcycle Specific</span></p>
+                        <li class="list-group-item"><p><span class="lead text-gray1">Vehicle Specific</span></p>
                             <ul>
-                                <li class="list-group-item"><a href="#">Headlights</a></li>
-                                <li class="list-group-item"><a href="#">HID Systems</a></li>
-                                <li class="list-group-item"><a href="#">Accessories</a></li>
+                                <li class="list-group-item"><a href="#">Motorcycle Specific</a></li>
+                                <li class="list-group-item"><a href="#">Truck Specific</a></li>
+                                <li class="list-group-item"><a href="#">Lighting Packages</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item"><p><span class="lead text-gray1">Wiring</span></p>
+                            <ul>
+                                <li class="list-group-item"><a href="#">Relay Harnesses</a></li>
+                                <li class="list-group-item"><a href="#">Pigtails &amp; Adapters</a></li>
+                                <li class="list-group-item"><a href="#">Parts &amp; Accessories</a></li>
                             </ul>
                         </li>
                         <li class="list-group-item"><p><span class="lead text-gray1">Accessories</span></p>
                             <ul>
                                 <li class="list-group-item"><a href="#">Build Materials</a></li>
-                                <li class="list-group-item"><a href="#">Miscellaneous</a></li>
                                 <li class="list-group-item"><a href="#">TRS Gear</a></li>
                             </ul>
                         </li>
-                        <li class="list-group-item"><p><span class="lead text-gray1">Closeouts</span></p>
-                            <ul>
-                                <li class="list-group-item"><a href="#">HID / LED Parts</a></li>
-                                <li class="list-group-item"><a href="#">OEM Projectors</a></li>
-                                <li class="list-group-item"><a href="#">Miscellaneous</a></li>
-                            </ul>
-                        </li>
-                        <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Lens Etching</a></span></p></li>
+                        <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Closeouts</a></span></p></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-5">
@@ -148,24 +154,24 @@
                     <ul class="list-group">
                         <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Resources Hub</a></span></p></li>
                         <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Install Guides</a></span></p></li>
-                        <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Headlight Tech</a></span></p>
-                            <ul>
+                        <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Headlight Tech Blog</a></span></p>
+                            <!-- <ul>
                                 <li class="list-group-item"><a href="#">Clear Lenses</a></li>
                                 <li class="list-group-item"><a href="#">HID Ballasts</a></li>
                                 <li class="list-group-item"><a href="#">HID Bulbs</a></li>
                                 <li class="list-group-item"><a href="#">HID Projectors</a></li>
                                 <li class="list-group-item"><a href="#">Shrouds &amp; Bezels</a></li>
                                 <li class="list-group-item"><a href="#">Wire Harnesses</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
-                        <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Customer Gallery</a></span></p>
+                       <!--  <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Customer Gallery</a></span></p>
                             <ul>
                                 <li class="list-group-item"><a href="#">Customer Cars</a></li>
                                 <li class="list-group-item"><a href="#">Retrofits in Progress</a></li>
                                 <li class="list-group-item"><a href="#">Output Shots</a></li>
                                 <li class="list-group-item"><a href="#">Application Examples</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">HID Planet Forum</a></span></p></li>
                         <li class="list-group-item"><p><span class="lead text-gray1"><a href="#">Headlight Junkies</a></span></p></li>
                     </ul>
