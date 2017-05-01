@@ -59,7 +59,7 @@
         <a href="#" border="none" target="_blank">
             <div class="jumbotron feature1">
                 <div class="featureHeadline col-xs-12 col-xlg-10 col-xlg-offset-1 col-2xlg-8 col-2xlg-offset-2">
-                    <img src="img/feature2017-4headline.svg" alt="" border="0"/>
+                    <img src="img/feature2017-5headline.svg" alt="" border="0"/>
                 </div>
                 <div class="jumbotron-img"></div>
                 <!-- <div class="jumbotron-honeycomb"></div> -->
