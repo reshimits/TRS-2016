@@ -640,7 +640,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-crew { width: 60px; height: 60px; margin: 0; float: none; background-image: url(../img/icon-crew.svg); }
 .icon-favorite { background-image: url(../img/icon-favorite.svg); }
 .btn.active .icon-favorite { background-image: url(../img/icon-favoriteActive.svg); }
-.icon-fitment { background-image: url(../img/icon-fitment.svg); }
+.icon-fitment { background-image: url(../img/icon-fitment2.svg); }
 .icon-googledrive { background-image: url(../img/icon-googledrive.svg); }
 .btn .icon-hexbtn { height: 32px; width: 32px; background-image: url(../img/icon-hexbtn.svg); }
 .icon-hot { background-image: url(../img/icon-rocket.svg); }
@@ -1353,6 +1353,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .productcategory.closeouts .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-closeouts-hero.jpg); }
 .productcategory.brandcategory .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-brandcategory-hero.jpg); }
 .productcategory.vehiclecategory .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-vehiclecategory-hero.jpg); }
+.productcategory.vehiclespecific .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-vehiclespecific-hero.jpg); }
 
 .about .jumbotron .jumbotron-img { background-image: url(../img/hero-about.jpg); background-position: center bottom; }
 .about .jumbotron.crew .jumbotron-img { background-image: url(../img/hero-crew.jpg); background-position: center center; }
@@ -1451,7 +1452,8 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .productcategory.wiring-pigtailsadapters .featureHeadline h4.wiring-sub2,
 .productcategory.wiring-parts .featureHeadline h4.wiring-sub3,
 .productcategory.accessories-buildmaterials .featureHeadline h4.accessories-sub1, 
-.productcategory.accessories-trsgear .featureHeadline h4.accessories-sub2 { display: block; }
+.productcategory.accessories-trsgear .featureHeadline h4.accessories-sub2,
+.productcategory.vehiclespecific .featureHeadline h4 { display: block; }
 
 .thumbnail { display: block; padding: 0; margin-bottom: 0; line-height: 1.4; background-color: #fff; border: none; border-radius: 0; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { margin-right: auto; margin-left: auto; }
@@ -1710,7 +1712,8 @@ a.list-group-item:hover, a.list-group-item:focus { color: #555; text-decoration:
 a.label:hover, a.label:focus { color: #fff; text-decoration: none; cursor: pointer; }
 .label:empty { display: none; }
 .btn .label { position: relative; top: -1px; }
-.label-inner p { color: #fff; margin: 0; margin-top: 2px; }
+.label-inner p { color: #88e333; margin: 0; margin-top: 2px; }
+.label-inner p .lead { color: #fff; }
 .label-new .label-inner, .label-sale .label-inner { font-family: 'Fjalla One', sans-serif; font-size: 30px; text-transform: uppercase; font-style: italic; letter-spacing: -1px; padding: 0; line-height: 1.4; }
 .label-fitment .label-inner { position: relative; left: -22px; font-family: 'PlutoSansMedium', Helvetica, Arial, sans-serif; padding: 0; font-size: 14px; line-height: 1.4; text-align: left; white-space: nowrap; vertical-align: middle; -webkit-font-smoothing: antialiased; }
 .label-inner .icon { height: 30px; width: 30px; }
@@ -1719,7 +1722,7 @@ a.label:hover, a.label:focus { color: #fff; text-decoration: none; cursor: point
 
 
 .label-new, .label-sale, .label-fitment { background-color: transparent; background-image: url(../img/bg-greenDiagonalL-label.svg); background-position: top center; background-repeat: no-repeat; -webkit-background-size: auto 60px; -moz-background-size: auto 60px; -o-background-size: auto 60px; background-size: auto 60px; }
-.label-fitment { background-image: url(../img/bg-greenDiagonalR-label.svg); }
+.label-fitment { background-image: url(../img/bg-grayDiagonalR-label.svg); }
 .label-fitment .label-inner { width: 50%; float: right; }
 @media (min-width:768px) {
   .label { padding: 10px 30px; }
