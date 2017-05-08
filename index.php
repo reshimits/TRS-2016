@@ -218,9 +218,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--bi-xenon_morimoto_mini_d2s_stage_iii_kit_1.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <div class="label label-new">
@@ -264,9 +262,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-projectors.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 6.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <div class="label label-new">
@@ -310,9 +306,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-lenses.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <div class="label label-new">
@@ -357,9 +351,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="thumbnail-image"><img src="img/category-led.png" class="img-responsive" alt="" border="none"></div>
-                            </div>
+                            <div class="thumbnail-image"><img src="img/temp--Morimoto XB35 AMP Ballast 2.jpg" class="img-responsive" alt="" border="none"></div>
                         </a>
                         <div class="labelWrap">
                             <div class="label label-new">
@@ -415,7 +407,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-projectors.png" alt="HID Projectors Product Category" border="0"/>
+                                    <img class="img-responsive" src="img/category-projectorkits-projectors.png" alt="HID Projectors Product Category" border="0"/>
                                     <h3>HID Projectors</h3>
                                     <p>When you choose an HID headlight projector retrofit from us, you’re able to capture and focus that powerful light into a controlled beam pattern. Shop our complete selection, including easy-install, advanced-install, swap-in, and basic bi-xenon HID projectors. We also carry projector fog light retrofits, as well as VIP HID projector headlights that deliver a wider, brighter, and sharper low beam.</p>
                                     <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
@@ -429,7 +421,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-ballasts.png" alt="HID Ballasts Product Category" border="0"/>
+                                    <img class="img-responsive" src="img/category-ballasts-aftermarket.png" alt="HID Ballasts Product Category" border="0"/>
                                     <h3>HID Ballasts</h3>
                                     <p>Looking for an HID ballast replacement or upgrade? TRS carries options ranging from entry-level HID ballast kits that won’t break the bank to OEM-quality HID headlight ballasts for all types of vehicles and applications. Whether you need a single ballast component for a repair or a complete out of the box retrofit solution, TRS will be happy to shed light on the best solution.</p>
                                     <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
@@ -443,7 +435,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-bulbs.png" alt="HID Bulbs Product Category" border="0"/>
+                                    <img class="img-responsive" src="img/category-bulbs-aftermarket.png" alt="HID Bulbs Product Category" border="0"/>
                                     <h3>HID Bulbs</h3>
                                     <p>High performance HID bulb offerings are available from Morimoto, Philips, and Osram! You’ll find HID headlight bulbs ranging from 3000K to 6500K that deliver more lumens, extended coverage, and look as good as they perform. When it comes to aftermarket and OEM HID replacement bulbs for safe, fatigue-free driving — bright is always right!</p>
                                     <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
@@ -463,7 +455,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-completekits.png" alt="Projector Retrofit Kits Product Category" border="0"/>
+                                    <img class="img-responsive" src="img/category-projectorkits-universalkits.png" alt="Projector Retrofit Kits Product Category" border="0"/>
                                     <h3>Projector<span class="hidden-md hidden-lg"> Retrofits</span><span class="hidden-xs hidden-sm hidden-xlg"> Kits</span></h3>
                                     <p>Power is nothing without control! Complete projector retrofit kits include all of the components to convert your headlights to a projector-based lighting system for unbeatable performance at night. More difficult? Yes. Worth it? Easily. Our easy-install and advanced-install projector retrofit kits come fully equipped with bi-xenon projectors, HID ballasts, projector shrouds, high quality HID bulbs and top notch wiring.</p>
                                     <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All Universal Kits</a>
@@ -477,7 +469,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-hidsystems.png" alt="HID Systems Product Category" border="0"/>
+                                    <img class="img-responsive" src="img/category-plugnplay-hidsystems.png" alt="HID Systems Product Category" border="0"/>
                                     <h3>HID Systems</h3>
                                     <p>Searching for HID headlight conversion kits to retrofit your vehicle? Our range of HID light kits and systems come complete with new bulbs, ballasts and harnesses. Upgrading to HID is easy with our standard HID headlight kits that pump up the power at a value price. If you’re looking for the best HID lighting systems on the market, our premium and OEM options offer unmatched quality, performance, and longevity.</p>
                                     <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All</a>
@@ -491,7 +483,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="col-xs-12">
-                                    <img class="img-responsive" src="img/category-led2.png" alt="LED Lighting Product Category" border="0"/>
+                                    <img class="img-responsive" src="img/category-plugnplay-ledheadlights.png" alt="LED Lighting Product Category" border="0"/>
                                     <h3>LED Lighting</h3>
                                     <p>Update your ride with our unbeatable selection of LED bulbs, LED halos and off-road lighting from Morimoto, ACME, Philips, and Osram. We carry everything from LED headlight kits for cars, trucks, and motorcycles to interior LED bulbs, reverse lights, spotlights, and more. From overall quality and performance to longevity and fitment, we take great pleasure in putting the LED automotive lights we sell to the test.</p>
                                     <a type="button" href="#" class="btn btn-empty btn-hex pull-right"><span class="icon icon-hexbtn icon-after"></span> View All LED Bulbs</a>
