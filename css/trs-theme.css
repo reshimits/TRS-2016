@@ -1020,7 +1020,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 @media (min-width:992px) {
   .header .navbar-utility .navbar-utilityLinks li a { font-size: 11px; }
   .header.header-small .navbar-utility .navbar-utilityLinks li a { padding-top: 27px; }
-  .header.header-large .navbar-utility .navbar-headertext { padding: 60px 30px 0 0; }
+  .header.header-large .navbar-utility .navbar-headertext { padding: 60px 30px 0 0; width: 100%; }
 }
 @media (min-width:1200px) {
   .header .navbar-utility .navbar-utilityLinks { display: block; }
