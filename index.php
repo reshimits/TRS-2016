@@ -581,7 +581,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="thumbnail-image"><img src="img/temp-gallery1.png" class="img-responsive" alt="" border="none"></div>
+                            <div class="thumbnail-image" style="background-image: url(img/temp-gallery1.png);"></div> 
                         </a>
                     </li>
 
@@ -599,7 +599,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="thumbnail-image"><img src="img/temp-gallery2.png" class="img-responsive" alt="" border="none"></div>
+                            <div class="thumbnail-image" style="background-image: url(img/temp-partner2.jpg);"></div> 
                         </a>
                     </li>
 
@@ -617,7 +617,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="thumbnail-image"><img src="img/temp-gallery3.png" class="img-responsive" alt="" border="none"></div>
+                            <div class="thumbnail-image" style="background-image: url(img/temp-gallery9tall.jpg);"></div> 
                         </a>
                     </li>
 
@@ -635,7 +635,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="thumbnail-image"><img src="img/temp-gallery4.png" class="img-responsive" alt="" border="none"></div>
+                            <div class="thumbnail-image" style="background-image: url(img/temp-gallery4.png);"></div>
                         </a>
                     </li>
                 </ul>

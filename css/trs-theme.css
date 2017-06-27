@@ -1525,7 +1525,6 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
 .gallery .thumbnail { border: 1px solid #474747; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .gallery .thumbnail:hover { border: 1px solid #88e333; }
 .gallery .thumb-top { background-image: none; background-color: #474747; }
-
 .gallery .thumbnail-image { margin: 0; }
 .gallery .thumbnail .caption-top { background-color: rgba(25, 25, 25, .65); }
 @media (min-width:768px) {
@@ -1535,6 +1534,15 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: transpa
   .gallery .thumbnail .caption-top { background-color: rgba(25, 25, 25, 0); -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
   .gallery .thumbnail:hover .caption-top { background-color: rgba(25, 25, 25, .65); }
 }
+
+.home .thumbnail-image { min-height: 130px; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+@media (min-width:768px) {
+  .home .thumbnail-image { min-height: 225px; }
+}
+@media (min-width:992px) {
+  .home .thumbnail-image { min-height: 300px; }
+}
+
 
 .media, .media-body { overflow: hidden; zoom: 1; }
 .media, .media .media { margin-top: 15px; }
