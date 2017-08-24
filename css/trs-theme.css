@@ -1657,7 +1657,8 @@ a.list-group-item:hover, a.list-group-item:focus { color: #555; text-decoration:
 #orderhistory .panel-account .panel-heading, #catalog .panel-account .panel-heading 
   { border-top: 1px solid #666; }
 .panel-account .panel-title, .panel-account .list-group-item, .panel-account .list-group-itemWrap, #orderhistory .panel-account .main, #catalog .panel-account .main,
-  #myacct .panel-account.addressbook .defaultbilling .list-group-itemWrap, #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-body .list-group-itemWrap.sourceCode 
+  #myacct .panel-account.addressbook .defaultbilling .list-group-itemWrap, #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-body .list-group-itemWrap.sourceCode,
+  #marketingtools .panel-account.dealerbadge-profile .dealerbadge-profilelight .panel-body .list-group-itemWrap.sourceCode 
   { border-bottom: 1px solid #666; }
 .panel-account .panel-title
   { border-right: 1px solid #666; }
@@ -1672,13 +1673,17 @@ a.list-group-item:hover, a.list-group-item:focus { color: #555; text-decoration:
   #myacct .section.wrap.panel-collapse .panel-account.addressbook .defaultbilling .panel-title, #myacct .panel-account.addressbook .defaultshipping .panel-title, #myacct .panel-account.addressbook .defaultbilling .panel-title, #myacct .panel-account.addressbook .defaultbilling .list-group-itemWrap, #myacct .section.wrap.panel-collapse .panel-account.addressbook .defaultbilling .list-group-itemWrap,
   #myacct .panel-account.savedcard .panel-title, #marketingtools .panel-account.dealerbadge-trs .list-group-itemWrap.dealerbadgepreview, #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-title,
   #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotodark .panel-title, #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-body .list-group-itemWrap.sourceCode, 
-  #guides .panel-account .panel-body .list-group-itemWrap 
+  #guides .panel-account .panel-body .list-group-itemWrap, #marketingtools .panel-account.dealerbadge-profile .dealerbadge-profilelight .panel-title, #marketingtools .panel-account.dealerbadge-profile .dealerbadge-profiledark .panel-title,
+  #marketingtools .panel-account.dealerbadge-profile .dealerbadge-profilelight .panel-body .list-group-itemWrap.sourceCode, 
+  #marketingtools .panel-account.dealerbadge-ledc .list-group-itemWrap.dealerbadgepreview
   { border-right: none; }
-#marketingtools .panel-account .panel-body .list-group-itemWrap.sourceCode, #marketingtools .panel-account.dealerbadge-morimoto .panel-body .list-group-itemWrap.sourceCode, #guides .panel-account.troubleshootingguide .panel-body .list-group-itemWrap.sourceCode 
+#marketingtools .panel-account .panel-body .list-group-itemWrap.sourceCode, #marketingtools .panel-account.dealerbadge-morimoto .panel-body .list-group-itemWrap.sourceCode, #guides .panel-account.troubleshootingguide .panel-body .list-group-itemWrap.sourceCode, #marketingtools .panel-account.dealerbadge-profile .panel-body .list-group-itemWrap.sourceCode
   { border-left: none; }
 
 #marketingtools .panel-account.dealerbadge-trs .list-group-itemWrap.dealerbadgepreview .list-group-item img { max-width: 380px; }
 #marketingtools .panel-account.dealerbadge-morimoto .panel-title img { max-width: 300px; }
+#marketingtools .panel-account.dealerbadge-profile .panel-title img { max-width: 180px; }
+#marketingtools .panel-account.dealerbadge-ledc .list-group-itemWrap.dealerbadgepreview .list-group-item img { max-width: 200px; }
 
 @media (min-width:768px) {
   .panel-account .list-group-itemWrap { border-right: 1px solid #666; }
@@ -1689,10 +1694,11 @@ a.list-group-item:hover, a.list-group-item:focus { color: #555; text-decoration:
 }
 @media (min-width:992px) {
   #myacct .panel-account.addressbook .defaultbilling .panel-title, #myacct .panel-account.addressbook .defaultbilling .list-group-itemWrap, #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-title,
-  #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-body .list-group-itemWrap.sourceCode
+  #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-body .list-group-itemWrap.sourceCode, #marketingtools .panel-account.dealerbadge-profile .dealerbadge-profilelight .panel-title, #marketingtools .panel-account.dealerbadge-profile .dealerbadge-profilelight .panel-body .list-group-itemWrap.sourceCode
   { border-right: 1px solid #666; }
   #myacct .panel-account.addressbook .defaultbilling .list-group-itemWrap, #marketingtools .panel-account.dealerbadge-trs .list-group-itemWrap.dealerbadgepreview,
-  #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-body .list-group-itemWrap.sourceCode, #guides .panel-account .panel-body .list-group-itemWrap
+  #marketingtools .panel-account.dealerbadge-morimoto .dealerbadge-morimotolight .panel-body .list-group-itemWrap.sourceCode, #guides .panel-account .panel-body .list-group-itemWrap,
+  #marketingtools .panel-account.dealerbadge-profile .dealerbadge-profilelight .panel-body .list-group-itemWrap.sourceCode, #marketingtools .panel-account.dealerbadge-ledc .list-group-itemWrap.dealerbadgepreview
   { border-bottom: none; }
   #marketingtools .panel-account .panel-body .list-group-itemWrap.sourceCode, #guides .panel-account.troubleshootingguide .panel-body .list-group-itemWrap.sourceCode 
   { border-left: 1px solid #666; }
