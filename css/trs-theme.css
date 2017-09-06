@@ -1890,7 +1890,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 @media screen and (min-width:768px) {
   #trsCarousel.carousel, #trsCarousel .carousel-inner { max-height: 400px; }
   #trsCarousel .carousel-inner > .item { height: 400px; }
-  .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, 0); /*max-width: 1400px; margin: 0 auto;*/ }
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, -10%); /*max-width: 1400px; margin: 0 auto;*/ }
   .carousel-caption { min-height: 60px; }
   .carousel-indicators li, .carousel-indicators .active, .carousel-indicators .active:hover { width: 60px; }
   .carousel-indicators { bottom: 50px; }
@@ -1899,16 +1899,16 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   #trsCarousel.carousel, #trsCarousel .carousel-inner { max-height: 500px; }
   #trsCarousel .carousel-inner > .item { height: 500px; }
   #trsCarousel .carousel-inner > .item:hover { cursor: pointer; }
-  .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, -15%); }
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, -10%); }
     .modal .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: none; }
   .carousel-indicators li, .carousel-indicators .active, .carousel-indicators .active:hover { width: 75px; }
   .modal .carousel-indicators { bottom: 20px; }
 }
 @media (min-width:1200px) {
-  .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, -20%); }
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, -10%); }
 }
 @media (min-width:1400px) {
-  .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, -25%); }
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img { transform: translate(0, -10%); }
 }
 @media (max-width:991px) {
   .modal .carousel-inner { overflow-y: visible; }

@@ -54,24 +54,24 @@
 
     <div class="bodyWrap">
 
-        <div class="section wrap carousel fff">
-            <!-- =========== Bread Crumb =========== -->
-            <!-- =================================== -->
-            <div class="breadcrumbWrap col-xs-12 hidden-xs">
+        <div class="section wrap">
+            <div class="container-fluid">   
                 <div class="row">
-                    <div class="col-xs-12">
-                        <ul class="breadcrumb">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Complete Retrofit Kits</a></li>
-                            <li><a href="#">Universal Kits</a></li>
-                            <li class="active">Mopar Spec: 13-14 Dodge Ram Low Beam Harness</li>
-                        </ul>
+                    <!-- =========== Bread Crumb =========== -->
+                    <!-- =================================== -->
+                    <div class="breadcrumbWrap col-xs-12 hidden-xs">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <ul class="breadcrumb">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Complete Retrofit Kits</a></li>
+                                    <li><a href="#">Universal Kits</a></li>
+                                    <li class="active">Mopar Spec: 13-14 Dodge Ram Low Beam Harness</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="container">   
-                <div class="row">
+
                     <!-- =========== Carousel =========== -->
                     <!-- ================================ -->
                     <div class="col-xs-12">
@@ -103,14 +103,30 @@
                                     <li data-slide-to="6" data-target="#trsCarousel"></li>
                                     <li data-slide-to="7" data-target="#trsCarousel"></li>               
                                 </ol>  
-                                
+
+                                <!-- Brand --> 
+                                <div class="section wrap module-brands hidden-xs">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-philipsHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-morimotoHover.svg" class="img-responsive" alt="" border="none"></div>
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-osramHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-densoHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <!-- <div class="brand tall col-sm-2 col-sm-offset-5"><img src="img/brand-acmeHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-koitoHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <!-- <div class="brand tall col-sm-2 col-sm-offset-5"><img src="img/brand-hellaHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                            <!-- <div class="brand col-sm-2 col-sm-offset-5"><img src="img/brand-speakerHover.svg" class="img-responsive" alt="" border="none"></div> -->
+                                        </div>
+                                    </div>
+                                </div>  
+                 
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>  
-        </div>   
+        </div>  
 
         <!-- =========== Main =========== -->
         <!-- ============================ -->
