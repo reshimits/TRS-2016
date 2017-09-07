@@ -652,7 +652,7 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale last">$359.99 
+                                    <h3 class="tenplus last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                     <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
@@ -696,7 +696,7 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale last">$359.99 
+                                    <h3 class="tenplus last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                     <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
@@ -740,7 +740,7 @@
                                     <h3 class="wholesale">$399.99 
                                         <p class="note"><span class="lead">Wholesale</span></p>
                                     </h3>
-                                    <h3 class="wholesale last">$359.99 
+                                    <h3 class="tenplus last">$359.99 
                                         <p class="note"><span class="lead">10 or More</span></p>
                                     </h3>
                                     <div type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#quickAddtoCart"><span class="icon icon-cartQuick icon-before"></span> <span class="quickCopy">Quick</span></div>
