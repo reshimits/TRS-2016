@@ -238,6 +238,11 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="section wrap notice-affirm">
+                                        <p class="text-right text-gray1">Starting at <span class="text-affirm">$X.XX/month</span> with <span class="btn btn-empty"><span class="icon icon-affirmFull"></span></span></p> 
+                                    </div>
+
                                 </fieldset>
                             </form> 
                         </div>
