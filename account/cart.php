@@ -203,6 +203,10 @@
             <div class="container-fluid">
                 <div class="col-xs-12">
                     <h3 class="text-right text-secondary">Sub-Total: <span class="text-primary">$1,319.97</span></h3>
+                    <div class="section wrap notice-affirm">
+                        <p class="text-right text-gray1">Starting at <span class="text-affirm">$X.XX/month</span> with <span class="btn btn-empty"><span class="icon icon-affirmFull"></span></span></p> 
+                    </div>
+                    <div class="section wrap"><div class="col-xs-12 col-sm-6 col-md-4 pull-right"><div class="row"><hr class="aligncenter first"></div></div></div>
                     <div class="section wrap"><h6 class="pull-right text-gray1">*We offer free standard shipping on orders over $100. <span class="text-white">You're only <span class="text-primary">$26</span> away!</span></h6></div>
                     <div class="section wrap"><p class="note pull-right"><span class="lead"><em>*For a shipping quote please fill out address</em></span></p></div>
                 </div>
