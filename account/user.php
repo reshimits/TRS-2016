@@ -39,7 +39,7 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="account" id="wholesaleAcct">
+<body class="account" id="wholesaleAcct" onLoad="MM_preloadImages('../img/brand-acmeHover.svg','../img/brand-wholesale-morimotoHover.svg','../img/brand-osramHover.svg','../img/brand-philipsHover.svg','../img/brand-wholesale-profileHover.svg','../img/brand-speakerHover.svg','../img/brand-densoHover.svg','../img/brand-koitoHover.svg','../img/brand-wholesale-hyluxHover.svg','../img/brand-wholesale-ledcHover.svg','../img/brand-wholesale-matsushitaHover.svg','../img/brand-wholesale-tapturnHover.svg')">
 
     <!-- Header
     ================================================== -->
@@ -55,12 +55,32 @@
     <div class="bodyWrap">
         
         <div class="jumbotron">
-            <div class="featureHeadline col-xs-12">
+            <!-- <div class="featureHeadline col-xs-12">
                 <div class="col-xs-12 header-waypoint" data-animate-down="header-small" data-animate-up="header-large">
                     <h1>My Account: <span class="text-weightRegular text-secondary">Wholesale</span></h1>
                     <h5 class="text-white">Welcome, Boss Koss</h5>
                 </div>
+            </div> -->
+            <div class="section wrap module-brands">
+                <div class="container-fluid">
+                    <div class="row">
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand morimoto"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand philips"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand osram"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand koito"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand ledc"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand tapturn"></span></a>
+                    
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand denso"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand profile"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand speaker"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand hylux"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand acme"></span></a>
+                        <a href="#" class="brand col-xs-4 col-sm-2"><span class="icon icon-brand matsushita"></span></a>
+                    </div>
+                </div>
             </div>
+
             <div class="jumbotron-img"></div>
             <div class="section wrap section-ticker">
                 <div class="ticker-wrap">
