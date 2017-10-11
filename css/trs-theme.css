@@ -1499,7 +1499,8 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 100px; }
 }
 
-.productcategory .featureHeadline h4, .productcategory h1 { display: none; }
+/*Commented out due to handling by Magento*/
+/*.productcategory .featureHeadline h4, .productcategory h1 { display: none; }
 .productcategory.projectorretrofits-universalkits .featureHeadline h4.projectorretrofits-sub1, 
 .productcategory.projectorretrofits-applicationspecific .featureHeadline h4.projectorretrofits-sub2,
 .productcategory.projectorretrofits-projectors .featureHeadline h4.projectorretrofits-sub3,
@@ -1529,7 +1530,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .productcategory.wiring-parts .featureHeadline h4.wiring-sub3,
 .productcategory.accessories-buildmaterials .featureHeadline h4.accessories-sub1, 
 .productcategory.accessories-trsgear .featureHeadline h4.accessories-sub2,
-.productcategory.vehiclespecific .featureHeadline h4 { display: block; }
+.productcategory.vehiclespecific .featureHeadline h4 { display: block; }*/
 
 .thumbnail { display: block; padding: 0; margin-bottom: 0; line-height: 1.4; background-color: #fff; border: none; border-radius: 0; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .thumbnail > img, .thumbnail a > img { margin-right: auto; margin-left: auto; }
