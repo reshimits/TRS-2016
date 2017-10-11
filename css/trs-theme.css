@@ -1354,9 +1354,9 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .productcategory.brandcategory-hella .jumbotron .featureHeadline img.hella-banner,
 .productcategory.brandcategory-jwspeaker .jumbotron .featureHeadline img.jwspeaker-banner, 
 .productcategory.vehiclecategory .jumbotron .featureHeadline img.vehiclecategory-banner,
-#wholesaleAcct .productcategory.rgbswitchback .jumbotron .featureHeadline img.rgbswitchback-banner,
-#wholesaleAcct .productcategory.ledaccessories .jumbotron .featureHeadline img.ledaccessories-banner,
-#wholesaleAcct .productcategory.ledbulbs .jumbotron .featureHeadline img.ledbulbs-banner { display: block; }
+.productcategory.rgbswitchback .jumbotron .featureHeadline img.rgbswitchback-banner,
+.productcategory.ledaccessories .jumbotron .featureHeadline img.ledaccessories-banner,
+.productcategory.ledbulbs .jumbotron .featureHeadline img.ledbulbs-banner { display: block; }
 
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
@@ -1421,14 +1421,14 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .productcategory.vehiclecategory .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-vehiclecategory-hero.jpg); }
 .productcategory.vehiclespecific .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-vehiclespecific-hero.jpg); }
 
-#wholesaleAcct .productcategory.rgbswitchback-fittedhalokits .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhalokits-hero.jpg); }
-#wholesaleAcct .productcategory.rgbswitchback-switchbackhalosstrips .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-universalledaccents-switchbackhalosstrips-hero.jpg); }
-#wholesaleAcct .productcategory.rgbswitchback-exteriorinterior .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ledbulbs-exteriorinterior-hero.jpg); }
-#wholesaleAcct .productcategory.ledaccessories-fitteddrlboards .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-fittedledaccents-fitteddrlboards-hero.jpg); }
-#wholesaleAcct .productcategory.ledaccessories-flasherrelaysresistors .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ledbulbs-flasherrelaysresistors-hero.jpg); }
-#wholesaleAcct .productcategory.ledbulbs-exteriorinterior .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ledbulbs-exteriorinterior-hero.jpg); }
-#wholesaleAcct .productcategory.ledbulbs-lightingpackages .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ledbulbs-headlightfoglights-hero.jpg); }
-#wholesaleAcct .productcategory.assemblies-ledheadlights .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-headsfogs-ledheadlights-hero.jpg); }
+.productcategory.rgbswitchback-fittedhalokits .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-fittedledaccents-fittedhalokits-hero.jpg); }
+.productcategory.rgbswitchback-switchbackhalosstrips .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-universalledaccents-switchbackhalosstrips-hero.jpg); }
+.productcategory.rgbswitchback-exteriorinterior .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ledbulbs-exteriorinterior-hero.jpg); }
+.productcategory.ledaccessories-fitteddrlboards .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-fittedledaccents-fitteddrlboards-hero.jpg); }
+.productcategory.ledaccessories-flasherrelaysresistors .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ledbulbs-flasherrelaysresistors-hero.jpg); }
+.productcategory.ledbulbs-exteriorinterior .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ledbulbs-exteriorinterior-hero.jpg); }
+.productcategory.ledbulbs-lightingpackages .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-ledbulbs-headlightfoglights-hero.jpg); }
+.productcategory.assemblies-ledheadlights .jumbotron .jumbotron-img { background-image: url(../img/categoryHero/category-headsfogs-ledheadlights-hero.jpg); }
 
 
 .about .jumbotron .jumbotron-img { background-image: url(../img/hero-about.jpg); background-position: center bottom; }
