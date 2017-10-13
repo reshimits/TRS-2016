@@ -2061,12 +2061,12 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 .productdetail .section.module-brands .brand { height: auto; position: absolute; bottom: 40px; }
 .productdetail .section.module-brands .brand.tall { bottom: 60px; }
 
-#wholesaleAcct .section.module-brands .brand { height: 38px; border-left: 1px solid #666; border-top: 1px solid #666; border-right: 1px solid #222; border-bottom: 1px solid #222; background-image: none; background-color: rgba(68, 68, 68, .7); -webkit-transition: all .35s ease; -o-transition: all .35s ease; transition: all .35s ease; }
-#wholesaleAcct .section.module-brands .brand:hover { background-color: rgba(40, 40, 40, .9); border-left: 1px solid #222; border-top: 1px solid #222; }
-#wholesaleAcct .section.module-brands .brand:after { content: ''; position: absolute; right: 0; width: 0; height: 0; background-image: none; }
-#wholesaleAcct .section.module-brands .brand.last:after { background-image: none; }
+#wholesaleAcct.account .section.module-brands .brand { height: 38px; border-left: 1px solid #666; border-top: 1px solid #666; border-right: 1px solid #222; border-bottom: 1px solid #222; background-image: none; background-color: rgba(68, 68, 68, .7); -webkit-transition: all .35s ease; -o-transition: all .35s ease; transition: all .35s ease; }
+#wholesaleAcct.account .section.module-brands .brand:hover { background-color: rgba(40, 40, 40, .9); border-left: 1px solid #222; border-top: 1px solid #222; }
+#wholesaleAcct.account .section.module-brands .brand:after { content: ''; position: absolute; right: 0; width: 0; height: 0; background-image: none; }
+#wholesaleAcct.account .section.module-brands .brand.last:after { background-image: none; }
 @media (min-width:768px) {
-  #wholesaleAcct .section.module-brands .brand { height: 104px; }
+  #wholesaleAcct.account .section.module-brands .brand { height: 104px; }
 }
 .section.module-quickstartguide { padding-bottom: 40px; background-color: #88e333; background-color: rgba(136, 227, 51, .7); }
 .section.texturedEdge, .section.modal-scrollUnder { position: relative; padding-bottom: 0; margin-top: -30px; background-color: transparent; background-image: url(../img/element-texturedEdge.svg); background-position: center top; background-repeat: no-repeat; -webkit-background-size: auto 35px; -moz-background-size: auto 35px; background-size: auto 35px; }
