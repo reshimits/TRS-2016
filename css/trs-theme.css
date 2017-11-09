@@ -1204,7 +1204,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 
 .form-group.has-suggestions { position: relative; }
-.form-group.has-suggestions .dropdown-menu { display: block; width: 100%; min-height: 0px; font-size: 14px; background-color: #eee; border: none; border-radius: 0 0 4px 4px; }
+.form-group.has-suggestions .dropdown-menu { display: block; position: relative; height: 120px; overflow: scroll; width: 100%; min-height: 0px; font-size: 14px; background-color: #eee; border: none; border-radius: 0 0 4px 4px; }
 .form-group.has-suggestions .dropdown-menu > li { display: block; clear: both; font-weight: normal; line-height: 1.4; color: #333; white-space: nowrap; padding: 8px 20px; }
 .form-group.has-suggestions .dropdown-menu > li:hover { color: #666; }
 
