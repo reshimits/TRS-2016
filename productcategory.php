@@ -41,7 +41,7 @@
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
 <!-- Changing the "CATEGORY" class along with the "CATEGORY-SUBCATEGORY" class will change the h4, and banner image -->
 
-<!-- <body class="productcategory projectorretrofits projectorretrofits-universalkits"> -->
+<body class="productcategory projectorretrofits projectorretrofits-universalkits">
 <!-- <body class="productcategory projectorretrofits projectorretrofits-applicationspecific"> -->
 <!-- <body class="productcategory projectorretrofits projectorretrofits-projectors"> -->
 <!-- <body class="productcategory projectorretrofits projectorretrofits-shrouds"> -->
@@ -57,7 +57,7 @@
 <!-- <body class="productcategory led led-ledbulbs"> -->
 <!-- <body class="productcategory led led-switchback"> -->
 <!-- <body class="productcategory led led-colorchanging"> -->
-<body class="productcategory led led-drl">
+<!-- <body class="productcategory led led-drl"> -->
 <!-- <body class="productcategory assemblies assemblies-fullheadlights"> -->
 <!-- <body class="productcategory assemblies assemblies-ledfoglights"> -->
 <!-- <body class="productcategory assemblies assemblies-offroad"> -->

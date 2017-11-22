@@ -252,7 +252,7 @@
                                     <div type="button" class="btn btn-block btn-default amazon"><span class="icon icon-amazon icon-before"></span>Amazon <i class="text-weightRegular small">Pay</i></div>
                                 </div>
                                 <div class="col-xs-12 col-sm-4">
-                                    <div type="button" class="btn btn-block btn-default paypal"><span class="icon icon-paypal icon-before"></span>PayPal <i class="hidden-sm text-weightRegular small">Checkout</i></div>
+                                    <div data-toggle="modal" data-target="#paypal" type="button" class="btn btn-block btn-default paypal"><span class="icon icon-paypal icon-before"></span>PayPal <i class="hidden-sm text-weightRegular small">Checkout</i></div>
                                 </div>
                                 <div class="col-xs-12 col-sm-4">
                                     <div type="button" class="btn btn-block btn-default affirm"><span class="icon icon-affirm icon-before"></span>Affirm <i class="text-weightRegular small">Monthly Pay<span class="hidden-sm">ments</span></i></div>
