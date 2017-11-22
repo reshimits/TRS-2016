@@ -629,7 +629,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-affirmFull { background-image: url(../img/icon-affirmFull.svg); }
   .notice-affirm .btn-empty .icon.icon-affirmFull { width: 50px; height: 15px; }
   .notice-affirm .btn-empty { padding: 0 5px; }
-  .notice-affirm .text-affirm { color: #00c8e5; } 
+  .notice-affirm .text-affirm, .notice-affirm .affirm-ala-price { color: #00c8e5; } 
 .icon-amazon { background-image: url(../img/icon-amazon.svg); }
 .icon-arrowDown { background-image: url(../img/icon-arrowDown.svg); background-position: center top; }
 .icon-arrowDown-fff { background-image: url(../img/icon-arrowDown-fff.svg); background-position: center top; }
