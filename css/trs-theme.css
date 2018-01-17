@@ -1360,7 +1360,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2017-12.jpg); }
+.home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2018-1.jpg); }
 .productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
@@ -1483,24 +1483,24 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 }
 
 
-.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 70px; /*Added due to full width*/ padding-left: 0; padding-right: 0; }
+.home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 40px; /*Added due to full width*/ padding-left: 0; padding-right: 0; }
 @media (min-width:500px) {
   .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 20px; }
 }
 @media (min-width:768px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 150px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 40px; }
 }
 @media (min-width:992px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 110px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 40px; }
 }
 @media (min-width:1200px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 80px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 0px; }
 }
 @media (min-width:1500px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 60px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 0px; }
 }
 @media (min-width:2000px) {
-  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 60px; }
+  .home .jumbotron .featureHeadline, .styleguide .jumbotron .featureHeadline { margin-top: 0px; }
 }
 
 /*Commented out due to handling by Magento*/
