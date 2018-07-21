@@ -58,28 +58,14 @@
     <div class="bodyWrap">
         <a href="#" border="none" target="_blank">
             <div class="jumbotron feature1">
-                <div class="featureHeadline col-xs-12 col-xlg-10 col-xlg-offset-1 col-2xlg-8 col-2xlg-offset-2">
-                    <img src="img/feature2018-1headline.svg" alt="" border="0"/>
+                <div class="jumbotron-img">
+                    <video id="video-background" autoplay loop muted plays-inline>
+                        <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
+                    </video>
                 </div>
-                <div class="jumbotron-img"></div>
-                <!-- <div class="jumbotron-honeycomb"></div> -->
+                <div class="jumbotron-honeycomb"></div>
             </div>
         </a>
-        
-        <div class="section module-brands hidden-xs">
-            <div class="container-fluid">
-                <div class="row">
-                    <a href="#" class="brand col-sm-1 col-sm-offset-2"><span class="icon icon-brand philips"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand morimoto"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand osram"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand denso"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand acme"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand koito"></span></a>
-                    <a href="#" class="brand col-sm-1"><span class="icon icon-brand hella"></span></a>
-                    <a href="#" class="brand col-sm-1 last"><span class="icon icon-brand speaker"></span></a>
-                </div>
-            </div>
-        </div>
 
         <div class="section module-quickstartguide">
             <div class="container-fluid">

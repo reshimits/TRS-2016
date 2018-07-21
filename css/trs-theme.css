@@ -1489,14 +1489,15 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .resources.tech .jumbotron .jumbotron-img { background-image: url(../img/hero-tech.jpg); }
 
 .jumbotron-honeycomb { content: ''; position: absolute; width: 100%; height: 525px; top: 0px; left: 0px; z-index: 0;
-  background-image: url(../img/pattern-honeycomb.png); background-position: left top; background-repeat: repeat; -webkit-background-size: 380px 350px; -moz-background-size: 380px 350px; -o-background-size: 380px 350px; background-size: 380px 350px; }
+  background-image: url(../img/pattern-jumboTexture.svg); background-position: left top; background-repeat: repeat; -webkit-background-size: 45px 45px; -moz-background-size: 45px 45px; -o-background-size: 45px 45px; background-size: 45px 45px; }
 
 .utility.partners .jumbotron.content { height: 300px; } 
 .utility.partners .partnersMap { width: 100%; height: 100%; }
 
 @media screen and (min-width:768px) {
   .jumbotron { min-height: 280px; }
-  .home .jumbotron, .styleguide .jumbotron { height: 680px; }
+  .home .jumbotron, .styleguide .jumbotron { height: 460px; }
+  .home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: none; }
   .home .jumbotron { min-height: 400px; padding-top: 0; margin-bottom: -270px; }
   .productcategory .jumbotron, .productcategory .jumbotron .caption { height: 500px; padding-top: 0; }
   .productcategory.led-switchback .jumbotron,
@@ -1516,7 +1517,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .utility .jumbotron, .cart .jumbotron { height: 220px; }
   .utility .jumbotron.content, .utility .jumbotron.wLinks { height: 320px; } 
   .utility.partners .jumbotron.content { height: 400px; } 
-  .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 760px; -webkit-background-size: 760px 700px; -moz-background-size: 760px 700px; -o-background-size: 760px 700px; background-size: 760px 700px; }=
+  .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 760px; }
 }
 @media (min-width:992px) {
   .home .jumbotron { margin-bottom: -225px; }
