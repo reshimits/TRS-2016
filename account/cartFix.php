@@ -23,7 +23,6 @@
     ================================================== -->
     <link href="../css/bootstrap-theme-full.css" rel="stylesheet">
     <link href="../css/trs-theme.css" rel="stylesheet">
-    <link href="../css/stupid-visfire-crap-trs.css" rel="stylesheet">
     
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     
@@ -54,208 +53,244 @@
     ================================================== -->
 
     <div class="bodyWrap">
-        
-        <main class="page-main">
-            <div class="main-page-title">My Cart</div>
-            <div class="main-page-sbtitle">Checkout</div>
-            <div class="mycart-container">
-                <div class="right-section">
-                    <div class="order-summary-section cart-summary">
-                        <div class="rightbar-title">Summary</div>
-                        <div class="rightbar-container">
-                            <div class="carttop-section">
-                                <table class="data table totals">
-                                    <tbody>
-                                        <tr class="totals sub">
-                                            <th>Subtotal</th>
-                                            <td class="amount">
-                                                <span class="price"><span class="price">$126.00</span></span>
-                                            </td>
-                                        </tr>        
-                                        <tr class="grand totals">
-                                            <th>
-                                                <strong>Order Total</strong>
-                                            </th>
-                                            <td class="amount">
-                                                <strong>
-                                                    <span class="price"><span class="price">$126.00</span></span>
-                                                </strong>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="proceed-chout-section">
-                                <button type="button" title="Proceed to Checkout" class="btn btn-block btn-primary" onclick="window.location='https://stage.theretrofitsource.com/checkout/onepage/';">
-                                    Proceed to Checkout 
-                                </button>
-                            </div>
-                            <div class="or-container">
-                                <span>or</span>
-                            </div>
-                            <div type="button" class="btn btn-block btn-default paypal button pp-express-buy-btn braintree-paypal-loading" disabled="disabled" data-paypalexpress="true">
-                                <span class="icon icon-paypal icon-before"></span>
-                                PayPal <i class="hidden-sm text-weightRegular small">Checkout</i>
-                            </div>
-                        </div>                                                                
-                        <div class="order-description"> <!-- Originally class="order-discription" SMH -->
-                                <div class="section wrap notice-affirm">
-            <div class="text-right text-gray1">
-                <div class="affirm-as-low-as" data-promo-id="promo_set_retrofit_source" data-amount="12600"></div>    </div>
+
+        <div class="jumbotron header-waypoint" data-animate-down="header-small" data-animate-up="header-large"">
+            <div class="featureHeadline col-xs-12">
+                <div class="col-xs-12">
+                    <h1>My Cart: <!-- <span class="text-weightRegular text-secondary">Checkout</span> --></h1>
+                    <h5 class="text-gray1">Guest, please <a href="" class="text-gray1">sign in.</a></h5>
+                </div>
+            </div>
         </div>
 
-        <script type="text/javascript">
-            if (!AFFIRM_AFFIRM.promos.getIsInitialized()) {
-                AFFIRM_AFFIRM.promos.initialize("OPRA6K7RDPIOA6EB",
-                    "https://cdn1.affirm.com/js/v2/affirm.js");
-            }
-                AFFIRM_AFFIRM.promos.initLimitation("175", "50000");
-
-            if (!AFFIRM_AFFIRM.promos.getIsScriptLoaded()) {
-                AFFIRM_AFFIRM.promos.loadScript();
-            }
-        </script>                        <p>*We offer free standard shipping on orders over $100.</p>
-                                <p>*For a shipping quote, please fill out address</p>
-                            </div>
-                        </div>
-                    </div>
+        <!-- If no Products are in Cart -->
+        <!-- <div class="section short">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h3>You have no items in your shopping cart.</h3>
+                    <h5 class="text-gray1">Click <a href="">here</a> to continue shopping.</h5>
                 </div>
-                <div class="left-section">
-                                <form id="cart-form" action="https://stage.theretrofitsource.com/checkout/cart/updatePost/" method="post" class="cart-detail-section">
-                        <input name="form_key" type="hidden" value="zac6qTOL809JcaQt" />
-                        <div class="cart-table-wrapper">
-                            <div class="table-responsive">
-                                <div class="table">
-                                    <div class="thead">
-                                        <div class="tr">
-                                            <div class="td pro-item">
-                                                <span>Item</span>
+            </div>
+        </div> -->
+
+        <!-- If Products are in Cart -->
+        <div class="section first">
+            <div class="container-fluid">
+
+                <div class="col-xs-12 col-md-4 col-xlg-3 cta pull-right">
+                    <div class="section first">
+                    <div class="panel panel-empty">
+                        <div class="panel-body">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <h5>Summary</h5>
+                                    <div class="section wrap">
+                                        <hr class="aligncenter first">
+                                        <p><span class="lead">SubTotal:</span> <span class="retail pull-right">$2000.00</span></p>
+                                        <p><span class="lead">Tax:</span> <span class="retail pull-right">$230.00</span></p>
+                                        <hr class="aligncenter first">
+                                    </div>
+                                    <div class="section wrap">
+                                        <h5>Order Total <span class="text-secondary pull-right">$2230.00</span></h5>
+                                    </div>
+                                    <div class="section last">
+                                        <div type="button" class="btn btn-block btn-primary">Proceed to Checkout</div>
+                                    </div>
+                                    <div class="section wrap">
+                                        <div class="or-container"><span>or</span></div>
+                                    </div>
+                                    <div class="section wrap checkoutmethod">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div type="button" class="btn btn-block btn-default amazon"><span class="icon icon-amazon icon-before"></span>Amazon <i class="text-weightRegular small">Pay</i></div>
+
+                                                <div data-toggle="modal" data-target="#paypal" type="button" class="btn btn-block btn-default paypal"><span class="icon icon-paypal icon-before"></span>PayPal <i class="text-weightRegular small">Checkout</i></div>
                                             </div>
-                                            <div class="td pro-item-price">
-                                                <span>Price</span>
-                                            </div>
-                                            <div class="td pro-item-qty">
-                                                <span>Qty</span>
-                                            </div>
-                                            <div class="td pro-item-sbtotal">
-                                                <span>Subtotal</span>
-                                            </div>
+                                            <div class="col-xs-12"><hr class="aligncenter first"></div>
+                                        </div>
+                                        <div class="section wrap notice-affirm">
+                                            <p class="text-center text-gray1">Starting at <span class="text-affirm">$X.XX/month</span> with <span class="btn btn-empty"><span class="icon icon-affirmFull"></span></span></p> 
                                         </div>
                                     </div>
-                                    <div class="tbody">
-                                                                            <div class="tr foo">
-            <div class="td">
 
-                        <a href="https://stage.theretrofitsource.com/profile-prism-led-rgb-demon-eyes.html" title="Demon Eyes: Profile Prism (RGB)" tabindex="-1" class="product-item-photo">
-                <span class="product-image-container">
-                    <span class="product-image-wrapper">
-                        <img src="https://stage.theretrofitsource.com/media/catalog/product/cache/1/thumbnail/165x/9df78eab33525d08d6e5fb8d27136e95/placeholder/default/productplaceholder_2.jpg" class="product-image-photo" alt="Demon Eyes: Profile Prism (RGB)">
-                    </span>
-                </span>
-                </a>
-
-                <div class="product-item-details">
-
-                    <strong class="product-item-name">
-                        <a href="https://stage.theretrofitsource.com/profile-prism-led-rgb-demon-eyes.html">Demon Eyes: Profile Prism (RGB)</a>
-                    </strong>
-
-                    
-                                                    <div class="dl item-options">
-                                                    <div class="product-detail-table">
-                                    <div class="product-item-row">
-                                        <span class="produt-item-title">Optional XBT Bluetooth Controller:</span>
-                                                                            <span class="product-item-detail">
-                                            1 X RGBW Controller: Morimoto XBT (1x5 / 2x4 Wire Universal Standard)                                </span>
-                                            <span class="product-item-price">
-                                            <span class="price">$75.00</span>                                </span>
-                                                                    </div>
                                 </div>
-                                                    <div class="product-detail-table">
-                                    <div class="product-item-row">
-                                        <span class="produt-item-title">RGB Demon Eyes:</span>
-                                                                            <span class="product-item-detail">
-                                            2 X Profile Prism: Demon Eye w/ Driver (RGB)                                </span>
-                                            <span class="product-item-price">
-                                            <span class="price">$45.00</span>                                </span>
-                                                                    </div>
+                            </div>
+                            <div class="section half last cta-extras">
+                                <div class="section wrap">
+                                    <h6 class="text-center text-gray1">*We offer free standard shipping on orders over $100.</h6>
                                 </div>
-                                                    <div class="product-detail-table">
-                                    <div class="product-item-row">
-                                        <span class="produt-item-title">Optional Mounting Brackets:</span>
-                                                                            <span class="product-item-detail">
-                                            2 X Demon Eye Bracket - Mini H1                                </span>
-                                            <span class="product-item-price">
-                                            <span class="price">$6.00</span>                                </span>
-                                                                    </div>
+                                <div class="section wrap">
+                                    <p class="note text-center"><span class="lead"><em>*For a shipping quote please fill out address</em></span></p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-8 col-xlg-9">
+                    <div class="row cart-titles hidden-xs">
+                        <div class="col-xs-12 col-sm-8">
+                            <p><span class="lead text-gray2">Item:</span></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 pull-right">
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3 text-right">
+                                    <p><span class="lead text-gray2">Price:</span></p>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 text-right">
+                                    <p><span class="lead text-gray2">QTY:</span></p>
+                                </div>
+                                <div class="col-xs-12 col-sm-5 text-right">
+                                    <p><span class="lead text-gray2">SubTotal:</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class="section first">
+                            <div class="col-xs-12 cart-product">
+                                <hr class="aligncenter first">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-8">
+                                        <div class="col-xs-3 col-sm-4 col-md-3 col-lg-4">
+                                            <div class="row">
+                                                <img class="img-thumbnail img-responsive" src="../img/temp--Morimoto XB35 AMP Ballast 4.jpg" alt="" border="0"/>
                                             </div>
-                        <div class="editcon">
-                            <a href="https://stage.theretrofitsource.com/checkout/cart/configure/id/4628547/" class="action action-edit" title="Edit item parameters">
-                                <span>Edit</span>
-                            </a>
-                        </div>
-                            </div>
-            </div>
-            <div class="td col-pr">
-                <span class="cart-amount"><span class="price"><span class="price">$126.00</span></span></span>
-            </div>
-            <div class="td col-qt">
-                <div class="control qty">
-                    <input type="text" class="qty-input" name="cart[4628547][qty]" value="1" title="Quantity" />
-                </div>
-                <button type="submit" title="Update Quantity" class="update-btn">//Update</button>
-            </div>
-            <div class="td col-sb">
-                <span class="cart-price"><span class="price"><span class="price">$126.00</span></span></span>
-            </div>
-        </div>
-        <div class="tr item-actions">
-            <div class="td">
-                <div class="actions-toolbar">
-                    <a href="https://stage.theretrofitsource.com/checkout/cart/delete/id/4628547/form_key/zac6qTOL809JcaQt/uenc/aHR0cHM6Ly9zdGFnZS50aGVyZXRyb2ZpdHNvdXJjZS5jb20vY2hlY2tvdXQvY2FydC8,/" title="Remove" class="action-delete">//Delete</a>
-                </div>
-            </div>
-        </div>                                                            </div>
+                                        </div>
+                                        <div class="col-xs-9 col-sm-8 col-md-9 col-lg-8">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <h5 class="text-gray1">BI-XENON: LEXUS RX350</h5>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item active"><p class="small text-gray2"><span class="lead text-gray3">Bi-Xenon Projectors:</span> 2 x Morimoto Mini H1 6.0 (LHD) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item"><p class="small text-gray2"><span class="lead text-gray3">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item active"><p class="small text-gray2"><span class="lead text-gray3">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item"><p class="small text-gray2"><span class="lead text-gray3">H1 HID Bulbs:</span> 2 x H1: XB 4500K <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item active"><p class="small text-gray2"><span class="lead text-gray3">Shroud Style:</span> 2 x Mini Gatling Gun <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item"><p class="small text-gray2"><span class="lead text-gray3">Wire Harness:</span> 1 x HD Relay <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item active"><p class="small text-gray2"><span class="lead text-gray3">LED Halos:</span> 2 x 70mm XSB Switchback <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item"><p class="small text-gray2"><span class="lead text-gray3">Headlight Sealant:</span> 1 x Gray: RetroRubber <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <span class="btn btn-empty btn-xs edit text-gray1 pull-right">// Edit</span>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-xs-12 col-sm-4 pull-right">
+                                        <form>
+                                        <div class="form-group">
+                                            <div class="col-xs-3 text-right" data-th="Price:">
+                                                <p><span class="lead">$750.00</span></p>
+                                            </div>
+                                            <div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 text-right" data-th="Qty:">
+                                                <div class="section wrap">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" value="2">
+                                                    </div>
+                                                    <span class="btn btn-empty btn-xs edit">// Update</span><span class="btn btn-empty btn-xs edit text-gray1">// Remove</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-5 text-right" data-th="SubTotal:">
+                                                <p><span class="lead">$1500.00</span></p>
+                                            </div>
+                                        </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </form>
-                    <div class="promotionalcd-section">
-                        <h3>But wait, there's more</h3>
-        <h5>Do you have a promotional code?</h5>
-        <form id="discount-coupon-form" action="https://stage.theretrofitsource.com/checkout/cart/couponPost/" method="post" class="form-inline">
-            <input type="hidden" name="remove" id="remove-coupone" value="0" />
-            <div class="form-group">
-                <div class="input-group">
-                    <input class="form-control" placeholder="Enter Promo Code" id="coupon_code" name="coupon_code" value="" />
-                    <div class="input-group-addon">
-                                            <button type="button" title="Apply Coupon" class="apply-btn" onclick="discountForm.submit(false)" value="Apply Coupon">Apply</button>
+                        <div class="section first">
+                            <div class="col-xs-12 cart-product">
+                                <hr class="aligncenter first">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-8">
+                                        <div class="col-xs-3 col-sm-4 col-md-3 col-lg-4">
+                                            <div class="row">
+                                                <img class="img-thumbnail img-responsive" src="../img/temp-gallery7.png" alt="" border="0"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-9 col-sm-8 col-md-9 col-lg-8">
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <h5 class="text-gray1">SUPER7: MORIMOTO BI-LED</h5>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item active"><p class="small text-gray2"><span class="lead text-gray3">Bi-Xenon Projectors:</span> 2 x Morimoto Mini H1 6.0 (LHD) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item"><p class="small text-gray2"><span class="lead text-gray3">Compatible Ballasts:</span> 2 x Morimoto XB35 (35W) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                        <li class="list-group-item active"><p class="small text-gray2"><span class="lead text-gray3">Ballast Igniters (required):</span> 2 x Morimoto XB Igniter (AMP) <span class="lead text-secondary pull-right">$0.00</span></p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <span class="btn btn-empty btn-xs edit text-gray1 pull-right">// Edit</span>
+                                        </div>
                                     </div>
-                </div>
-            </div>
-        </form>
-        <script type="text/javascript">
-            //<![CDATA[
-            var discountForm = new VarienForm('discount-coupon-form');
-            discountForm.submit = function (isRemove) {
-                if (isRemove) {
-                    $('coupon_code').removeClassName('required-entry');
-                    $('remove-coupone').value = "1";
-                } else {
-                    $('coupon_code').addClassName('required-entry');
-                    $('remove-coupone').value = "0";
-                }
-                return VarienForm.prototype.submit.bind(discountForm)();
-            }
-            //]]>
-        </script>
+                                
+                                    <div class="col-xs-12 col-sm-4 pull-right">
+                                        <form>
+                                        <div class="form-group">
+                                            <div class="col-xs-3 text-right" data-th="Price:">
+                                                <p><span class="lead">$250.00</span></p>
+                                            </div>
+                                            <div class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 text-right" data-th="Qty:">
+                                                <div class="section wrap">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" value="2">
+                                                    </div>
+                                                    <span class="btn btn-empty btn-xs edit">// Update</span><span class="btn btn-empty btn-xs edit text-gray1">// Remove</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-5 text-right" data-th="SubTotal:">
+                                                <p><span class="lead">$500.00</span></p>
+                                            </div>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section first">
+                            <div class="col-xs-12 orderextras">
+                            <hr class="aligncenter first">
+                                <div class="section">
+                                    <h5>But Wait, There’s More</h5>
+                                    <form class="form-horizontal">
+                                        <fieldset>
+                                            <div class="form-group">
+                                                <div class="col-xs-12 col-sm-10 col-md-8">
+                                                    <p class="small"><span class="text-uppercase">Do you have a Promotional Code?</span></p>                                
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="inputDefault" placeholder="Enter Promo Code">
+                                                        <span class="input-group-btn">
+                                                            <a class="btn btn-default" type="button"> Apply</a>
+                                                        </span>
+                                                    </div>
+                                                    <!-- <ul class="messages"><li class="success-msg"><ul><li><span>SUCCESS! 10% off Coupon Code Accepted.</span></li></ul></li></ul> -->
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>       
+                                </div>     
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </main>    
-
         </div>
+
 
 
         <!-- Footer
