@@ -58,7 +58,7 @@
             <div class="featureHeadline col-xs-12">
                 <div class="col-xs-12">
                     <h1>My Cart: <!-- <span class="text-weightRegular text-secondary">Checkout</span> --></h1>
-                    <h5 class="text-gray1">Guest, please <a href="" class="text-gray1">sign in.</a></h5>
+                    <!-- <h5 class="text-gray1">Guest, please <a href="" class="text-gray1">sign in.</a></h5> -->
                 </div>
             </div>
         </div>
