@@ -83,7 +83,7 @@
                         <div class="panel-body">
                             <div class="col-xs-12">
                                 <div class="row">
-                                    <h5>Summary</h5>
+                                    <h5 class="first">Summary</h5>
                                     <div class="section wrap">
                                         <hr class="aligncenter first">
                                         <p><span class="lead">SubTotal:</span> <span class="retail pull-right">$2000.00</span></p>
