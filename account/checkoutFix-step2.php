@@ -66,12 +66,12 @@
                             <div class="btn btn-empty btn-hexicon" data-bind="css: { active: currentCheckoutStageId() === 'shipping' }"><span class="icon icon-checkoutShippingHex"></span></div>
                             <p class="hidden-xs"><span class="lead">Customer Info</span></p>
                         </div>
-                        <div class="col-xs-2 col-lg-3 hidden-xs"><hr class="aligncenter"></div>
+                        <div class="col-xs-2 col-lg-2 hidden-xs"><hr class="aligncenter"></div>
                         <div class="col-xs-4 col-sm-2" data-bind="css: { active: currentCheckoutStageId() === 'reviewAndPayment' }">
                             <div class="btn btn-empty btn-hexicon"><span class="icon icon-checkoutPaymentHex active"></span></div>
                             <p class="hidden-xs"><span class="lead">Payment</span></p>
                         </div>
-                        <div class="col-xs-2 col-lg-3 hidden-xs"><hr class="aligncenter"></div>
+                        <div class="col-xs-2 col-lg-2 hidden-xs"><hr class="aligncenter"></div>
                         <div class="col-xs-4 col-sm-3">
                             <div class="btn btn-empty btn-hexicon" data-bind="css: { active: currentCheckoutStageId() === 'placeOrder' }"><span class="icon icon-checkoutCompleteHex"></span></div>
                             <p class="hidden-xs"><span class="lead">Place Order</span></p>
