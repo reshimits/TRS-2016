@@ -63,12 +63,12 @@
                     <!-- <h1>Checkout:</h1> -->
                     <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
                         <div class="col-xs-4 col-sm-3">
-                            <div class="btn btn-empty btn-hexicon" data-bind="css: { active: currentCheckoutStageId() === 'shipping' }"><span class="icon icon-checkoutShippingHex active"></span></div>
+                            <div class="btn btn-empty btn-hexicon" data-bind="css: { active: currentCheckoutStageId() === 'shipping' }"><span class="icon icon-checkoutShippingHex"></span></div>
                             <p class="hidden-xs"><span class="lead">Customer Info</span></p>
                         </div>
                         <div class="col-xs-2 col-lg-3 hidden-xs"><hr class="aligncenter"></div>
                         <div class="col-xs-4 col-sm-2" data-bind="css: { active: currentCheckoutStageId() === 'reviewAndPayment' }">
-                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-checkoutPaymentHex"></span></div>
+                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-checkoutPaymentHex active"></span></div>
                             <p class="hidden-xs"><span class="lead">Payment</span></p>
                         </div>
                         <div class="col-xs-2 col-lg-3 hidden-xs"><hr class="aligncenter"></div>
@@ -110,6 +110,16 @@
                                     <h5 class="first">Summary</h5>
                                     <div class="section wrap">
                                         <hr class="aligncenter first">
+                                        <p><span class="lead">SubTotal:</span> <span class="retail pull-right">$2000.00</span></p>
+                                        <p><span class="lead">Tax:</span> <span class="retail pull-right">$230.00</span></p>
+                                        <p><span class="lead">Shipping:</span> <span class="retail pull-right">$39.00</span></p>
+                                        <hr class="aligncenter first">
+                                    </div>
+                                    <div class="section wrap">
+                                        <h5>Order Total <span class="text-secondary pull-right">$2269.00</span></h5>
+                                    </div>
+                                    <div class="section wrap">
+                                        <hr class="aligncenter first">
                                         <p><span class="lead">4</span> Items in Cart</p>
                                         <hr class="aligncenter first">
                                         <div class="section half first summary-product">
@@ -120,7 +130,7 @@
                                             </div>
                                             <div class="col-xs-9 col-sm-8 col-md-9 col-lg-8">
                                                 <p class="first">BI-XENON: LEXUS RX350</p>
-                                                <p><span class="lead">QTY: 2</span> <span class="lead pull-right text-secondary">$1500.00</span></p>
+                                                <p><span class="lead">QTY: 2</span> <span class="lead pull-right">$1500.00</span></p>
                                             </div>
                                         </div>
                                         <div class="section half first summary-product">
@@ -131,18 +141,12 @@
                                             </div>
                                             <div class="col-xs-9 col-sm-8 col-md-9 col-lg-8">
                                                 <p class="first">SUPER7: MORIMOTO BI-LED</p>
-                                                <p><span class="lead">QTY: 2</span> <span class="lead pull-right text-secondary">$500.00</span></p>
+                                                <p><span class="lead">QTY: 2</span> <span class="lead pull-right">$500.00</span></p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="section wrap checkoutmethod">
                                         <div class="row">
-                                            <div class="col-xs-12">
-                                                <hr class="aligncenter">
-                                                <div type="button" class="btn btn-block btn-default amazon"><span class="icon icon-amazon icon-before"></span>Amazon <i class="text-weightRegular small">Pay</i></div>
-
-                                                <div data-toggle="modal" data-target="#paypal" type="button" class="btn btn-block btn-default paypal"><span class="icon icon-paypal icon-before"></span>PayPal <i class="text-weightRegular small">Checkout</i></div>
-                                            </div>
                                             <div class="col-xs-12"><hr class="aligncenter first"></div>
                                         </div>
                                         <div class="section wrap notice-affirm">
@@ -152,14 +156,7 @@
 
                                 </div>
                             </div>
-                            <div class="section half last cta-extras">
-                                <div class="section wrap">
-                                    <h6 class="text-center text-gray1">*We offer free standard shipping on orders over $100.</h6>
-                                </div>
-                                <div class="section wrap">
-                                    <p class="note text-center"><span class="lead"><em>*For a shipping quote please fill out address</em></span></p>
-                                </div>
-                            </div>
+                        
                         </div>
                     </div>
                     </div>
@@ -168,102 +165,43 @@
 
                 <div class="col-xs-12 col-sm-7 col-xlg-9 checkoutForms-container">
                     <!-- Shipping 1 -->
-                    <div class="section first shippingaddress">
-                        <h3>Shipping Address</h3>
+                    <div class="section first paymentinfo">
+                        <h3>Payment Information</h3>
                         <hr class="aligncenter">
                         <form class="form-horizontal">
                             <fieldset>
-                                <div class="form-group">
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="Email Address">
+                                <div class="form-group checkoutmethod">
+                                    <div class="col-sm-12 col-md-3">
+                                        <div type="button" class="btn btn-block btn-default active">Credit Card</div>
                                     </div>
-                                    <div class="col-sm-2 text-center"><div class="or-container"><span>or</span></div></div>
-                                    <div class="col-sm-4 pull-right">
-                                        <div type="button" class="btn btn-block btn-primary">Login</div>
+                                    <div class="col-sm-12 col-sm-4 col-md-3">
+                                        <div type="button" class="btn btn-block btn-default amazon"><span class="icon icon-amazon icon-before"></span>Amazon</div>
                                     </div>
-                                </div>
-                                <hr class="aligncenter">
-                                <div class="form-group">
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="First Name">
+                                    <div class="col-sm-12 col-sm-4 col-md-3">
+                                        <div data-toggle="modal" data-target="#paypal" type="button" class="btn btn-block btn-default paypal"><span class="icon icon-paypal icon-before"></span>PayPal</div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="Last Name">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-12">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="Company Name">
-                                    </div>
-                                </div>
-                                <hr class="aligncenter">
-                                <div class="form-group">
-                                    <div class="col-sm-12">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 1">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-12">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 2">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="City">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="Region/State">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" id="inputDefault" placeholder="Postal Code">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <select class="form-control drop validate-select" id="select">
-                                            <option value="">Country</option>
-                                            <option value="#">#</option>
-                                            <option value="#">#</option>
-                                            <option value="#">#</option>
-                                            <option value="#">#</option>
-                                            <option value="#">#</option>
-                                        </select>
+                                    <div class="col-sm-12 col-sm-4 col-md-3">
+                                        <div data-toggle="modal" data-target="#affirm" type="button" class="btn btn-block btn-default affirm"><span class="icon icon-affirm icon-before"></span>Affirm</div>
                                     </div>
                                 </div>
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox"><span class="small">My Billing and Shipping Address are the same</span>
+                                        <input type="checkbox">Use my Store Credit &nbsp; <span class="text-weightBold">$1000</span>
                                     </label>
                                 </div>
                                 <hr class="aligncenter">
                                 <div class="form-group">
-                                    <div class="col-sm-12">
-                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Next</div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                
-                    <!-- Shipping 2 -->
-                    <div class="section first shippingaddress">
-                        <h3>Shipping Address</h3>
-                        <hr class="aligncenter">
-                        <form class="form-horizontal">
-                            <fieldset>
-                                <div class="form-group">
                                     <div class="col-xs-12">
-                                        
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
-                                                <p class="small"><span class="text-uppercase">Select an entry from your Address Book</span></p>
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option1">
+                                                <p class="small"><span class="text-uppercase">Select a Saved Credit Card</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="form-group">
                                                         <div class="col-xs-12">
                                                             <select class="form-control drop" id="select">
-                                                                <option value="">Matt Kossoff 8385 Allegiance Rd. Unit E Columbus, OH, 43235 United States 4406668214</option>
-                                                                <option value="#">Rob Shimits 747 Quaker Ridge Ct., Columbus, OH, 43230 United States 4406668214</option>
+                                                                <option value="">XXXX XXXX XXXX 1234</option>
+                                                                <option value="#">XXXX XXXX XXXX 5555</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -272,9 +210,59 @@
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
-                                                <p class="small"><span class="text-uppercase">Ship to a different address</span></p>
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option2" checked="">
+                                                <p class="small"><span class="text-uppercase">Credit Card Information</span></p>
                                                 <div class="reveal-if-active">
+                                                    <div class="section wrap">
+                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-amex"></span></div>
+                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-discover"></span></div>
+                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-mastercard"></span></div>
+                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-visa"></span></div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <p class="small"><span class="text-uppercase">Card Number</span></p>
+                                                        <div class="col-sm-6">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Card Number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <p class="small"><span class="text-uppercase">Expiration Date</span></p>
+                                                        <div class="col-sm-6">
+                                                            <select class="form-control drop validate-select" id="select">
+                                                                <option value="">Month</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <select class="form-control drop validate-select" id="select">
+                                                                <option value="">Year</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <p class="small"><span class="text-uppercase">CCV</span></p>
+                                                        <div class="col-sm-6">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="CCV">
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"><span class="small">Save this Card for future use</span>
+                                                        </label>
+                                                    </div>
+
+                                                    <!-- ONLY VISIBLE IF USER DOES NOT SELECT SAME SHIPPING/BILLING ADDRESS DURING SHIPPING FORM -->
+                                                    <hr class="aligncenter">
+                                                    <p class="small"><span class="text-uppercase">Billing Address</span></p>
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
                                                             <input type="text" class="form-control" id="inputDefault" placeholder="First Name">
@@ -322,66 +310,23 @@
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox"><span class="small">Save to My Address Book</span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox"><span class="small">My Billing and Shipping Address are the same</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="aligncenter">
-                                <div class="form-group">
-                                    <div class="col-sm-12">
-                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Next</div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div> 
 
-                    <!-- Shipping Method -->
-                    <div class="section first shippingmethod">
-                        <h3>Shipping Method</h3>
-                        <hr class="aligncenter">
-                        <form class="form-horizontal">
-                            <fieldset>
-                                <div class="form-group">
-                                    <div class="col-xs-12">
-                                        <div class="radio">
-                                            <label>
-                                                <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
-                                                <div class="well">
-                                                    <p class="first last"><span class="lead">USPS</span> &nbsp; Priority Mail <span class="pull-right lead text-secondary">$0.00</span></p>
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="radio">
-                                            <label>
-                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
-                                                <div class="well">
-                                                    <p class="first last"><span class="lead">UPS</span> &nbsp; Ground <span class="pull-right lead text-secondary">$0.00</span></p>
-                                                </div>
-                                            </label>
-                                        </div>
-                                    </p>
-                                </p>
+                                    </div>
+                                </div>
+                                
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Next</div>
+                                        <div type="button" class="btn btn-primary continue pull-right"><span class="icon icon-arrowRcircle-fff icon-after"></span> Place Order</div>
                                     </div>
                                 </div>
                             </fieldset>
                         </form>
-                    </div> 
+                    </div>
+                
 
                 </div> 
             </div>
