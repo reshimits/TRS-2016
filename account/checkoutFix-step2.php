@@ -21,11 +21,8 @@
 
     <!-- CSS
     ================================================== -->
-    <!-- <link href="../css/stupid-visfire-crap-trs.css" rel="stylesheet"> -->
-
     <link href="../css/bootstrap-theme-full.css" rel="stylesheet">
     <link href="../css/trs-theme.css" rel="stylesheet">
-    
     
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     
