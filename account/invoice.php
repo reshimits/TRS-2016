@@ -39,7 +39,7 @@
 </head>
 
 <!-- Apply id="wholesaleAcct" if user is logged in as Wholesaler -->
-<body class="utility cart invoice">
+<body class="utility cart checkout invoice">
 
     <!-- Header
     ================================================== -->
@@ -54,20 +54,29 @@
 
     <div class="bodyWrap">
         
-        <div class="jumbotron">
-            <div class="featureHeadline col-xs-12">
-                <div class="col-xs-12 col-sm-6">
-                    <h1>Invoice</h1>
-                    <h5 class="text-white">Thank you for your order!</h5>
-                </div>
-                <div class="col-xs-12 col-sm-6 pull-right">
-                    
+        <div class="jumbotron header-waypoint" data-animate-down="header-small" data-animate-up="header-large"">
+            <div class="featureHeadline section wrap">
+                <div class="col-xs-12">
+                    <!-- <h1>Checkout:</h1> -->
+                    <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+                        <div class="col-xs-4 col-sm-3">
+                            <div class="btn btn-empty btn-hexicon" data-bind="css: { active: currentCheckoutStageId() === 'shipping' }"><span class="icon icon-checkoutShippingHex"></span></div>
+                            <p class="hidden-xs"><span class="lead">Customer Info</span></p>
+                        </div>
+                        <div class="col-xs-2 col-lg-2 hidden-xs"><hr class="aligncenter"></div>
+                        <div class="col-xs-4 col-sm-2" data-bind="css: { active: currentCheckoutStageId() === 'reviewAndPayment' }">
+                            <div class="btn btn-empty btn-hexicon"><span class="icon icon-checkoutPaymentHex"></span></div>
+                            <p class="hidden-xs"><span class="lead">Payment</span></p>
+                        </div>
+                        <div class="col-xs-2 col-lg-2 hidden-xs"><hr class="aligncenter"></div>
+                        <div class="col-xs-4 col-sm-3">
+                            <div class="btn btn-empty btn-hexicon" data-bind="css: { active: currentCheckoutStageId() === 'placeOrder' }"><span class="icon icon-checkoutCompleteHex active"></span></div>
+                            <p class="hidden-xs"><span class="lead">Place Order</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="jumbotron-img"></div>
         </div>
-
-        <div class="section texturedEdge header-waypoint" data-animate-down="header-small" data-animate-up="header-large"></div>
 
         <div class="modal-lg modal-dialog">
             <div class="modal-content">
@@ -76,7 +85,6 @@
                         <p style="margin-top:0;">Completed 10/10/2013   -   -   -   15:07:35 EST<br>
                         An email containing this invoice has been sent to josh@theretrofitsource.com</p>
                         <p style="margin-bottom:0;">If you need to cancel or modify this order: please return to your <a href="">Account History</a> </p>
-
                     </div>
                 </div>
             </div>
@@ -151,7 +159,7 @@
 
                         <div class="section half last">
                             <div class="modal-body-titlecopy">
-                                <h5>Order Extra Information</h5>
+                                <h5>Additional Information</h5>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 wellWrap">
