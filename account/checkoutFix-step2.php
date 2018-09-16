@@ -161,7 +161,7 @@
 
 
                 <div class="col-xs-12 col-sm-7 col-xlg-9 checkoutForms-container">
-                    <!-- Shipping 1 -->
+                    <!-- Billing 1 -->
                     <div class="section first paymentinfo">
                         <h3>Payment Information</h3>
                         <hr class="aligncenter">
@@ -211,10 +211,10 @@
                                                 <p class="small"><span class="text-uppercase">Credit Card Information</span></p>
                                                 <div class="reveal-if-active">
                                                     <div class="section wrap">
-                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-amex"></span></div>
-                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-discover"></span></div>
-                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-mastercard"></span></div>
-                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-visa"></span></div>
+                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-american-express"></span></div>
+                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-discover disabled"></span></div>
+                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-mastercard disabled"></span></div>
+                                                        <div class="btn btn-empty"><span class="icon icon-creditcard icon-creditcard-visa disabled"></span></div>
                                                     </div>
                                                     <div class="form-group">
                                                         <p class="small"><span class="text-uppercase">Card Number</span></p>
@@ -225,24 +225,10 @@
                                                     <div class="form-group">
                                                         <p class="small"><span class="text-uppercase">Expiration Date</span></p>
                                                         <div class="col-sm-6">
-                                                            <select class="form-control drop validate-select" id="select">
-                                                                <option value="">Month</option>
-                                                                <option value="#">#</option>
-                                                                <option value="#">#</option>
-                                                                <option value="#">#</option>
-                                                                <option value="#">#</option>
-                                                                <option value="#">#</option>
-                                                            </select>
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="MM">
                                                         </div>
                                                         <div class="col-sm-6">
-                                                            <select class="form-control drop validate-select" id="select">
-                                                                <option value="">Year</option>
-                                                                <option value="#">#</option>
-                                                                <option value="#">#</option>
-                                                                <option value="#">#</option>
-                                                                <option value="#">#</option>
-                                                                <option value="#">#</option>
-                                                            </select>
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="YY">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
@@ -258,7 +244,7 @@
                                                     </div>
 
                                                     <!-- ONLY VISIBLE IF USER DOES NOT SELECT SAME SHIPPING/BILLING ADDRESS DURING SHIPPING FORM -->
-                                                    <hr class="aligncenter">
+                                                    <!-- <hr class="aligncenter">
                                                     <p class="small"><span class="text-uppercase">Billing Address</span></p>
                                                     <div class="form-group">
                                                         <div class="col-sm-6">
@@ -306,14 +292,110 @@
                                                                 <option value="#">#</option>
                                                             </select>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
 
                                                 </div>
                                             </label>
                                         </div>
                                     </div>
                                 </div>
-                                
+
+                            </fieldset>
+                        </form>
+                    </div>
+
+
+                    <div class="section first shippingaddress">
+                        <h3>Billing Address</h3>
+                        <hr class="aligncenter">
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" checked><span class="small">My Billing and Shipping Address are the same</span>
+                                            </label>
+                                        </div>
+
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
+                                                <p class="small"><span class="text-uppercase">Select an entry from your Address Book</span></p>
+                                                <div class="reveal-if-active">
+                                                    <div class="form-group">
+                                                        <div class="col-xs-12">
+                                                            <select class="form-control drop" id="select">
+                                                                <option value="">Matt Kossoff 8385 Allegiance Rd. Unit E Columbus, OH, 43235 United States 4406668214</option>
+                                                                <option value="#">Rob Shimits 747 Quaker Ridge Ct., Columbus, OH, 43230 United States 4406668214</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
+                                                <p class="small"><span class="text-uppercase">Bill to a different address</span></p>
+                                                <div class="reveal-if-active">
+                                                    <div class="form-group">
+                                                        <div class="col-sm-6">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="First Name">
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Last Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="col-sm-12">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Company Name">
+                                                        </div>
+                                                    </div>
+                                                    <hr class="aligncenter">
+                                                    <div class="form-group">
+                                                        <div class="col-sm-12">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="col-sm-12">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Street Address 2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="col-sm-6">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="City">
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Region/State">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="col-sm-6">
+                                                            <input type="text" class="form-control" id="inputDefault" placeholder="Postal Code">
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <select class="form-control drop validate-select" id="select">
+                                                                <option value="">Country</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                                <option value="#">#</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"><span class="small">Save to My Address Book</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">
@@ -322,7 +404,8 @@
                                 </div>
                             </fieldset>
                         </form>
-                    </div>
+                    </div> 
+                                
                 
 
                 </div> 
