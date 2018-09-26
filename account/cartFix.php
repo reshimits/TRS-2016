@@ -83,7 +83,7 @@
                         <div class="panel-body">
                             <div class="col-xs-12">
                                 <div class="row">
-                                    <h5 class="first">Summary</h5>
+                                    <h5 class="first last">Summary</h5>
                                     <div class="section wrap">
                                         <hr class="aligncenter first">
                                         <p><span class="lead">SubTotal:</span> <span class="retail pull-right">$2000.00</span></p>
@@ -93,7 +93,7 @@
                                     <div class="section wrap">
                                         <h5>Order Total <span class="text-secondary pull-right">$2230.00</span></h5>
                                     </div>
-                                    <div class="section last">
+                                    <div class="section half last">
                                         <div type="button" class="btn btn-block btn-primary">Proceed to Checkout</div>
                                     </div>
                                     <div class="section wrap">
