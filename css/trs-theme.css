@@ -1395,7 +1395,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .account .jumbotron .featureHeadline h1, .utility .jumbotron .featureHeadline h1 { margin: 0; }
 }
 
-.home .jumbotron, .styleguide .jumbotron { height: 440px; overflow: hidden; margin-bottom: -225px; }
+.home .jumbotron, .styleguide .jumbotron { height: 440px; position: relative; overflow: hidden; margin-bottom: -225px; }
 .productcategory .jumbotron .featureHeadline, .account .jumbotron .featureHeadline, .utility .jumbotron .featureHeadline { margin-top: 40px; }
   .cart .jumbotron .featureHeadline { margin-top: 20px; }
   .productcategory .jumbotron .featureHeadline { margin-left: -5px; }
@@ -1428,6 +1428,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .jumbotron .jumbotron-img { height: 100%; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 .home .jumbotron.feature1 .jumbotron-img, .styleguide .jumbotron.feature1 .jumbotron-img { background-image: url(../img/feature2018-1.jpg); }
+.home .jumbotron.feature1 .jumbotron-img video { width: 100%; height: auto; /*top: -25%;*/ position: relative; }
 .productcategory .jumbotron { position: relative; height: 440px; overflow: hidden; padding: 0; }
 
 .section.module-buyersguide { position: absolute; top: 0px; left: 0px; z-index: 0; }
@@ -1550,7 +1551,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
   .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 760px; }
 }
 @media (min-width:992px) {
-  .home .jumbotron { margin-bottom: -225px; }
+  .home .jumbotron { margin-bottom: -140px; }
   .home .jumbotron-honeycomb, .styleguide .jumbotron-honeycomb { height: 830px; }
 }
 
@@ -2145,7 +2146,7 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 @media (min-width:768px) {
   #wholesaleAcct.account .section.module-brands .brand { height: 104px; }
 }
-.section.module-quickstartguide { padding-bottom: 40px; background-color: #88e333; background-color: rgba(136, 227, 51, .7); }
+.section.module-quickstartguide { padding-bottom: 40px; position: relative; background-color: #88e333; background-color: rgba(78, 187, 0, .8); border-top: 5px solid #88e333; }
 .section.texturedEdge, .section.modal-scrollUnder { position: relative; padding-bottom: 0; margin-top: -30px; background-color: transparent; background-image: url(../img/element-texturedEdge.svg); background-position: center top; background-repeat: no-repeat; -webkit-background-size: auto 35px; -moz-background-size: auto 35px; background-size: auto 35px; }
 .section.modal-scrollUnder { background-image: url(../img/bg-gradientScrollUnder.png); background-position: left bottom; background-repeat: repeat-x; -webkit-background-size: auto 35px; -moz-background-size: auto 35px; background-size: auto 35px; }
 .productdetail .section.texturedEdge { background-image: url(../img/element-texturedEdge2dark.svg); }
