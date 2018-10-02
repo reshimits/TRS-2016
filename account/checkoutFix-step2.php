@@ -224,16 +224,16 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <p class="small"><span class="text-uppercase">Expiration Date</span></p>
-                                                        <div class="col-sm-6">
+                                                        <div class="col-sm-3">
                                                             <input type="text" class="form-control" id="inputDefault" placeholder="MM">
                                                         </div>
-                                                        <div class="col-sm-6">
+                                                        <div class="col-sm-3">
                                                             <input type="text" class="form-control" id="inputDefault" placeholder="YY">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <p class="small"><span class="text-uppercase">CCV</span></p>
-                                                        <div class="col-sm-6">
+                                                        <div class="col-sm-3">
                                                             <input type="text" class="form-control" id="inputDefault" placeholder="CCV">
                                                         </div>
                                                     </div>

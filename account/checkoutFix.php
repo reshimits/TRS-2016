@@ -354,6 +354,25 @@
                                     <div class="col-xs-12">
                                         <div class="radio">
                                             <label>
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
+                                                <p class="small"><span class="text-uppercase"><span class="lead">Free Shipping</span> <span class="pull-right lead text-secondary">$0.00</span></span></p>
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
+                                                <p class="small"><span class="text-uppercase"><span class="lead">USPS</span> &nbsp; Priority Mail <span class="pull-right lead text-secondary">$0.00</span></span></p>
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="" placeholder="option2">
+                                                <p class="small"><span class="text-uppercase"><span class="lead">UPS</span> &nbsp; Ground <span class="pull-right lead text-secondary">$0.00</span></span></p>
+                                            </label>
+                                        </div>
+
+                                        <!-- <div class="radio">
+                                            <label>
                                                 <input type="radio" name="optionsRadios" id="" placeholder="option1" checked="">
                                                 <div class="well">
                                                     <p class="first last"><span class="lead">USPS</span> &nbsp; Priority Mail <span class="pull-right lead text-secondary">$0.00</span></p>
@@ -367,9 +386,9 @@
                                                     <p class="first last"><span class="lead">UPS</span> &nbsp; Ground <span class="pull-right lead text-secondary">$0.00</span></p>
                                                 </div>
                                             </label>
-                                        </div>
-                                    </p>
-                                </p>
+                                        </div> -->
+                                    </div>
+                                </div>
                                 <hr class="aligncenter">
                                 <div class="form-group">
                                     <div class="col-sm-12">

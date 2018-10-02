@@ -270,7 +270,7 @@
                                     <form class="form-horizontal">
                                         <fieldset>
                                             <div class="form-group">
-                                                <div class="col-xs-12 col-sm-10 col-md-8">
+                                                <div class="col-xs-10 col-sm-5 col-md-6 col-lg-5">
                                                     <p class="small"><span class="text-uppercase">Do you have a Promotional Code?</span></p>                                
                                                     <div class="input-group">
                                                         <input type="text" class="form-control" id="inputDefault" placeholder="Enter Promo Code">
