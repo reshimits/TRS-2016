@@ -1948,6 +1948,8 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { color: #7
 .messages span, .messages span a { font-family: 'PlutoSansMedium', sans-serif; color: #fff; font-size: 12px;  }
 .messages span a { text-decoration: underline; }
 
+.alert p { padding: 5px; margin: 0; }
+.bodyWrap .alert { z-index: 1000; }
 .alert-notice, .notice-msg { color: #4ebb00; background-color: #4ebb00; background-color: rgba(25, 25, 25, .5); border: none; border-top: 1px solid #666; border-bottom: 1px solid #666; }
 .alert-notice p, .notice-msg span { color: #fff; }
 .alert-error, .error-msg { color: #d04427; background-color: #d04427; border: none; }

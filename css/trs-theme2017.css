@@ -1896,7 +1896,8 @@ a.badge:hover, a.badge:focus { color: #fff; text-decoration: none; cursor: point
 a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { color: #999; background-color: #fff; }
 .nav-pills > li > a > .badge { margin-left: 3px; }
 
-
+.alert p { padding: 5px; margin: 0; }
+.bodyWrap .alert { z-index: 1000; }
 .alert, .messages { float: left; width: 100%; padding: 0; margin-bottom: 5px; border: none; border-radius: 0; position: absolute; z-index: 2000; }
 .notice-shipping .messages { position: relative; }
 .header .messages { position: absolute; z-index: 1000; margin-bottom: 0; }
@@ -1915,6 +1916,8 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { color: #9
 
 .alert-dismissable .close { top: 0; right: 0; z-index: 2001; padding: 6px 10px; }
 .alert-dismissable .close.btn-empty .icon { height: 16px; width: 16px; }
+
+
 
 /* Dialogs
 ======================================================================================================================================================
