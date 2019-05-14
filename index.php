@@ -711,21 +711,6 @@
             $('.bodyWrap').toggleClass('active', false);
         });
 
-        // NAV toggle SUB MENU
-        $(".dropdown-menu > li").hover(
-            function() {
-                $('.dropdown-menu-itemContent.toggle').toggleClass("toggle", false);
-                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", true);
-            },
-            function() {
-                $(this).find('.dropdown-menu-itemContent').toggleClass("toggle", false);
-                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
-            });
-        $(".dropdown-menu > li.filler").hover(
-            function() {
-                $(".dropdown-menu > li:first-child .dropdown-menu-itemContent").toggleClass("toggle", true);
-            });    
-
     </script>
 
 

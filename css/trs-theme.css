@@ -634,7 +634,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .paymentinfo .btn-empty .icon-creditcard { width: 42px; height: 32px; }
 
 .icon { float: left; position: relative; display: inline-block; background-position: center center; background-repeat: no-repeat; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
-.icon-acct { background-image: url(../img/icon-acct.svg); background-position: center top; }
+.icon-acct { background-image: url(../img/icon-acct-login.svg); background-position: center top; }
 .icon-affirm { background-image: url(../img/icon-affirm.svg); }
 .icon-affirmFull { background-image: url(../img/icon-affirmFull.svg); }
   .notice-affirm .btn-empty .icon.icon-affirmFull { width: 50px; height: 15px; }
@@ -671,6 +671,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-creditcard-discover { background-image: url(../img/icon-creditcard-discover.svg); }
 .icon-creditcard-mastercard { background-image: url(../img/icon-creditcard-mastercard.svg); }
 .icon-creditcard-visa { background-image: url(../img/icon-creditcard-visa.svg); }
+.icon-email { background-image: url(../img/icon-email.svg); }
 .icon-favorite { background-image: url(../img/icon-favorite.svg); }
 .btn.active .icon-favorite { background-image: url(../img/icon-favoriteActive.svg); }
 .icon-fitment { background-image: url(../img/icon-fitment2.svg); }
@@ -698,6 +699,7 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 .icon-phoneHex { background-image: url(../img/icon-phoneHex.svg); }
 .icon-phoneHex:hover { background-image: url(../img/icon-phoneHexHover.svg); }
 .icon-phone { background-image: url(../img/icon-phone.svg); }
+.icon-phone-sms { background-image: url(../img/icon-phone-sms.svg); }
 .icon-resourcesHex-gallery { background-image: url(../img/icon-resourcesHex-gallery.svg); }
 .icon-resourcesHex-guides { background-image: url(../img/icon-resourcesHex-guides.svg); }
 .icon-resourcesHex-hidplanet { background-image: url(../img/icon-resourcesHex-hidplanet.svg); }
@@ -964,10 +966,11 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 
 .navbar-menu { -webkit-transition: height 0.5s; -moz-transition: height 0.5s; transition: height 0.5s; }
 .header .navbar-utility { background: #474747; background: -webkit-linear-gradient(left, #474747 , #666); background: -o-linear-gradient(right, #474747, #666); background: -moz-linear-gradient(right, #474747, #666); background: linear-gradient(to right, #474747 , #666); }
-.header .navbar-utility .navbar-headertext { float: right; padding: 27px 20px 0 0; }
-.header .navbar-headertext { color: #88e333; }
+/*.header .navbar-utility .navbar-headertext { float: right; padding: 27px 20px 0 0; }*/
+.header .navbar-headertext { color: #999; }
+.header .navbar-default .navbar-nav > li > a.navbar-headertext { color: #88e333; }
 .navbar-CTAs .icon { width: 32px; height: 32px; }
-.navbar-CTAs .icon-phone { height: 25px; width: 25px; }
+.navbar-CTAs .icon-phone, .navbar-CTAs .icon-phone-sms, .navbar-CTAs .icon-email { height: 25px; width: 25px; }
 .header .navbar-split .navbar-account { background-color: rgba(85, 85, 85, 100); }
 .header .navbar-split .navbar-account:hover { background-color: #404040; }
 .header .navbar-split .icon-acct { left: 50%; top: 24px; margin-left: -16px; }
@@ -1103,11 +1106,13 @@ background-image: url(../img/icon-arrowL-88e333.svg); background-position: cente
 @media (min-width:992px) {
   .header .navbar-utility .navbar-utilityLinks li a { font-size: 11px; }
   .header.header-small .navbar-utility .navbar-utilityLinks li a { padding-top: 27px; }
-  .header.header-large .navbar-utility .navbar-headertext { margin: 60px 30px 0 0; padding: 0; }
+  .header.header-large .navbar-utility .navbar-contact .navbar-headertext { margin: 52px 10px 0 10px; padding: 0; }
+  .header.header-large .navbar-utility .navbar-contact > li:last-child, .header.header-small .navbar-utility .navbar-contact > li:last-child { margin-right: 20px; }
 }
 @media (min-width:1200px) {
   .header .navbar-utility .navbar-utilityLinks { display: block; padding-left: 80px; }
-  .header.header-large .navbar-utility .navbar-headertext, .header.header-small .navbar-utility .navbar-headertext { margin: 10px 30px 0 0; }
+  .header.header-large .navbar-utility .navbar-contact .navbar-headertext, .header.header-small .navbar-utility .navbar-contact .navbar-headertext { margin: 52px 10px 0 10px; }
+  .header.header-large .navbar-utility .navbar-contact > li:last-child, .header.header-small .navbar-utility .navbar-contact > li:last-child { margin-right: 20px; }
 }
 @media (min-width:1500px) {
   .header .navbar-utility .navbar-utilityLinks { padding-left: 100px; }
@@ -2405,3 +2410,20 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .estimate-total-container{display:none;}
 }
 
+/*Contivio Chat*/
+.contivio-chat-container { z-index: 1030; width: 320px; }
+.contivio-chat-container #contivioChatFrame { height: 100%; background-color: #474747; border: 1px solid transparent; border-radius: 4px; border-color: #888; }
+.contivio-chat-container #divChatRequestForm { width: 300px; }
+.contivio-chat-container #imgChatRequestForm { display: block; width: 80px; height: 80px; margin: 20px; }
+.contivio-chat-container #fraChatRequestForm { display: block; width: 100%; height: 350px; }
+.contivio-chat-container #divForm { font-family: 'PlutoSansRegular'; }
+.contivio-chat-container #divMessage { font-size: 14px; padding: 0 0 15px 5px; width: auto; color: #fff; }
+.contivio-chat-container #tblChatInputs .FieldLabel { color: #bbb; }
+.contivio-chat-container #tblChatInputs input { display: block; width: 95%; height: 25px; padding: 3px 6px; font-size: 13px; line-height: 1.4; color: #777; background-color: #fff; background-image: none; border: 1px solid #777; border-radius: 4px; -webkit-box-shadow: none; box-shadow: none; }
+.contivio-chat-container #tblChatInputs textarea { display: block; width: 95%; padding: 3px 6px; font-size: 13px; line-height: 1.4; color: #777; background-color: #fff; background-image: none; border: 1px solid #777; border-radius: 4px; -webkit-box-shadow: none; box-shadow: none; }
+.contivio-chat-container #tblChatInputs .RequiredField { background: none; }
+.contivio-chat-container #imgCompanyLogo { display: none; }
+@media (min-width:992px) {
+  .contivio-chat-container { z-index: 1030; width: 350px; }
+  .contivio-chat-container #divChatRequestForm { width: 340px; }
+}
