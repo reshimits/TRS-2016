@@ -2390,29 +2390,30 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
 #paypal-complete { float: right; }
 #paypal-label { line-height: 30px; font-family: 'PlutoSansBold', Helvetica, Arial, sans-serif; color: #ffc439; font-size: 16px; }    
 #paypal-container { float: left; }
-
 #paypal-complete .paypal-button-context-iframe .paypal-button-number-0.paypal-button-label-paypal { height: 40px; }
 #paypal-complete .paypal-button-context-iframe .paypal-button-number-1.paypal-button-label-credit, 
   #paypal-complete .paypal-button-context-iframe .paypal-button-number-2.paypal-button-label-card { display: none; }
 
 /*BrainTree*/
 #braintree-hosted-submit { display: none; }
-
 .estimate-total-container{width:100%;display:table; background:#383838; border-radius:5px; padding:15px; margin-bottom:20px;}
 .estimate-total-container .left-estimate{display:table-cell;}
 .estimate-total-container .left-estimate .top-title{color:#fff; text-transform:uppercase;font-family: 'PlutoSansBold';}
 .estimate-total-container .left-estimate .top-estimate-amount{color:#88e333; font-size:18px;font-family: 'PlutoSansBold';}
 .estimate-total-container .right-cart{display:table-cell; width:50px;    vertical-align: middle;}
-
 .estimate-total-container .btn-dark .icon-cart { height: 26px; width: 26px; margin-right: 5px; }
-
 @media (min-width:768px) {
   .estimate-total-container{display:none;}
 }
 
 /*Contivio Chat*/
-/*Entry Form*/
-.contivio-chat-container { z-index: 1030; width: 320px; }
+/*Contivio Chat - Entry Form*/
+.chat-handle { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.contivio-chat-container .chatBody { display: none; }
+.contivio-chat-container.active .chatBody { display: block; height: 100%; }
+.contivio-chat-container.active #contivioChatBodyContainer { height: 35em; }
+.contivio-chat-container #divMsgToWaitForResponse, .contivio-chat-container #divMsgOnRequestQueued, .contivio-chat-container #divMsgOnRequestRejected { color: #fff; }
+.contivio-chat-container { z-index: 1030; width: 320px; position: fixed !important; bottom: 0px; right: 1em; }
 .contivio-chat-container #contivioChatFrame { height: 100%; background-color: #474747; border: 1px solid transparent; border-radius: 4px; border-color: #888; }
 .contivio-chat-container #divChatRequestForm { width: 300px; }
 .contivio-chat-container #imgChatRequestForm { display: block; width: 80px; height: 80px; margin: 20px; }
@@ -2429,9 +2430,10 @@ button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background
   .contivio-chat-container { z-index: 1030; width: 350px; }
   .contivio-chat-container #divChatRequestForm { width: 340px; }
 }
-/*Chat Form*/
+/*Contivio Chat - Chat Form*/
 .contivio-chat-container #fraChatRequestForm .ChatConsole .EventLog { border: 1px solid #777; border-radius: 4px; }
 .contivio-chat-container #fraChatRequestForm .ChatConsole .MessageBox textarea { display: block; width: 95%; padding: 3px 6px; font-size: 13px; line-height: 1.4; color: #777; background-color: #fff; background-image: none; border: none; border-radius: 4px; -webkit-box-shadow: none; box-shadow: none; }
 .contivio-chat-container .ConsoleButton.icon-print, .contivio-chat-container .ConsoleButton.icon-envelop { color: #4ebb00 !important; }
 .contivio-chat-container .ConsoleButton.icon-download { color: #d04427 !important; }
+
 
